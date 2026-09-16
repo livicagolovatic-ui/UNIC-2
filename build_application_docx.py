@@ -188,8 +188,8 @@ SMALL('Application content in English for the KA152-YOU online form · Call 2026
 CALLOUT('Aligned to the form you will actually fill in.',
         'Every question below is quoted **verbatim from the Call 2026 Round 2 form — Form ID KA152-YOU-691C4B41, deadline 01 Oct 2026 12:00 Brussels time** — and the sections follow that form’s own table of contents in its own order. '
         'This matters more than it sounds: the 2026 form differs from the 2024 one in several places, and two of them change what you have to do rather than just how a question is worded. '
-        '**There is only one annex slot** — the Declaration on Honour — so there is nowhere to upload a timetable, and the daily programme has to live inside the narrative fields. '
-        'And **each OID may appear in at most five Mobility of young people applications per round**, which is a real constraint for an active partner like YOBBA. Both are dealt with below.',
+        '**Each OID may appear in at most five Mobility of young people applications per round**, which is a real constraint for an active partner like YOBBA — check it before anything else. '
+        'And the **Annexes** section carries a Timetable slot, so the full daily programme is annexed and the narrative field takes a summary; section 7.8 gives three, each with its measured length. Both are dealt with below.',
         'E8EEF7', 'C7D6EA')
 
 CALLOUT('How to use this document.',
@@ -247,10 +247,10 @@ H2('What changed after reading the live 2026 form')
 SMALL('Internal note — not part of the form. Delete before pasting. Two of these reverse advice given in the previous version, which was aligned to the 2024 form; where that happened it is said plainly.')
 TBL([
  ['What the 2026 form does', 'What it changes here'],
- ['**Annexes has exactly one upload slot: the Declaration on Honour.**',
-  '**This reverses the previous advice.** The 2024 form had four slots, including one for the Timetable, so the previous version told you to move the full daily programme into that annex. There is no such slot in 2026. '
-  'The seven-day programme therefore has to fit inside the form’s own fields, and section 7.7 now says exactly how to compress it without losing the five attributes per session — objective, method, competences, output, named responsible person — that the previous assessment found missing. '
-  'There is also no “Other Documents” slot, so the measurement-instruments pack and the survey analysis stay in the supporting file, ready if the National Agency asks. [VERIFY on the live form: a blank export does not always render every slot.]'],
+ ['**Annexes: the Declaration on Honour and the Timetable**, confirmed on the live form.',
+  'The blank export rendered only the Declaration on Honour, and the caveat attached to that reading was the right one: a blank export does not show every upload slot. **The Timetable slot exists**, confirmed by opening the live form. '
+  'So the full daily programme goes into the annexed timetable, where it has no character limit and where the expert expects to find it, and the narrative field carries a summary plus a pointer to it. Section 7.8 gives three '
+  'ready-made versions of that summary with their measured lengths, so you can pick whichever the field actually takes. Check the Accession forms and Other Documents slots the same way while you are in there.'],
  ['**Each OID may be involved in at most five Mobility of young people applications per round** — coordinator or partner, it counts the same. Once the limit is reached the form will not let you submit.',
   'A genuine risk, and not for us. YOBBA has been a partner in six KA152 exchanges and is exactly the kind of organisation that gets asked again. **Ask YOBBA in writing, now, how many KA152 applications it is already in for this round**, and get the same confirmation from the two island partners when they are confirmed. Discovering this at 11:00 on 1 October is not a situation you can fix.'],
  ['**Participant contribution and fees is its own block inside Project details**, with the rules printed above the question.',
@@ -1107,7 +1107,7 @@ BUL([
 P('There are **no lectures** in this programme. Every session produces an output or a decision taken by the participants. That is not a stylistic preference: in our territory only 29.8% of respondents said a course '
   'is the format that helps them learn, against 68.1% who chose practical activities.')
 
-H4('Daily programme')
+H3('7.7 Daily programme — the full table, which goes into the Timetable annex')
 P('Each session carries the objective it serves, the method, the key competences it builds, the output it produces and the **named person responsible** for running it. Session codes correspond to the competence '
   'matrix above. “Facilitator 1” is designated by the coordinator; “Facilitator 2” is designated by YOBBA.')
 COUNT(6000)
@@ -1171,18 +1171,62 @@ for r in t.rows:
     if r.cells[0].text.strip().startswith('Day') and r.cells[1].text.strip() == '':
         merged = r.cells[0].merge(r.cells[len(r.cells) - 1])
         shade(merged, 'F0F4FA')
-COUNT(8000, cut='**There is nowhere to move this to.** The 2026 form has one annex slot, for the Declaration on Honour — no timetable upload. So the programme has to be compressed into the field itself, and the '
-  'compression has to keep the five attributes per session, because their absence is what cost 14 of the 40 design points last time. Use the compressed form in 7.8 below: it holds all five attributes for all 24 sessions '
-  'in roughly 4,200 characters by dropping the table and writing each session as one dense line. Keep the venue paragraph and the methods list in full — together they are about 1,900 characters, which leaves room.')
+COUNT(8000, cut='**Do not cut this — annex it.** The Timetable slot exists on the live form, so this table goes there in full, where it has no character limit and where the expert expects to find it. The narrative field '
+  'then takes the day-level summary in 7.8, which measures about 4,600 characters against roughly 10,000 for this table, plus the venue paragraph and the methods list — about 1,900 characters together — and the pointer '
+  'sentence that sends the reader to the annex. If even that is too long for the live field, the summary is the part to shorten, because the annex already carries the detail.')
 SMALL('Note on merged rows: in the online form the day headers are typed as their own lines. Here they are left as full-width rows so the structure stays readable when the table is pasted or exported.')
 
 PAGEBREAK()
-H3('7.8 The same programme, compressed to fit the form')
-CALLOUT('Why this version exists, and which one you paste.',
-        'The 2026 form has a single annex slot, for the Declaration on Honour. There is no timetable upload, so the daily programme cannot be annexed — it has to go into the narrative field. Two versions are given below, '
-        'both holding the five attributes for all 24 sessions — objective, method, competences, output, named responsible person — because it is their absence that cost 14 of the 40 design points last time. '
-        '**Version A** is the table rewritten as running text, one line per session. **Version B** is the same content in compressed notation, with every descriptive clause cut. '
-        'Each heading states its own measured character count, so you can see what fits. **Check the live field limit before choosing** — the limits quoted throughout this document are assumptions, not facts from the form.',
+H3('7.8 What goes into the field, now that the Timetable annex exists')
+CALLOUT('The full programme is annexed. The field gets a summary.',
+        'The Timetable slot exists on the live form, so the table in 7.7 goes there in full — all 24 sessions with all five attributes, no character limit, and in the place an expert looks for it. That leaves the narrative '
+        'field needing a **summary** plus a sentence pointing at the annex, rather than the whole programme squeezed in. Three versions are given below, shortest first, each labelled with its own measured character count. '
+        '**Take the shortest one that leaves room for the venue paragraph and the methods list** (about 1,900 characters together) inside whatever limit the live field turns out to have. '
+        'Whichever you choose, end it with the pointer sentence — that is what sends the expert to the annex instead of leaving them to assume the detail does not exist.',
+        'EAF3EA', '9FC49F')
+
+H4('The pointer sentence — use it with any of the three')
+P('The full seven-day programme is annexed as the project timetable. Every session in it carries five attributes: the objective it serves, the non-formal method used, the key competences it builds, the output it '
+  'produces, and the person responsible for running it — and the session codes below match the competence matrix and the timetable exactly.')
+
+SUMMARY = [
+ '**Day 0, Sun 8 Aug — arrival.** Travel day. Accommodation, guided safety tour of the venue with an evacuation drill (D0.1), informal first contact (D0.2).',
+ '**Day 1, Mon 9 Aug — who we are and what we consume.** Serves O1 and O2. The group forms itself and looks at its own habits before anyone teaches anything: mixed-team formation (D1.1), the group agreement the participants '
+ 'negotiate themselves (D1.2), “My Digital Map”, in which each participant maps one ordinary day of their own media diet (D1.3), and the safety, safeguarding and Youthpass briefing (D1.4). Outputs: the four mixed teams, a '
+ 'signed group agreement, 20 digital maps kept for Day 7, and two personal learning targets each. Led by Claudiu Iancu and Marilena Georgescu, with Facilitator 1.',
+ '**Day 2, Tue 10 Aug — Spot the Fake.** Serves O1 and O2. The controlled-error day: teams commit to a verdict on a mixed set of real and false items before the answer key is revealed (D2.1), then take apart the mechanics of '
+ 'manipulation on the real cases their own four communities brought, including content carrying ethnic, gender and migration stereotypes (D2.2), and close with a structured debate on where opinion ends and falsehood begins '
+ '(D2.3). Outputs: the manipulation-techniques grid produced by participants in five languages. Led by Claudiu Iancu and Facilitators 1 and 2, with the Corsican partner leading the minority-language strand.',
+ '**Day 3, Wed 11 Aug — AI or human?** Serves O1 and O2. Participants generate AI content themselves and try to fool each other, then write their own recognition sheet (D3.1); four teams each test one free verification tool '
+ 'and teach it to the others (D3.2); the verification route is drilled as an escape room until it is automatic (D3.3); and the group writes the AI-use rule it will apply to its own productions on Day 6 (D3.4). Led by Doğan '
+ 'Can Karabudak of YOBBA with Claudiu Iancu, Facilitator 1 and Livia Golovatic.',
+ '**Day 4, Thu 12 Aug — fact-checkers for a day. The assessed day.** Serves O2. A three-hour verification newsroom in which mixed teams take real viral claims through the whole route to a documented verdict, with facilitators '
+ 'intervening only when asked (D4.1) — this is where the observation grid for objective O2 is applied, by four group leaders each observing one mixed team, with Facilitators 1 and 2 independently double-scoring five '
+ 'participants each. Then cross-examination of each verdict by the other teams (D4.2) and a collective analysis of the day’s errors, the facilitators’ included (D4.3). Outputs: four documented verdicts with sources, and '
+ 'per-participant data on all four techniques.',
+ '**Day 5, Fri 13 Aug — the community and intercultural day.** Serves O3. A visit to a village of the territory (D5.1) and a facilitated dialogue with residents and municipal representatives about the rumours that actually '
+ 'circulate there, through which channels, and who gets hurt (D5.2) — the record of those rumours becomes the working material for Day 6. The day closes with the intercultural evening, prepared by the participants, with '
+ 'produce from local producers (D5.3). Method led by the Sardinian partner, local relationship by Livia Golovatic.',
+ '**Day 6, Sat 14 Aug — Make It, Don’t Fake It.** Serves O3. Led by YOBBA, the partner whose core expertise is digital media: how a short video or infographic is built to be clear and honest (D6.1), then production, each team '
+ 'debunking one of the myths collected on Day 5, using AI under the rule the group wrote on Day 3 (D6.2). In parallel, the four national groups plan their own local initiatives on a common template — date, venue, audience, '
+ 'partner institution, responsibilities, indicator (D6.3). Outputs: four media products in English plus a local language, and four initiative plans with named owners and deadlines.',
+ '**Day 7, Sun 15 Aug — presentation, evaluation, Youthpass.** Serves O1, O2 and O3. A public presentation by the participants to guests from the host community, the municipalities and the local press (D7.1); the Youthpass '
+ 'session, in which each participant re-reads their own Day 1 digital map against their learning diary and names, with evidence, what changed (D7.2); a participatory evaluation (D7.3); and the written, publicly made '
+ 'commitments to the four local initiatives (D7.4). Outputs: 20 Youthpass certificates plus 4 for the group leaders, and four signed commitments with dates.',
+ '**Day 8, Mon 16 Aug — departure.** Travel day.',
+ '**Every evening**, reflection runs first in the national group and in the participant’s own language, then in plenary, and what comes out of it visibly changes the next day’s programme (D1.5, D2.4, D3.5, D4.4, D6.4).',
+]
+for s in SUMMARY: P(s)
+LEN_S = sum(len(clean(s)) + 1 for s in SUMMARY)
+COUNT(5000)
+SMALL('Version 1 — day-level summary, %s characters. Recommended: it keeps the objectives, the methods, the outputs and the named leads visible in the field, and sends the expert to the annex for the session-by-session detail.' % f'{LEN_S:,}')
+
+PAGEBREAK()
+H3('7.9 Two longer versions, if the field has room')
+CALLOUT('Only if you want the session-by-session detail in the field as well.',
+        'Neither of these is necessary now that the timetable is annexed — the annex carries the full detail. They exist because a field with a generous limit is a free opportunity to put the five attributes in front of the '
+        'expert twice, and because you may prefer not to rely on the annex being read. **Version A** is the 7.7 table rewritten as running text, one line per session. **Version B** is the same content in compressed notation, '
+        'with every descriptive clause cut. Each heading carries its own measured length.',
         'FFF6E5', 'E8C97A')
 SMALL('Legend: O1–O3 are the project objectives; KC1–KC8 the European key competences; F1 the facilitator designated by the coordinator, F2 the facilitator designated by YOBBA; GL the group leaders.')
 CMP = [
@@ -1231,8 +1275,8 @@ LEN_A = sum(len(clean(h + (' ' + b if b else ''))) + 1 for h, b in CMP)
 H4('Version A — full sentences, %s characters' % f'{LEN_A:,}')
 for head, body in CMP:
     P(head + (' ' + body if body else ''))
-COUNT(5000, cut='If the live field is 5,000 characters, do not trim Version A by hand — use Version B below, which is already cut to the bone and keeps every attribute. Trimming A ad hoc is how the five attributes per session '
-  'quietly disappear again, and their absence is precisely what cost 14 of the 40 design points last time.')
+COUNT(5000, cut='Do not trim this one by hand. Use the day-level summary in 7.8, or Version B below — both keep every attribute. Trimming A ad hoc is how the five attributes per session quietly disappear again, and their '
+  'absence is precisely what cost 14 of the 40 design points last time.')
 
 SMALL('Notation: **O1–O3** project objectives · **KC1–KC8** key competences · **F1** facilitator designated by the coordinator · **F2** facilitator designated by YOBBA · **GL** group leaders · **CI** Claudiu Iancu · '
       '**LG** Livia Golovatic · **MG** Marilena Georgescu · **IF** Iulia Fătu · **AB** Alina Ioana Baba · **DK** Doğan Can Karabudak · **AZ** Aysu Zeybel · **[CO]** Corsican partner · **[SA]** Sardinian partner. '
@@ -1273,7 +1317,7 @@ TIGHT = [
 LEN_B = sum(len(clean(t)) + 1 for t in TIGHT)
 H4('Version B — same content in compressed notation, %s characters' % f'{LEN_B:,}')
 for t in TIGHT: P(t)
-COUNT(5000, cut='Version B is already cut to the bone, so if it still does not fit, take these in order, and stop as soon as it fits. '
+COUNT(5000, cut='Version B is already cut to the bone. If it still does not fit and you do not want the day-level summary of 7.8 instead, take these in order and stop as soon as it fits. '
   '(1) Delete the D0 and D8 lines — they are travel days and are stated in the activity dates anyway: about 300 characters. '
   '(2) Delete the method clause from the five reflection sessions (D1.5, D2.4, D3.5, D4.4, D6.4) — the method is identical every evening and is described in full in the preparation and recognition answers: about 350. '
   '(3) Replace each responsible person’s initials with their role code where the person is already named in the roles table: about 200. '
@@ -1752,17 +1796,26 @@ TBL([
 ], widths=[6.0, 10.6], count=False)
 
 H1('11. Annexes')
-CALLOUT('One slot. That is the whole annex section.',
-        'The 2026 form has a single upload: the **Declaration on Honour**, signed by the legal representative. There is no Timetable slot and no Other Documents slot — both existed in the 2024 form and both are gone. '
-        'Two consequences. **The daily programme cannot be annexed**, so it goes into the narrative field in the compressed form given in section 7.8. And **nothing else can be attached**, so the measurement-instruments pack, '
-        'the survey analysis and the partners’ needs notes live in the supporting file and are produced only if the National Agency asks — which it may, for the operational-capacity check. '
-        '[VERIFY on the live form before submission: a blank export does not always render every upload slot.]',
-        'FDECEC', 'E3A9A9')
+TBL([
+ ['Form slot', 'What goes in it', 'Status'],
+ ['**Declaration on Honour**\n//confirmed//', 'Downloaded from the form, printed, signed by the legal representative, attached.', 'To prepare'],
+ ['**Timetable**\n//confirmed//',
+  'The timetable of the youth exchange, and of the preparatory visit. **This is where the full daily programme goes** — the table in section 7.7, with all five attributes for each of the 24 sessions: the objective it serves, '
+  'the method, the key competences, the output, and the named person responsible. No character limit here, and it is where an expert looks for exactly the thing the previous assessment found missing. If the form provides a '
+  'template, use it rather than pasting our table into a document of our own.',
+  'Ready — to be transferred into the form’s template'],
+ ['**Accession forms**\n[TO CHECK]', 'One per partner, signed by each legal representative. Whether or not the slot exists, the pre-submission checklist states that accession forms are due **at the latest before the signature '
+  'of the grant agreement**, and that a signed accession form is a condition for signing it. So they do not block submission — they block contracting.', 'Check while you are in the form'],
+ ['**Other Documents**\n[TO CHECK]', 'If this slot exists, it is worth using, and in this order: the **measurement-instruments pack** first — it is the single document that turns O1, O2 and O3 from claims into instruments — '
+  'then the youth survey instrument and analysis, then the partners’ one-page needs notes. Attach only what is short and relevant: the National Call warns explicitly against uploading unrequested annexes for volume.',
+  'Check while you are in the form'],
+], widths=[3.0, 10.6, 3.0], small=True, count=False)
 
-P('**Accession forms.** They are not an annex in this form. The pre-submission checklist states that the accession form of each partner to the applicant should be submitted **at the latest before the signature of the grant '
-  'agreement**, and that if the application is approved, the signed accession form is a condition for signing that agreement. So they do not block submission — but they do block contracting, and the National Call adds that '
-  'they must be the 2026 versions and that you should secure the originals in good time. What you need **at submission** is each partner’s valid OID entered in the form. That changes the 20 September internal deadline from '
-  '“signed mandate or no partner” to “confirmed partner with a valid OID and its needs note”, which is a materially easier target.', count=False)
+FLAG('[TO CHECK while you are in the live form — two minutes, and it matters] The blank export showed only the Declaration on Honour; the Timetable slot turned out to exist anyway. So check the other two the same way. If an “Other Documents” slot exists, attaching the measurement-instruments pack is the cheapest quality gain available to this application.')
+
+P('**What the accession-form timing means for your internal deadline.** Accession forms are due before the grant agreement is signed, not at submission. What you need **at submission** is each partner’s valid OID entered in '
+  'the form. That changes the 20 September internal deadline from “signed mandate or no partner” to “confirmed partner with a valid OID and its needs note”, which is a materially easier target. The National Call adds that the '
+  'accession forms must be the 2026 versions and that you should secure the originals in good time.', count=False)
 
 P('**Legal status documents** are not uploaded here either: they go into the Organisation Registration System against the applicant’s OID.', count=False)
 
@@ -1855,8 +1908,10 @@ TBL([
  ['5', '**The figures are identical everywhere.**',
   'The concept note still cites 121 respondents, 17.3% and 99.2%. The current dataset gives 153, 20.8% and 96.9%. An expert who compares the documents will see it, and a single mismatched number costs more credibility than it should.',
   'Final read-through, both documents side by side'],
-['6', '**The compressed daily programme from section 7.8 is what goes into the form**, not the table.',
-  'There is no timetable annex in the 2026 form. If the table is pasted it will not fit, and if it is trimmed carelessly the five attributes per session disappear — which is exactly what cost 14 of the 40 design points last time.',
+ ['6', '**The full daily programme is uploaded to the Timetable annex**, and the narrative field carries the day-level summary from 7.8 plus the pointer sentence.',
+  'The annex is where the five attributes per session become visible with no character limit — and their absence is what cost 14 of the 40 design points last time. The pointer sentence is what stops an expert assuming the '
+  'detail was never written. While you are in the Annexes section, check whether the Accession forms and Other Documents slots exist too: if Other Documents does, attaching the measurement-instruments pack is the cheapest '
+  'quality gain available to this application.',
   'When filling the form'],
  ['7', '**The four flows and the per-flow budget are entered exactly as in sections 7.3 and 7.5**, and the form’s own totals are compared against 26,827.00 and 31,587.00.',
   'The form computes travel and individual support per flow. If the flows are entered with the wrong number of people, the totals move and nothing else in the application explains why. This is also where the 92 EUR error was hiding.',
