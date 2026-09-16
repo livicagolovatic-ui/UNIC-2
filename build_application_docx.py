@@ -183,13 +183,13 @@ p = doc.add_paragraph(); runs(p, 'Young Detectives Against Digital Disinformatio
 p.paragraph_format.space_after = Pt(12)
 SMALL('Application content in English for the KA152-YOU online form · Call 2026, Round 2 · Deadline 1 October 2026, 12:00 Brussels time\n'
       'Applicant and coordinator: ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (E10181755 — RO) · National Agency: RO01 — ANPCDEFP\n'
-      'Version 3 — revised against the review comments of 3 September 2026, the official KA152-YOU application form, the Erasmus+ 2026 Programme Guide, and the ANPCDEFP National Call 2026.')
+      'Version 4 — revised against the review comments of 3 September 2026, **the live Call 2026 Round 2 application form**, the Erasmus+ 2026 Programme Guide, and the ANPCDEFP National Call 2026.')
 
-CALLOUT('Aligned to the official form.',
-        'Every question in this document is now quoted **verbatim from the official KA152-YOU application form** (Form ID KA152-YOU-4E0F2C76), and the sections follow the form’s own table of contents in the form’s own order. '
-        'Five things changed because of that: the activity is broken into **flows**, which is how the form actually collects participants and computes the budget; **Recognition of learning outcomes** is three separate questions, not two; '
-        '**EU Values** and the **Checklist** are form sections in their own right and are now included; the **Annexes** section matches the four upload slots the form really has; and there is **no priorities dropdown** in this Action — only Topic. '
-        'The form used as reference is the Call 2024 Round 1 export. Field labels are stable between calls but not guaranteed: open the live 2026 Round 2 form and check each label before pasting.',
+CALLOUT('Aligned to the form you will actually fill in.',
+        'Every question below is quoted **verbatim from the Call 2026 Round 2 form — Form ID KA152-YOU-691C4B41, deadline 01 Oct 2026 12:00 Brussels time** — and the sections follow that form’s own table of contents in its own order. '
+        'This matters more than it sounds: the 2026 form differs from the 2024 one in several places, and two of them change what you have to do rather than just how a question is worded. '
+        '**There is only one annex slot** — the Declaration on Honour — so there is nowhere to upload a timetable, and the daily programme has to live inside the narrative fields. '
+        'And **each OID may appear in at most five Mobility of young people applications per round**, which is a real constraint for an active partner like YOBBA. Both are dealt with below.',
         'E8EEF7', 'C7D6EA')
 
 CALLOUT('How to use this document.',
@@ -243,25 +243,33 @@ TBL([
   'Checked and kept, with the reason stated precisely: Romania has applied the Schengen acquis in full, land borders included, since 1 January 2025, and Turkish nationals holding ordinary passports are subject to the Schengen short-stay visa requirement. Re-verify with the Romanian Consulate General in İstanbul before submission — this is one of the things that changes.'],
 ], widths=[1.3, 5.4, 9.9], small=True, count=False)
 
-H2('What changed again after reading the official form')
-SMALL('Internal note — not part of the form. Delete before pasting.')
+H2('What changed after reading the live 2026 form')
+SMALL('Internal note — not part of the form. Delete before pasting. Two of these reverse advice given in the previous version, which was aligned to the 2024 form; where that happened it is said plainly.')
 TBL([
- ['What', 'Why it matters'],
- ['**The activity is now broken into four flows.**',
-  'The form does not collect 26 people in one block. It collects an Activity, and inside it **flows** — each flow being a group travelling from one place of origin, over the same dates, in the same distance band. Travel and individual support are computed per flow. Section 7 now has the flows table, and the budget reconciles to it flow by flow.'],
- ['**The budget was 92 EUR short, and is corrected.**',
-  'Adding the YOBBA facilitator (comment C8) put a seventh person in the Turkish flow, so **19** people travel long distance, not 18 — but the individual-support line still paid additional green-travel days for 18. Individual support becomes **12,512.00**, the total **31,587.00** and the activity grant **26,827.00**. The travel line was already right, which is how the error was found: 8,315 only decomposes if the Romanian flow has seven people too.'],
- ['**Recognition of learning outcomes is three questions, not two.**',
-  'The form splits it: how you support awareness of learning (and it explicitly asks that the reflection and documentation methods appear in the daily timetable — ours do, as D1.4, the daily reflection cycle, D4.4 and D7.2); whether you will use Youthpass or Europass; and whether you will use a national instrument. Answered separately now.'],
- ['**EU Values and the Checklist are real form sections.**',
-  'EU Values carries two confirmations you tick, and the Checklist carries an **authorship declaration**: that the content is original and that nobody external was paid to draft it. Both are now in the document so nothing is met for the first time at submission.'],
- ['**Annexes rewritten to the four real upload slots.**',
-  'The form has exactly four: Declaration on Honour, **Accession forms**, Timetable (template provided), and Other Documents (max 9). Useful consequence: accession forms are due **at the latest before the grant agreement is signed**, not at submission — which takes some pressure off the two island partners, though their OIDs and their needs notes are still needed now.'],
- ['**There is no priorities dropdown in KA152.**',
-  'Only **Topic** — up to three. So the priorities are not selected anywhere; they have to be visible in the narrative, which is exactly what the National Call warns: no application gets full marks on Relevance unless the priorities are demonstrably pursued. Section 2 is reframed accordingly.'],
- ['**The project summary is published.**',
-  'The form states that if the project is accepted, the summary is made public by the Commission and the National Agencies. It is now written to stand on its own for a reader who has not seen the rest.'],
-], widths=[5.0, 11.6], small=True, count=False)
+ ['What the 2026 form does', 'What it changes here'],
+ ['**Annexes has exactly one upload slot: the Declaration on Honour.**',
+  '**This reverses the previous advice.** The 2024 form had four slots, including one for the Timetable, so the previous version told you to move the full daily programme into that annex. There is no such slot in 2026. '
+  'The seven-day programme therefore has to fit inside the form’s own fields, and section 7.7 now says exactly how to compress it without losing the five attributes per session — objective, method, competences, output, named responsible person — that the previous assessment found missing. '
+  'There is also no “Other Documents” slot, so the measurement-instruments pack and the survey analysis stay in the supporting file, ready if the National Agency asks. [VERIFY on the live form: a blank export does not always render every slot.]'],
+ ['**Each OID may be involved in at most five Mobility of young people applications per round** — coordinator or partner, it counts the same. Once the limit is reached the form will not let you submit.',
+  'A genuine risk, and not for us. YOBBA has been a partner in six KA152 exchanges and is exactly the kind of organisation that gets asked again. **Ask YOBBA in writing, now, how many KA152 applications it is already in for this round**, and get the same confirmation from the two island partners when they are confirmed. Discovering this at 11:00 on 1 October is not a situation you can fix.'],
+ ['**Participant contribution and fees is its own block inside Project details**, with the rules printed above the question.',
+  'Moved out of the budget section and into section 7.4, where the form puts it, with our answer unchanged: no contribution of any kind.'],
+ ['**Recognition of learning outcomes has two questions, not three.** The national-instrument question is gone.',
+  '**This reverses part of the previous version.** The answer about the coordinator’s own certificate is kept, folded into the Youthpass answer where it still belongs, and marked so you can drop it if space is tight.'],
+ ['**The quality standards are no longer printed in the form** — it links to an external PDF — and carry **three** confirmations, not one.',
+  'Section 10 now lists all three. Note the middle one binds the co-beneficiaries as well, which is why adherence is written into the partnership agreement.'],
+ ['**“Application conditions” is a new section** carrying EU values, **EU sanctions and restrictive measures**, original content and authorship, a data-protection acknowledgment, and the pre-submission checklist.',
+  'The sanctions block is entirely new and was missing from the previous version. It needs a confirmation for the applicant **and every partner**. Section 12 covers all of it.'],
+ ['**The authorship declaration now refers to the applicant organisation alone**, where the 2024 form said “the applicant and partner organisations”.',
+  'Narrower, and stricter. Noted in section 12.'],
+ ['**Two questions we “corrected” last time were right the first time.**',
+  'The 2026 wording is “Are participants involved in activities facing challenges that hinder their participation?” and “Do you foresee Virtual/Blended activities and/or the use of any virtual component…?” — the original wording, not the 2024 variant. Reverted.'],
+ ['**The activity list carries both “Number of participants” and “Number of persons”.**',
+  'Added: 20 and 26. The distinction matters — participants are the 20 young people; persons includes the 4 group leaders and 2 facilitators.'],
+ ['**The form’s own definition of a flow is printed in it**, and it confirms our split.',
+  '“If some participants going to the same destination need to have different arrangements (for example, different travel distance or mode of travel, different duration etc.) then you should split that mobility flow into two or more separate ones.” Our four flows differ in exactly that way, so four is right.'],
+], widths=[5.6, 11.0], small=True, count=False)
 
 CALLOUT('Two decisions that are yours, not ours.',
         '**Schools.** Comments C4, C22 and C26 remove schools as venues, as recognition authorities and as main actors — all applied. But half the young people in our survey (50.0%) say school is where they hear about opportunities, and the previous expert assessment criticised the absence of a link to their educational path. The resolution written into this version: schools remain an **information channel** for the call, named as a channel and not as a project partner, while the link to the participants’ learning path is carried by Youthpass, by the local initiatives and by the peer-trainer role — not by any claim of school recognition. If you want schools out of the outreach section too, delete the two sentences marked in red there.\n'
@@ -485,17 +493,18 @@ P('**Three things the National Call requires us to get right, and how we do.** F
   'with its own justification and its own added value, not bundled. Third, **no exaggerated requests**: the preparatory visit is the only non-standard item, and the three reasons for it are stated in the '
   'logistics section rather than assumed.', count=False)
 
-Q('Are you planning to ask for any contributions from participants?')
-P('No — and this is a decision, not an omission. In our survey, cost is the second barrier young people aged 14–17 name to taking part in a mobility (34.4%) and transport is the third (31.2%). A fee of any size '
-  'would filter out precisely the young people this project exists for, and a family deciding whether to let a fourteen-year-old leave the country for nine days should not also be deciding whether they can '
-  'afford it. The rule is written into the local call in all four countries from the day it is published: travel, accommodation, meals, insurance, materials and transport from the participant’s own front door are '
-  'covered in full, and nothing is asked of the participant or the family at any point.')
-COUNT(2000)
+SMALL('Note: the question on participant contributions is not in the budget section of the 2026 form — it sits inside Project details, and it is answered there, in section 7.4.')
 
 PAGEBREAK()
 
 # =====================================================================
 H1('5. Participating organisations')
+CALLOUT('Check this before anything else: the five-application limit.',
+        'The 2026 form states that **each organisation (OID) can be involved in a total of five Mobility of young people applications per application round** — coordinator or partner, it makes no difference — and that once '
+        'the limit is reached the system will not accept a further application carrying that OID. **YOBBA is the exposure here.** An organisation that has partnered in six KA152 exchanges is exactly the organisation that gets '
+        'asked again, and it may already be in several applications for this round without anyone thinking to mention it. Ask YOBBA in writing now, and put the same question to the two island partners the day they are '
+        'confirmed. This is not a quality problem you can argue your way out of on 1 October — it is a hard stop in the system.',
+        'FDECEC', 'E3A9A9')
 
 H2('5.1 Applicant and coordinator — ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM')
 TBL([
@@ -874,10 +883,11 @@ P('The form asks you to list the activities, then to describe each one, then to 
 
 H3('7.1 Activity list')
 TBL([
- ['Id.', 'Activity Type', 'Activity Title', 'Number of participants', 'Total grant (EUR)'],
- ['01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '20', '26,827.00'],
- ['', '', '**Total**', '**20**', '**26,827.00**'],
-], widths=[1.4, 3.0, 7.0, 2.8, 2.4], count=False)
+ ['Id.', 'Activity Type', 'Activity Title', 'Number of participants', 'Number of persons', 'Total grant (EUR)'],
+ ['01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '20', '26', '26,827.00'],
+ ['', '', '**Total**', '**20**', '**26**', '**26,827.00**'],
+], widths=[1.2, 2.6, 6.0, 2.4, 2.0, 2.4], count=False)
+SMALL('Participants are the 20 young people. Persons adds the 4 group leaders and the 2 facilitators. The form asks for both and they are not interchangeable.')
 
 H3('7.2 Description of the activity (Activity 01)')
 TBL([
@@ -893,6 +903,11 @@ TBL([
 FLAG('[TO CHECK on the live form] The blank form shows only Id, Activity Type, Activity Title, start and end dates, number of facilitators and total grant at this level — the rest of these fields appear as you fill it in, and some (such as a question on whether the activity is itinerant) exist in some calls and not others. Fill what the live form actually asks and keep the figures above as your reference sheet.')
 
 H3('7.3 Flows summary (Activity 01)')
+CALLOUT('The form’s own definition, and why we have four flows.',
+        'The form defines a mobility flow as “a participant or a group of participants going to the same destination for the same duration of time and with same arrangements”, and adds: “If some participants going to the '
+        'same destination need to have different arrangements (for example, different travel distance or mode of travel, different duration etc.) then you should split that mobility flow into two or more separate ones.” '
+        'Our four groups go to the same destination but sit in two different distance bands and, because of the additional green-travel days, two different durations. So four flows is not a presentational choice — it is what the form requires.',
+        'E8EEF7', 'C7D6EA')
 P('Four flows, one per sending country. The two facilitators travel inside the flows of their own organisations rather than as a separate flow — the form does allow a **flow with facilitators only**, but splitting them out '
   'here would create two flows of one person each and would not change a single euro. **[DECISION: confirm this when filling the form.]**', count=False)
 
@@ -907,7 +922,18 @@ TBL([
 SMALL('City of venue for all four flows: the accommodation unit in the Napoca Porolissum LAG territory, Apuseni Mountains, Cluj County, Romania [TO CONFIRM]. Start date 09/08/2027, end date 15/08/2027 for all four. '
       '“Days” counts the 7 activity days plus 2 travel days, and for flows 2, 3 and 4 the 2 additional days that green travel over that distance makes eligible.')
 
-H3('7.4 Budget per flow')
+H3('7.4 Participant contribution and fees')
+SMALL('The form prints the rules above this question: any contribution must be low, proportional to the grant, clearly justified, explained to participants, collected on a non-profit basis, and must not create unfair barriers. '
+      'Fees cannot be collected from participants with fewer opportunities, and no other service provider may collect fees either.')
+Q('Are you planning to ask for any contributions from participants?')
+P('**No** — and this is a decision, not an omission. In our survey, cost is the second barrier young people aged 14–17 name to taking part in a mobility (34.4%) and transport is the third (31.2%). A fee of any size '
+  'would filter out precisely the young people this project exists for, and a family deciding whether to let a fourteen-year-old leave the country for nine days should not also be deciding whether they can afford it. '
+  'Since at least 12 of our 20 participants are participants with fewer opportunities, from whom the Programme does not permit fees in any case, a fee would also have to be charged to some participants and not others — '
+  'inside a group of twenty who spend nine days together. The rule is therefore written into the local call in all four countries from the day it is published: travel, accommodation, meals, insurance, materials and '
+  'transport from the participant’s own front door are covered in full, and nothing is asked of the participant or the family at any point.')
+COUNT(2000)
+
+H3('7.5 Budget per flow')
 TBL([
  ['Flow', 'Travel', 'Individual support', 'Flow total'],
  ['1 — Romania (7 persons)', '7 × 56 = **392.00**', '7 × 9 × 46 = **2,898.00**', '3,290.00'],
@@ -922,7 +948,7 @@ TBL([
 ], widths=[5.6, 3.6, 3.8, 3.6], count=False)
 SMALL('Preparatory visit (4,760.00 EUR) sits at project level, not inside the activity, which is why the project total is 31,587.00 and the activity grant 26,827.00.')
 
-H3('7.5 Activity compliance check')
+H3('7.6 Activity compliance check')
 
 SMALL('Minimum 16 and maximum 60 participants per activity (we have 20); minimum 4 participants per group (5); at least two groups from two different countries (four); one group '
       'leader per national group (four, which is below the national ceiling of one per four young people); at most two facilitators (two); duration between 5 and 21 days excluding travel (seven); participants aged '
@@ -1145,11 +1171,113 @@ for r in t.rows:
     if r.cells[0].text.strip().startswith('Day') and r.cells[1].text.strip() == '':
         merged = r.cells[0].merge(r.cells[len(r.cells) - 1])
         shade(merged, 'F0F4FA')
-COUNT(8000, cut='Do not cut this — move it. The timetable of the youth exchange is a mandatory annex, so the full table belongs there, where there is no character limit and where the '
-  'expert expects to find it. In the form field itself, keep the venue paragraph, the methods list, and a day-by-day summary of one line per day (title, the objective it serves, and the session that carries the assessment), '
-  'with a sentence saying that every session carries its objective, method, competences, output and named responsible person in the annexed timetable. That keeps the field around 3,500 characters and loses nothing, '
-  'because the five attributes per session — which is what the previous assessment found missing — are still visible in the annex.')
+COUNT(8000, cut='**There is nowhere to move this to.** The 2026 form has one annex slot, for the Declaration on Honour — no timetable upload. So the programme has to be compressed into the field itself, and the '
+  'compression has to keep the five attributes per session, because their absence is what cost 14 of the 40 design points last time. Use the compressed form in 7.8 below: it holds all five attributes for all 24 sessions '
+  'in roughly 4,200 characters by dropping the table and writing each session as one dense line. Keep the venue paragraph and the methods list in full — together they are about 1,900 characters, which leaves room.')
 SMALL('Note on merged rows: in the online form the day headers are typed as their own lines. Here they are left as full-width rows so the structure stays readable when the table is pasted or exported.')
+
+PAGEBREAK()
+H3('7.8 The same programme, compressed to fit the form')
+CALLOUT('Why this version exists, and which one you paste.',
+        'The 2026 form has a single annex slot, for the Declaration on Honour. There is no timetable upload, so the daily programme cannot be annexed — it has to go into the narrative field. Two versions are given below, '
+        'both holding the five attributes for all 24 sessions — objective, method, competences, output, named responsible person — because it is their absence that cost 14 of the 40 design points last time. '
+        '**Version A** is the table rewritten as running text, one line per session. **Version B** is the same content in compressed notation, with every descriptive clause cut. '
+        'Each heading states its own measured character count, so you can see what fits. **Check the live field limit before choosing** — the limits quoted throughout this document are assumptions, not facts from the form.',
+        'FFF6E5', 'E8C97A')
+SMALL('Legend: O1–O3 are the project objectives; KC1–KC8 the European key competences; F1 the facilitator designated by the coordinator, F2 the facilitator designated by YOBBA; GL the group leaders.')
+CMP = [
+ ('**Day 0 — Sun 8 Aug, arrival (travel day).**',
+  'D0.1 Arrival, accommodation and guided safety tour — exits, assembly point, first-aid kit, evacuation drill; output: signed arrival and room list; Iulia Fătu with the four GL. '
+  'D0.2 Informal dinner and first contact — KC2; GL.'),
+ ('**Day 1 — Mon 9 Aug, who we are and what we consume.**',
+  'D1.1 Getting to know each other across languages — O2; non-verbal and visual ice-breakers, mixed-team formation; KC2, KC5; output: the four mixed teams for the week; F1. '
+  'D1.2 Our group agreement — O2; negotiation in small groups then plenary consensus, with non-discrimination and respect for all languages as non-negotiable clauses; KC6, KC5; output: agreement signed by all 26; Claudiu Iancu. '
+  'D1.3 “My Digital Map”, each participant maps their own media diet over one ordinary day — O1; individual mapping then comparison in mixed teams, no judgement; KC4, KC5; output: 20 digital maps, re-read on Day 7; Claudiu Iancu. '
+  'D1.4 Safety, protection and digital rules; Youthpass and the learning diary introduced — O1, O2; interactive briefing, the safeguarding focal point introduces herself in person; KC5; output: contact chain and 2 personal learning targets per participant; Marilena Georgescu and Claudiu Iancu. '
+  'D1.5 Reflection, national groups then plenary — guided reflection in the participant’s own language; KC5; output: diary entries and feedback shaping Day 2; the four GL.'),
+ ('**Day 2 — Tue 10 Aug, Spot the Fake.**',
+  'D2.1 The judgement before the verdict: teams sort a mixed set of real and false items, including two misleading statistics and a manipulated graph, and only then see the key — O1, O2; learning through controlled error, decisions recorded before disclosure; KC1, KC4, KC3; output: each team’s score, the informal starting point of the week; F1. '
+  'D2.2 The mechanics of manipulation — emotional headlines, cropped context, false authority, numbers out of context — worked on the real cases the four groups brought, including content carrying ethnic, gender and migration stereotypes, analysed in mixed teams — O1, O2; case gallery, pair analysis, naming the technique; KC1, KC4, KC8, KC5; output: the shared manipulation-techniques grid in five languages; Claudiu Iancu with the Corsican partner on minority-language circulation. '
+  'D2.3 “The information tribunal”, structured debate on where opinion ends and falsehood begins — O2; role-played debate under the rule that every claim must be evidenced; KC1, KC6, KC2; output: an agreed working distinction between opinion, error and deliberate falsehood; F2. '
+  'D2.4 Reflection and decompression — national groups then plenary, with a short decompression sequence after distressing content; KC5; output: diary, adjustment of Day 3; GL, with Marilena Georgescu available individually.'),
+ ('**Day 3 — Wed 11 Aug, AI or human?**',
+  'D3.1 AI-generated text, image, voice and video: what the tools can and cannot do, and what traces they leave — O1, O2; hands-on comparison of real and generated pairs, participants generate examples and try to fool each other; KC4, KC3; output: the “How I recognise AI-generated content” sheet, written by participants; Doğan Can Karabudak with Claudiu Iancu. '
+  'D3.2 Tool laboratory: each team tests one free verification tool — reverse image search, web archive, context and metadata checking, a national fact-checking resource — then teaches it to the others — O1, O2; peer-to-peer teaching, two-minute demonstration per team; KC4, KC2, KC5; output: annotated tool list with one national resource per partner country; F1 with the four GL. '
+  'D3.3 “The verification route” escape room: source → author → date → context → two independent sources → image — O2; game, repeated until automatic; KC4, KC5; output: every participant has run the full route twice; Livia Golovatic. '
+  'D3.4 Ethics of AI use: when is it legitimate and what must be declared — O2; case discussion, participants write the rule they will apply on Day 6; KC6, KC5; output: the group’s own AI-use rule; Doğan Can Karabudak. '
+  'D3.5 Reflection; plus a 30-minute observer refresher for the team after participants leave — KC5; output: diary, and the six observers agree what counts as a prompt; GL, Claudiu Iancu for the refresher.'),
+ ('**Day 4 — Thu 12 Aug, fact-checkers for a day (the assessed day).**',
+  'D4.1 The verification newsroom: mixed teams take real viral claims through the whole route to a documented verdict — O2; three-hour full simulation, facilitators intervening only when asked, the O2 observation grid applied here; KC4, KC1, KC3, KC5; output: four documented verdicts with sources, plus observation data recording for each of the 20 participants whether they performed each of the four techniques; Claudiu Iancu moderating and not scoring, the four GL each observing one mixed team, F1 and F2 independently double-scoring five participants each. '
+  'D4.2 Cross-examination: each team presents its verdict and the others try to break it — O2; adversarial peer review under evidence rules; KC1, KC4, KC2; output: verdicts revised where the challenge succeeded; F2. '
+  'D4.3 What we got wrong, and why — O1, O2; collective analysis of the day’s errors, facilitators’ included; KC5, KC1; output: the list of traps the group actually fell into; Claudiu Iancu. '
+  'D4.4 Reflection and mid-week check, with the observer moderation meeting immediately after D4.1 — national groups then plenary, mid-point review of individual learning targets; KC5; output: diary, adjustment of Days 5–7, moderated observation scores; GL, Claudiu Iancu chairing.'),
+ ('**Day 5 — Fri 13 Aug, the community and intercultural day.**',
+  'D5.1 Visit to a village of the LAG territory — O3; field visit with guided observation; KC6, KC8; Livia Golovatic with the host municipality. '
+  'D5.2 Conversation with residents and municipal representatives: what rumours actually circulate here, through which channels, and who gets hurt — O3; facilitated dialogue in small mixed groups with interpreting, questions prepared the evening before; KC6, KC8, KC2; output: the record of real local rumours, which becomes the working material for Day 6; the Sardinian partner leading the method, Livia Golovatic on the local relationship. '
+  'D5.3 Preparation and running of the intercultural evening, with produce from local producers — O2; participant-led, each national group presents its community including its language; KC8, KC2, KC5; the four GL, participants in the roles assigned in month 3.'),
+ ('**Day 6 — Sat 14 Aug, Make It, Don’t Fake It.**',
+  'D6.1 Media production technique: how a short video or infographic is built to be clear and honest — O3; practical session led by the partner whose core expertise is digital media; KC4, KC8; Doğan Can Karabudak and Aysu Zeybel. '
+  'D6.2 Production: each team makes a short video or infographic debunking one of the local myths collected on Day 5, using AI ethically and with declared attribution under the rule the group wrote on Day 3 — O3; team production with technical support on request; KC4, KC8, KC1, KC2; output: four media products in English plus a local language; YOBBA leading, all facilitators supporting. '
+  'D6.3 Planning the four local initiatives — date, venue, audience, partner institution, responsibilities, indicator — O3; work in national groups on a common template, participants decide and GL advise; KC7, KC6, KC5; output: four initiative plans with named owners and deadlines; the Sardinian partner providing template and method. '
+  'D6.4 Reflection and media safeguarding check of everything produced — national groups, two-step content review before publication; KC5; output: diary, approved content; GL, Marilena Georgescu approving.'),
+ ('**Day 7 — Sun 15 Aug, public presentation, evaluation, Youthpass.**',
+  'D7.1 Public presentation with guests from the host community, the partner municipalities and the local press — O3; participant-led, the four media products shown and explained; KC6, KC8, KC2; output: public visibility and first contacts for the local initiatives; participants, Livia Golovatic coordinating, Alina Ioana Baba receiving guests. '
+  'D7.2 Youthpass reflection session: the eight key competences worked through against the learning diaries and the Day 1 digital maps — O1, O2; structured individual and peer reflection, each participant names and evidences what changed; KC5 and all; output: 20 Youthpass certificates plus 4 for the GL; Claudiu Iancu. '
+  'D7.3 Participatory evaluation of the activity — non-formal evaluation methods with an anonymous written questionnaire in parallel; KC5; output: evaluation data for the project report; F1 and F2. '
+  'D7.4 Written commitments for the four local initiatives, and closing — O3; public commitment in front of the whole group; KC7, KC6; output: four signed commitments with dates; GL.'),
+ ('**Day 8 — Mon 16 Aug, departure (travel day).**', ''),
+]
+LEN_A = sum(len(clean(h + (' ' + b if b else ''))) + 1 for h, b in CMP)
+H4('Version A — full sentences, %s characters' % f'{LEN_A:,}')
+for head, body in CMP:
+    P(head + (' ' + body if body else ''))
+COUNT(5000, cut='If the live field is 5,000 characters, do not trim Version A by hand — use Version B below, which is already cut to the bone and keeps every attribute. Trimming A ad hoc is how the five attributes per session '
+  'quietly disappear again, and their absence is precisely what cost 14 of the 40 design points last time.')
+
+SMALL('Notation: **O1–O3** project objectives · **KC1–KC8** key competences · **F1** facilitator designated by the coordinator · **F2** facilitator designated by YOBBA · **GL** group leaders · **CI** Claudiu Iancu · '
+      '**LG** Livia Golovatic · **MG** Marilena Georgescu · **IF** Iulia Fătu · **AB** Alina Ioana Baba · **DK** Doğan Can Karabudak · **AZ** Aysu Zeybel · **[CO]** Corsican partner · **[SA]** Sardinian partner. '
+      'Each entry reads: code · session · objectives served · method · competences · output · responsible.')
+TIGHT = [
+ '**D0 Sun 8 Aug, arrival (travel day).** D0.1 venue safety tour · — · guided walk-through, exits, assembly point, evacuation drill · — · signed arrival and room list · IF + GL. D0.2 informal dinner · — · informal · KC2 · — · GL.',
+ '**D1 Mon 9 Aug, who we are and what we consume.** D1.1 getting to know each other across languages · O2 · non-verbal ice-breakers, mixed-team formation · KC2 KC5 · the four mixed teams · F1. '
+ 'D1.2 group agreement · O2 · small-group negotiation then plenary consensus, non-discrimination and respect for all languages non-negotiable · KC6 KC5 · agreement signed by all 26 · CI. '
+ 'D1.3 “My Digital Map” · O1 · individual mapping then mixed-team comparison, no judgement · KC4 KC5 · 20 digital maps, re-read Day 7 · CI. '
+ 'D1.4 safety, protection, digital rules, Youthpass and diary · O1 O2 · interactive briefing, safeguarding focal point introduced in person · KC5 · contact chain + 2 learning targets each · MG + CI. '
+ 'D1.5 reflection · — · national groups in own language, then plenary · KC5 · diary, feedback shaping Day 2 · GL.',
+ '**D2 Tue 10 Aug, Spot the Fake.** D2.1 judgement before the verdict · O1 O2 · controlled error, decisions recorded before the key is revealed · KC1 KC4 KC3 · team scores as the week’s starting point · F1. '
+ 'D2.2 mechanics of manipulation, on the groups’ own local cases incl. stereotype content · O1 O2 · case gallery, pair analysis, naming the technique · KC1 KC4 KC8 KC5 · manipulation grid in five languages · CI + [CO] on minority-language circulation. '
+ 'D2.3 information tribunal · O2 · role-played debate, every claim evidenced · KC1 KC6 KC2 · working distinction opinion / error / falsehood · F2. '
+ 'D2.4 reflection and decompression · — · national then plenary, decompression after distressing content · KC5 · diary, Day 3 adjusted · GL + MG available.',
+ '**D3 Wed 11 Aug, AI or human?** D3.1 AI-generated text, image, voice, video · O1 O2 · hands-on real/generated pairs, participants generate and try to fool each other · KC4 KC3 · the AI-recognition sheet · DK + CI. '
+ 'D3.2 tool laboratory, four free tools incl. one national resource per country · O1 O2 · peer teaching, two-minute demo per team · KC4 KC2 KC5 · annotated tool list usable at home · F1 + GL. '
+ 'D3.3 verification-route escape room · O2 · game, repeated until automatic · KC4 KC5 · full route run twice per participant · LG. '
+ 'D3.4 ethics of AI use · O2 · case discussion, participants write their own rule · KC6 KC5 · the group’s AI-use rule for Day 6 · DK. '
+ 'D3.5 reflection + 30-min observer refresher · — · national then plenary · KC5 · diary; observers agree what counts as a prompt · GL, CI.',
+ '**D4 Thu 12 Aug, fact-checkers for a day — assessed.** D4.1 verification newsroom · O2 · three-hour simulation, facilitators intervene only on request, O2 observation grid applied · KC4 KC1 KC3 KC5 · four documented verdicts + per-participant data on all four techniques · CI moderating without scoring, 4 GL each observing one mixed team, F1 and F2 double-scoring 5 each. '
+ 'D4.2 cross-examination · O2 · adversarial peer review under evidence rules · KC1 KC4 KC2 · verdicts revised where challenged · F2. '
+ 'D4.3 what we got wrong · O1 O2 · collective error analysis, facilitators included · KC5 KC1 · list of traps the group fell into · CI. '
+ 'D4.4 reflection, mid-week check, observer moderation · — · national then plenary, learning targets reviewed · KC5 · diary, Days 5–7 adjusted, moderated scores · GL, CI chairing.',
+ '**D5 Fri 13 Aug, community and intercultural day.** D5.1 village visit · O3 · field visit, guided observation · KC6 KC8 · — · LG + host municipality. '
+ 'D5.2 dialogue with residents and municipal representatives on real local rumours · O3 · facilitated small mixed groups with interpreting, questions prepared the night before · KC6 KC8 KC2 · record of local rumours, the raw material for Day 6 · [SA] on method, LG on the local relationship. '
+ 'D5.3 intercultural evening with local producers · O2 · participant-led, each group presents its community and language · KC8 KC2 KC5 · — · GL + participants in month-3 roles.',
+ '**D6 Sat 14 Aug, Make It, Don’t Fake It.** D6.1 media production technique · O3 · practical session by the digital-media partner · KC4 KC8 · — · DK + AZ. '
+ 'D6.2 production, debunking a Day 5 myth, AI used ethically under the group’s own rule · O3 · team production, technical support on request · KC4 KC8 KC1 KC2 · four media products, English + a local language · YOBBA leading. '
+ 'D6.3 planning the four local initiatives · O3 · national groups on a common template, participants decide · KC7 KC6 KC5 · four plans with named owners and deadlines · [SA] template and method. '
+ 'D6.4 reflection + media safeguarding check · — · two-step content review before publication · KC5 · diary, approved content · GL, MG approving.',
+ '**D7 Sun 15 Aug, presentation, evaluation, Youthpass.** D7.1 public presentation with community, municipalities and press · O3 · participant-led, media products shown and explained · KC6 KC8 KC2 · visibility, first contacts for the local initiatives · participants, LG coordinating, AB receiving guests. '
+ 'D7.2 Youthpass session against the diaries and the Day 1 maps · O1 O2 · structured individual and peer reflection, each names and evidences what changed · KC5 + all · 20 Youthpass + 4 for GL · CI. '
+ 'D7.3 participatory evaluation · — · non-formal methods + anonymous written questionnaire · KC5 · evaluation data for the report · F1 F2. '
+ 'D7.4 written commitments for the local initiatives, closing · O3 · public commitment before the group · KC7 KC6 · four signed commitments with dates · GL.',
+ '**D8 Mon 16 Aug, departure (travel day).**',
+]
+LEN_B = sum(len(clean(t)) + 1 for t in TIGHT)
+H4('Version B — same content in compressed notation, %s characters' % f'{LEN_B:,}')
+for t in TIGHT: P(t)
+COUNT(5000, cut='Version B is already cut to the bone, so if it still does not fit, take these in order, and stop as soon as it fits. '
+  '(1) Delete the D0 and D8 lines — they are travel days and are stated in the activity dates anyway: about 300 characters. '
+  '(2) Delete the method clause from the five reflection sessions (D1.5, D2.4, D3.5, D4.4, D6.4) — the method is identical every evening and is described in full in the preparation and recognition answers: about 350. '
+  '(3) Replace each responsible person’s initials with their role code where the person is already named in the roles table: about 200. '
+  'Never cut an objective, a competence code or an output — those three are what the assessment is looking for.')
 
 PAGEBREAK()
 
@@ -1282,17 +1410,16 @@ P('Yes — **Youthpass**, for all 20 participants and all 4 group leaders. It is
   'than two we use loosely.')
 COUNT(2000)
 
-Q('Are you planning to use any national instrument/certificate? If so, please describe which one.')
-P('Yes, alongside Youthpass. The coordinating organisation issues its own **certificate of participation** in Romanian and English. It states that the young person took part in the activity and names the '
+FLAG('[NOT A QUESTION IN THE 2026 FORM] The 2024 form asked separately about national instruments; the 2026 form does not. The paragraph below is kept because it is still true and still worth saying — append it to the Youthpass answer above if you have room, and drop it if you do not.')
+P('Alongside Youthpass, The coordinating organisation issues its own **certificate of participation** in Romanian and English. It states that the young person took part in the activity and names the '
   'competences they developed through non-formal learning, with the evidence behind each one — and that is all it claims. We make no claim of formal recognition for it, and participants and parents are told '
   'plainly what it is and what it is not, so that nobody is given an expectation the document cannot carry. Partners are asked, during the preparation phase, to identify any equivalent instrument used for '
-  'recognising non-formal learning in France, Italy and Türkiye, and to explain it to their own participants on the same terms.')
-COUNT(3000)
+  'recognising non-formal learning in France, Italy and Türkiye, and to explain it to their own participants on the same terms.', count=False)
 
 PAGEBREAK()
 H2('8.3 Participants with fewer opportunities')
-FLAG('[NOTE on the form] This section opens with a Yes/No. The three questions that follow — the type of challenges, how you will reach these participants, and the support measures — only appear once you answer Yes. Their exact labels are not visible in a blank export, so check them on the live form; the answers below cover the substance whatever the labels turn out to be.')
-Q('Are there participants involved in the activities who face situations that make their participation in the activities more difficult?')
+FLAG('[NOTE on the form] This section opens with a Yes/No. The questions that follow — the type of challenges, how you will reach these participants, and the support measures — only appear once you answer Yes, and a blank export does not render them. Check the exact labels on the live form; the answers below cover the substance whatever the labels turn out to be.')
+Q('Are participants involved in activities facing challenges that hinder their participation?')
 P('Yes. **At least 12 of the 20 participants — 60%.**')
 COUNT(500)
 
@@ -1337,8 +1464,8 @@ TBL([
 COUNT(5000)
 
 PAGEBREAK()
-H2('8.4 Use of virtual components')
-Q('Do you foresee to include any virtual component, before, during or after the activity?')
+H2('8.4 Virtual learning / Blended activities and use of virtual components')
+Q('Do you foresee Virtual/Blended activities and/or the use of any virtual component, before, during or after the activity?')
 P('Yes — before and after the physical activity. Approximately **26 persons** take part in the virtual components: 20 participants, 4 group leaders and 2 facilitators.')
 COUNT(500)
 
@@ -1370,7 +1497,7 @@ PAGEBREAK()
 
 # =====================================================================
 H1('9. Project management')
-Q('How will you manage the project (agreements with partners etc.) and make sure that it is done in line with the Erasmus+ Youth Quality Standards? You will find the quality standards further down in the application form.')
+Q('How will you manage the project (agreements with partners etc.) and make sure that it is done in line with the Erasmus Youth Quality Standards? You will find the quality standards further down in the application form.')
 
 H4('Roles, separated on purpose')
 TBL([
@@ -1613,42 +1740,82 @@ COUNT(3000)
 PAGEBREAK()
 
 # =====================================================================
-H1('10. Erasmus+ Youth Quality Standards')
-P('The applicant and all partner organisations confirm that they have read the Erasmus+ Youth Quality Standards and agree to adhere to them in the implementation of all mobility activities under this project. '
-  'The alignment table in section 9 sets out how each standard is met in practice, and the partnership agreement signed in month 1 makes adherence a contractual obligation of every partner rather than a '
-  'declaration by the coordinator alone.', count=False)
+H1('10. Erasmus Youth Quality Standards')
+SMALL('The 2026 form no longer prints the standards. It links to erasmus-youth-quality-standards_en.pdf and asks you to open it, read it and confirm three statements. Open the linked PDF — the confirmation says you have.')
+TBL([
+ ['To confirm in the form', 'Our position'],
+ ['I have read the above Erasmus Youth quality standards', 'Read, and worked through: the alignment table in section 9 maps each standard to the concrete measure that meets it.'],
+ ['I confirm that I, my organisation and the co-beneficiaries (where applicable) adhere to the Erasmus Youth quality standards',
+  'Note that this binds the **co-beneficiaries** too, not only the coordinator. That is why adherence to the standards is written into the partnership agreement signed with each partner in month 1 — so the confirmation is backed by something each partner has signed, rather than being a promise made on their behalf.'],
+ ['I understand and agree that Erasmus Youth quality standards will be used as part of the criteria for evaluation of the activities implemented under this project',
+  'Understood and accepted. The standards are also how the project is monitored internally: the alignment table is reviewed at the month 17 consortium evaluation meeting, not only written for the application.'],
+], widths=[6.0, 10.6], count=False)
 
-H1('11. EU Values')
-P('The form carries two confirmations to be ticked, and they are not a formality: the second one states that EU Values will be used as part of the criteria for evaluating the activities implemented under the project.', count=False)
+H1('11. Annexes')
+CALLOUT('One slot. That is the whole annex section.',
+        'The 2026 form has a single upload: the **Declaration on Honour**, signed by the legal representative. There is no Timetable slot and no Other Documents slot — both existed in the 2024 form and both are gone. '
+        'Two consequences. **The daily programme cannot be annexed**, so it goes into the narrative field in the compressed form given in section 7.8. And **nothing else can be attached**, so the measurement-instruments pack, '
+        'the survey analysis and the partners’ needs notes live in the supporting file and are produced only if the National Agency asks — which it may, for the operational-capacity check. '
+        '[VERIFY on the live form before submission: a blank export does not always render every upload slot.]',
+        'FDECEC', 'E3A9A9')
+
+P('**Accession forms.** They are not an annex in this form. The pre-submission checklist states that the accession form of each partner to the applicant should be submitted **at the latest before the signature of the grant '
+  'agreement**, and that if the application is approved, the signed accession form is a condition for signing that agreement. So they do not block submission — but they do block contracting, and the National Call adds that '
+  'they must be the 2026 versions and that you should secure the originals in good time. What you need **at submission** is each partner’s valid OID entered in the form. That changes the 20 September internal deadline from '
+  '“signed mandate or no partner” to “confirmed partner with a valid OID and its needs note”, which is a materially easier target.', count=False)
+
+P('**Legal status documents** are not uploaded here either: they go into the Organisation Registration System against the applicant’s OID.', count=False)
+
+H1('12. Application conditions')
+SMALL('A new section in the 2026 form, and the one most likely to be met for the first time at 11:00 on 1 October. It carries four blocks of confirmations plus the pre-submission checklist.')
+
+H3('12.1 EU values')
 TBL([
  ['To confirm in the form', 'Where the project actually delivers it'],
- ['I confirm that I, my organisation and the co-beneficiaries adhere to the EU values mentioned in Article 2 of the TEU and Article 21 of the EU Charter of Fundamental Rights',
+ ['I confirm that I, my organisation and the co-beneficiaries (where applicable) adhere to the EU values mentioned in Article 2 of the TEU and Article 21 of the EU Charter of Fundamental Rights',
   'Adherence is written into the partnership agreement signed with every partner in month 1, so it binds all four organisations and not only the coordinator.'],
- ['I understand and agree that EU Values will be used as part of the criteria for evaluation of the activities implemented under this project',
+ ['I understand and agree that EU values will be used as part of the criteria for evaluation of the activities implemented under this project',
   'The project is built on these values rather than merely compatible with them. Non-discrimination and respect for every language and identity present are non-negotiable clauses of the group agreement the participants '
   'themselves negotiate on Day 1 (D1.2). The working material of Day 2 is real content carrying ethnic, gender and migration stereotypes, analysed in mixed teams in which young people from the targeted communities '
   'are present. The ground rule of the whole exchange — every claim must be evidenced, facilitators included — is a rule-of-law habit practised in miniature. And the minority-language strand exists precisely because '
   'the rights of people belonging to minorities include the right not to have falsehood circulate unchecked in their own language.'],
-], widths=[5.0, 11.6], count=False)
+], widths=[5.6, 11.0], small=True, count=False)
 
-H1('12. Annexes')
-SMALL('The form has exactly four upload slots. Maximum 15 MB per file, 100 MB in total.')
+H3('12.2 EU sanctions and restrictive measures')
+FLAG('[NEW IN 2026 — ACTION REQUIRED] This block did not exist in the earlier form and it concerns **every partner**, not only the applicant. Check each organisation against the EU Sanctions Map before submitting, and record the date you checked in the supporting file.')
 TBL([
- ['Form slot', 'What goes in it', 'Status'],
- ['**Declaration on Honour**', 'Downloaded from the form, printed, signed by the legal representative, attached.', 'To prepare'],
- ['**Accession forms**', 'One per partner organisation, downloaded from the form and signed by each legal representative. Up to 90 documents. The form states they must be provided **at the latest before the signature of the '
-  'grant agreement** — so they do not block submission. The National Call adds that they must be the 2026 versions and that you should secure the originals in good time.', '1 of 3 expected (YOBBA); the two island partners outstanding'],
- ['**Timetable**', 'The timetables for the physical events and mobility activities, **using the template provided by the form**. Ours are the seven-day programme in section 7 and the preparatory visit. This is where the five '
-  'attributes per session — objective, method, competences, output, named responsible person — become visible to the expert, which is what the previous assessment found missing.', 'Ready — to be transferred into the official template'],
- ['**Other Documents**', 'Maximum 9 documents, with clear file names. Our shortlist, in priority order: the measurement-instruments pack; the youth survey instrument and analysis; the partners’ one-page needs notes; the '
-  'child protection policy. Attach only what is short and relevant — the National Call warns explicitly against uploading unrequested annexes for volume.', 'To assemble'],
-], widths=[3.2, 10.4, 3.0], small=True, count=False)
+ ['To confirm in the form', 'What to do about it'],
+ ['I confirm that I / my organisation / project partner are NOT included on the list of persons or entities subject to EU sanctions. If included, the application will be rejected.',
+  'Check the applicant and all three partners at sanctionsmap.eu. Note that the EU Official Journal carries the official list and prevails over the Sanctions Map if the two differ. No reason to expect a problem with any of our four organisations — but the declaration is absolute, so check rather than assume.'],
+ ['I / my organisation / project partners are not established in Russia, nor are any of our proprietary rights directly or indirectly owned for more than 50% by a legal person, entity or body established in Russia, and are therefore NOT subject to EU restrictive measures under Regulation (EU) 833/2014.',
+  'This is the option that applies to us: the four organisations are established in Romania, Türkiye, France and Italy. Confirm ownership as well as establishment — the test is about who owns more than 50%, not only where the organisation is registered. Ask each partner to confirm in writing, and keep those confirmations.'],
+ ['(Alternative) …ARE established in Russia or more than 50% Russian-owned, and therefore subject to restrictive measures, requiring an exemption under Article 5(1–2) of Regulation (EU) 833/2014, failing which the application will be rejected.',
+  'Not applicable. Do not tick it.'],
+], widths=[7.0, 9.6], small=True, count=False)
 
-CALLOUT('The accession-form deadline is softer than we assumed.',
-        'The previous version treated partner mandates as a submission blocker. The form says otherwise: accession forms are due at the latest before the grant agreement is signed. What you still need **at submission** is '
-        'each partner’s valid OID in the form, and — for the quality of the application rather than its eligibility — each partner’s one-page needs note. That changes the 20 September internal deadline from '
-        '“signed mandate or no partner” to “confirmed partner with an OID and consultation data”, which is a materially easier target.',
-        'EAF3EA', '9FC49F')
+H3('12.3 Original content and authorship')
+TBL([
+ ['To confirm in the form', 'Our position'],
+ ['I confirm that this application contains original content authored by **the applicant organisation**.',
+  'Note the wording narrowed: the 2024 form said “the applicant and partner organisations”. It is now the applicant alone. True here, and worth protecting — the National Call states that ANPCDEFP runs the European '
+  'Commission’s anti-plagiarism software, and that passages identical or similar to another application, **including your own from a previous deadline**, are treated as double funding and can cause rejection. '
+  'Practical consequence: do not reuse paragraphs from the Inclusion2Income application of the previous round. This document is a fresh draft, which is the safe position; keep it that way through the final edit.'],
+ ['I confirm that no other organisations or individuals external to **the applicant organisation** have been paid or otherwise compensated for drafting the application.',
+  'Confirm only if it is true of your situation. The declaration is about who was **paid or compensated to draft** the application — not about the internal drafts, working documents or tools used along the way by the applicant’s own team.'],
+], widths=[6.0, 10.6], small=True, count=False)
+
+H3('12.4 Protection of personal data and other acknowledgments')
+P('One acknowledgment to tick: that information concerning the organisation, the application, the operational and financial capacity assessments, compliance with eligibility and exclusion criteria, previously funded '
+  'projects and — if the grant is awarded — the implementation and monitoring of this project may be made accessible to authorised persons of the European Commission, EACEA and the National Agencies, for programme '
+  'implementation and the protection of EU financial interests. Nothing here needs preparing; read the privacy statement the form links to before ticking it.', count=False)
+
+H3('12.5 Pre-submission checklist')
+TBL([
+ ['Form checklist item', 'Our position'],
+ ['It fulfils the eligibility criteria listed in the Programme Guide.', 'Verified in section 7.6: participant numbers, group sizes, number of countries, group leaders, facilitators, duration, ages, and the country of the venue.'],
+ ['All relevant fields in the application form have been completed.', 'Every field marked [TO CONFIRM] in this document is a field that is not yet complete. The short list in section 14 is the order to close them in.'],
+ ['You have chosen the correct National Agency of the country in which your organisation is established.', 'RO01 — ANPCDEFP. The applicant is established in Gilău, Cluj County, Romania, and the activity takes place in Romania.'],
+], widths=[6.0, 10.6], small=True, count=False)
 
 H1('13. Supporting file')
 SMALL('Kept, not uploaded unless requested. This is what you need to be able to produce if the National Agency asks — including for the operational-capacity check, which it may run on any application.')
@@ -1665,25 +1832,13 @@ TBL([
  ['9', 'CVs of the implementation team and the list of ongoing projects', 'Ready', 'Not requested at application, but the National Agency may request them for the operational-capacity check'],
 ], widths=[0.9, 6.6, 2.6, 6.5], small=True, count=False)
 
-H1('14. Checklist')
-P('The form’s own checklist, with our position against each line. Two of them are declarations, not tick-boxes of convenience.', count=False)
-TBL([
- ['Form checklist item', 'Our position'],
- ['It fulfils the eligibility criteria listed in the Programme Guide', 'Verified in section 7.5: participant numbers, group sizes, number of countries, group leaders, facilitators, duration, ages, and the country of the venue.'],
- ['All relevant fields in the application form have been completed', 'Every field marked [TO CONFIRM] in this document is a field that is not yet complete. The list at the end of this section is the order to close them in.'],
- ['I have read the above Erasmus+ Youth quality standards', 'Section 10 maps each standard to how it is met, and adherence is a contractual obligation of every partner under the month 1 partnership agreement.'],
- ['You have chosen the correct National Agency of the country in which your organisation is established', 'RO01 — ANPCDEFP. The applicant is established in Gilău, Cluj County, Romania, and the activity takes place in Romania.'],
- ['**I confirm that this application contains original content authored by the applicant and partner organisations**',
-  'True, and worth protecting. The National Call states that ANPCDEFP runs the European Commission’s anti-plagiarism software across applications, and that passages identical or similar to other applications — including your own from a previous deadline — are treated as double funding and can cause rejection. '
-  'Practical consequence: do **not** reuse paragraphs from the Inclusion2Income application of the previous round. This document is a fresh draft, which is the safe position; keep it that way through the final edit.'],
- ['**I confirm that no other organisations or individuals external to the applicant and partner organisations have been paid or otherwise compensated for drafting the application**',
-  'Confirm this only if it is true of your situation. It concerns paid external drafting — the declaration is about who was compensated for writing the application, not about the tools or internal drafts used along the way.'],
-], widths=[5.6, 11.0], small=True, count=False)
-
-H1('15. Before you submit — the short list')
-P('Five things decide whether this application beats 70 points. Four of them are not writing.', count=False)
+H1('14. Before you submit — the short list')
+P('Seven things decide whether this application beats 70 points. Five of them are not writing.', count=False)
 TBL([
  ['#', 'What', 'Why it decides the score', 'By when'],
+ ['0', '**Every OID is clear of the five-application limit.** Ask YOBBA in writing how many KA152 applications it is already in for this round, and ask each island partner the day it is confirmed.',
+  'The 2026 form refuses a submission once an OID is in five Mobility of young people applications for the round. YOBBA has partnered in six KA152 exchanges and is the likeliest to be at or near the limit. This is a hard stop in the system, not something an expert can be persuaded about.',
+  'Now, and again in the final week'],
  ['1', '**The two island partners exist**, each with a valid OID entered in the form and a one-page needs note with its own consultation data.',
   'Everything else in this document is written; this is not. A consortium with two unnamed partners is not a consortium, and the needs notes are what turn “four communities with the same problem” from a claim into evidence. '
   'Note the relief the form gives you: the **accession forms are due at the latest before the grant agreement is signed**, not at submission — so what you need by 20 September is a confirmed partner with an OID, not a signed mandate in hand.',
@@ -1700,7 +1855,10 @@ TBL([
  ['5', '**The figures are identical everywhere.**',
   'The concept note still cites 121 respondents, 17.3% and 99.2%. The current dataset gives 153, 20.8% and 96.9%. An expert who compares the documents will see it, and a single mismatched number costs more credibility than it should.',
   'Final read-through, both documents side by side'],
-['6', '**The four flows and the per-flow budget are entered exactly as in section 7.3 and 7.4**, and the form’s own totals are compared against 26,827.00 and 31,587.00.',
+['6', '**The compressed daily programme from section 7.8 is what goes into the form**, not the table.',
+  'There is no timetable annex in the 2026 form. If the table is pasted it will not fit, and if it is trimmed carelessly the five attributes per session disappear — which is exactly what cost 14 of the 40 design points last time.',
+  'When filling the form'],
+ ['7', '**The four flows and the per-flow budget are entered exactly as in sections 7.3 and 7.5**, and the form’s own totals are compared against 26,827.00 and 31,587.00.',
   'The form computes travel and individual support per flow. If the flows are entered with the wrong number of people, the totals move and nothing else in the application explains why. This is also where the 92 EUR error was hiding.',
   'When filling the form'],
 ], widths=[0.8, 4.4, 5.8, 5.6], small=True, count=False)
@@ -1716,6 +1874,6 @@ SMALL('Version 3, revised 15 September 2026. Built on the draft of 3 September 2
       'Round 1, so check every field label against the live 2026 Round 2 form before pasting.')
 
 import os
-out = '/home/user/UNIC-2/VERIFAI_KA152_Application_EN_v3.docx'
+out = '/home/user/UNIC-2/VERIFAI_KA152_Application_EN_v4.docx'
 doc.save(out)
 print('saved', out, os.path.getsize(out), 'bytes')
