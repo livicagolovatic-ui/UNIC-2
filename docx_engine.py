@@ -79,10 +79,14 @@ def H2(t): doc.add_paragraph(t, style='Heading 2')
 def H3(t): doc.add_paragraph(t, style='Heading 3')
 def H4(t): doc.add_paragraph(t, style='Heading 4')
 
+PARAS = []
+
 def P(t, count=True):
     p = doc.add_paragraph(); runs(p, t)
     p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
-    if count: CHARS['n'] += len(clean(t)) + 1
+    if count:
+        CHARS['n'] += len(clean(t)) + 1
+        PARAS.append((len(clean(t)), clean(t)[:70]))
     return p
 
 def SMALL(t):
@@ -128,6 +132,10 @@ def COUNT(limit=5000, cut=None):
     if os.environ.get('FIELD_REPORT'):
         flag = 'OVER ' if n > limit else '     '
         print('%s%6d / %5d  %s' % (flag, n, limit, LAST_Q['t'][:95]), file=sys.stderr)
+        if n > limit and os.environ.get('FIELD_REPORT') == 'detail':
+            for ln, txt in PARAS:
+                print('        %5d  %s' % (ln, txt), file=sys.stderr)
+    PARAS.clear()
     p = doc.add_paragraph()
     over = n > limit
     mark = 'within limit' if not over else 'OVER by %s — see below' % f'{n - limit:,}'
