@@ -17,7 +17,7 @@ CALLOUT('What this document is.',
         'The completed content of the application, section by section and question by question, in the order of the 2026 Round 2 form. Each form question appears in a blue box; the text under it is the answer, ready to enter. '
         'The grey line after each answer is its character count. **The limits shown are assumptions, not facts read from the form** — 5,000 for the summary and short fields, 6,000 for the long narrative ones. '
         'Every answer here fits those assumptions, so if the live field turns out to be larger you have room to spare, and if one is smaller the count tells you immediately how much to cut.\n'
-        'Square brackets mark the few facts that do not exist yet — the venue, the exact departure cities, and a handful of partner details. Everything else is final.',
+        'Square brackets mark the few facts that do not exist yet — the accommodation unit in Beliș, the exact departure cities, and a handful of partner details. Everything else is final.',
         'E8EEF7', 'C7D6EA')
 PAGEBREAK()
 
@@ -39,7 +39,7 @@ H1('Project summary')
 Q('What do you want to achieve by implementing the project? What are the objectives of your project? Please specify from the perspective of youth work practice.')
 P('We want young people who use artificial intelligence every single day to stop taking at face value whatever it hands them. In our own survey of 153 young people in the '
   'Napoca Porolissum territory, 96.9% of those aged 14–17 already use AI tools, yet they rate their own digital competence at 3.25 out of 5, and half of them build their picture of '
-  'the world from social media. Nobody has taught them how to check any of it. VERIFAI turns twenty of them, from three peripheral European communities, into detectives: young '
+  'the world from social media. Nobody has taught them how to check any of it. VERIFAI turns twenty-one of them, from three peripheral European communities, into detectives: young '
   'people who can identify a source, check a date and a context, compare two independent sources, recognise a reused image and spot the signature of AI-generated content, and who '
   'then pass that on to others at home.')
 P('From a youth work perspective the problem is not ignorance but untrained confidence. The Flash Eurobarometer “Youth Survey 2024” (EP013EP), carried out by Ipsos for the '
@@ -50,11 +50,11 @@ P('From a youth work perspective the problem is not ignorance but untrained conf
   'the same table.')
 P('The project therefore pursues three objectives, referred to throughout this application as O1, O2 and O3 in the order given here.')
 NUM([
- 'By the end of the project, at least 16 of the 20 young participants aged 14–17 will improve their mean score on the assessment of online information verification competences by '
+ 'By the end of the project, at least 17 of the 21 young participants aged 14–17 will improve their mean score on the assessment of online information verification competences by '
  'at least 30% compared with the initial assessment.',
- 'By the end of the project, at least 16 of the 20 participants will correctly demonstrate, in a practical exercise, at least four verification techniques: identifying the source '
+ 'By the end of the project, at least 17 of the 21 participants will correctly demonstrate, in a practical exercise, at least four verification techniques: identifying the source '
  'and the author, checking the date and the context, comparing with independent sources, and verifying images or claims.',
- 'In the follow-up stage, the 20 participants will transfer the methods learned to at least 80 young people in the partner communities, through at least four local initiatives, '
+ 'In the follow-up stage, the 21 participants will transfer the methods learned to at least 80 young people in the partner communities, through at least four local initiatives, '
  'and at least 70% of the beneficiaries of those initiatives will be able to apply at least two simple verification methods.',
 ])
 P('Each of the three is measured with an instrument that already exists in writing. The first uses a fifteen-item, thirty-point practical test taken in month 2 and again in month '
@@ -69,21 +69,21 @@ COUNT()
 Q('What activities do you plan to implement? What is the number and profile of the participants involved?')
 P('The project is built around one youth exchange of seven activity days plus two travel days, hosted in the Napoca Porolissum territory in the Apuseni Mountains, Romania, from 9 '
   'to 15 August 2027, inside the school summer holiday of all three countries. The programme moves from self-diagnosis in “My Digital Map” through the mechanics of manipulation in '
-  '“Spot the Fake”, AI-generated content in “AI or human?”, a full fact-checking simulation in “Fact-checkers for a day”, a community and intercultural day in a village of the '
+  '“Spot the Fake”, AI-generated content in “AI or human?”, a full fact-checking simulation in “Fact-checkers for a day”, a community and intercultural day in the host commune and a neighbouring village of the '
   'territory, media production in “Make It, Don’t Fake It”, and a public presentation with Youthpass reflection. Around the exchange sit four months of preparation, with four joint '
   'online sessions and a preparatory visit, and ten months of local application in which the participants run four local initiatives in their own communities.')
-P('Twenty young people aged 14–17 take part — seven from Romania, seven from Türkiye and six from Greece — accompanied by four group leaders and two facilitators, 26 people in '
+P('Twenty-one young people aged 14–17 take part — seven from Romania, seven from Türkiye and seven from Greece — accompanied by four group leaders and two facilitators, 27 people in '
   'all. They come from three peripheral communities: the rural mountain communes of the Napoca Porolissum territory in Cluj County, the İstanbul metropolitan periphery and the '
   'rural localities around it, and small islands of the South Aegean.')
 P('They share the profile this project is built for. Almost all of them use AI tools and social media every day, and for a large part of them social media is the news, yet none has '
-  'been taught how to check any of it. Their access to non-formal learning is thin and their access to international learning close to nil: at least 15 of the 20 will be taking '
+  'been taught how to check any of it. Their access to non-formal learning is thin and their access to international learning close to nil: at least 16 of the 21 will be taking '
   'part in a European mobility for the first time, and in our territory 31.3% of young people aged 14–17 have never taken part in any non-formal education activity at all. At '
-  'least 12 of the 20 face documented barriers, whether geographic, economic, educational, linguistic or social. The group is built to be mixed in gender and in locality, and the '
+  'least 13 of the 21 face documented barriers, whether geographic, economic, educational, linguistic or social. The group is built to be mixed in gender and in locality, and the '
   'Romanian group is deliberately mixed in language, because the language question is part of the subject matter.')
 COUNT()
 
 Q('What results and impact do you expect your project to have?')
-P('The twenty participants end the project able to do something they could not do at the start, and with the evidence to show it: the same practical test taken at the beginning and at the end, an observation '
+P('The twenty-one participants end the project able to do something they could not do at the start, and with the evidence to show it: the same practical test taken at the beginning and at the end, an observation '
   'grid applied during the exchange, four short media products debunking real local myths that they made themselves, and Youthpass certificates built through daily reflection '
   'rather than handed out at the door. For most of them it is also a first international experience, which at fifteen, arriving from a mountain commune or a small island, is its '
   'own learning.')
@@ -95,7 +95,7 @@ P('The three organisations keep a working method that survives the project. The 
   'municipalities; GGD takes it into the volunteer network it trains every year; KEA takes it into its creative activity centre for children and young people and out to the 36 '
   'islands it serves. Together they end up with something none of them has now: a shared, evidenced answer to a problem all three of their communities have, in a form other '
   'peripheral territories can pick up. The results are published on the Erasmus+ Project Results Platform.')
-P('We do not claim more than that. Twenty participants will not move a county-level statistic, still less a national one. The contribution is measurable change in twenty young '
+P('We do not claim more than that. Twenty-one participants will not move a county-level statistic, still less a national one. The contribution is measurable change in twenty-one young '
   'people, documented extension to at least eighty more, and three instruments and one toolkit that stay in use in three organisations after the money stops.')
 COUNT()
 
@@ -110,32 +110,33 @@ TBL([
 H1('Summary of activities and participants')
 TBL([
  ['Activity Type', 'No. of activities', 'No. of persons', 'Participants with fewer opportunities'],
- ['Youth exchanges', '1', '26', '12'],
- ['**Total**', '**1**', '**26**', '**12**'],
+ ['Youth exchanges', '1', '27', '13'],
+ ['**Total**', '**1**', '**27**', '**13**'],
 ], widths=[5.0, 3.6, 3.6, 4.4], count=False)
-SMALL('26 persons = 20 participants aged 14–17 + 4 group leaders + 2 facilitators, in three national groups from Romania, Türkiye and Greece.')
+SMALL('27 persons = 21 participants aged 14–17 + 4 group leaders + 2 facilitators, in three national groups of seven from Romania, Türkiye and Greece.')
 
 # =====================================================================
 H1('Project budget')
 H3('Budget summary')
 TBL([
  ['Budget item', 'Grant (EUR)', 'Basis of calculation'],
- ['Organisational support', '2,500.00', '125 × 20 participants'],
- ['Travel (green travel)', '7,593.00', 'Romania 9 persons × 56 (band 10–99 km); Türkiye 9 and Greece 8 persons × 417 (band 500–1,999 km)'],
- ['Individual support', '12,328.00', 'Romania 9 persons × 9 days × 46; Türkiye 9 and Greece 8 persons × 11 days × 46 (9 days plus the 2 additional days green travel over that distance makes eligible)'],
- ['Inclusion support for organisations', '1,500.00', '125 × 12 participants with fewer opportunities'],
+ ['Organisational support', '2,625.00', '125 × 21 participants'],
+ ['Travel (green travel)', '8,010.00', 'Romania 9 persons × 56 (band 10–99 km); Türkiye 9 and Greece 9 persons × 417 (band 500–1,999 km)'],
+ ['Individual support', '12,834.00', 'Romania 9 persons × 9 days × 46; Türkiye 9 and Greece 9 persons × 11 days × 46 (9 days plus the 2 additional days green travel over that distance makes eligible)'],
+ ['Inclusion support for organisations', '1,625.00', '125 × 13 participants with fewer opportunities'],
  ['Inclusion support for participants', '2,000.00', 'Real costs, requested on separate dedicated lines and justified individually'],
  ['Preparatory visit', '3,400.00', '680 × 5 persons: 2 from each of the 2 sending organisations, one of them a young person, plus 1 staff member of the coordinating organisation'],
- ['**Total**', '**29,321.00**', 'Of which 25,921.00 is the Activity 01 grant and 3,400.00 the preparatory visit'],
+ ['**Total**', '**30,494.00**', 'Of which 27,094.00 is the Activity 01 grant and 3,400.00 the preparatory visit'],
 ], widths=[4.4, 2.2, 10.0], count=False)
 SMALL('Figures built on the 2026 Programme Guide unit costs. The form produces the final amounts per flow once the distance calculator has been run for each place of origin. '
+      'Organisational support is calculated here on the 21 young participants only; if the National Agency counts group leaders and facilitators as participants for this item, that line rises to 3,375.00 (125 × 27) and the totals with it. '
       '[TO CONFIRM: the exact departure cities and the resulting distance bands. Also to confirm: that a green-travel combination is available from Syros — ferry to Piraeus and then overland — since if it is not, the '
       'standard rate applies to the Greek flow and the travel line falls accordingly.]')
 
 H3('Budget summary per activity type')
-TBL([['Activity type', 'Grant (EUR)'], ['Youth exchanges', '25,921.00']], widths=[8.0, 8.6], count=False)
+TBL([['Activity type', 'Grant (EUR)'], ['Youth exchanges', '27,094.00']], widths=[8.0, 8.6], count=False)
 H3('Budget summary per activity')
-TBL([['Activity id', 'Activity type', 'Grant (EUR)'], ['01', 'Youth exchanges', '25,921.00']], widths=[4.0, 6.0, 6.6], count=False)
+TBL([['Activity id', 'Activity type', 'Grant (EUR)'], ['01', 'Youth exchanges', '27,094.00']], widths=[4.0, 6.0, 6.6], count=False)
 PAGEBREAK()
 
 # =====================================================================
@@ -179,7 +180,7 @@ P('At European level we coordinate EMPOWER+ — Empowering Rural Youth: Establis
   '(2021-1-RO01-KA220-YOU-000029265). We have been a partner in youth projects with coordinators in Ireland, Spain, Italy, France and Türkiye, including YOU PRO CLIMA '
   '(2023-1-IT03-KA220-YOU-000155348) and ALL4JOBS (2024-1-IT03-KA220-YOU-000248804), and in a youth-worker mobility project led from Türkiye '
   '(2025-1-TR01-KA153-YOU-000297756).')
-P('What we have never done is host a youth exchange, and that is the deliberate next step, because hosting means owning the learning programme, the venue, the safety of twenty '
+P('What we have never done is host a youth exchange, and that is the deliberate next step, because hosting means owning the learning programme, the venue, the safety of twenty-one '
   'minors and the relationship with the host community. We have the territory, the venue network, the 14 municipalities, the Social Inclusion Centre, an in-house youth worker '
   'and trainer, and a Youth Department created for exactly this. What we do not yet have is KA152 experience, which is why we are doing it with partners who complement us, and '
   'why the learning programme, the safeguarding arrangements and the three measurement instruments were written before we asked for the money.')
@@ -284,7 +285,7 @@ P('In the areas this project works on, GGD has taken part in Erasmus+ KA1 and KA
   'content appropriate and trustworthy for young people is starting this project from the right place.')
 P('It also works where our own project works: GGD runs **rural youth empowerment programmes**, supported by the Turkish Ministry of Interior, that bring together young people from urban and rural areas, and it organises '
   'camps for children who have lost both parents. It has collaborated with the Kingdom of the Netherlands, the Embassy of Switzerland and the International Children’s Center, and with Turkish government institutions.')
-P('One point deserves stating because it matters for a project with twenty minors in it. GGD’s declared practice in child-related projects is to limit public sharing in order to protect participants, while sharing '
+P('One point deserves stating because it matters for a project with twenty-one minors in it. GGD’s declared practice in child-related projects is to limit public sharing in order to protect participants, while sharing '
   'method and technical detail openly with partner organisations. That is the same distinction VERIFAI draws in its own dissemination rules — participants produce the results, and nothing identifiable about a minor is '
   'published without consent — so the safeguarding culture does not have to be negotiated into the partnership; it is already there.')
 
@@ -392,10 +393,10 @@ TBL([
   'for KEA on national and international projects addressing youth unemployment. In VERIFAI she contributes the methodology of the local initiatives and the reflection design, and is the second accompanying adult for '
   'the Greek flow. [TO CONFIRM.]'],
 ], widths=[4.2, 12.4])
-P('The Greek group travels with two adults because of the journey itself. Six participants, all minors, travelling from a Cyclades island to the Apuseni Mountains — ferry to Piraeus, then overland — is the longest and most complex journey in '
+P('The Greek group travels with two adults because of the journey itself. Seven participants, all minors, travelling from a Cyclades island to the Apuseni Mountains — ferry to Piraeus, then overland — is the longest and most complex journey in '
   'this project, with at least one transfer where a group of fourteen-year-olds could be split. The Romanian and Turkish flows each carry a group leader and a facilitator; the Greek flow would otherwise carry one adult '
-  'for six minors. The National Call allows one group leader for every four young people, so four group leaders for twenty participants remains below that ceiling, and the Call makes explicit provision for '
-  'well-justified cases involving minors. Six adults accompany twenty minors — one adult per 3.3 participants.')
+  'for seven minors. The National Call allows one group leader for every four young people, so four group leaders for twenty-one participants remains below that ceiling, and the Call makes explicit provision for '
+  'well-justified cases involving minors. Six adults accompany twenty-one minors — one adult per 3.5 participants.')
 COUNT()
 
 PAGEBREAK()
@@ -438,11 +439,11 @@ P('The three communities do not look alike and we will not pretend they do, but 
   'three, use has outrun competence. The practical offer that would fix this exists in none of them.')
 P('Against that need the project sets three objectives, worded here exactly as they appear in the project summary and in the evaluation section.')
 NUM([
- 'By the end of the project, at least 16 of the 20 young participants aged 14–17 will improve their mean score on the assessment of online information verification competences by '
+ 'By the end of the project, at least 17 of the 21 young participants aged 14–17 will improve their mean score on the assessment of online information verification competences by '
  'at least 30% compared with the initial assessment.',
- 'By the end of the project, at least 16 of the 20 participants will correctly demonstrate, in a practical exercise, at least four verification techniques: identifying the source '
+ 'By the end of the project, at least 17 of the 21 participants will correctly demonstrate, in a practical exercise, at least four verification techniques: identifying the source '
  'and the author, checking the date and the context, comparing with independent sources, and verifying images or claims.',
- 'In the follow-up stage, the 20 participants will transfer the methods learned to at least 80 young people in the partner communities, through at least four local initiatives, '
+ 'In the follow-up stage, the 21 participants will transfer the methods learned to at least 80 young people in the partner communities, through at least four local initiatives, '
  'and at least 70% of the beneficiaries of those initiatives will be able to apply at least two simple verification methods.',
 ])
 COUNT(6000)
@@ -463,7 +464,7 @@ P('Inclusion runs through the design rather than alongside it, and each barrier 
   'territory and transport is paid from each participant’s own front door, which answers the geographic barrier; there is no participation fee of any kind, stated in writing from '
   'the day the call is published, which answers the economic one; English is not a selection criterion and A2 is accepted, with a glossary built in four languages, which answers '
   'the linguistic one; and preparation runs over four months rather than four weeks, with a parents’ meeting in each country before consents are signed and a stated right to '
-  'leave a session without giving a reason, which answers the social and educational ones. At least 12 of the 20 participants face documented barriers and at least 15 travel on a '
+  'leave a session without giving a reason, which answers the social and educational ones. At least 13 of the 21 participants face documented barriers and at least 16 travel on a '
   'European mobility for the first time. The measures are set out in full under Participants with fewer opportunities.')
 P('The Action’s own objectives are addressed directly. Youth Exchanges exist to encourage intercultural dialogue and learning and a sense of being European, to develop young '
   'people’s competences and attitudes, to strengthen European values and break down prejudice and stereotypes, and to raise awareness of socially relevant subjects. VERIFAI meets '
@@ -482,11 +483,11 @@ COUNT()
 
 H2('Impact')
 Q('How will your project benefit the young participants involved in the project, during and after the project lifetime?')
-P('Every participant takes the same fifteen-item practical verification test in month 2 and its equivalent in month 18, and we expect at least sixteen of the twenty to improve '
+P('Every participant takes the same fifteen-item practical verification test in month 2 and its equivalent in month 18, and we expect at least seventeen of the twenty-one to improve '
   'their score by at least 30%. During the mobility an observation grid records whether each of them actually performs four named techniques in the Day 4 simulation, rather than '
   'whether they can describe them. That distinction matters here more than it would elsewhere, because our starting point is a group that already believes it can spot a fake, so '
   'the gain has to be documented rather than asserted.')
-P('For most of them this is also a first European experience. At least 15 of the 20 will be taking part in a European mobility for the first time, and in our territory 31.3% of '
+P('For most of them this is also a first European experience. At least 16 of the 21 will be taking part in a European mobility for the first time, and in our territory 31.3% of '
   'young people aged 14–17 have never taken part in any non-formal education activity at all. For those participants the gain is not only thematic, because working in a mixed '
   'international team, in English, with people they have never met, is itself the learning — and it is what they asked for, since 60.4% of the 14–17 group named foreign languages '
   'and intercultural communication as what they most want out of a European mobility.')
@@ -498,13 +499,13 @@ P('What they learn, they can name, document and use. Youthpass is worked on from
   'sixteen-year-old to identify what they actually learned, document it with evidence they can point to, and present it in a form someone else understands. That is what makes the '
   'certificate usable afterwards, in the next learning activity they join, in volunteering, in a civic initiative in their own community, and in the next international mobility '
   'they apply for.')
-P('Six months after the exchange a follow-up questionnaire asks what they still use. The honest expectation is not that all twenty become fact-checkers, but that they have '
+P('Six months after the exchange a follow-up questionnaire asks what they still use. The honest expectation is not that all twenty-one become fact-checkers, but that they have '
   'acquired a reflex — the pause before sharing — and that the four local initiatives have given at least some of them a taste for organising something in their own community.')
 COUNT()
 
 Q('How will your project benefit the organisations or the groups of young people implementing the project, during and after the project lifetime?')
 P('For the coordinator this is a deliberate step in the organisation’s development. LAG Napoca Porolissum has run youth projects as partner and as coordinator, but never as '
-  'hosting organisation for a youth exchange, and hosting means owning the learning programme, the venue, the safety of twenty minors and the relationship with the host '
+  'hosting organisation for a youth exchange, and hosting means owning the learning programme, the venue, the safety of twenty-one minors and the relationship with the host '
   'community. It converts a network of 43 members and 14 municipalities from a rural-development asset into a youth-work asset, and the organisation ends the project with a '
   'tested non-formal learning programme, three measurement instruments it did not have, and a child protection policy that will apply to everything it does afterwards.')
 P('Genç Gönüllüler Derneği brings production and technology expertise and gains the verification methodology it currently lacks. For an organisation that already convened a '
@@ -534,7 +535,7 @@ P('Nationally and at European level the results are published on the Erasmus+ Pr
   'South Aegean. The coordinator shares the method through the LEADER and ELARD networks, where it already has transnational cooperation experience, reaching Local Action Groups '
   'across rural Europe — an audience that rarely encounters media-literacy tools at all. The target is at least four organisations outside the partnership confirming in writing '
   'that they use the toolkit.')
-P('We state the limits of this as plainly as the ambitions. Twenty participants will not move a county-level statistic. The contribution is measurable change in twenty young '
+P('We state the limits of this as plainly as the ambitions. Twenty-one participants will not move a county-level statistic. The contribution is measurable change in twenty-one young '
   'people, documented extension to at least eighty more, and instruments that stay in use in three organisations after the project ends.')
 COUNT()
 
@@ -549,40 +550,40 @@ H1('Project details')
 H3('Activity list')
 TBL([
  ['Id.', 'Activity Type', 'Activity Title', 'No. of participants', 'No. of persons', 'Total grant (EUR)'],
- ['01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '20', '26', '25,921.00'],
- ['', '', '**Total**', '**20**', '**26**', '**25,921.00**'],
+ ['01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '21', '27', '27,094.00'],
+ ['', '', '**Total**', '**21**', '**27**', '**27,094.00**'],
 ], widths=[1.2, 2.6, 6.0, 2.4, 2.0, 2.4], count=False)
 
 H3('Participant contribution and fees')
 Q('Are you planning to ask for any contributions from participants?')
 P('**No** — and this is a decision rather than an omission. In our survey, cost is the second barrier young people aged 14–17 name to taking part in a mobility (34.4%) and transport is the third (31.2%). A fee of any size would '
   'filter out precisely the young people this project exists for, and a family deciding whether to let a fourteen-year-old leave the country for nine days should not also be deciding whether they can afford it. Since '
-  'at least 12 of our 20 participants are participants with fewer opportunities, from whom the Programme does not permit fees in any case, a fee would also have to be charged to some participants and not others — '
-  'inside a group of twenty who spend nine days together. The rule is therefore written into the local call in all three countries from the day it is published: travel, accommodation, meals, insurance, materials and '
+  'at least 13 of our 21 participants are participants with fewer opportunities, from whom the Programme does not permit fees in any case, a fee would also have to be charged to some participants and not others — '
+  'inside a group of twenty-one who spend nine days together. The rule is therefore written into the local call in all three countries from the day it is published: travel, accommodation, meals, insurance, materials and '
   'transport from the participant’s own front door are covered in full, and nothing is asked of the participant or the family at any point.')
 COUNT(2000)
 
 H2('Activity 01 — description')
 TBL([
  ['Field', 'Entry', 'Field', 'Entry'],
- ['Id.', '01', 'Total no. of participants', '20'],
- ['Activity Type', 'Youth exchanges', 'Of which, with fewer opportunities', '12'],
+ ['Id.', '01', 'Total no. of participants', '21'],
+ ['Activity Type', 'Youth exchanges', 'Of which, with fewer opportunities', '13'],
  ['Activity Title', 'VERIFAI: Young Detectives Against Digital Disinformation', 'No. of group leaders', '4'],
  ['Start date', '09/08/2027', 'No. of facilitators', '2'],
  ['End date', '15/08/2027', 'No. of accompanying persons', '0'],
- ['Duration excluding travel', '7 days', 'Total no. of persons', '26'],
- ['Travel days', '08/08/2027 arrival\n16/08/2027 departure', 'Total Activity grant', '**25,921.00 EUR**'],
+ ['Duration excluding travel', '7 days', 'Total no. of persons', '27'],
+ ['Travel days', '08/08/2027 arrival\n16/08/2027 departure', 'Total Activity grant', '**27,094.00 EUR**'],
 ], widths=[3.6, 4.7, 3.6, 4.7], count=False)
 
 H3('Flows summary (Activity 01)')
 TBL([
  ['Flow', 'Place of origin', 'Participants', 'Group leaders', 'Facilitators', 'Persons', 'Fewer opport.', 'Distance band', 'Travel', 'Days'],
- ['1', 'Cluj County, Romania\n[TO CONFIRM: departure city]', '7', '1', '1', '**9**', '4', '10–99 km', 'Green', '9'],
+ ['1', 'Cluj County, Romania\n[TO CONFIRM: departure city]', '7', '1', '1', '**9**', '5', '10–99 km', 'Green', '9'],
  ['2', 'İstanbul, Türkiye', '7', '1', '1', '**9**', '4', '500–1,999 km', 'Green', '11'],
- ['3', 'Syros, South Aegean, Greece\n[TO CONFIRM: departure point]', '6', '2', '—', '**8**', '4', '500–1,999 km', 'Green', '11'],
- ['', '**Total**', '**20**', '**4**', '**2**', '**26**', '**12**', '', '', ''],
+ ['3', 'Syros, South Aegean, Greece\n[TO CONFIRM: departure point]', '7', '2', '—', '**9**', '4', '500–1,999 km', 'Green', '11'],
+ ['', '**Total**', '**21**', '**4**', '**2**', '**27**', '**13**', '', '', ''],
 ], widths=[0.9, 3.4, 1.6, 1.5, 1.5, 1.3, 1.5, 1.9, 1.3, 1.0], small=True, count=False)
-SMALL('City of venue for all three flows: the accommodation unit in the Napoca Porolissum LAG territory, Apuseni Mountains, Cluj County, Romania [TO CONFIRM]. Start 09/08/2027 and end 15/08/2027 for all three. '
+SMALL('City of venue for all three flows: Beliș, Cluj County, Romania — a commune of the Napoca Porolissum territory in the Apuseni Mountains [TO CONFIRM: the accommodation unit]. Start 09/08/2027 and end 15/08/2027 for all three. '
       '“Days” counts the 7 activity days plus 2 travel days, and for flows 2 and 3 the 2 additional days that green travel over that distance makes eligible. The three groups are split into separate flows because they '
       'sit in two distance bands and two durations — which is what the form’s own definition of a flow requires. The Greek flow carries two group leaders: see the note under the Greek partner’s staff.')
 
@@ -591,14 +592,14 @@ TBL([
  ['Flow', 'Travel', 'Individual support', 'Flow total'],
  ['1 — Romania (9 persons)', '9 × 56 = 504.00', '9 × 9 × 46 = 3,726.00', '4,230.00'],
  ['2 — Türkiye (9 persons)', '9 × 417 = 3,753.00', '9 × 11 × 46 = 4,554.00', '8,307.00'],
- ['3 — Greece (8 persons)', '8 × 417 = 3,336.00', '8 × 11 × 46 = 4,048.00', '7,384.00'],
- ['**Subtotal, flows**', '**7,593.00**', '**12,328.00**', '**19,921.00**'],
- ['Organisational support', '', '125 × 20', '2,500.00'],
- ['Inclusion support for organisations', '', '125 × 12', '1,500.00'],
+ ['3 — Greece (9 persons)', '9 × 417 = 3,753.00', '9 × 11 × 46 = 4,554.00', '8,307.00'],
+ ['**Subtotal, flows**', '**8,010.00**', '**12,834.00**', '**20,844.00**'],
+ ['Organisational support', '', '125 × 21', '2,625.00'],
+ ['Inclusion support for organisations', '', '125 × 13', '1,625.00'],
  ['Inclusion support for participants', '', 'real costs, separate lines', '2,000.00'],
- ['**Total Activity grant**', '', '', '**25,921.00**'],
+ ['**Total Activity grant**', '', '', '**27,094.00**'],
 ], widths=[5.6, 3.6, 3.8, 3.6], count=False)
-SMALL('The preparatory visit (3,400.00 EUR) sits at project level, not inside the activity, which is why the project total is 29,321.00 and the activity grant 25,921.00.')
+SMALL('The preparatory visit (3,400.00 EUR) sits at project level, not inside the activity, which is why the project total is 30,494.00 and the activity grant 27,094.00.')
 PAGEBREAK()
 
 Q('Please describe the background of the participants in each participating group and how each group was formed. Please also provide information on the group leaders, the age of the participants and how country balance is ensured. If necessary, explain how the gender balance is respected.')
@@ -612,33 +613,33 @@ P('The Turkish group brings seven young people aged 14–17 and one group leader
   'Interior. In both, information travels through neighbourhood, family and community networks that national fact-checking never reaches. GGD recruits through the volunteer '
   'network it trains every year, prioritising young people who have never taken part in an international activity, and its standing work identifying digital skill gaps among '
   'those volunteers is how it knows where to look. [TO CONFIRM: the urban/rural composition, the localities, and GGD’s consultation data.]')
-P('The Greek group brings six young people aged 14–17 and two group leaders from small islands of the South Aegean, recruited through the network KEA operates across 36 '
+P('The Greek group brings seven young people aged 14–17 and two group leaders from small islands of the South Aegean, recruited through the network KEA operates across 36 '
   'inhabited islands of the Cyclades and the Dodecanese. Their isolation is not metaphorical: for a fourteen-year-old on a small island any learning activity means a ferry, and '
   'what exists in Athens does not reach them. The national data behind this group is in the needs section, where Greece sits 22nd of 27 on basic digital competences and 80% of '
   'students cannot tell a real article from a fake one. The group travels with two accompanying adults because of the length of the journey. [TO CONFIRM: the islands and the '
   'departure point.]')
 P('All three partners form their groups on one common recruitment backbone, published simultaneously in month 1 with the same criteria translated into Romanian, Hungarian, '
-  'Turkish and Greek, aiming for at least 60 applications for the 20 places. Selection is by a commission of at least two people per organisation, on a written form plus a short '
+  'Turkish and Greek, aiming for at least 63 applications for the 21 places. Selection is by a commission of at least two people per organisation, on a written form plus a short '
   'conversation, with the outcome and the reasons given to every candidate. The criteria are identical in all three countries: age 14–17 at the start date, which is eliminatory; '
   'motivation and willingness to run a local initiative afterwards, weighted 30%; first participation in a European mobility or any non-formal activity, weighted 25% with a '
-  'target of 15 of 20; a situation limiting access to opportunities, declared voluntarily and confidentially, weighted 25% with a target of 12 of 20; and gender and locality '
+  'target of 16 of 21; a situation limiting access to opportunities, declared voluntarily and confidentially, weighted 25% with a target of 13 of 21; and gender and locality '
   'balance, weighted 20%. English is not among them, and A2 is accepted, because the programme is built on visual and practical methods, pair work and linguistic support from '
   'the group leaders so that language does not become a social filter — a language test at the door would convert the 12.5% who name lack of self-confidence into exclusion.')
-P('All twenty participants are aged 14 to 17 at the start date, and the band is deliberately tight. They share the same need, since the survey evidence behind this project '
+P('All twenty-one participants are aged 14 to 17 at the start date, and the band is deliberately tight. They share the same need, since the survey evidence behind this project '
   'describes exactly this age group, and they are at a similar stage of development, so one register of language and one set of expectations about autonomy works for the whole '
   'room instead of two. That also lets us use one coherent set of non-formal methods — visual, practical, game-based, built on small mixed teams and peer teaching — that fits '
   'all of them. A band crossing into legal adulthood would put minors and adults in the same accommodation, which is a safeguarding problem before it is a learning one.')
-P('Country balance is held by three near-equal groups, seven from Romania, seven from Türkiye and six from Greece, so that no national group holds a majority of the twenty. '
+P('Country balance is held by three equal groups of seven, one from Romania, one from Türkiye and one from Greece, so that no national group is larger than another and none holds a majority of the twenty-one. '
   'The balance is enforced where it matters, in the working teams: the cohort is '
-  'divided into four mixed teams of five, each containing members of all three national groups, recomposed daily, so every participant works with every nationality repeatedly '
+  'divided into four mixed teams of five or six, each containing members of all three national groups, recomposed daily, so every participant works with every nationality repeatedly '
   'rather than once. Gender balance is binding at group level rather than an aspiration at project level, with each national group including at least 40% of each gender — three '
-  'in a group of seven, two in a group of six — and the team of four group leaders itself gender-balanced. Participants who do not identify within that binary are counted by '
+  'in every group of seven — and the team of four group leaders itself gender-balanced. Participants who do not identify within that binary are counted by '
   'their own declaration and are not required to declare anything, and the activity coordinator checks both rules at selection and at final confirmation.')
 P('Four group leaders accompany the groups, all aged 18 or over, experienced in youth work and in accompanying minors, staying with their groups throughout including at night: '
   'one for Romania, one for Türkiye and two for Greece. We propose Livia Golovatic for Romania, M. Talha Serenli for Türkiye, and for Greece Evgenia Kalogeropoulou, a social '
   'worker trained in supporting vulnerable groups, with Ioulia Dialeisma as second accompanying adult. [TO CONFIRM with the partners.] Each is responsible for safeguarding, the '
   'daily reflection in the group’s own language, attendance, the code of conduct, observing one mixed team on Day 4, and afterwards the group’s local initiative. Four leaders for '
-  'twenty participants is below the National Call’s ceiling of one per four, and with the two facilitators it gives six adults for twenty minors. All four take the two-day '
+  'twenty-one participants is below the National Call’s ceiling of one per four, and with the two facilitators it gives six adults for twenty-one minors. All four take the two-day '
   'leaders’ briefing in month 4.')
 COUNT(6000)
 
@@ -654,7 +655,7 @@ P('In the planning phase, months 1 to 4, participants do not simply wait for Aug
   'five to eight documented real cases from its own community, and the participants themselves decide which ones make the working set. Session 3: distribution of roles for the mobility — photo and video '
   'documentation, activity diary, energisers, mediation, contact with the host community, timekeeping — and preparation of the intercultural evening. Session 4: safety, digital rules, practical arrangements, and '
   'questions answered live by the group leaders. Between sessions a moderated communication group keeps the cohort in contact. A separate online meeting is held with the parents, in each country and in its own language.')
-P('During the mobility, every day has a host team of the day: a mixed team of three participants, one from each country, who open the day, keep the timing, run the energisers and close the day. The four working '
+P('During the mobility, every day has a host team of the day: a mixed team of three participants, one from each country, who open the day, keep the timing, run the energisers and close the day. Seven days at three hosts a day comes to exactly twenty-one, so every participant leads once and nobody is only an audience. The four working '
   'teams are recomposed daily so that every participant works with every nationality repeatedly. The daily reflection groups — first in the national group and in the participant’s own language, then in plenary — feed '
   'directly into adjusting the next day’s programme, and the adjustments are made visibly, so participants see their feedback change something rather than disappear into a form. On Day 6 the participants plan their '
   'own local initiatives: date, venue, audience, partners, who does what.')
@@ -663,91 +664,96 @@ P('In the follow-up phase, months 6 to 18, four local initiatives are designed a
   'commune would reach the wrong young people; two smaller initiatives in different communes is more faithful to the territory and reaches further into it. Each initiative reaches at least 20 young people and is '
   'hosted in a youth centre, a library, a community centre, the partner organisation’s own space or another accessible public place in the participants’ own community. In month 17 the participants take '
   'part in a participatory evaluation session that feeds the final report — so they close the project as evaluators rather than as beneficiaries. The cohort communication group stays open throughout, and all four '
-  'organisations involve the twenty as peer trainers in their later activities.')
+  'organisations involve the twenty-one as peer trainers in their later activities.')
 COUNT(6000)
 
-Q('What will the participants learn about the chosen topic of the activity? Which learning outcomes or competences will be developed?')
-P('The learning outcomes are expressed against the eight European key competences for lifelong learning, the framework Youthpass uses, and each is tied to the sessions that build it and to the evidence that documents '
-  'it. The rule is strict in both directions: no session exists in the programme without an entry here, and no competence is claimed without a session and a piece of evidence behind it.')
-TBL([
- ['Key competence', 'What the participant will be able to do', 'Sessions', 'Evidence'],
- ['**KC4 Digital** //primary//',
-  'Identify the source and the author of an online item; check its date and its original context; run a reverse image search; compare a claim against at least two independent sources; recognise the indicators of '
-  'AI-generated text, image, audio and video; use AI tools in their own production ethically and with attribution.',
-  'D1.3, D2.1, D2.2, D3.1, D3.2, D3.3, D4.1, D4.2, D6.1',
-  'Baseline and final practical test; Day 4 observation grid on four named techniques; the AI-recognition sheet; the four media products.'],
- ['**KC1 Literacy** //primary//',
-  'Distinguish fact from opinion and from inference in a text; identify emotional framing, cropped context and false authority; construct a documented verdict in writing that another person can follow and check.',
-  'D2.1, D2.2, D2.3, D4.1, D4.2, D4.3',
-  'The manipulation-techniques grid produced by the participants; four written verdicts with their sources.'],
- ['**KC6 Citizenship** //primary//',
-  'Explain why verification is a precondition of democratic participation; argue a position with evidence and accept being refuted by evidence; take part in dialogue with community members and local institutions; '
-  'design and run an activity that serves their own community.',
-  'D1.2, D2.3, D5.1, D5.2, D6.3, D7.1',
-  'The group agreement; the Day 5 record of local rumours; the four local initiative plans and the initiatives themselves.'],
- ['**KC5 Personal, social, learning to learn** //primary//',
-  'Assess their own media habits and name their own weak points; recognise that they were wrong about a claim and say so; work in a mixed international team; set a learning target and evaluate their progress against it.',
-  'D1.3, D2.2, every daily reflection group, D7.2',
-  '“My Digital Map” from Day 1 compared with the Day 7 reflection; the individual learning diary; Youthpass.'],
- ['**KC2 Multilingual**',
-  'Work and produce a shared result in English at a functional level; support and be supported across languages; understand that information circulates differently inside a minority language.',
-  'All mixed-team sessions; D2.3, D5.3',
-  'The manipulation grid produced in four languages; the media products in English plus a local language.'],
- ['**KC8 Cultural awareness and expression**',
-  'Recognise how stereotypes about their own and other communities are built and amplified; present a message visually and narratively; understand the host community from inside it.',
-  'D2.2, D5.2, D5.3, D6.1, D6.2',
-  'The stereotype analysis in mixed teams; the intercultural evening; the four media products.'],
- ['**KC7 Entrepreneurship**',
-  'Turn an idea into a plan with a date, a venue, an audience, partners and named responsibilities; carry it out and report on it.',
-  'D6.3 and the four local initiatives, months 6–15',
-  'The four initiative plans with owners and deadlines; the reports on the initiatives held.'],
- ['**KC3 Mathematical, science and technology** //secondary//',
-  'Read a statistic critically: check the population measured, the year, the sample and what the figure does not say; recognise a graph designed to mislead.',
-  'D2.1, D4.1',
-  'The statistics exercise inside D2.1; the verdicts, where numerical claims appear.'],
-], widths=[3.0, 6.6, 3.0, 4.0], small=True)
-P('We are careful about what we claim: seven days do not produce expert fact-checkers. What they produce is a reflex — the pause before sharing — and four techniques the participant can actually perform, which is what '
-  'objective O2 measures and what the observation grid records.')
+Q('What will the participants learn about the chosen topic of the activity? Which learning outcomes or competences (i.e. knowledge, skills and attitudes/behaviours) are to be acquired/improved by participants in the activity?')
+P('What the participants learn is written here as what they will be able to do afterwards, because that is the only form of learning we can actually check. The framework is the '
+  'eight European key competences for lifelong learning, the one Youthpass uses, and behind every claim below there is a session that builds it and a piece of evidence that '
+  'records it. The rule runs in both directions: no session in the programme is without a learning outcome, and no competence appears here without a session and evidence.')
+P('The centre of it is **digital competence (KC4)**, and it is built in an order rather than all at once. A participant arrives fluent at using a phone and untrained at '
+  'interrogating what appears on it. On Day 1 they map one ordinary day of their own media diet, which for most is the first time anyone has asked them to look at it. '
+  'By the end of Day 2 they can name the mechanics that were used on them — the emotional headline, the cropped context, the borrowed authority, the number quoted without its '
+  'population or its year — because they have just been taken in by them in front of their team. On Day 3 they generate AI content themselves, try to fool the others with it, '
+  'and then write the sheet of indicators they will use afterwards to recognise it. By Day 4 they carry out four techniques on a real viral claim without being prompted: '
+  'finding the source and the author, checking the date and the original context, comparing against two independent sources, and testing an image or a claim, reverse image '
+  'search included. The evidence is the practical test taken in month 2 and again in month 18, the observation grid applied on Day 4, the AI-recognition sheet they wrote and '
+  'the four media products.')
+P('The same days build **literacy (KC1)** in a way that school rarely reaches. Participants learn to separate what a text states from what it implies and from what its author '
+  'merely believes, to see framing as a choice someone made, and then to do the harder thing: write a verdict on a claim that another person can follow, check and disagree '
+  'with, sources named. The manipulation grid they produce on Day 2 and the four written verdicts of Day 4 are what show it.')
+P('The competence we care about most is also the least comfortable. **Personal, social and learning-to-learn competence (KC5)** is built by being wrong in public and surviving '
+  'it: on Day 2 every team commits to a judgement before the answer is revealed, and the facilitators get some items wrong too, on purpose and visibly. A sixteen-year-old who '
+  'has said out loud “I was sure and I was wrong” has learned something that no lecture on media literacy delivers. Around it sit the ordinary skills of working in a team '
+  'nobody chose — a group of seven from a mountain commune, seven from the İstanbul periphery and seven from small Aegean islands, recomposed daily so no one settles into a '
+  'national corner. Each participant re-reads their Day 1 digital map on Day 7 against their own learning diary and names, with evidence, what changed; that comparison and '
+  'Youthpass are the record.')
+P('**Citizenship competence (KC6)** is where the topic stops being about phones. Participants come to be able to say why verification is a condition of taking part in '
+  'democratic life rather than a technical hobby, to argue a position with evidence and accept being refuted by it, and to sit down with adults who are not their teachers: on '
+  'Day 5 with residents of the host commune and municipal representatives, asking what false information actually circulates there and who it hurts. Then they design and lead '
+  'something themselves. The group agreement they negotiate on Day 1, the Day 5 record and the four local initiative plans are the evidence, and the initiatives themselves '
+  'are the proof.')
+P('Two competences grow because of how the group is composed rather than because of a session. **Multilingual competence (KC2)** develops through seven days of working in '
+  'English at a functional level with people whose English is also imperfect, interpreting for each other, and discovering that information circulates differently inside a '
+  'minority language — a point our Hungarian-speaking participants can make from experience and the Greek group recognises at once. '
+  '**Cultural awareness and expression (KC8)** grows from analysing, in mixed teams, how a stereotype about their own community is built and passed on, with someone from that '
+  'community in the room, and then from making something: a short video or an infographic that has to be clear, honest and watchable. The manipulation grid in four languages, '
+  'the intercultural evening and the four media products carry it.')
+P('The follow-up carries **entrepreneurship competence (KC7)**: turning an idea into a plan with a date, a venue, an audience, partners and named responsibilities, then '
+  'running it and reporting on what happened, which is a different skill from having the idea. **Mathematical and technological competence (KC3)** is developed in one narrow '
+  'but useful direction — reading a statistic critically, asking who was measured, when and how many, what the figure does not say, and recognising a graph built to mislead.')
+P('Attitudes are the part we can shape but not certify. What we are aiming at is a reflex, the two seconds of hesitation before sharing; a tolerance for finding out you were '
+  'mistaken; the habit of asking who is telling me this and why now; and the confidence of a fifteen-year-old from a village who has stood in front of their own community and '
+  'explained something the adults there did not know. We measure the first through the test and the grid and we report the rest as what participants say and do, not as a '
+  'number we invented.')
+P('We are careful about what we claim. Seven days do not produce expert fact-checkers, and we will not write that they do. What seven days produce is that pause before '
+  'sharing, four techniques a participant can actually perform under observation, and one local initiative each has led — which is exactly what objective O2 measures and what '
+  'the observation grid records.')
 COUNT(6000)
-
-Q('What are the basic elements of the activity? Please describe at the very least the venue(s), non-formal learning methods and the daily programme.')
-P('The activity is hosted in an accommodation unit inside the Napoca Porolissum territory, in the Apuseni Mountains, Cluj County, rather than in a neutral host city: 58.5% of the young people we surveyed asked for activities in or near '
-  'their own locality, and the host community is part of the programme on Day 5. It needs 30 places, a plenary room, four small-team spaces, stable internet and accessibility. '
-  '[TO CONFIRM: the unit, with a written offer.]')
-P('Among the non-formal learning methods, learning through controlled error is the central one: participants receive the false material, commit to a judgement, and only then learn the verdict — the surprise is the '
-  'instrument that works on overconfidence, used on Day 2 before any teaching. Around it: mixed teams recomposed daily; simulation and role play (the verification newsroom D4.1, the information tribunal D2.3, the '
-  'escape room D3.3); structured debate under the rule that every claim must be evidenced, facilitators included; peer teaching (D3.2); media production as applied learning on Day 6; daily reflection in the '
-  'national group in the participant’s own language, then in plenary, with a learning diary, and what comes out of it visibly changes the next day (D1.5, D2.4, D3.5, D4.4, D6.4); and outdoor activities in the '
-  'territory. There are no lectures: every session produces an output or a decision taken by the participants themselves.')
-P('The daily programme runs as follows, with 8 and 16 August as travel days. Day 0 is arrival, accommodation and the guided safety tour with an evacuation drill (D0.1).')
-P('**Day 1 — who we are and what we consume.** O1, O2. The group forms itself and looks at its own habits before anyone teaches: mixed-team formation (D1.1), the group agreement the participants negotiate themselves, '
-  'with non-discrimination and respect for all languages present as non-negotiable clauses (D1.2), “My Digital Map”, in which each maps one ordinary day of their own media diet (D1.3), and the safety, safeguarding and '
-  'Youthpass briefing (D1.4). Outputs: four mixed teams of five, each with members of all three national groups; a signed group agreement; 20 digital maps kept for Day 7. Claudiu Iancu and Marilena Georgescu with '
-  'Facilitator 1.')
-P('**Day 2 — Spot the Fake.** O1, O2. The controlled-error day: teams commit to a verdict on a mixed set of real and false items, including two misleading statistics and a manipulated graph, before the answer key is '
-  'revealed (D2.1); then the mechanics of manipulation — emotional headlines, cropped context, false authority, numbers out of context — worked on the real cases their own communities brought, including content '
-  'carrying ethnic, gender and migration stereotypes (D2.2); and a debate on where opinion ends and falsehood begins (D2.3). Output: the manipulation grid in four languages. Claudiu Iancu with Facilitators 1 and 2; '
-  'KEA leads the strand on information in small island communities.')
-P('**Day 3 — AI or human?** O1, O2. Participants generate AI content themselves and try to fool each other, then write their own recognition sheet (D3.1); four teams each test a free verification tool and teach it '
-  'to the others (D3.2); the verification route is drilled as an escape room until automatic (D3.3); the group writes the AI-use rule it will apply on Day 6 (D3.4). Outputs: the AI-recognition sheet, an annotated '
-  'tool list with one national verification resource per partner country, the group’s AI-use rule. Tahsin Altay and the GGD facilitator, with Claudiu Iancu and Livia Golovatic.')
-P('**Day 4 — fact-checkers for a day. The assessed day.** O2. A three-hour verification newsroom in which mixed teams take real viral claims through the full route to a documented verdict, facilitators '
-  'intervening only when asked (D4.1). This is where the observation grid for O2 is applied: each of the four group leaders observes one mixed team, Facilitators 1 and 2 independently double-score five participants '
-  'each — half the cohort scored twice — and the Learning Programme Coordinator moderates without scoring. Then cross-examination of each verdict (D4.2) and a collective analysis of the day’s errors, '
-  'the facilitators’ included (D4.3). Outputs: four documented verdicts with sources, and per-participant data on all four techniques.')
-P('**Day 5 — community and intercultural day.** O3. A visit to a village of the territory (D5.1) and a facilitated dialogue with residents and municipal representatives on the rumours circulating '
-  'there and who gets hurt (D5.2) — that record becomes the working material for Day 6. The intercultural evening closes the day (D5.3). Method led by KEA’s social worker and '
-  'counsellor, local relationship by Livia Golovatic.')
-P('**Day 6 — Make It, Don’t Fake It.** O3. Led by GGD: how a short video or infographic is built to be clear and honest (D6.1), then production, each team debunking a Day 5 myth under the AI-use rule the '
-  'group wrote on Day 3 (D6.2). In parallel the national groups plan their local initiatives on a common template supplied by KEA — date, venue, audience, partner, responsibilities, indicator (D6.3). Outputs: four media products '
-  'in English plus a local language, four initiative plans with owners and deadlines.')
-P('**Day 7 — presentation, evaluation, Youthpass.** O1, O2, O3. A public presentation by the participants to guests from the community, the municipalities and the press (D7.1); the Youthpass session, where each '
-  'participant re-reads their Day 1 digital map against their learning diary and names, with evidence, what changed (D7.2); a participatory evaluation (D7.3); and the written, public commitments to the four local '
-  'initiatives (D7.4). Outputs: 20 Youthpass certificates plus 4 for the group leaders, and four signed commitments.')
-P('The full programme is annexed as the project timetable, where every session carries five attributes: the objective it serves, the non-formal method, the key competences it builds, the output it produces and '
-  'the person responsible. The session codes above match the competence matrix and the timetable exactly.')
+Q('What are the basic elements of the activity? Please describe at the very least the venue(s), non formal learning methods used, aims of the session etc.')
+P('The activity is hosted in **Beliș, Cluj County** — one of the 14 communes of the Napoca Porolissum territory, high in the Apuseni Mountains on the shore of Lake Fântânele. '
+  'The choice is not convenience. In our survey 58.5% of the young people asked for activities in or near their own locality, so the exchange happens '
+  'inside the territory and the host community joins the programme on Day 5. We already work in Beliș — our LINC arts festival and one of our Christmas markets are held there '
+  '— so the municipality relationship and the practical arrangements are known quantities. And Beliș suits the subject: '
+  'the old village was submerged in the 1970s for the Fântânele reservoir and rebuilt higher up, so what people there say about their own past '
+  'already comes in layers.')
+P('Practically the venue must provide 30 places in rooms that keep minors with minors and leaders on their groups’ floors, a plenary room for 27, four small-team spaces, '
+  'accessibility, and internet that holds — a programme about checking things online cannot run on a connection that drops mid-session, so connectivity is measured on site '
+  'during the preparatory visit in month 3. [TO CONFIRM: the unit in Beliș, with a written offer and a connection test.]')
+P('The central non-formal method is learning through controlled error: participants receive the false material, commit to a judgement, and only then learn the verdict — the '
+  'surprise is what works on overconfidence, and it comes on Day 2 before any teaching. Around it: mixed teams of five or six recomposed daily; simulation and role play (the '
+  'newsroom D4.1, the tribunal D2.3, the escape room D3.3); structured debate where every claim must be evidenced, facilitators included; peer teaching (D3.2); '
+  'media production on Day 6; daily reflection in the national group in the participant’s own language and then in plenary, with a learning diary, where what comes out visibly '
+  'changes the next day; and outdoor activities. There are no lectures: every session ends in an output or a decision taken by the participants themselves.')
+P('The programme runs over seven activity days, with 8 and 16 August as travel days. Day 0 is arrival, accommodation and the guided safety tour with an evacuation drill (D0.1).')
+P('**Day 1 — who we are and what we consume.** O1, O2. Aim: form the group and make it look at its own habits before anyone teaches. Mixed-team formation (D1.1); the group '
+  'agreement the participants negotiate themselves, non-discrimination and respect for all languages present being non-negotiable (D1.2); “My Digital Map”, one ordinary day of '
+  'each participant’s media diet (D1.3); the safety, safeguarding and Youthpass briefing (D1.4).')
+P('**Day 2 — Spot the Fake.** O1, O2. Aim: break untrained confidence and replace it with named mechanics. Teams commit to a verdict on a mixed set of real and false items '
+  'before the answer key is revealed (D2.1); then the mechanics of manipulation, worked on real cases from their own communities, including content carrying ethnic, '
+  'gender and migration stereotypes (D2.2); and a debate on where opinion ends and falsehood begins (D2.3). KEA leads the strand on how information travels in island '
+  'communities.')
+P('**Day 3 — AI or human?** O1, O2. Aim: understand generated content from the inside, which is what makes it recognisable. Participants generate AI content and try to fool '
+  'each other, then write their own recognition sheet (D3.1); four teams each test a free verification tool and teach it to the others (D3.2); an escape room '
+  'on digital traces (D3.3); the group writes its own rule on using AI honestly (D3.4). Led by GGD.')
+P('**Day 4 — fact-checkers for a day, the assessed day.** O2. Aim: have every participant perform the four techniques under observation. A three-hour verification newsroom '
+  'takes mixed teams through the full route to a documented verdict, facilitators intervening only when asked (D4.1); the observation grid is applied here — each group '
+  'leader observes one team, the two facilitators independently double-score ten of the twenty-one, and the Learning Programme Coordinator moderates without scoring; then '
+  'cross-examination of each verdict (D4.2) and a collective analysis of the day’s errors, the facilitators’ included (D4.3).')
+P('**Day 5 — community and intercultural day.** O3. Aim: see what disinformation does to a real place and to real people. A visit in and around Beliș (D5.1); a facilitated '
+  'dialogue with residents and municipal representatives on the rumours that circulate there and who gets hurt (D5.2), whose record is the working material for Day 6; '
+  'the intercultural evening (D5.3). Method led by KEA’s social worker and counsellor.')
+P('**Day 6 — Make It, Don’t Fake It.** O3. Aim: turn what they can check into something other people will watch. Led by GGD: how a short video or infographic is built to be '
+  'clear and honest (D6.1); production, each team debunking a Day 5 myth under the group’s own AI-use rule (D6.2); and in parallel the groups plan their local '
+  'initiatives on KEA’s template — date, venue, audience, partner, responsibilities, indicator (D6.3).')
+P('**Day 7 — presentation, evaluation, Youthpass.** O1, O2, O3. Aim: close the learning in public and in writing. A public presentation to guests from '
+  'Beliș, the neighbouring communes and the press (D7.1); the Youthpass session, where each re-reads their Day 1 digital map against their learning diary and names, with '
+  'evidence, what changed (D7.2); a participatory evaluation (D7.3); and the written, public commitments to the four local initiatives (D7.4).')
+P('Every output belongs to the participants: the group agreement, 21 digital maps, the manipulation grid in four languages, the AI-recognition sheet and AI-use rule, four '
+  'documented verdicts, four media products in English plus a local language, four initiative plans with named owners, and 25 Youthpass '
+  'certificates. The full programme is annexed as the project timetable, where each session carries its objective, method, competences, output and the person responsible, and '
+  'the session codes above match it exactly.')
 COUNT(6000)
-
 Q('How will the groups of participants cooperate and communicate between them to prepare and follow-up on the Youth Exchange?')
 P('Before the exchange, the groups work together in four joint online sessions of 90 minutes in months 3 and 4, in mixed national composition rather than country by country, so the teams that will work together in August have already met. A shared '
   'workspace holds the documents, the case files and the templates; a moderated messaging group, with clear rules and no sharing of personal data, keeps day-to-day contact going. Between sessions each group has a '
@@ -769,7 +775,7 @@ H2('Preparation, support and follow-up')
 Q('How will you prepare the participants before the start of the activity (e.g. intercultural, linguistic, risk-prevention etc.) and how will you support them during and after the activity?')
 P('Preparation runs over four months rather than four weeks, because 31.3% of the young people in our target population have never taken part in any non-formal education '
   'activity and 12.5% name lack of self-confidence as a barrier. For a fourteen-year-old leaving the country for the first time, the preparation is the inclusion measure.')
-P('It begins in month 2 with the baseline, when all 20 participants take the fifteen-item practical verification test before any learning activity, together with a short '
+P('It begins in month 2 with the baseline, when all 21 participants take the fifteen-item practical verification test before any learning activity, together with a short '
   'questionnaire on media habits. That establishes the starting value for the first objective and tells the facilitators what the group actually cannot do, which is not always '
   'what they say they cannot do. Four joint online sessions of 90 minutes follow in months 3 and 4, held in mixed national teams: meeting each other and drafting the group '
   'agreement, choosing the local cases to be analysed, distributing roles and preparing the intercultural evening, and finally safety, digital rules and practical arrangements.')
@@ -792,11 +798,11 @@ P('During the exchange each national group stays with its own group leader throu
 P('Support does not stop when they get off the bus. The cohort communication group stays open for 18 months, and each participant leaves with a written commitment and a role in a '
   'local initiative that the group leader supports them through: the initiative is theirs to run, but they are not left alone to run it. A joint online meeting in month 10 lets '
   'the groups that have already delivered pass on what they learned, a follow-up questionnaire in month 12 and the final test in month 18 close the loop, and the participatory '
-  'evaluation session in month 17 brings the twenty back into the project as evaluators rather than beneficiaries.')
+  'evaluation session in month 17 brings the twenty-one back into the project as evaluators rather than beneficiaries.')
 COUNT(6000)
 
 Q('What measures will you put in place to ensure the safety and protection of participants?')
-P('All twenty participants are minors, so the measures below are specific rather than reassuring, and they meet the requirements the National Call sets for the mobility of '
+P('All twenty-one participants are minors, so the measures below are specific rather than reassuring, and they meet the requirements the National Call sets for the mobility of '
   'minors: adequate preparation before departure with the parents involved, and group leaders selected for their competence in working with minors and in preventing and handling '
   'conflict, bullying and abuse, who prepare alongside the young people and commit in writing to the rules.')
 P('The venue is assessed before it is contracted. A written risk assessment covers fire safety certification and evacuation routes, the state of the electrical installations and '
@@ -813,7 +819,7 @@ P('Protection of the participants rests on a child protection policy of the coor
   'person on Day 1, and her contact details go to participants and parents before departure, with a named counterpart in each partner organisation. Written parental consents for '
   'participation, travel, emergency medical care and use of images are obtained before departure and notarised where national law requires it, as is expected for the Turkish '
   'group. The code of conduct is negotiated with the participants themselves on Day 1 rather than imposed, and includes non-discrimination, respect for all languages present and '
-  'explicit rules on harassment and bullying. Insurance for health, accident and civil liability covers all 26 people for the whole travel period and is arranged and verified '
+  'explicit rules on harassment and bullying. Insurance for health, accident and civil liability covers all 27 people for the whole travel period and is arranged and verified '
   'centrally by the coordinator rather than left to each sending organisation. An emergency protocol provides a 24/7 contact chain, the full list of parents’ contacts held by the '
   'coordinator and by each group leader, a designated reference medical facility identified during the preparatory visit, and an interpreter reachable for the Turkish and Greek '
   'groups. On data and digital protection, consent for photographs and video is explicit, no identifiable image of a minor is published without it, no personal data of third '
@@ -841,7 +847,7 @@ P('In month 10 the three groups meet online to review what worked and what did n
   'the National Agency.')
 P('The follow-up is built so that the learning has somewhere to go. The local initiatives put the participants in front of other young people in their own community, which is the '
   'point at which the competence becomes theirs. The toolkit is left with the youth workers, librarians and community educators who see them week to week, so the method does not '
-  'leave with us. Youthpass gives them a way to name and evidence what they gained, so they can use it in whatever they apply for next. And the twenty continue as peer trainers '
+  'leave with us. Youthpass gives them a way to name and evidence what they gained, so they can use it in whatever they apply for next. And the twenty-one continue as peer trainers '
   'in the three organisations’ later activities, which means the project does not run alongside their learning and then stop: it leaves a competence, a document that describes it, '
   'and a place to keep using it.')
 COUNT(6000)
@@ -866,7 +872,7 @@ P('The purpose of all this is a transferable skill in its own right: identifying
 COUNT()
 
 Q('The Erasmus Programme promotes the use of instruments/certificates like Youthpass or Europass, to validate the competences acquired by the participants during their experiences abroad. Will your project make use of such European instruments/certificates?')
-P('Yes — **Youthpass**, for all 20 participants and all 4 group leaders. It is used as a process running from Day 1 to Day 7, as described above, and not as a certificate handed out at the door. Europass is not used '
+P('Yes — **Youthpass**, for all 21 participants and all 4 group leaders. It is used as a process running from Day 1 to Day 7, as described above, and not as a certificate handed out at the door. Europass is not used '
   'in this project: our participants are 14 to 17 and are not in a mobility that produces a Europass Mobility document, so claiming it would be decoration. We would rather name one instrument we genuinely use well '
   'than two we use loosely. Alongside Youthpass, the coordinating organisation issues its own certificate of participation in Romanian and English, stating that the young person took part and naming the competences '
   'they developed through non-formal learning, with the evidence behind them — and that is all it claims. Participants and parents are told plainly what it is and what it is not, so that nobody is given an '
@@ -875,7 +881,7 @@ COUNT(3000)
 
 H2('Participants with fewer opportunities')
 Q('Are participants involved in activities facing challenges that hinder their participation?')
-P('**Yes. At least 12 of the 20 participants — 60%.**')
+P('**Yes. At least 13 of the 21 participants — 62%.**')
 COUNT(500)
 
 Q('What type of challenges are these participants facing? How will you reach out to them, and what specific measures will you implement to support their participation?')
@@ -892,7 +898,7 @@ P('The principal barrier is geographical and it affects essentially the whole gr
   'too” and “The right to study; Roma don’t put an emphasis on school.” Health or disability is not known before selection, and the specific-needs sheet allows it to be declared '
   'confidentially, with the support that follows costed individually rather than assumed.')
 P('The first barrier these young people name is not money but information, since 37.5% say the reason opportunities pass them by is that they never hear about them. Outreach is '
-  'therefore a project activity with its own indicator — a target of at least 60 applications for 20 places — rather than an administrative formality. We work through the youth '
+  'therefore a project activity with its own indicator — a target of at least 63 applications for 21 places — rather than an administrative formality. We work through the youth '
   'networks the three organisations already run, including the Rural Youth Parliament and the participants of previous activities, because those are the people who can say what '
   'an exchange is actually like; peer-to-peer, since friends are the channel for 38.5% of them; through social media, the channel for 49.0%, in a format adapted to the age group '
   'and produced with young people already active in the organisations rather than written by staff and posted at them; through libraries, community centres and local youth '
@@ -916,7 +922,7 @@ COUNT(6000)
 
 H2('Virtual learning / Blended activities and use of virtual components')
 Q('Do you foresee Virtual/Blended activities and/or the use of any virtual component, before, during or after the activity?')
-P('**Yes**, before and after the physical activity. Approximately 26 persons take part: 20 participants, 4 group leaders and 2 facilitators.')
+P('**Yes**, before and after the physical activity. Approximately 27 persons take part: 21 participants, 4 group leaders and 2 facilitators.')
 COUNT(500)
 
 Q('If yes, please describe them.')
@@ -979,15 +985,15 @@ Q('How will you organise the practical and logistical part of the project (e.g. 
 P('A preparatory visit is held in the territory in month 3, with two people from each of the two sending organisations — one of them a young person — plus one staff member from '
   'the coordinating organisation, five people in total. That staff member contributes to the on-site verification of the logistical and safety arrangements and finalises the '
   'mobility programme with the partners while everyone is in the same room. The visit as a whole verifies the venue and its safety in person, settles the division of the thematic '
-  'days, meets the host community and lets a young person from each group see where they will be coming. It is requested on three grounds: all twenty participants are minors, '
+  'days, meets the host community and lets a young person from each group see where they will be coming. It is requested on three grounds: all twenty-one participants are minors, '
   'both sending partners are new working relationships for us, and a venue’s suitability cannot be assessed from photographs.')
 P('Travel is booked centrally by the coordinator for all three flows, so that no sending organisation carries a cash-flow burden and green options are compared on the same basis, '
   'with distances confirmed through the European Commission distance calculator once departure cities are known. Domestic transport from participants’ homes to the point of '
   'departure is organised and paid by the project, which for the Greek group includes the inter-island ferry legs before the group is even assembled, and is the reason that flow '
   'is planned with two accompanying adults and four eligible travel days.')
-P('Accommodation is a single venue inside the territory, contracted after the written risk assessment and the on-site check during the preparatory visit, with rooms allocated by '
+P('Accommodation is a single venue in Beliș, inside the territory, contracted after the written risk assessment and the on-site check during the preparatory visit, with rooms allocated by '
   'gender and age, minors with minors and group leaders on the same floors. Meals are mostly local and seasonal from producers in the territory, and dietary requirements are '
-  'collected in month 4 and confirmed with the venue in writing. Insurance for health, accident and civil liability covers all 26 people for the whole travel period and is '
+  'collected in month 4 and confirmed with the venue in writing. Insurance for health, accident and civil liability covers all 27 people for the whole travel period and is '
   'contracted centrally by the coordinator and verified before departure, rather than left to each partner to arrange.')
 P('Visas are the principal logistical risk. Romania has applied the Schengen acquis in full, land borders included, since 1 January 2025, and Turkish nationals holding ordinary '
   'passports are subject to the Schengen short-stay visa requirement. For minors that means notarised parental authorisations, invitation letters, proof of accommodation and '
@@ -1091,18 +1097,18 @@ Q('How will you evaluate your project’s success? Which activities will you car
 P('Every indicator has a baseline, a target, an instrument, an owner and a moment of measurement, and the three main instruments exist in writing before submission.')
 TBL([
  ['Indicator', 'Baseline', 'Target', 'Instrument', 'When and who'],
- ['Mean score on the practical verification test (O1)', 'Month 2', '+30% or more, for at least 16 of 20', '15-item, 30-point practical test, Form A and Form B, online, closed-device', 'Months 2 and 18; Learning Programme Coordinator'],
- ['Participants applying 4 verification techniques (O2)', '0 at selection', 'At least 16 of 20', 'Observation grid, 4 techniques scored 0–2, six calibrated observers, 25% double-scored', 'Day 4, and in short form at the local initiatives; facilitators and group leaders'],
+ ['Mean score on the practical verification test (O1)', 'Month 2', '+30% or more, for at least 17 of 21', '15-item, 30-point practical test, Form A and Form B, online, closed-device', 'Months 2 and 18; Learning Programme Coordinator'],
+ ['Participants applying 4 verification techniques (O2)', '0 at selection', 'At least 17 of 21', 'Observation grid, 4 techniques scored 0–2, six calibrated observers, 10 of 21 double-scored', 'Day 4, and in short form at the local initiatives; facilitators and group leaders'],
  ['Young people reached through local initiatives (O3)', '0', 'At least 80, at least 20 per community', 'Attendance lists, short activity reports, photographs with consent', 'After each initiative, months 6–15; group leaders'],
  ['Beneficiaries able to apply 2 simple methods (O3)', '3 entry questions per workshop', 'At least 70%', 'The 10-minute exercise at the end of each local initiative', 'At each initiative; group leader'],
  ['Overconfidence sub-score (items 9 and 14)', 'Month 2', 'Moves proportionally more than the total', 'Same test, reported as a separate 4-point sub-score', 'Months 2 and 18; Learning Programme Coordinator'],
  ['Confidence gap (believed minus actual ability)', 'Month 2', 'Narrower at month 18', 'Unscored confidence question converted to the test scale', 'Months 2 and 18; Learning Programme Coordinator'],
- ['First-time participants in a European mobility', '—', 'At least 15 of 20', 'Selection form', 'Month 2; selection commission'],
- ['Participants with fewer opportunities', '—', 'At least 12 of 20', 'Selection form and specific-needs sheet', 'Month 2; selection commission'],
+ ['First-time participants in a European mobility', '—', 'At least 16 of 21', 'Selection form', 'Month 2; selection commission'],
+ ['Participants with fewer opportunities', '—', 'At least 13 of 21', 'Selection form and specific-needs sheet', 'Month 2; selection commission'],
  ['Gender balance', '—', 'At least 40% of each gender in every national group', 'Participant list', 'Month 2 and final confirmation; activity coordinator'],
- ['Applications received', '0', 'At least 60 for 20 places', 'Application register', 'Month 2; each partner for its own group'],
+ ['Applications received', '0', 'At least 63 for 21 places', 'Application register', 'Month 2; each partner for its own group'],
  ['Satisfaction and perceived learning', '—', 'At least 80% positive', 'End-of-mobility questionnaire and daily reflection records', 'Daily and on Day 7; facilitators'],
- ['Retention at 6 months', '—', 'At least 15 of 20 still applying something', 'Follow-up questionnaire', 'Month 12; activity coordinator'],
+ ['Retention at 6 months', '—', 'At least 16 of 21 still applying something', 'Follow-up questionnaire', 'Month 12; activity coordinator'],
  ['External uptake of the toolkit', '0', 'At least 4 organisations outside the partnership', 'Written confirmations', 'Months 16–18; communication officer'],
 ], widths=[3.6, 2.4, 3.2, 4.0, 3.4], small=True)
 P('The evaluation runs to a fixed sequence. Before month 2 both instruments are piloted with five to eight young people aged 14–17 from the territory who are not project '
@@ -1118,7 +1124,7 @@ P('During the mobility, the daily reflection groups produce output that visibly 
   'communicated individually to each participant and collectively to parents, community partners, the 14 municipalities and the National Agency.')
 P('The instruments are designed so that failure is visible. A practical test can show no improvement, an observation grid can record that a participant did not perform a '
   'technique, and a participant who does not take both forms is excluded from the calculation and reported as excluded rather than quietly dropped from the denominator. We prefer '
-  'that to a satisfaction questionnaire that always comes back positive. Fifteen items and twenty participants is not a validated psychometric instrument and we will not describe '
+  'that to a satisfaction questionnaire that always comes back positive. Fifteen items and twenty-one participants is not a validated psychometric instrument and we will not describe '
   'it as one: it is fit for tracking change inside this cohort and for telling the team where the learning worked, and the final report will say what was achieved and what was '
   'not.')
 COUNT(6000)
@@ -1133,7 +1139,7 @@ P('It then enters standing activity rather than an archive. The coordinator inte
   'municipalities and into the community events it holds every year; GGD takes it into the volunteer network it trains annually and into its rural youth programme; KEA takes it '
   'into its creative activity centre for children and young people and out to the 36 islands it serves. Each organisation names, in the partnership agreement, the person who owns '
   'it afterwards — a named person, not a department.')
-P('The twenty stay as well. They are not released at the end: each has already run a local initiative, and the organisations then involve them as peer trainers, which is both '
+P('The twenty-one stay as well. They are not released at the end: each has already run a local initiative, and the organisations then involve them as peer trainers, which is both '
   'cheaper and more effective than recruiting a new cohort from scratch, while the cohort communication group remains open. The instruments stay too, since the verification test, '
   'the observation grid and the beneficiary exercise are reusable, and the coordinator ends the project owning three measurement instruments it did not have before — which '
   'changes what it can honestly claim in every youth project it writes afterwards.')
@@ -1217,7 +1223,7 @@ H3('Protection of personal data and other acknowledgments')
 BUL(['Acknowledgment that information concerning the organisation, the application, the capacity assessments and the implementation may be made accessible to authorised persons of the European Commission, EACEA and the National Agencies — **confirm**, after reading the linked privacy statement'], count=False)
 H3('Pre-submission checklist')
 BUL([
- 'It fulfils the eligibility criteria listed in the Programme Guide — 20 participants aged 14–17, three groups from three countries (7 + 7 + 6), four group leaders, two facilitators, seven activity days excluding travel, activity in the country of the applicant and of the National Agency.',
+ 'It fulfils the eligibility criteria listed in the Programme Guide — 21 participants aged 14–17, three groups from three countries (7 + 7 + 7), four group leaders, two facilitators, seven activity days excluding travel, activity in the country of the applicant and of the National Agency.',
  'All relevant fields in the application form have been completed — every [TO CONFIRM] in this document is a field still open.',
  'You have chosen the correct National Agency — RO01, ANPCDEFP.',
 ], count=False)
