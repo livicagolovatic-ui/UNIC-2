@@ -197,8 +197,8 @@ P('Alongside it we run environmental education at scale. Choose Green!, financed
   'over the same period, reaches 520 young people across 14 localities through 12 workshops, a biodiversity camp, a field trip to the Rodna Mountains and 24 media campaigns. That '
   'is over a thousand young people in two years, in workshops we designed and ran.')
 P('For three editions we also ran Green Campus with the University of Agricultural Sciences and Veterinary Medicine in Cluj-Napoca, bringing at least 150 high-school students and '
-  'over 50 volunteers per edition onto a university campus, to show rural teenagers that higher education is for them. A separate programme for 185 students combined professional guidance and counselling, a workshop on equal opportunities and non-discrimination, internships with local '
-  'employers and practice workshops abroad for 12 of them.')
+  'over 50 volunteers per edition onto a university campus, to show rural teenagers that higher education is for them. A separate programme for 185 students combined guidance and counselling, a workshop on equal opportunities and non-discrimination, internships with local employers '
+  'and practice workshops abroad for 12 of them.')
 P('We also ask young people what they need rather than assuming it. In spring and summer 2026 a bilingual Romanian/Hungarian survey brought 153 responses from 12 of our 14 '
   'communes, 96 of them from young people aged 14–17 — the evidence base of this application. We reach them through open calls in schools, NGOs and youth networks, through '
   'direct outreach by our own youth workers, and through youth groups that already exist.')
