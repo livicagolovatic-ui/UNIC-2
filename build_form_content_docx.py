@@ -146,26 +146,76 @@ TBL([
  ['Contact person', 'Alina Ioana Baba, Manager — manager@napocaporolissum.ro'],
 ], widths=[5.0, 11.6], count=False)
 
-Q('What are the activities and experience of the organisation in youth work?')
-P('LAG Napoca Porolissum is a public-private partnership founded in 2011 under the LEADER programme, with 43 partners: 14 municipalities, one university and 28 private-sector members. It employs 13 people and works '
-  'across a rural mountain territory of 14 localities in the Apuseni Mountains, Cluj County. Its mandate is local development through a bottom-up approach, and youth work has become a permanent strand of that mandate '
-  'rather than an occasional add-on.')
-P('In the youth field specifically, the organisation was the coordinator of the Erasmus+ project //Rural Youth Parliament — tool for youth involvement in local communities// (2021-1-RO01-KA220-YOU-000029265), which '
-  'created and ran youth parliament simulations across rural communities, and it coordinates the Rural Youth Parliament that came out of it. It is currently implementing //CONNECT-R — Connecting rural youth with the '
-  'EU// under KA154-YOU (2025 ID KA154-YOU-62F63343), and has been a partner in //YouProClima// (2023-1-IT03-KA220-YOU-000155348), //ALL4JOBS// (KA220-YOU-70101DB1) and //SMART+CULTURE// (KA210-YOU-C68333FA).')
-P('Most significantly for the capacity this application asks you to trust, the organisation is the **coordinator of EMPOWER+ — //Empowering Rural Youth: Establishing and Strengthening the Rural Youth Parliament in '
-  'Sub-Saharan Africa//** (proposal 101243075), under the centralised Erasmus+ Youth action //Capacity Building in the field of Youth// (ERASMUS-YOUTH-2025-CB-SSA). It leads a consortium of nine organisations — four '
-  'European and five African, in Romania, Greece, Italy, Nigeria, Botswana, Madagascar and Mauritius — on youth participation in democratic processes and non-formal learning with rural young people. Three things carry '
-  'directly into VERIFAI: the organisation has demonstrated it can coordinate a multi-country youth partnership and its reporting, not only take part in one; EMPOWER+ is built on its own needs analysis, a survey of 80 '
-  'young people across seven countries carried out in February 2025, which is the same working method VERIFAI uses; and it extends the Rural Youth Parliament from our own territory into an international setting, which '
-  'is precisely the step from local youth work to European youth work that this exchange asks the twenty participants to take.')
-P('Beyond the Programme, the organisation runs the cultural and educational infrastructure that young people in this territory actually have. //Ruraliada — Culture in the Mountains//, funded through the National '
-  'Recovery and Resilience Plan and implemented in 2024, was a three-day festival of visual, digital and performing arts in Beliș commune — painting, ceramics and multimedia workshops, improvisational theatre, '
-  'encounters with artists — designed to motivate rural young people and to push local authorities to widen what they offer. //The School — children’s painting// brought professional artists into village schools '
-  'across the county. The organisation runs Christmas markets in Mărișel and Beliș, an annual Diversity Day, and educational camps in Romania and abroad for children from socially disadvantaged communities. Through '
-  'its Social Inclusion Centre and the //UNIC — Porolissum// project it works directly with vulnerable families in the territory, which is how it reaches young people that a call published online would never touch.')
-P('And, crucially for this application, the organisation carried out the needs analysis on which VERIFAI is built: a bilingual Romanian/Hungarian survey of 153 young people from 12 of the 14 localities of the '
-  'territory, of whom 96 are aged 14–17 — the exact target group of this project.')
+Q('Please briefly present your organisation/the group')
+P('We are Asociația Grupul de Acțiune Locală Napoca Porolissum — a non-governmental, non-profit association registered in Romania under Government Ordinance 26/2000, '
+  'with its office in Gilău, Cluj County, in the Apuseni Mountains.')
+P('**WHAT WE ARE.** We were founded in 2011 as a Local Action Group under the LEADER programme, and we are a public-private partnership rather than a single '
+  'organisation. We have 43 members, listed and signed in the attendance record of our General Assembly of 17 October 2023: 14 local authorities — the communes of '
+  'Aghireșu, Beliș, Călățele, Căpușu Mare, Gilău, Huedin, Izvorul Crișului, Măguri-Răcătău, Mănăstireni, Mărgău, Mărișel, Rîșca, Săcuieu and Sâncraiu — one university, '
+  'and 28 private companies, NGOs and authorised individuals, including the professional social workers’ association PROSOCIAL. We employ 13 people.')
+P('**WHERE WE WORK.** Our territory is those 14 localities: a rural mountain area where young people live 40 to 80 kilometres from the nearest city, where the offer of '
+  'youth activities is thin, and where community life runs in two languages, Romanian and Hungarian. Everything we do happens there, with the people who live there.')
+P('**HOW WE WORK.** LEADER gives us a method we apply to everything, not only to agriculture: bottom-up. We ask the community what it needs, we design with the people '
+  'affected, and we measure what changed. We have built and implemented two Local Development Strategies this way. It is also how this project began — with a survey of '
+  '153 young people in our own territory, not with a wish to run a mobility.')
+P('**OUR YOUTH DEPARTMENT.** On 17 October 2023 our General Assembly decided, unanimously, to establish a Youth Department inside the association, and appointed '
+  'Ovidiu-Claudiu-Ionel Iancu as its Coordinator. That decision matters more than it may look. It means youth work here is not a side activity that depends on whichever '
+  'project is running: it is a standing department, with a named coordinator, a budget line and a mandate from the members — including the 14 mayors who voted for it. '
+  'Since then the department has run the Rural Youth Parliament, youth consultations across the territory, and the youth strand of our European projects.')
+P('**WHAT WE DO BESIDES PROJECTS.** Through our Social Inclusion Centre and the UNIC — Porolissum project we work directly with vulnerable families, which is how we '
+  'reach young people that an online call never touches. We run Ruraliada, a three-day festival of visual, digital and performing arts in Beliș commune funded by the '
+  'National Recovery and Resilience Plan; The School — children’s painting, which brings professional artists into village schools; Christmas markets in Mărișel and '
+  'Beliș; an annual Diversity Day; and educational camps in Romania and abroad for children from disadvantaged communities.')
+P('**OUR EUROPEAN EXPERIENCE.** We are the coordinator of EMPOWER+ — Empowering Rural Youth: Establishing and Strengthening the Rural Youth Parliament in Sub-Saharan '
+  'Africa (proposal 101243075), under the centralised Erasmus+ Youth action Capacity Building in the field of Youth, where we lead nine organisations across seven '
+  'countries. We coordinated the Erasmus+ project Rural Youth Parliament — tool for youth involvement in local communities (2021-1-RO01-KA220-YOU-000029265). We are '
+  'implementing CONNECT-R — Connecting rural youth with the EU (KA154-YOU, 2025 ID KA154-YOU-62F63343). We have been a partner in YouProClima '
+  '(2023-1-IT03-KA220-YOU-000155348), ALL4JOBS (KA220-YOU-70101DB1) and SMART+CULTURE (KA210-YOU-C68333FA).')
+P('**WHY THIS ACTION, AND WHY NOW.** We have run youth projects as coordinator and as partner, but we have never hosted a youth exchange. That is the deliberate next '
+  'step: hosting means owning the learning programme, the venue, the safety of twenty minors and the relationship with the host community. We have the territory, the '
+  'venue network, the 14 municipalities, the Social Inclusion Centre, an in-house youth worker and trainer, and a Youth Department created for exactly this. What we do '
+  'not yet have is KA152 experience — which is why we are doing it with partners who complement us, and why we have written the learning programme, the safeguarding '
+  'arrangements and the three measurement instruments before asking for the money.')
+COUNT()
+
+Q('What are the activities and experience of the organisation in youth work? Please provide information on your organisation’s / group’s regular youth work activities. Please give information on the key staff/persons involved in this application and on the competences and previous experience that they will bring to the project.')
+P('Youth work here is a standing function with a named owner, not a set of activities that appear when a project is funded. On 17 October 2023 our General Assembly '
+  'established a Youth Department inside the association and appointed Ovidiu-Claudiu-Ionel Iancu as its Coordinator, by unanimous vote of the members present — '
+  'including the mayors of the 14 communes of our territory. What follows is what it does.')
+P('**WHAT WE RUN REGULARLY**')
+P('**The Rural Youth Parliament.** We created it through the Erasmus+ project Rural Youth Parliament — tool for youth involvement in local communities '
+  '(2021-1-RO01-KA220-YOU-000029265), and we have coordinated it ever since. Young people from our communes meet, debate local issues, prepare positions and put them to '
+  'their own mayors. It is where most of them first discover that an institution will answer them.')
+P('**Youth consultations across the territory.** We go to the 14 localities and ask. In spring and summer 2026 a bilingual Romanian/Hungarian survey brought 153 '
+  'responses from 12 of our 14 communes, 96 from young people aged 14–17. That survey is the evidence base of this application, and it is normal practice for us rather '
+  'than a one-off.')
+P('Outreach through the Social Inclusion Centre and the UNIC — Porolissum project. Our social work team is in contact with vulnerable families every week. This is how '
+  'we reach young people who would never see a call published online, and how we will meet the target of at least 12 participants with fewer opportunities.')
+P('**Cultural and educational activity with young people.** Ruraliada — Culture in the Mountains, a three-day festival of visual, digital and performing arts in Beliș '
+  'commune funded by the National Recovery and Resilience Plan, with painting, ceramics and multimedia workshops and encounters with artists. The School — children’s '
+  'painting, bringing professional artists into village schools. An annual Diversity Day, Christmas markets in Mărișel and Beliș, and educational camps in Romania and '
+  'abroad for children from disadvantaged communities.')
+P('**European youth projects.** We coordinate EMPOWER+ (proposal 101243075, ERASMUS-YOUTH-2025-CB-SSA), leading nine organisations in seven countries on rural youth '
+  'participation. We are implementing CONNECT-R (KA154-YOU). We have been a partner in YouProClima, ALL4JOBS and SMART+CULTURE.')
+P('**THE PEOPLE WHO WILL DO THIS WORK**')
+P('**Claudiu Iancu** — Coordinator of the Youth Department; in this project, Learning Programme Coordinator and lead facilitator. Youth worker and community facilitator '
+  'with a qualified Trainer certificate and five Europass mobility certificates. BSc in Economic Engineering in Agriculture, MSc in Rural Development. Around three '
+  'years inside Local Action Groups on rural development, social inclusion and non-formal education, after a period in adult education training over 1,000 adults as an '
+  'expert. Involved in more than five Erasmus+ Youth projects; in the past three years he has organised and facilitated over 50 youth events — workshops, consultations, '
+  'youth meetings and participation activities. Coordinator of the Rural Youth Parliament and youth leader in YouProClima. He owns the learning programme, the three '
+  'measurement instruments, the facilitation team and the Youthpass process.')
+P('**Alina Ioana Baba** — project manager. Two degrees (Legal Sciences; Public Administration), three master’s degrees and a PhD in economics. Manager of the '
+  'association for over ten years, with a portfolio covering Erasmus+ youth, VET, school and adult education projects and transnational cooperation. She carries '
+  'coordination, the relationship with the National Agency, the budget, reporting and risk decisions.')
+P('**Livia Golovatic** — activity coordinator and Romanian group leader. BA in International Relations and European Studies, currently in a master’s in European Affairs '
+  'and Programme Management. Assistant manager on the Local Development Strategy, with experience in Erasmus+ Youth and VET projects, non-formal education and youth '
+  'participation. She runs the four joint online preparation sessions, leads the Romanian group and coordinates the four local initiatives.')
+P('**Marilena Georgescu** — inclusion and safeguarding lead. Higher education in Social Assistance and Law, master’s in Project Management, vocational qualifications in '
+  'train-the-trainer and socio-educational animation. Fourteen years managing social inclusion projects for vulnerable groups; coordinator of social service centres '
+  'including a day centre for children. She is the designated safeguarding focal point, deliberately outside the facilitation team so a participant can raise a concern '
+  'about a facilitator, and she leads recruitment through the Social Inclusion Centre.')
+P('**Iulia Fătu** — finance and logistics. Two bachelor’s degrees and two master’s degrees, including Audit and Financial Management of European Funds. On European '
+  'projects since 2014. She handles the budget, procurement, venue and transport contracting, insurance, the venue risk assessment and financial reporting.')
 COUNT()
 
 Q('Please describe the profile of each of the group members and what does each one bring to the project.')
