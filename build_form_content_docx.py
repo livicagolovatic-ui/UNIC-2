@@ -111,9 +111,12 @@ H1('Summary of activities and participants')
 TBL([
  ['Activity Type', 'No. of activities', 'No. of persons', 'Participants with fewer opportunities'],
  ['Youth exchanges', '1', '27', '13'],
- ['**Total**', '**1**', '**27**', '**13**'],
+ ['Preparatory visits', '1', '5', '2'],
+ ['**Total**', '**2**', '**32**', '**15**'],
 ], widths=[5.0, 3.6, 3.6, 4.4], count=False)
-SMALL('27 persons = 21 participants aged 14–17 + 4 group leaders + 2 facilitators, in three national groups of seven from Romania, Türkiye and Greece.')
+SMALL('27 persons in Activity 01 = 21 participants aged 14–17 + 4 group leaders + 2 facilitators, in three national groups of seven from Romania, Türkiye and Greece. '
+      'The 5 persons of Activity 02 are the preparatory visit: two group leaders, two participants and the coordinator’s logistics officer. Four of them are already among '
+      'those 27, so the totals count them twice — 32 persons means 28 distinct people, and 15 with fewer opportunities means 13 distinct young people.')
 
 # =====================================================================
 H1('Project budget')
@@ -551,7 +554,8 @@ H3('Activity list')
 TBL([
  ['Id.', 'Activity Type', 'Activity Title', 'No. of participants', 'No. of persons', 'Total grant (EUR)'],
  ['01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '21', '27', '27,094.00'],
- ['', '', '**Total**', '**21**', '**27**', '**27,094.00**'],
+ ['02', 'Preparatory visit', 'Preparatory visit to Beliș, linked to Activity 01', '—', '5', '3,400.00'],
+ ['', '', '**Total**', '**21**', '**32**', '**30,494.00**'],
 ], widths=[1.2, 2.6, 6.0, 2.4, 2.0, 2.4], count=False)
 
 H3('Participant contribution and fees')
@@ -599,7 +603,9 @@ TBL([
  ['Inclusion support for participants', '', 'real costs, separate lines', '2,000.00'],
  ['**Total Activity grant**', '', '', '**27,094.00**'],
 ], widths=[5.6, 3.6, 3.8, 3.6], count=False)
-SMALL('The preparatory visit (3,400.00 EUR) sits at project level, not inside the activity, which is why the project total is 30,494.00 and the activity grant 27,094.00.')
+SMALL('Activity 02, the preparatory visit, does not appear in the two tables above on purpose: its 3,400.00 EUR is a project-level budget line, not part of an activity grant. '
+      'That is why the activity grant is 27,094.00 while the project total is 30,494.00. If the form places preparatory visits inside the per-activity budget instead, the '
+      'figures are the same and only the row moves.')
 PAGEBREAK()
 
 Q('Please describe the background of the participants in each participating group and how each group was formed. Please also provide information on the group leaders, the age of the participants and how country balance is ensured. If necessary, explain how the gender balance is respected.')
@@ -878,6 +884,65 @@ P('Yes — **Youthpass**, for all 21 participants and all 4 group leaders. It is
   'they developed through non-formal learning, with the evidence behind them — and that is all it claims. Participants and parents are told plainly what it is and what it is not, so that nobody is given an '
   'expectation the document cannot carry.')
 COUNT(3000)
+
+H2('Activity 02 — Preparatory visit')
+SMALL('The wording of the questions in this block is reconstructed: the blank form export does not carry the preparatory-visit sub-form, which the live form generates only once an '
+      'activity of this type has been added. Check the labels against the form on screen before entering the text; the content itself does not change.')
+TBL([
+ ['Field', 'Entry', 'Field', 'Entry'],
+ ['Id.', '02', 'Linked to activity', '01 — Youth exchange'],
+ ['Activity Type', 'Preparatory visit', 'Leading organisation', 'ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (E10181755)'],
+ ['Start date', '16/06/2027', 'End date', '17/06/2027'],
+ ['Duration', '2 days on site, in month 3 of the project', 'Venue', 'Beliș (Cluj County), Romania'],
+ ['No. of participants', '5', 'Of which young people', '2'],
+ ['Of which with fewer opportunities', '2', 'Total grant', '**3,400.00 EUR** (680 × 5)'],
+], widths=[3.6, 4.7, 3.6, 4.7], count=False)
+TBL([
+ ['Organisation', 'Persons', 'Who travels', 'Why this person and not another'],
+ ['LAG Napoca Porolissum (RO)\n//host//', '1', 'Iulia Fătu, responsible for finance and logistics',
+  'She writes the venue risk assessment and she is the one who contracts the unit, so she is the one who has to have stood in the rooms. Nothing is signed before she has seen it.'],
+ ['Genç Gönüllüler Derneği (TR)', '2', 'M. Talha Serenli, the group leader who will accompany the Turkish group in August, plus one young person selected for the exchange',
+  'The adult who will be responsible for seven minors in a foreign country sees the building, the floors and the route first. The young person goes home and tells the other six what it is actually like.'],
+ ['KEA IM Syrou (EL)', '2', 'Evgenia Kalogeropoulou, social worker and Greek group leader, plus one young person selected for the exchange',
+  'She co-designs the Day 5 community dialogue, so she walks the village and meets the residents beforehand. The young person does the same job for the Greek group as the Turkish one does for theirs.'],
+ ['**Total**', '**5**', '', 'Four of the five are already counted among the 27 persons of Activity 01 — two group leaders and two participants. Only the coordinator’s logistics officer is additional, so the project involves 28 distinct people in all.'],
+], widths=[3.0, 1.0, 5.2, 7.4], small=True, count=False)
+SMALL('[TO CONFIRM against the 2026 Programme Guide before submission. First, the maximum number of participants funded per preparatory visit: if it is capped below five, this '
+      'request falls accordingly. Second, whether the hosting organisation’s own local staff member may be counted at all, since the 680 EUR unit cost covers travel and '
+      'subsistence and a local participant incurs neither. If only the four travelling participants are eligible, the line becomes 2,720.00 and the project total 29,814.00 '
+      'instead of 30,494.00. The activity grant for Activity 01 is unaffected either way, because the preparatory visit sits at project level.]')
+
+Q('Please justify the need for a preparatory visit and describe what will be done during it.')
+P('We ask for this visit on four grounds, and the first three are the ones the Programme itself recognises.')
+P('All twenty-one participants are minors. We are bringing fourteen- to seventeen-year-olds from two other countries into a mountain commune of a few hundred people, and the '
+  'adults who will be responsible for them at night need to have seen the building before they agree to it. Second, both sending organisations are new working relationships for '
+  'us: we have never worked with GGD or with KEA before, and a partnership that has only ever met online is exactly the kind that discovers its misunderstandings in August. '
+  'Third, a venue’s suitability cannot be assessed from photographs — and we are not speaking generally here. The expert assessment of our previous KA152 application said in so '
+  'many words that it did not describe measures for the safety of the accommodation and the activity spaces. This visit is where that gap is closed properly rather than promised '
+  'in a sentence.')
+P('The fourth ground is inclusion, and it is the reason two of the five travellers are young people rather than staff. In our survey 12.5% of the young people said what stops '
+  'them is lack of self-confidence. A fifteen-year-old who has seen the rooms, walked the village and met the people who will be there, and who then describes it to the other six '
+  'in their own language, removes more of that fear than any amount of reassurance from an adult. The young person from each sending group is chosen from among those who declared '
+  'a situation limiting their access to opportunities, deliberately.')
+P('The first day is spent on the venue and the programme. The written risk assessment is checked against the building itself: fire safety certification and evacuation routes, the '
+  'state of the electrical installations and heating, the security of doors, windows and balconies, lighting of the outdoor areas, separation of the participants’ accommodation '
+  'from any unrelated guests, and the rooms in which minors will sleep with group leaders on the same floors. The internet connection is measured in the plenary room and in the '
+  'four small-team spaces, because a programme about checking things online cannot run on a connection that drops; mobile coverage is tested across the site; and the distance and '
+  'travel time to the nearest medical facility and hospital are driven, not looked up. Then the three organisations sit down together and finish the programme: GGD confirms what '
+  'it leads on Day 3 and Day 6 and which of its staff will be Facilitator 2, KEA confirms the Day 5 dialogue method and the local-initiative template, the coordinator confirms '
+  'Days 1, 2, 4 and 7, and the timetable is fixed session by session. The three measurement instruments are agreed and the month 4 observer calibration is scheduled. The '
+  'safeguarding arrangements, the night-duty rota, the emergency protocol and the sensitive-content protocol are put in writing while everyone is in the same room.')
+P('The second day belongs to the host community and to the practical arrangements. We walk the route of the Day 5 community day in and around Beliș, meet the mayor’s office and '
+  'the residents who have agreed to take part in the dialogue, and agree the timing and the group transport on the spot. The two young people see the venue, the village and the '
+  'rooms, and what they say is written into the final programme — that is what they are there for. Then the logistics: meals and dietary requirements with the local producers, '
+  'insurance for all 27 persons, the visa file and its timetable for the Turkish group, the ferry and flight timings for the Greek group and its four eligible travel days, and '
+  'the domestic transport plan from each participant’s own home. The visit closes with written minutes carrying decisions, owners and deadlines, the signature of the partnership '
+  'agreement annexes on safeguarding and on the division of tasks, and the four joint online preparation sessions of months 3 and 4 fixed in the calendar.')
+P('The visit produces five things we can point to: the venue confirmed in writing or rejected in time to find another, the timetable finalised session by session, the three '
+  'measurement instruments agreed, the safeguarding package signed, and two young people who go home and tell their groups what August will actually look like. The full '
+  'programme of both days is annexed on the second sheet of the project timetable.')
+COUNT(5000)
+PAGEBREAK()
 
 H2('Participants with fewer opportunities')
 Q('Are participants involved in activities facing challenges that hinder their participation?')
