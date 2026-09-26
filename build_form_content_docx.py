@@ -1187,56 +1187,75 @@ P('We have built these instruments so that failure is visible rather than comfor
 COUNT(6000)
 H2('Sustainability of the results')
 Q('What will you do to make sure that your project continues to have effects also after it ends?')
-P('Something concrete stays behind and someone owns it. The “Digital Detectives” toolkit — worksheets, exercises, games, verification grids, the manipulation grid produced by the '
-  'participants and the AI-recognition sheet they wrote themselves — is tested during the mobility, revised in month 10 on the basis of what actually worked in the four local '
-  'initiatives, and published free of charge in month 17 in English and Romanian, with Greek and Turkish translations delivered by the partners. It is not a report about the '
-  'project but a set of materials a youth worker can pick up and use on a Tuesday afternoon.')
-P('It then enters standing activity rather than an archive. The coordinator integrates the toolkit into the youth animation work it already runs across its 14 partner '
-  'municipalities and into the community events it holds every year; GGD takes it into the volunteer network it trains annually and into its rural youth programme; KEA takes it '
-  'into its creative activity centre for children and young people and out to the 36 islands it serves. Each organisation names, in the partnership agreement, the person who owns '
-  'it afterwards — a named person, not a department.')
-P('The twenty-one stay as well. They are not released at the end: each has already run a local initiative, and the organisations then involve them as peer trainers, which is both '
-  'cheaper and more effective than recruiting a new cohort from scratch, while the cohort communication group remains open. The instruments stay too, since the verification test, '
-  'the observation grid and the beneficiary exercise are reusable, and the coordinator ends the project owning three measurement instruments it did not have before — which '
-  'changes what it can honestly claim in every youth project it writes afterwards.')
-P('Finally, the partnership decides its own future. In month 17 the three organisations formally assess whether to continue, and with what: a second exchange hosted by another '
-  'partner, or a youth participation project on dialogue with local decision-makers. The decision is minuted either way, including if it is not to continue.')
+P('Four things stay behind when the funding stops, and each one has a person responsible for it.')
+P('The first is the toolkit. We call it “Digital Detectives” and it is not a report about the project. It is the material we actually used: worksheets, exercises, games, '
+  'verification grids, the manipulation grid the participants wrote in four languages, and the AI-recognition sheet they made themselves. We test it during the exchange, then we '
+  'fix it in month 10 using what really worked in the four local initiatives and what did not. It is published free of charge in month 17 in English and Romanian, and GGD and KEA '
+  'translate it into Turkish and Greek. Any youth worker can download it and run a session with it the same week.')
+P('The second is where that toolkit goes next, because a published file that nobody picks up is not a result. Our association already runs youth activities across its 14 partner '
+  'municipalities and holds community events every year, and the toolkit becomes part of that work. GGD puts it into the volunteer network it trains every year and into its rural '
+  'youth programme. KEA takes it into its creative activity centre for children and young people and out to the 36 islands it serves. In the partnership agreement each '
+  'organisation writes down the name of the person who is responsible for it after the project ends — a name, not a department.')
+P('The third is the twenty-one participants. They do not stop being part of this when they get home. Each of them has already planned and led a local activity for other young '
+  'people, so the three organisations keep them on as peer trainers in what they do next. That is cheaper than finding a new group and it works better, because a sixteen-year-old '
+  'listens differently to another sixteen-year-old. The group chat stays open for the whole 18 months and is not closed when the report is submitted.')
+P('The fourth is the three instruments: the practical test, the observation grid, and the short exercise we use with the young people the participants reach afterwards. All three '
+  'can be used again. At the end of this project our association owns three ways of measuring what young people actually learned, which it did not have before, and that changes '
+  'what we can honestly write in the next project we apply for.')
+P('In month 17 the three organisations sit down and decide whether to carry on together, and with what. Two ideas are already on the table: a second exchange, hosted next time by '
+  'GGD or KEA, or a youth participation project where young people talk directly to local decision-makers. We write the decision down either way, including if the answer is no.')
 COUNT(5000)
 
 Q('Are you planning measures to make sure that the results produced are used and beneficial to others beyond the project’s lifetime? If yes, which ones?')
-P('Yes. Four measures, each with an addressee rather than a general intention. **To youth organisations, libraries and community centres in the territory:** the toolkit offered free, with a presentation session in '
-  'month 17 for the youth workers, librarians and community educators who will actually use it. Romania has no coordinated national media-literacy strategy and its policies in this area are fragmented across separate '
-  'legal frameworks; in that context a free, tested set of materials in the hands of people who already work with rural young people has value out of proportion to the size of this project. **To youth organisations '
-  'across Europe:** publication on the Erasmus+ Project Results Platform, dissemination through GGD’s and KEA’s own channels — KEA alone reaches more than 80 regional media outlets, a website with over 12,000 monthly '
-  'visitors and a newsletter of 800 recipients — and dissemination through the LEADER and ELARD networks, where the coordinator already has '
-  'transnational cooperation experience; target, at least four organisations outside the partnership confirming in writing that they use the toolkit. **To local institutions:** the evaluation report and a short set '
-  'of recommendations delivered to the 14 partner municipalities and to the partner institutions in the other three countries. **To the communities themselves:** the four media products remain in circulation on the '
-  'organisations’ channels — unlike a report, they are the kind of thing people actually watch.')
+P('Yes. We prefer to name who gets what, rather than promise to share widely.')
+P('Youth organisations, libraries and community centres in our own territory get the toolkit free, and in month 17 we sit down with the youth workers, librarians and community '
+  'educators who will actually use it and go through it with them. This matters more here than it would elsewhere. Romania has no single national plan for media literacy and the '
+  'rules are spread across different laws, so a tested set of free materials in the hands of people who already work with rural young people fills a gap that nobody else is '
+  'filling.')
+P('Youth organisations elsewhere in Europe get it through the Erasmus+ Project Results Platform and through our partners’ own channels. KEA reaches more than 80 regional media '
+  'outlets, a website with over 12,000 visitors a month and a newsletter with 800 subscribers. GGD reaches the volunteers it trains every year. We also use the LEADER and ELARD '
+  'rural networks, where our association already works internationally. The target is simple and checkable: at least four organisations outside this partnership confirm in '
+  'writing that they have used the toolkit.')
+P('Local institutions get the evaluation report and a short list of recommendations — what worked, what we would do differently, and what a municipality can do with very little '
+  'money. It goes to our 14 partner municipalities and to the partner institutions in Türkiye and Greece.')
+P('The communities get the four media products, which stay online on all three organisations’ channels after the project closes. A two-minute video that takes apart a rumour '
+  'people in the village actually heard gets watched. A report does not.')
+P('None of this needs new funding. Everything listed here happens inside activities the three organisations already run and already pay for.')
 COUNT(4000)
 
 H2('Dissemination of project results')
 Q('How will you make your project visible outside your organisation and partner organisations? How will you share its results and success? With whom will you share the results?')
-TBL([
- ['Audience', 'Channel', 'Product', 'Indicator and owner'],
- ['Young people in the three communities', 'The four local initiatives; the organisations’ social media; youth centres, libraries and community centres', 'Workshops, the four media products, the toolkit', 'At least 80 young people reached directly; group leaders'],
- ['Communities of the territory', 'The 14 partner municipalities; the community events the organisation runs annually; local press', 'The Day 7 public presentation; a “Digital Detectives” stand at two community events', 'At least 2 community events and 3 items in local press; communication officer'],
- ['Parents and legal guardians of the participants', 'The parents’ meetings in each country; the participant pack; the local initiatives and the Day 7 presentation', 'Information on the programme, the supervision arrangements and the contact chain; presentations by the participants themselves', 'One meeting per country before consents are signed; 100% of families reached with the pack; group leaders. Parents are involved in informing, supporting and protecting participants who are minors — they are not a target group of the project'],
- ['Youth organisations and youth workers in Europe', 'Erasmus+ Project Results Platform; the partners’ networks; KEA’s regional media network, website and newsletter; GGD’s volunteer network; LEADER and ELARD', 'The “Digital Detectives” toolkit', 'Toolkit published and freely downloadable; at least 4 external organisations confirm use'],
- ['Local institutions and decision-makers', 'Direct meetings; presentations in local councils', 'Evaluation report; short recommendations', 'At least 4 institutions informed; project manager'],
-], widths=[3.2, 4.2, 4.2, 5.0], small=True)
-P('All materials produced — toolkit, media products, presentations, press releases — carry the European Union emblem and the funding statement in line with the Programme’s '
-  'rules, and on Day 1 participants have a short session on what Erasmus+ is and what stays open to them afterwards, from the European Solidarity Corps to DiscoverEU and other '
-  'exchanges, so that this project is not the end of their contact with the Programme.')
-P('Because all participants are minors, every piece of content goes through a two-step review before publication: the participant responsible for documentation prepares it, and '
-  'the safeguarding focal point approves it. No identifiable image of a minor is published without written consent, no personal data of third parties appears, and no location '
-  'details for minors are given. That rule is written into the group agreement on Day 1, and it is itself part of the learning.')
+P('We share the results with five groups. For each one we know the channel, what they get, who is responsible and how we will know it happened.')
+P('Young people in the three communities come first, because they are the ones the project is for. They get the four local initiatives the participants run themselves, the four '
+  'media products on the organisations’ social media, and the toolkit through youth centres, libraries and community centres. At least 80 young people are reached directly, and '
+  'the group leaders are responsible for that number.')
+P('The communities of our territory come next. The 14 partner municipalities help us spread the word, we use the community events our association holds every year, and we work '
+  'with the local press. What they see is the public presentation the participants give on Day 7 in Beliș, and a “Digital Detectives” stand at two of our community events. The '
+  'target is two community events and three items in the local press, and the communication officer owns it.')
+P('Parents and guardians are a special case, and we say plainly what they are: not a target group of the project, but the people who have to inform, support and protect '
+  'participants who are minors. Each country holds a parents’ meeting before consents are signed, every family receives the participant pack, and parents are invited to the local '
+  'initiative and to the Day 7 presentation, where they hear it from their own child instead of from us.')
+P('Youth organisations and youth workers across Europe get the toolkit. We publish it on the Erasmus+ Project Results Platform, and it travels through KEA’s regional media '
+  'network, website and newsletter, through GGD’s volunteer network, and through the LEADER and ELARD rural networks. What we count is the toolkit published and freely '
+  'downloadable, and at least four organisations outside the partnership confirming that they use it.')
+P('Local institutions and decision-makers get the evaluation report and the recommendations, in direct meetings and in presentations to local councils. At least four institutions '
+  'informed, and the project manager is responsible.')
+P('Two rules apply to everything we publish. Every product — toolkit, videos, presentations, press releases — carries the European Union emblem and the funding statement, as the '
+  'Programme requires. And because all our participants are minors, nothing goes out until two people have seen it: the participant responsible for documentation prepares it, and '
+  'the safeguarding focal point approves it. No recognisable photo of a minor is published without written consent, no personal data of other people appears, and we never publish '
+  'where a minor lives or can be found. That rule is written into the group agreement on Day 1, and understanding why it exists is part of the learning.')
+P('On Day 1 the participants also get a short session on what Erasmus+ actually is and what stays open to them afterwards — the European Solidarity Corps, DiscoverEU, other '
+  'exchanges — so that this project is not the last time they hear the word.')
 COUNT(5000)
 
 Q('How will you involve participants in such activities?')
-P('Participants are the producers of the disseminated results, not their subject. They make the four media products; they design and lead the four local initiatives; they present publicly on Day 7 to guests from the '
-  'community, the municipalities and the press; they co-present the results across the localities of the territory in months 16–17; and defined documentation roles — photo and video, activity diary, contact with the '
-  'host community — are assigned in month 3 and held throughout. A fifteen-year-old explaining to a room of other young people how to check whether a photograph is what it claims to be is a more effective '
-  'dissemination instrument than any press release the organisation could write — and it is also the moment the learning stops being ours and becomes theirs.')
+P('The participants are the ones doing the disseminating. They are not the subject of it.')
+P('They make the four media products. They design and lead the four local initiatives, choosing the date, the place, the audience and who does what. They present in public on '
+  'Day 7 to guests from Beliș, the neighbouring communes and the local press, and the adults in the room speak only if someone asks them a question. In months 16 and 17 they '
+  'present the results again across the localities of the territory. And from month 3 each of them holds a real job in the project — photo and video, the activity diary, contact '
+  'with the host community, energisers, timekeeping — assigned before the mobility and kept throughout.')
+P('There is a practical reason for working this way and not only a principled one. When a fifteen-year-old stands in front of a room of other young people and shows them how to '
+  'check whether a photograph is really what it claims to be, they are believed. It is also the moment the learning stops belonging to us and starts belonging to them.')
 COUNT(3000)
 PAGEBREAK()
 
