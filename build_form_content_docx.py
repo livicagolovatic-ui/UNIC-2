@@ -78,7 +78,7 @@ P('Twenty-one young people aged 14–17 take part — seven from Romania, seven 
 P('They share the profile this project is built for. Almost all of them use AI tools and social media every day, and for a large part of them social media is the news, yet none has '
   'been taught how to check any of it. Their access to non-formal learning is thin and their access to international learning close to nil: at least 16 of the 21 will be taking '
   'part in a European mobility for the first time, and in our territory 31.3% of young people aged 14–17 have never taken part in any non-formal education activity at all. At '
-  'least 13 of the 21 face documented barriers, whether geographic, economic, educational, linguistic or social. The group is built to be mixed in gender and in locality, and the '
+  'least 13 of the 21 face documented barriers, whether geographical, economic or social. The group is built to be mixed in gender and in locality, and the '
   'Romanian group is deliberately mixed in language, because the language question is part of the subject matter.')
 COUNT()
 
@@ -462,9 +462,9 @@ P('Checking a claim is also a precondition of taking part in democratic life, be
   'taking responsibility for an activity that other young people attend.')
 P('Inclusion runs through the design rather than alongside it, and each barrier our participants face is answered by a concrete measure. The exchange is hosted inside our own '
   'territory and transport is paid from each participant’s own front door, which answers the geographic barrier; there is no participation fee of any kind, stated in writing from '
-  'the day the call is published, which answers the economic one; English is not a selection criterion and A2 is accepted, with a glossary built in four languages, which answers '
-  'the linguistic one; and preparation runs over four months rather than four weeks, with a parents’ meeting in each country before consents are signed and a stated right to '
-  'leave a session without giving a reason, which answers the social and educational ones. At least 13 of the 21 participants face documented barriers and at least 16 travel on a '
+  'the day the call is published, which answers the economic one; and preparation runs over four months rather than four weeks, with a parents’ meeting in each country before consents are '
+  'signed and a stated right to leave a session without giving a reason, which answers the social one. English is not a selection criterion and A2 is accepted, with a glossary '
+  'built in four languages, so that language is never a filter for anyone. At least 13 of the 21 participants face documented barriers and at least 16 travel on a '
   'European mobility for the first time. The measures are set out in full under Participants with fewer opportunities.')
 P('The Action’s own objectives are addressed directly. Youth Exchanges exist to encourage intercultural dialogue and learning and a sense of being European, to develop young '
   'people’s competences and attitudes, to strengthen European values and break down prejudice and stereotypes, and to raise awareness of socially relevant subjects. VERIFAI meets '
@@ -884,42 +884,94 @@ Q('Are participants involved in activities facing challenges that hinder their p
 P('**Yes. At least 13 of the 21 participants — 62%.**')
 COUNT(500)
 
-Q('What type of challenges are these participants facing? How will you reach out to them, and what specific measures will you implement to support their participation?')
-P('The principal barrier is geographical and it affects essentially the whole group: isolated rural mountain communes, small islands of the South Aegean, and a metropolitan '
-  'periphery with the rural localities behind it. Living in a remote or rural region, on a small island or in a peripheral, less-served area is recognised as an obstacle to '
-  'participation, and all three groups qualify on that ground alone. Economic barriers follow closely, with 34.4% of the young people aged 14–17 in our survey naming cost and '
-  '31.2% naming transport; in these households the first 80 kilometres are a real obstacle rather than a detail. Educational barriers affect the 31.3% who have never taken part '
-  'in any non-formal education activity, some of them from households with no experience of European programmes at all, for whom the difficulty is not only getting there but '
-  'knowing that such a thing exists and is meant for them. Linguistically, part of our own territory communicates in Hungarian, in the İstanbul periphery information travels '
-  'through neighbourhood and community networks, and in the South Aegean through island and regional channels, so a young person whose community life happens outside the national '
-  'media has less access to reliable information and almost no access to correction of what circulates around them. Socially, 12.5% name lack of self-confidence and 10.4% say '
-  'their family would not agree, and among the respondents there are young people reached through the social worker, young people with childcare responsibilities and young people '
-  'from Roma communities; two wrote about exclusion directly: “There shouldn’t be differences of class or gender — if you’re in the 12th grade you should be able to go on Erasmus '
-  'too” and “The right to study; Roma don’t put an emphasis on school.” Health or disability is not known before selection, and the specific-needs sheet allows it to be declared '
-  'confidentially, with the support that follows costed individually rather than assumed.')
-P('The first barrier these young people name is not money but information, since 37.5% say the reason opportunities pass them by is that they never hear about them. Outreach is '
-  'therefore a project activity with its own indicator — a target of at least 63 applications for 21 places — rather than an administrative formality. We work through the youth '
-  'networks the three organisations already run, including the Rural Youth Parliament and the participants of previous activities, because those are the people who can say what '
-  'an exchange is actually like; peer-to-peer, since friends are the channel for 38.5% of them; through social media, the channel for 49.0%, in a format adapted to the age group '
-  'and produced with young people already active in the organisations rather than written by staff and posted at them; through libraries, community centres and local youth '
-  'spaces, where the call is presented in person rather than pinned up; and through the Social Inclusion Centre and the UNIC — Porolissum project, which work directly with '
-  'vulnerable households and reach young people who would never see an online call. The call is also carried into the schools of the territory, because that is where half of '
-  'these young people say they hear about opportunities, but as an information channel only. We do not use municipal noticeboards, which reach 6.2% of this age group: the 14 '
-  'partner municipalities are used for validating the need and hosting activities, not for recruitment, and saying that plainly is what our own data requires.')
-P('Each barrier is then answered by a specific measure. Against the informational barrier stands the outreach plan above, the call translated into four languages and a '
-  'plain-language version written for parents rather than for funders. Against the economic one, no contribution of any kind is asked of participants: travel, accommodation, '
-  'meals, insurance and materials are covered in full, and the rule is stated in writing from the day the call is published, because that is what allows a family to let a child '
-  'apply at all. Transport is organised and paid from the participant’s home to the point of departure through the inclusion support category, on a dedicated budget line, so that '
-  'a young person from Măguri-Răcătău, or one who must take a ferry before reaching an airport or a station, does not have to solve the first leg alone. Against educational and '
-  'linguistic barriers, English is not a selection criterion and A2 is accepted, the glossary is built in four languages, methods are visual and practical, work is done in pairs, '
-  'group leaders interpret on request and cross-language support is built deliberately into the mixed teams. Against social ones, the preparatory visit includes one young person '
-  'from each sending organisation so that a participant arrives in August already knowing someone who has been there, the cohort communication group is active two months before '
-  'departure, the group leader accompanies throughout the journey and the right to leave a session is stated. Health or disability is handled through the confidential '
-  'specific-needs sheet, an accessible venue and additional inclusion support at real cost where needed, on its own line with its own justification. And family reluctance, named '
-  'by 10.4%, is answered by the parents’ online meeting held in each country in the local language, with the safeguarding focal point present and the full programme, supervision '
-  'arrangements and contact chain explained — after which, not before, parental consent is obtained.')
-COUNT(6000)
+Q('How will you reach out to these participants?')
+P('The first barrier these young people name is not money. In our survey 37.5% say the reason opportunities pass them by is that they never hear about them, so outreach is '
+  'treated as a project activity with its own indicator — at least 63 applications for 21 places — and not as an administrative step before the real work starts.')
+P('The call is published simultaneously in all three countries in month 1, in Romanian, Hungarian, Turkish and Greek, with the same criteria everywhere and a plain-language '
+  'version written for parents rather than for funders. One rule is stated in it from the first day: nothing is asked of the participant or the family at any point, no fee and '
+  'no pay-now-claim-later. That sentence is what allows a family to let a fourteen-year-old apply at all, so it belongs in the call and not in a later clarification.')
+P('We then go where these young people actually are, and we chose the channels from our own data rather than from habit. Social media reaches 49.0% of them, so the material is '
+  'made with young people already active in the three organisations, in their format, instead of being written by staff and posted at them. Friends are the channel for 38.5%, '
+  'which is why members of the Rural Youth Parliament and participants of our previous activities do the talking: each organisation names two young people who have already been '
+  'on a mobility to answer questions in person, because they are the only ones who can say what an exchange is really like. Around half say they hear about opportunities at '
+  'school, so the call is carried into the schools of the territory — as an information channel only, with no school selecting anyone. We do not use municipal noticeboards, '
+  'which reach 6.2% of this age group: the 14 partner municipalities validate the need and host activities, and saying plainly that they are not a recruitment channel is what '
+  'our own figures require.')
+P('Alongside that, each organisation opens the door it alone can open. In the Romanian territory the Social Inclusion Centre and the UNIC — Porolissum project work directly with '
+  'vulnerable households, so the social worker puts the call into the hands of families who would never see an online post, and our own youth workers visit the communes in '
+  'person — Beliș, Mărișel, Măguri-Răcătău, Săcuieu and the others — because a call presented face to face in a village of 400 people is worth more than any campaign. GGD '
+  'recruits through the volunteer network it trains every year and through the rural youth programme it runs with the Turkish Ministry of Interior, prioritising young people who '
+  'have never taken part in an international activity. KEA recruits through the network it operates across 36 inhabited islands of the Cyclades and the Dodecanese and through '
+  'the municipal Community Centres it already works with on its ESF+ child-poverty action plan in Naxos and Kea.')
+P('Applying is made as easy as we can make it. The form is short, it can be completed on a phone, help filling it in is offered by name and phone number, no English is required '
+  'at any stage, and a young person may declare a situation limiting their access to opportunities confidentially — or not declare anything at all and still be selected. '
+  'Selection is by a commission of at least two people per organisation, on the written form plus a short conversation, and every candidate is told the outcome and the reasons, '
+  'including those not taken.')
+P('We also say in advance what we will do if this does not work. The application register is checked against the target during the call, and if fewer than 63 applications have '
+  'arrived two weeks before the deadline the call is extended, the peer channel is reinforced with additional in-person visits, and the social worker is asked for direct '
+  'referrals. The composition targets — at least 13 of 21 participants with fewer opportunities and at least 16 of 21 taking part in a European mobility for the first time — are '
+  'verified at selection and again at final confirmation by the activity coordinator. If they are not met, the call is reopened rather than the target quietly lowered.')
+COUNT()
 
+Q('What type of challenges are these participants facing?')
+P('Three types, declared here because they are the three we can evidence: **geographical, economic and social obstacles**.')
+P('**Geographical obstacles** affect very nearly the whole group, and they are the reason this consortium exists in this shape. The Romanian participants come from the mountain '
+  'communes of the Apuseni — Beliș, Mărișel, Măguri-Răcătău, Săcuieu, Mărgău and the others — where the offer of youth activities is thin and the nearest city is a journey '
+  'rather than a bus ride. The Greek participants come from small islands of the South Aegean, where for a fourteen-year-old any learning activity begins with a ferry and what '
+  'exists in Athens simply does not arrive. The Turkish participants come from the İstanbul metropolitan periphery and from the rural localities behind it, peripheral in a '
+  'different way but peripheral all the same. Living in a remote or rural area, on a small island or in a peripheral, less-served region is recognised in the Programme as an '
+  'obstacle to participation, and all three groups qualify on that ground alone. What it produces is measurable: 31.3% of the young people aged 14–17 in our territory have never '
+  'taken part in any non-formal education activity, and 37.5% say opportunities pass them by because they never hear that they exist.')
+P('**Economic obstacles** come next and they are named by the young people themselves: 34.4% give cost as a barrier to taking part in a mobility and 31.2% give transport — the '
+  'second and third obstacles on their own list. In these households the first eighty kilometres are a real problem and not a detail, and a scheme in which a family pays first '
+  'and is reimbursed afterwards excludes exactly the young people it claims to include. Some of our participants come from households supported through our own Social Inclusion '
+  'Centre, and between 2021 and 2023 we trained 99 people from disadvantaged households in social entrepreneurship, so these are families we already know by name.')
+P('**Social obstacles** are the least visible and the most decisive. In our survey 12.5% name lack of self-confidence as what stops them and 10.4% say their family would not '
+  'agree. Among the respondents there are young people reached through the social worker, young people with caring responsibilities at home, and young people from Roma '
+  'communities; two of them wrote about exclusion in their own words — “There shouldn’t be differences of class or gender — if you’re in the 12th grade you should be able to go '
+  'on Erasmus too” and “The right to study; Roma don’t put an emphasis on school.” In the İstanbul periphery the group includes young people from families with migrant and '
+  'refugee backgrounds. And part of our own territory lives its community life in Hungarian: a young person whose information arrives in a minority language has less access to '
+  'reliable reporting and almost no access to the correction of what circulates around them, which in this project is not a side note but the subject itself.')
+P('The three overlap inside the same person more often than they separate. At least 13 of the 21 participants declare at least one, geography applies to almost all of them, and '
+  'declaration is voluntary, confidential and never required of anyone. We do not declare disability or health obstacles in advance, because we do not know them before '
+  'selection: the confidential specific-needs sheet lets a participant declare one afterwards, and the support that follows is then costed individually at real cost rather than '
+  'assumed now.')
+COUNT()
+
+Q('What specific measures (e.g., accompanying persons, reinforced mentorship, accessibility measures) will you implement to support their participation?')
+P('Each of the three obstacles is answered by measures that cost money and appear in the budget, not by good intentions.')
+P('**Against geographical obstacles the project moves the participants and, where it can, moves itself.** Transport is organised and paid from each participant’s own front door '
+  'to the point of departure, through the inclusion support category on a dedicated budget line, so that a young person from Măguri-Răcătău, or one who must take an '
+  'inter-island ferry before reaching an airport, does not have to solve the first leg alone. **Accompanying persons** are set by the journey rather than by the minimum: four '
+  'group leaders and two facilitators, six adults for twenty-one minors, one adult per 3.5 participants, below the National Call’s ceiling of one leader per four young people. '
+  'The Greek flow carries two accompanying adults because its route — ferry to Piraeus, flight, then overland to the Apuseni — is the longest in the project and has at least one '
+  'transfer where a group of fourteen-year-olds could be split. Every group is accompanied from its own departure point to Beliș and back and is never handed over mid-route. '
+  'Two additional travel days are eligible for the Turkish and Greek flows under green travel, and we use them so that no minor travels overnight to save a '
+  'day. And the activity itself is held in Beliș, inside the territory, because 58.5% of the young people we surveyed asked for activities in or near their own locality: the '
+  'geography is designed around instead of ignored.')
+P('**Against economic obstacles, nothing is asked of the participant or the family at any point.** Travel, accommodation, meals, insurance, materials and local transport are '
+  'covered in full; there is no fee of any size and no reimbursement model in which a family pays first. The rule is in the call from the day it is published. Inclusion support '
+  'for organisations, 125 EUR for each of the 13 concerned, pays for what reaching them costs: the in-person visits, the four-language call, the parents’ version and the extra '
+  'preparation time. Inclusion support for participants is requested at real cost on separate dedicated lines, each justified individually, for a documented need such as an '
+  'extra ferry leg, additional domestic transport or an accessibility cost. Nothing in the programme requires a young person to own anything: devices are provided at the venue, every exercise has a '
+  'low-bandwidth version, and there is nothing to print or buy.')
+P('**Against social obstacles the central measure is reinforced mentorship, and it is a named person rather than a procedure.** From selection until month 18 each participant '
+  'has one adult from their own sending organisation — their group leader — who makes the pre-departure call with the family, travels with them, runs the daily reflection in '
+  'their own language, is on the same floor at night, and afterwards supports the local initiative they lead without taking it over. The family is dealt with directly, because '
+  '10.4% said the family would not agree: an online meeting is held in each country in the local language, with the safeguarding focal point present, explaining the full '
+  'programme, the supervision arrangements and the contact chain — and parental consent is asked after that meeting, not before it. Nobody arrives among strangers: the '
+  'preparatory visit takes one young person from each sending organisation, who then tells their own group what they saw; the cohort communication group is active two '
+  'months before departure; and the four online preparation sessions are held in mixed national composition, so the team a participant will work with in August has already met '
+  'them. Language is deliberately kept out of the door: English is not a selection criterion, A2 is accepted, the glossary is built in four languages, methods are visual and '
+  'practical, and group leaders interpret on request — a test at the door would simply convert the '
+  '12.5% who name lack of self-confidence into exclusion. During the week, the right to leave a session without giving a reason is written into the group agreement the '
+  'participants negotiate themselves; the safeguarding focal point is available individually every day and sits outside the facilitation chain by design; the sensitive-content '
+  'protocol means the material carrying ethnic, gender and migration stereotypes is pre-screened and nobody from a targeted community is made the example.')
+P('**Accessibility measures** are verified rather than promised. Accessibility is a condition in the venue specification and it is checked on site during the preparatory visit '
+  'in month 3, not read off a booking page, together with the connection test, the evacuation arrangements and the distance to the nearest medical facility. After '
+  'selection, the confidential specific-needs sheet allows a participant to declare a health, dietary or accessibility need; the venue check is then repeated against that '
+  'need, and the support is requested at real cost on its own line.')
+COUNT()
 H2('Virtual learning / Blended activities and use of virtual components')
 Q('Do you foresee Virtual/Blended activities and/or the use of any virtual component, before, during or after the activity?')
 P('**Yes**, before and after the physical activity. Approximately 27 persons take part: 21 participants, 4 group leaders and 2 facilitators.')
