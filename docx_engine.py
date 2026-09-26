@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import docx, re
+import docx, re, os
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
@@ -86,7 +86,7 @@ def P(t, count=True):
     p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
     if count:
         CHARS['n'] += len(clean(t)) + 1
-        PARAS.append((len(clean(t)), clean(t)[:70]))
+        PARAS.append((len(clean(t)), clean(t)))
     return p
 
 def SMALL(t):
@@ -134,7 +134,11 @@ def COUNT(limit=5000, cut=None):
         print('%s%6d / %5d  %s' % (flag, n, limit, LAST_Q['t'][:95]), file=sys.stderr)
         if n > limit and os.environ.get('FIELD_REPORT') == 'detail':
             for ln, txt in PARAS:
-                print('        %5d  %s' % (ln, txt), file=sys.stderr)
+                print('        %5d  %s' % (ln, txt[:70]), file=sys.stderr)
+    dump = os.environ.get('FIELD_DUMP')
+    if dump and LAST_Q['t'].startswith(dump):
+        with open(os.environ['FIELD_DUMP_OUT'], 'w', encoding='utf-8') as fh:
+            fh.write('\n\n'.join(txt for _, txt in PARAS) + '\n')
     PARAS.clear()
     p = doc.add_paragraph()
     over = n > limit

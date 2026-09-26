@@ -185,6 +185,14 @@ SMALL('Application content in English for the KA152-YOU online form · Call 2026
       'Applicant and coordinator: ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (E10181755 — RO) · National Agency: RO01 — ANPCDEFP\n'
       'Version 4 — revised against the review comments of 3 September 2026, **the live Call 2026 Round 2 application form**, the Erasmus+ 2026 Programme Guide, and the ANPCDEFP National Call 2026.')
 
+CALLOUT('SUPERSEDED — read this first.',
+        'This working document was written for the earlier four-country consortium (YOBBA in Türkiye plus a Corsican and a Sardinian partner) and for the earlier wording of the objectives. '
+        'Neither is current. The consortium is now **three organisations — the coordinator, Gençlik ve Gelecek Derneği (TR) and KEA IM Syrou (EL)** — and the three objectives now follow the '
+        'formulation of the ANPCDEFP practical guide. **The text of record is VERIFAI_KA152_Form_Content_EN.docx**, which is complete, consistent with the current consortium and written '
+        'throughout in flowing prose. Keep this document only for the review-comment audit trail in section 0 and the alternative programme versions in section 7.8; do not paste anything '
+        'from it into the form without checking it against the form content document first.',
+        'FBEAEA', 'E0A0A0')
+
 CALLOUT('Aligned to the form you will actually fill in.',
         'Every question below is quoted **verbatim from the Call 2026 Round 2 form — Form ID KA152-YOU-691C4B41, deadline 01 Oct 2026 12:00 Brussels time** — and the sections follow that form’s own table of contents in its own order. '
         'This matters more than it sounds: the 2026 form differs from the 2024 one in several places, and two of them change what you have to do rather than just how a question is worded. '
