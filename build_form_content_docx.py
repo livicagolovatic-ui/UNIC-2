@@ -1225,35 +1225,51 @@ COUNT(4000)
 
 H2('Dissemination of project results')
 Q('How will you make your project visible outside your organisation and partner organisations? How will you share its results and success? With whom will you share the results?')
-P('We share the results with five groups. For each one we know the channel, what they get, who is responsible and how we will know it happened.')
+P('We share the results with five groups, through our own channels and through local media. For each one we know what they get, who is responsible and how we will know it happened.')
 P('Young people in the three communities come first, because they are the ones the project is for. They get the four local initiatives the participants run themselves, the four '
-  'media products on the organisations’ social media, and the toolkit through youth centres, libraries and community centres. At least 80 young people are reached directly, and '
+  'media products, and the toolkit through youth centres, libraries and community centres. At least 80 young people are reached directly, and '
   'the group leaders are responsible for that number.')
-P('The communities of our territory come next. The 14 partner municipalities help us spread the word, we use the community events our association holds every year, and we work '
-  'with the local press. What they see is the public presentation the participants give on Day 7 in Beliș, and a “Digital Detectives” stand at two of our community events. The '
-  'target is two community events and three items in the local press, and the communication officer owns it.')
-P('Parents and guardians are a special case, and we say plainly what they are: not a target group of the project, but the people who have to inform, support and protect '
-  'participants who are minors. Each country holds a parents’ meeting before consents are signed, every family receives the participant pack, and parents are invited to the local '
+P('The communities of our territory come next. The 14 partner municipalities help us spread the word, and we use the community events our association holds every year. What they see is the public presentation the participants give on Day 7 in Beliș, and a “Digital Detectives” stand at two of our community events. The '
+  'target is two community events, and the communication officer owns it.')
+P('Parents and guardians are a special case: not a target group of the project, but the people who inform, support and protect participants who are minors. Each country holds a parents’ meeting before consents are signed, every family receives the participant pack, and parents are invited to the local '
   'initiative and to the Day 7 presentation, where they hear it from their own child instead of from us.')
-P('Youth organisations and youth workers across Europe get the toolkit. We publish it on the Erasmus+ Project Results Platform, and it travels through KEA’s regional media '
-  'network, website and newsletter, through GGD’s volunteer network, and through the LEADER and ELARD rural networks. What we count is the toolkit published and freely '
+P('Youth organisations and youth workers across Europe get the toolkit. We publish it on the Erasmus+ Project Results Platform, and it travels through KEA’s website and '
+  'newsletter, GGD’s volunteer network, and the LEADER and ELARD rural networks. What we count is the toolkit published and freely '
   'downloadable, and at least four organisations outside the partnership confirming that they use it.')
 P('Local institutions and decision-makers get the evaluation report and the recommendations, in direct meetings and in presentations to local councils. At least four institutions '
   'informed, and the project manager is responsible.')
+P('Everything we do goes out on the three organisations’ own channels, and we agreed the rhythm in advance. Each partner posts on its '
+  'own social media and on its own website — LAG Napoca Porolissum in Romanian and Hungarian, GGD in Turkish, KEA in Greek — and each also posts in English so the '
+  'other two can share it. Something goes up at seven moments: the launch of the call in month 1, the selected group in month 2, the preparation sessions in months 3 '
+  'and 4, the days of the exchange in August, the Day 7 presentation, each of the four local initiatives, and the toolkit in month 17. '
+  'The material comes from the participants themselves, through the photo, video and diary roles they hold from month 3. Each organisation names one person responsible for its '
+  'own channels in the partnership agreement, and we commit to at least 15 posts per organisation across the 18 months plus sharing each other’s. Three organisations posting to three countries is the cheapest reach we have.')
+P('We also cooperate with local media in all three countries, and we go to them with something to look at rather than with a press release about a grant. In Romania the contact '
+  'already exists: we work with the county and local press every year at our community events and the festival in Beliș. We send a release in Romanian '
+  'shortly before the exchange and immediately after the Day 7 presentation, and we invite journalists to Beliș for the presentation itself, where the participants do the '
+  'talking and the staff do not. KEA sends the same material in Greek through the more than 80 regional media outlets it already reaches across the South Aegean, and '
+  'GGD does the same in Turkish through its own local contacts. What we offer is a story a local newsroom can use: young people from their own area taking apart a rumour that circulated there. Our target is at least six items in local or regional media across the three countries, three of them in Romania, and the '
+  'communication officer keeps the record. If a journalist wants to speak to a participant, the rule is the same as everywhere else: written parental consent first and the group leader present.')
 P('Two rules apply to everything we publish. Every product — toolkit, videos, presentations, press releases — carries the European Union emblem and the funding statement, as the '
   'Programme requires. And because all our participants are minors, nothing goes out until two people have seen it: the participant responsible for documentation prepares it, and '
   'the safeguarding focal point approves it. No recognisable photo of a minor is published without written consent, no personal data of other people appears, and we never publish '
   'where a minor lives or can be found. That rule is written into the group agreement on Day 1, and understanding why it exists is part of the learning.')
-P('On Day 1 the participants also get a short session on what Erasmus+ actually is and what stays open to them afterwards — the European Solidarity Corps, DiscoverEU, other '
-  'exchanges — so that this project is not the last time they hear the word.')
+P('On Day 1 the participants also get a short session on what Erasmus+ is and what stays open to them afterwards — the European Solidarity Corps, DiscoverEU, other '
+  'exchanges — so this project is not the last time they hear the word.')
 COUNT(5000)
 
 Q('How will you involve participants in such activities?')
 P('The participants are the ones doing the disseminating. They are not the subject of it.')
-P('They make the four media products. They design and lead the four local initiatives, choosing the date, the place, the audience and who does what. They present in public on '
-  'Day 7 to guests from Beliș, the neighbouring communes and the local press, and the adults in the room speak only if someone asks them a question. In months 16 and 17 they '
-  'present the results again across the localities of the territory. And from month 3 each of them holds a real job in the project — photo and video, the activity diary, contact '
-  'with the host community, energisers, timekeeping — assigned before the mobility and kept throughout.')
+P('They write the posts themselves. We do not draft something and ask them to approve it: the text, the photographs, the short videos and the captions are theirs, in their own '
+  'language and in their own register, and an adult checks only what the safeguarding rule requires before anything goes out. During the mobility this runs by rotation. Each '
+  'national group takes the content desk for a set of days and is responsible for everything published that day on all three organisations’ channels — the Romanian group on Days '
+  '1 and 4, the Turkish group on Days 2 and 5, the Greek group on Days 3 and 6, and all three together on Day 7, when the public presentation happens. Each group therefore '
+  'produces content at least twice, nobody carries it for the whole week, and the three of them get to see how differently the same day can be told depending on who is telling '
+  'it. This is a separate job from the mixed host team that runs each day, so the two do not compete for the same people.')
+P('The roles behind it are assigned in month 3, before anyone travels: photo and video, the activity diary, contact with the host community, energisers, timekeeping. Afterwards '
+  'the participants make the four media products, design and lead the four local initiatives — choosing the date, the place, the audience and who does what — present in public on '
+  'Day 7 to guests from Beliș, the neighbouring communes and the local press, where the adults speak only if someone asks them a question, and present the results again across '
+  'the localities of the territory in months 16 and 17.')
 P('There is a practical reason for working this way and not only a principled one. When a fifteen-year-old stands in front of a room of other young people and shows them how to '
   'check whether a photograph is really what it claims to be, they are believed. It is also the moment the learning stops belonging to us and starts belonging to them.')
 COUNT(3000)
