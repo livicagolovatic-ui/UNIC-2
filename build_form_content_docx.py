@@ -1146,41 +1146,45 @@ COUNT(4000)
 
 H2('Evaluation')
 Q('How will you evaluate your project’s success? Which activities will you carry out in order to assess whether, and to what extent, your project has reached its objectives and results?')
-P('Every indicator has a baseline, a target, an instrument, an owner and a moment of measurement, and the three main instruments exist in writing before submission.')
-TBL([
- ['Indicator', 'Baseline', 'Target', 'Instrument', 'When and who'],
- ['Mean score on the practical verification test (O1)', 'Month 2', '+30% or more, for at least 17 of 21', '15-item, 30-point practical test, Form A and Form B, online, closed-device', 'Months 2 and 18; Learning Programme Coordinator'],
- ['Participants applying 4 verification techniques (O2)', '0 at selection', 'At least 17 of 21', 'Observation grid, 4 techniques scored 0–2, six calibrated observers, 10 of 21 double-scored', 'Day 4, and in short form at the local initiatives; facilitators and group leaders'],
- ['Young people reached through local initiatives (O3)', '0', 'At least 80, at least 20 per community', 'Attendance lists, short activity reports, photographs with consent', 'After each initiative, months 6–15; group leaders'],
- ['Beneficiaries able to apply 2 simple methods (O3)', '3 entry questions per workshop', 'At least 70%', 'The 10-minute exercise at the end of each local initiative', 'At each initiative; group leader'],
- ['Overconfidence sub-score (items 9 and 14)', 'Month 2', 'Moves proportionally more than the total', 'Same test, reported as a separate 4-point sub-score', 'Months 2 and 18; Learning Programme Coordinator'],
- ['Confidence gap (believed minus actual ability)', 'Month 2', 'Narrower at month 18', 'Unscored confidence question converted to the test scale', 'Months 2 and 18; Learning Programme Coordinator'],
- ['First-time participants in a European mobility', '—', 'At least 16 of 21', 'Selection form', 'Month 2; selection commission'],
- ['Participants with fewer opportunities', '—', 'At least 13 of 21', 'Selection form and specific-needs sheet', 'Month 2; selection commission'],
- ['Gender balance', '—', 'At least 40% of each gender in every national group', 'Participant list', 'Month 2 and final confirmation; activity coordinator'],
- ['Applications received', '0', 'At least 63 for 21 places', 'Application register', 'Month 2; each partner for its own group'],
- ['Satisfaction and perceived learning', '—', 'At least 80% positive', 'End-of-mobility questionnaire and daily reflection records', 'Daily and on Day 7; facilitators'],
- ['Retention at 6 months', '—', 'At least 16 of 21 still applying something', 'Follow-up questionnaire', 'Month 12; activity coordinator'],
- ['External uptake of the toolkit', '0', 'At least 4 organisations outside the partnership', 'Written confirmations', 'Months 16–18; communication officer'],
-], widths=[3.6, 2.4, 3.2, 4.0, 3.4], small=True)
-P('The evaluation runs to a fixed sequence. Before month 2 both instruments are piloted with five to eight young people aged 14–17 from the territory who are not project '
-  'participants, and any item that more than 80% or fewer than 10% of the pilot group answers correctly is rewritten, so that neither instrument is used on the cohort untested. '
-  'In month 2 the baseline is taken and the threshold recalibration rule is applied once, on the group mean, with the decision recorded in writing. In month 4 all observers score '
-  'the same recorded sequence independently and compare, targeting exact agreement on at least 80% of judgements, and if that is not reached the grid is simplified before the '
-  'mobility and the decision minuted.')
-P('During the mobility, the daily reflection groups produce output that visibly adjusts the next day’s programme, facilitators observe, the Day 4 grid is applied with moderation '
-  'immediately afterwards, and individual learning targets are reviewed at the mid-point. On Day 7 come the participatory evaluation, an anonymous written questionnaire, the '
-  'Youthpass reflection and the comparison of each participant’s Day 1 digital map with their Day 7 reflection. After each local initiative there are attendance records, a short '
-  'report and the ten-minute exercise. Month 10 brings the joint online review that feeds a revision of the toolkit, month 12 the follow-up questionnaire, month 17 a participatory '
-  'evaluation with participants and a consortium evaluation meeting, and month 18 the final test, the comparison with the baseline, the evaluation report, and results '
-  'communicated individually to each participant and collectively to parents, community partners, the 14 municipalities and the National Agency.')
-P('The instruments are designed so that failure is visible. A practical test can show no improvement, an observation grid can record that a participant did not perform a '
-  'technique, and a participant who does not take both forms is excluded from the calculation and reported as excluded rather than quietly dropped from the denominator. We prefer '
-  'that to a satisfaction questionnaire that always comes back positive. Fifteen items and twenty-one participants is not a validated psychometric instrument and we will not describe '
-  'it as one: it is fit for tracking change inside this cohort and for telling the team where the learning worked, and the final report will say what was achieved and what was '
-  'not.')
+P('The three instruments that judge this project exist in writing now, at application stage, rather than being invented once the results are in. Every indicator we use has a '
+  'baseline, a target, an instrument, a named owner and a fixed moment of measurement.')
+P('The first instrument is a practical verification test of fifteen items worth thirty points, taken online on a closed device: Form A in month 2, before any learning activity, '
+  'and the equivalent Form B in month 18, scored by the same formula at both ends. It is what tells us whether objective O1 was met — a rise of at least 30% in the mean score for '
+  'at least 17 of the 21 participants. The second is an observation grid on which four named techniques are scored 0 to 2 each: identifying the source and the author, checking '
+  'the date and the original context, comparing against two independent sources, and testing an image or a claim. It is applied in session D4.1 on Day 4 by six calibrated '
+  'observers — the four group leaders and the two facilitators — with ten of the twenty-one double-scored independently and the Learning Programme Coordinator moderating but not '
+  'scoring; it is what tells us whether O2 was met, again for at least 17 of 21. The third is a ten-minute exercise at the close of each of the four local initiatives: a young '
+  'person who attended names two distinct checks, carries one out and draws a conclusion that follows from it. All three conditions, or it does not count. That is how O3 is '
+  'judged — at least 80 young people reached, at least 20 per community, and at least 70% of them able to apply two simple methods.')
+P('Two further measures matter more to us than the headline scores, because they go to the actual problem. The test carries a separate four-point sub-score on the two items that '
+  'depend on overconfidence rather than knowledge, and we expect it to move proportionally more than the total; and an unscored question asking how good participants believe '
+  'they are is converted onto the test scale, so the distance between believed and actual ability is reported as a number in month 2 and again in month 18. Our starting point is '
+  'a group that already thinks it can spot a fake, so a project that raised the score while leaving that gap untouched would have missed the point.')
+P('Neither instrument is used on the cohort untested. Before month 2 both are piloted with five to eight young people aged 14–17 from the territory who are not project '
+  'participants, and any item that more than 80% or fewer than 10% of them answer correctly is rewritten, because an item everyone gets right and an item nobody gets '
+  'right tell us nothing. The baseline is then taken in month 2 and the recalibration rule applied once, on the group mean, with the decision written down at the time. In month 4 '
+  'all six observers score the same recorded sequence independently and compare, targeting exact agreement on at least 80% of judgements; if that is not reached the grid is '
+  'simplified before the mobility and the decision minuted — before anyone has seen a result, never after.')
+P('A second set of checks at selection is as binding as the learning ones: at least 63 applications for the 21 places, at least 16 of the 21 taking part in a European '
+  'mobility for the first time, at least 13 with fewer opportunities, and at least 40% of each gender in every national group, verified by the activity coordinator '
+  'at selection and again at final confirmation.')
+P('During the week the evaluation is continuous and visible to the participants. The daily reflection groups run first in the national group in the participant’s own language and '
+  'then in plenary, and what comes out of them visibly changes the next day’s programme — a learning method and our best early warning at once. The Day 4 grid is moderated '
+  'immediately after the session, while the observers still remember what they saw, and at the mid-point each participant returns to the two learning targets they set on Day 1. '
+  'On Day 7 there is a participatory evaluation run with the participants rather than on them, an anonymous questionnaire in which we look for at least 80% positive '
+  'without leaning on it, the Youthpass session, and the comparison of each sealed Day 1 digital map with what its author can now say about their own habits.')
+P('After the mobility the measurement follows the participants. Each local initiative produces an attendance record, a short report and the ten-minute exercise. In month 10 the '
+  'four groups meet online to review what actually worked, and that review is what revises the toolkit, not a desk edit. A follow-up questionnaire in month 12 asks what '
+  'they still use, with at least 16 of the 21 expected to be applying something six months on. In month 17 the participants take part in a participatory evaluation session that '
+  'feeds the final report, and the three organisations hold their own evaluation meeting. In month 18 the final test is taken, compared with the baseline and written up. '
+  'Externally we count one thing: at least four organisations outside the partnership confirming in writing that they use the toolkit. Results are communicated individually to '
+  'every participant and collectively to parents, community partners, the 14 municipalities and the National Agency.')
+P('We have built these instruments so that failure is visible rather than comfortable. A practical test can come back showing no improvement. An observation grid can record, '
+  'participant by participant, that a technique was not performed. A participant who does not take both forms is excluded from the calculation and reported as '
+  'excluded, not quietly removed from the denominator. We prefer that to a satisfaction questionnaire that always comes back positive. And we will describe the instruments '
+  'honestly: fifteen items and twenty-one participants do not make a validated psychometric instrument and we will not call it one. It is fit for tracking change inside this '
+  'cohort and for telling the team where the learning worked and where it did not; the final report will say both.')
 COUNT(6000)
-
 H2('Sustainability of the results')
 Q('What will you do to make sure that your project continues to have effects also after it ends?')
 P('Something concrete stays behind and someone owns it. The “Digital Detectives” toolkit — worksheets, exercises, games, verification grids, the manipulation grid produced by the '
