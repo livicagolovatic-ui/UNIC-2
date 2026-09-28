@@ -813,7 +813,7 @@ P('All twenty-one participants are minors, so the measures below are specific ra
   'conflict, bullying and abuse, who prepare alongside the young people and commit in writing to the rules.')
 P('The venue is assessed before it is contracted. A written risk assessment covers fire safety certification and evacuation routes, the state of the electrical installations and '
   'heating, the security of doors, windows and balconies, lighting of outdoor areas, separation of participant accommodation from any unrelated guests, distance and travel time '
-  'to the nearest medical facility and hospital, mobile signal coverage across the whole site, and the suitability of the outdoor spaces used. The logistics officer then verifies '
+  'to the nearest medical facility and hospital, mobile signal coverage across the whole site, and the suitability of the outdoor spaces used. The project manager and the activity coordinator then verify '
   'all of it on site during the preparatory visit in month 3, together with representatives of the sending organisations, and the venue is not confirmed until it has been seen. '
   'On arrival an evacuation drill is held on Day 0 with the assembly point shown to every participant, and the guided safety tour is a scheduled session rather than an '
   'informality. Rooms are allocated by gender and by age with minors accommodated only with minors, the group leaders sleep on the same floors as their groups, and a night-duty '
@@ -893,23 +893,24 @@ TBL([
  ['Activity Type', 'Preparatory visits', 'Organiser of the preparatory visit', 'ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM'],
  ['Start date', '09/06/2027', 'End date', '11/06/2027'],
  ['Venue of the activity', 'Romania — Beliș, Cluj County', 'Duration', '3 days, in month 3 of the project'],
- ['Number of persons', '6 — two from each of the three organisations', 'No. of facilitators', '1'],
+ ['Number of persons', '6 — two from each of the three organisations', 'No. of facilitators', '1 — the facilitator designated by GGD, on the Turkish flow'],
  ['Total activity grant', '**4,080.00 EUR** (680 × 6)', 'Flows', '3 × 2 persons: Romania (organiser), Türkiye, Greece'],
 ], widths=[3.6, 4.7, 3.6, 4.7], count=False)
 
 Q('Please describe who will take part in the Preparatory Visit.')
 P('Six people travel or take part on site, two from each of the three organisations. We chose them by one rule: whoever has to sign something, facilitate something or reassure '
   'somebody in August should have stood in the building first.')
-P('For the coordinator and host, **Iulia Fătu**, our financial and logistics officer, and **Claudiu Iancu**, Coordinator of our Youth Department and lead facilitator of the '
-  'exchange. Iulia writes the venue risk assessment and signs the contract with the accommodation unit, so she is the person who has to walk the corridors, test the doors and '
-  'windows, and drive the route to the nearest hospital rather than look it up. Claudiu is registered as the facilitator on this flow: he finalises the daily programme session '
-  'by session with the two partner leads, agrees the three measurement instruments and fixes the date of the observer calibration. Our project manager deliberately does not take '
-  'one of the six places and joins the working sessions online instead, so that both of the coordinator’s places go to people whose job on the visit is physical rather than '
-  'administrative.')
-P('For Genç Gönüllüler Derneği, **M. Talha Serenli**, the group leader proposed to accompany the Turkish group in August, and **one young person already selected for the '
-  'exchange**. Talha will be responsible for seven minors in a country he has not been to, on a route with a border crossing, so he sees the building, the floors, the room '
-  'allocation and the emergency arrangements before he agrees to any of it. GGD also uses the visit to confirm which of its staff will be the second facilitator and to hand over '
-  'the technical outline of the AI and media production days.')
+P('For the coordinator and host, **Alina Ioana Baba**, our project manager, and **Livia Golovatic**, activity coordinator and group leader of the Romanian group. Alina carries '
+  'the budget, the contracts and the risk decisions, so she is the person who has to have walked the corridors, tested the doors and windows and driven the route to the nearest '
+  'hospital before she signs anything: the venue is contracted by her, on the spot if it passes and not at all if it does not. Livia will accompany the Romanian group in August '
+  'and runs the four joint online preparation sessions, so she is the one who has to turn what the visit finds into what the participants are told — she checks the rooms and the '
+  'common spaces against the written risk assessment prepared by our financial and logistics officer, and carries the answers back into the preparation.')
+P('For Genç Gönüllüler Derneği, **the facilitator it designates for the exchange** and **one young person already selected for the exchange**. The facilitator is the one '
+  'person on the visit whose work depends on conditions that cannot be described in writing: the AI and media production days need a room where twenty-one young people can '
+  'edit video on a connection that holds, so the facilitator tests it, plans the two days against the actual spaces, and agrees with our lead facilitator who runs what. This is '
+  'also the facilitator the form counts on this activity, and it is the reason the place goes to that person rather than to a second manager. The Turkish group leader takes part '
+  'in the working sessions online and receives the room allocation, the emergency arrangements and the photographs of the floors his group will sleep on before he agrees to the '
+  'travel plan.')
 P('For KEA IM Syrou, **Evgenia Kalogeropoulou**, social worker and proposed Greek group leader, and **one young person already selected for the exchange**. Evgenia co-designs '
   'the Day 5 community dialogue, which is a facilitated social-work exercise before it is a media-literacy one, so she walks the village, meets the residents who have agreed to '
   'take part and the staff of the mayor’s office, and agrees the route and the timing on the spot. She is also the safeguarding counterpart for the Greek group, which makes the '
@@ -922,9 +923,9 @@ P('The two young people are not observers and they are not there as decoration. 
 P('Because those two are minors, the visit carries the same protections as the exchange: written parental consent obtained before booking, travel and medical insurance, and the '
   'young person accompanied throughout by the adult from their own organisation, who is the same person who will accompany them in August. Nothing about their participation is '
   'improvised for a short trip.')
-P('Four of the six are already part of Activity YEXMS01 — two group leaders, one facilitator and, through the two young people, two of the twenty-one participants. Only Iulia '
-  'Fătu is additional, so the two activities together involve twenty-eight distinct people. [TO CONFIRM with the partners: the two staff names and the identity of the two young '
-  'people, which follows selection in month 2.]')
+P('Five of the six are already part of Activity YEXMS01 — two group leaders, one facilitator and two of the twenty-one participants. Only the project manager is additional, '
+  'so the two activities together involve twenty-eight distinct people. [TO CONFIRM with the partners: which staff member GGD designates as facilitator, and the identity of '
+  'the two young people, which follows selection in month 2.]')
 COUNT()
 
 Q('Please describe why you want to carry out a Preparatory Visit. What are its objectives and expected outcomes?')
