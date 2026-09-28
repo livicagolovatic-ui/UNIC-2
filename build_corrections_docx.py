@@ -13,48 +13,19 @@ CALLOUT('Do these four first if you do nothing else.',
         'FBEAEA', 'E0A0A0')
 
 # ================================================================= 1
-H2('1. Preparatory visit — make it one number')
-P('The form declares **4 persons and 2,720.00** in two flows. That is the correct reading: the unit cost covers travel and subsistence, and Alina Baba and Livia Golovatic are '
-  'local, so they incur neither. Do not change the budget. Change the narrative so it says the same thing — and say plainly that six people take part while four are funded, '
-  'because a reviewer reads that as cost discipline rather than as a discrepancy.')
-H4('Replace the whole of “Please describe who will take part in the Preparatory Visit.”')
-P('**Six people take part in the visit and four of them are funded.** The two from the coordinating organisation live and work in the territory, so they travel nowhere and '
-  'cost the project nothing; the preparatory visit grant is requested only for the four who fly in. We chose all six by one rule: whoever has to sign something, facilitate '
-  'something or reassure somebody in August should have stood in the building first.')
-P('**Funded, from Genç Gönüllüler Derneği (Türkiye), two people:** the facilitator GGD designates for the exchange, and one young person already selected to take part. The '
-  'facilitator is the one person whose work depends on conditions that cannot be described in writing — the AI and media production days need a room where twenty-one young '
-  'people can edit video on a connection that holds — so the facilitator measures it, plans those two days against the actual spaces and agrees with our lead facilitator who '
-  'runs what. This is the facilitator counted on this activity. The Turkish group leader who will accompany the group in August joins the working sessions online and receives '
-  'the room allocation, the emergency arrangements and photographs of the floors his group will sleep on before he agrees to the travel plan.')
-P('**Funded, from KEA IM Syrou (Greece), two people:** Evgenia Kalogeropoulou, social worker and proposed Greek group leader, and one young person already selected. Evgenia '
-  'co-designs the Day 5 community dialogue, which is a facilitated social-work exercise before it is a media-literacy one, so she walks the village, meets the residents who '
-  'have agreed to take part and the staff of the mayor’s office, and agrees the route and the timing on the spot. She is also the safeguarding counterpart for the Greek group, '
-  'which makes the on-site check her own responsibility rather than someone else’s report to her.')
-P('**Taking part on site at no cost to the project, from the coordinating organisation:** Alina Ioana Baba, project manager, and Livia Golovatic, activity coordinator and '
-  'group leader of the Romanian group. Alina carries the budget, the contracts and the risk decisions, so she is the person who walks the corridors, tests the doors and '
-  'windows and drives the route to the nearest hospital before she signs anything — the venue is contracted by her, on the spot if it passes and not at all if it does not. '
-  'Livia will accompany the Romanian group in August and runs the four joint online preparation sessions, so she checks the rooms and the common spaces against the written '
-  'risk assessment prepared by our financial and logistics officer and carries the answers back into the preparation.')
-P('The two young people are not observers. Each is chosen from among those who declared, voluntarily and confidentially, a situation limiting their access to opportunities, '
-  'because the barrier this measure answers is the social one: 12.5% of the young people in our survey said what stops them is lack of self-confidence. They have a defined job '
-  '— they check the rooms and the common spaces from a participant’s point of view rather than an organiser’s, they take part in the village walk, and what they say is written '
-  'into the final programme. Afterwards each describes the place to their own group in their own language, in the third online preparation session, which is worth more than any '
-  'photograph we could send. Because they are minors, the visit carries the same protections as the exchange: written parental consent before booking, travel and medical '
-  'insurance, and each young person accompanied throughout by the adult from their own organisation.')
-P('All four funded travellers are already part of Activity YEXMS01 — one facilitator, one group leader and two of the twenty-one participants — so the preparatory visit adds '
-  'no new people to the project, only an earlier date. [TO CONFIRM with the partners: which staff member GGD designates, and the identity of the two young people, which '
-  'follows selection in month 2.]')
-H4('Then two one-line repairs in the same activity')
-TBL([
- ['Where', 'Now', 'Replace with'],
- ['“Why you want to carry out a Preparatory Visit”, last sentence of the grounds paragraph',
-  '…and it is why two of the **six** places go to young people rather than staff, as described above.',
-  '…and it is why two of the **four funded places** go to young people rather than staff, as described above.'],
- ['Timetable annex, Preparatory Visits sheet, “Participating organisations” cell',
-  '**6 persons in total**, two from each of the three organisations…',
-  '**Six people take part, four of them funded**: two from Genç Gönüllüler Derneği and two from KEA IM Syrou travel and are covered by the preparatory visit grant; Alina Ioana '
-  'Baba and Livia Golovatic, of the coordinating and hosting organisation, take part on site at no cost to the project.'],
-], widths=[3.6, 5.6, 7.4], small=True)
+H2('1. Preparatory visit — the form fields are right; one sentence is not')
+CALLOUT('Confirmed: the preparatory visit is correctly set up.',
+        '**4 persons, 2,720.00, two flows of two, one facilitator on the GGD flow** — that is right and should not be touched. The unit cost covers travel and subsistence, and '
+        'Alina Baba and Livia Golovatic are local, so no unit cost is claimed for them. Six people in the room, four funded, is a perfectly ordinary and well-run arrangement.',
+        'EAF3EA', '9FC49F')
+P('One sentence in the narrative does not match it, and it is a slip rather than a judgement. The paragraph currently reads:')
+P('//“For Genç Gönüllüler Derneği, the facilitator it designates for the exchange, **M. Talha Serenli, the group leader proposed to accompany the Turkish group in August**, and '
+  'one young person already selected for the exchange.”//')
+P('That lists **three** people for GGD, which with KEA’s two and the coordinator’s two makes seven named against four declared — and the same paragraph then says the Turkish '
+  'group leader takes part in the working sessions **online**. Two versions of the sentence appear to have been merged. Delete the middle clause:')
+P('For Genç Gönüllüler Derneği, the facilitator it designates for the exchange and one young person already selected for the exchange.')
+P('The opening sentence is then worth one clause, so that “six” and “four” are never read as a contradiction: //“Six people take part in the visit and four of them are funded — '
+  'the coordinator’s two work in the territory, travel nowhere and are not claimed.”// Everything else in the field can stay as written.')
 
 # ================================================================= 2
 H2('2. Stale figures — a straight find and replace')
@@ -92,20 +63,37 @@ P('We are careful about what we claim. Seven days do not produce expert fact-che
   'four techniques a participant can actually perform under observation, and one local initiative each has led — which is exactly what objective O2 measures and what the '
   'observation grid records.')
 
-H2('4. Inclusion support for participants — request it, do not delete the promise')
-P('The text promises door-to-door transport “through the inclusion support category on a dedicated budget line” and real-cost support on separate lines. All three flows '
-  'currently declare 0.00 with an empty justification. Deleting the promise would cost design points; requesting the money keeps the promise and adds the funds. Enter a figure '
-  'per flow and paste this into the **“Description and justification of expenses”** box on each flow, adjusting the amounts to your own estimates.')
-P('Inclusion support is requested at real cost for the domestic legs that stand between a participant and the point of departure, because those legs are exactly what the '
-  'economic and geographical barriers consist of in these three territories. For the Greek flow it covers the inter-island ferry legs and transfers that bring seven young '
-  'people from small islands of the Cyclades and the Dodecanese to a single departure point before the group is even assembled — the longest and most expensive part of their '
-  'journey, and the one a family would otherwise have to fund itself. For the Romanian flow it covers transport from communes such as Măguri-Răcătău and Beliș, where there is '
-  'no scheduled service that matches a departure time. For the Turkish flow it covers transport from the rural localities behind the İstanbul periphery. A reserve within the '
-  'same line is kept for any accessibility, dietary or health need declared after selection on the confidential specific-needs sheet, supported at real cost and justified '
-  'individually. Every amount will be evidenced by invoice or ticket; nothing is paid by a family and reimbursed afterwards, because a reimbursement model excludes precisely '
-  'the participants this support exists for.')
-FLAG('Suggested build-up to price yourselves: Greek flow, 7 participants × ferry and transfer costs — the largest item; Romanian flow, 7 × local transport; Turkish flow, '
-     '7 × local transport; plus a reserve for a declared specific need. The content document assumed 2,000.00 in total. Enter what you can evidence, not a round number.')
+H2('4. Inclusion support — correct what the text says it pays for')
+CALLOUT('This corrects advice given in the first version of this pack.',
+        'The earlier version told you to fund door-to-door domestic transport from inclusion support and to request a figure for it. That was wrong on both counts, and the '
+        'National Call settles it: the additional real-cost funding attaches to //“un participant cu nevoi speciale a cărui condiție fizică, mentală sau de sănătate este de așa '
+        'natură încât participarea la mobilitate nu este posibilă fără sprijin suplimentar”// — a participant whose physical, mental or health condition makes participation '
+        'impossible without extra support, including where they need an accompanying person. It is not a transport subsidy and not a general entitlement for everyone with fewer '
+        'opportunities.',
+        'FBEAEA', 'E0A0A0')
+P('Two things follow, and neither of them requires you to ask for money you cannot evidence.')
+P('**Domestic travel is already paid — by the travel grant, not by inclusion support.** The travel unit cost is calculated by distance band from the participant’s place of '
+  'origin, so the leg from a commune of the Apuseni or from a small island to the point of departure sits inside the 56.00, 309.00 or 417.00 already requested. Saying it comes '
+  'from inclusion support is both wrong and unnecessary, because the stronger claim is the true one: the journey is paid from the participant’s own front door because that is '
+  'what the travel grant is for and because we book it centrally rather than reimbursing a family afterwards.')
+P('**Inclusion support for participants is correctly 0.00 now**, and the text should say why rather than promise a line that is empty. Replace the sentence in the '
+  '“specific measures” field:')
+TBL([
+ ['Now', 'Replace with'],
+ ['Transport is organised and paid from each participant’s own front door to the point of departure, **through the inclusion support category on a dedicated budget line**, so '
+  'that a young person from Măguri-Răcătău, or one who must take an inter-island ferry before reaching an airport, does not have to solve the first leg alone.',
+  'Transport is organised and paid from each participant’s own front door to the point of departure, booked and paid centrally by the coordinator out of the travel grant, which '
+  'is calculated from each participant’s own place of origin, so that a young person from Măguri-Răcătău, or one who must take an inter-island ferry before reaching an airport, '
+  'never has to fund or solve the first leg themselves and never waits to be reimbursed.'],
+ ['**Inclusion support for participants is requested at real cost on separate dedicated lines**, each justified individually, for a documented need such as an extra ferry leg, '
+  'additional domestic transport or an accessibility cost.',
+  'No inclusion support for participants is requested at this stage, and that is a statement of fact rather than an omission: it covers the additional real costs of a '
+  'participant whose health, disability or specific condition would otherwise make participation impossible, and we cannot know of such a case before selection in month 2. The '
+  'confidential specific-needs sheet exists precisely to surface one, and if it does we will request the support at real cost, with its own justification, including an '
+  'accompanying person where that is what the participant needs.'],
+], widths=[7.4, 9.0], small=True)
+P('**Inclusion support for organisations stays exactly as it is.** The 1,625.00 at 125.00 for each of the 13 participants with fewer opportunities is the category that does '
+  'attach to that group, and it is correctly claimed.')
 
 H2('5. Green travel on the Turkish flow')
 P('The environmental field says //“the budget is built on the green rates for all three flows”// while flow 2 is costed at 309.00, the non-green rate for 500–1,999 km. '
@@ -155,13 +143,24 @@ TBL([
   'builds, its output and the person responsible, so every competence claimed is tied to the sessions that build it…'],
 ], widths=[3.2, 6.4, 7.0], small=True)
 
-H2('9. Accompanying persons — restore the passage the question asks for')
-P('“What specific measures (e.g. **accompanying persons**, reinforced mentorship, accessibility measures)…” currently answers the second and third examples and not the first. '
-  'Paste this into the geographical-obstacles paragraph, after “…does not have to solve the first leg alone.”')
-P('**Accompanying persons** are set by the journey rather than by the minimum: four group leaders and two facilitators, six adults for twenty-one minors, one adult per 3.5 '
-  'participants, below the National Call’s ceiling of one leader per four young people. The Greek flow carries two group leaders because its route — ferry to Piraeus, flight, '
-  'then overland to the Apuseni — is the longest in the project and has at least one transfer where a group of fourteen-year-olds could be split. Every group is accompanied '
-  'from its own departure point to Beliș and back and is never handed over mid-route.')
+H2('9. Accompanying persons — withdrawn')
+CALLOUT('This withdraws an item from the first version of this pack.',
+        'The earlier version asked you to paste a passage beginning “**Accompanying persons** are set by the journey rather than by the minimum: four group leaders and two '
+        'facilitators…”. Do not use it. A group leader and an accompanying person are different categories, and conflating them would have introduced an error rather than '
+        'removed one.',
+        'FBEAEA', 'E0A0A0')
+P('In this Action a **group leader** is an adult who accompanies a national group to ensure the young people’s learning, protection and safety — which is what your four are. An '
+  '**accompanying person** is someone who escorts a participant whose condition makes participation impossible without that support; the National Call ties it to the same '
+  'real-cost provision as inclusion support for participants. The form keeps three separate counters — group leaders, facilitators, accompanying persons — precisely because '
+  'they are not interchangeable.')
+P('So **No. of Accompanying Persons = 0 alongside 4 group leaders is correct**, needs no justification and should not be changed. The only thing worth doing is making sure the '
+  'narrative never calls a group leader an accompanying person, which the find-and-replace pairs in section 2 already handle.')
+P('If you still want the supervision ratio in the “specific measures” field — it is a fair inclusion measure and the field has room — use wording that keeps the categories '
+  'straight:')
+P('Supervision is set by the journey rather than by the minimum: four group leaders and two facilitators, six adults for twenty-one minors, one adult per 3.5 participants, '
+  'below the National Call’s ceiling of one group leader for every four young people. The Greek group travels with two group leaders rather than one because its route — ferry '
+  'to Piraeus, flight, then overland to the Apuseni — is the longest in the project and has at least one transfer where a group of fourteen-year-olds could be split. Every '
+  'group is accompanied from its own departure point to Beliș and back and is never handed over mid-route.')
 
 H2('10. Missing spaces after a full stop — 17 places')
 SMALL('All are the result of pasted text losing its paragraph breaks. Search for each string and insert the space.')
@@ -199,8 +198,7 @@ TBL([
  ['Quality of the project management', '22–25 / 30', '**25–26 / 30**'],
  ['**Total**', '**74–82**', '**84–88**'],
 ], widths=[6.0, 4.8, 5.8], small=True)
-P('And in money, if items 5 and 6 are taken: **+972.00** on the Turkish travel line, **+2,484.00** across the three individual-support lines, plus whatever inclusion support '
-  'for participants you can evidence — taking the activity grant from 21,638.00 towards the 27,094.00 the content document computes.')
+P('And in money, if items 5 and 6 are taken: **+972.00** on the Turkish travel line, **+2,484.00** across the three individual-support lines, with inclusion support for participants correctly left at zero. That takes the activity grant from 21,638.00 to 25,094.00.')
 
 E.doc.save('/home/user/UNIC-2/VERIFAI_Corrections_To_Apply.docx')
 print('saved')
