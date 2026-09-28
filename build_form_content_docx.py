@@ -225,6 +225,40 @@ P('**Marilena Georgescu**, inclusion and safeguarding lead, has higher education
   'insurance, the venue risk assessment and reporting.')
 COUNT()
 
+
+H3('Past participation — applicant organisation')
+SMALL('The table itself is filled in automatically by the form. The field below is the free-text comment that follows it.')
+Q('Would you like to make any comments or add any information to the summary of your organisation’s past participation?')
+P('Three things in the table are worth a sentence, because the figures on their own would mislead in both directions.')
+P('The first is the line for Mobility of young people. **This is our first application to KA152 as the applicant organisation.** We have been named as a partner in five KA152 '
+  'applications submitted by other organisations and none of them was selected. We have read the expert assessment of one of those applications, and one of its criticisms shaped '
+  'this one directly: that the proposal did not set out measures for the safety of the accommodation and of the spaces where the activities take place. The written venue risk '
+  'assessment, verified on site during the preparatory visit before the venue is contracted, is the answer to that, and it is why the preparatory visit is requested at all. '
+  'Applying as the hosting organisation is a deliberate step rather than an accident of who was available: hosting means owning the venue, the safety of twenty-one minors, the '
+  'learning programme and the relationship with the host community, and those are the four things we have and a sending partner does not.')
+P('The second is the overall shape of the record. As applicant we have submitted 24 applications and had 3 selected. As a partner we appear in 67 applications, of which 12 were '
+  'selected. The partner figure has to be read with care: those applications are written and submitted by other organisations that name us, and while we contribute a needs '
+  'analysis, a territory and a mandate, we control neither how many are sent nor how strong they are. The applicant figure is the one that describes us, and it is the one we '
+  'would rather be judged on.')
+P('Within the youth field the record is real rather than incidental. Across the youth actions we appear in 33 applications with 7 selected. The one we built ourselves is **Rural '
+  'Youth Parliament — tool for youth involvement in local communities (2021-1-RO01-KA220-YOU-000029265)**, which we coordinated and which produced the informal group of young '
+  'people and youth workers that still meets, still runs its own campaigns and still staffs our events four years later — the clearest evidence we can offer that what we start '
+  'does not stop when the funding does. Among the granted projects where we are a partner are **CONNECT-R (KA154, 2025)** on rural youth participation, a KA153 youth-worker '
+  'mobility, and a small-scale partnership in youth.')
+P('The third is what the table cannot show, because it covers only the actions managed by the National Agencies. We are currently the **coordinator of EMPOWER+ — Empowering '
+  'Rural Youth: Establishing and Strengthening the Rural Youth Parliament in Sub-Saharan Africa** (proposal 101243075, ERASMUS-YOUTH-2025-CB-SSA), a Capacity Building project in '
+  'the field of youth managed centrally by EACEA, in which we lead nine organisations across seven countries. It is the largest youth responsibility we have taken on, it is '
+  'built on the same Rural Youth Parliament model, and it appears nowhere in the table above. Neither does the **Youth Department** our General Assembly established on '
+  '17 October 2023, with its coordinator appointed by the vote of the mayors of our 14 communes — the structure that makes this application something the organisation runs '
+  'rather than something it attempts.')
+P('One more line deserves an explanation rather than silence. We applied once for **accreditation in youth (KA150-YOU)** and were not successful. We drew the obvious conclusion: '
+  'show what we can do in one well-evidenced project, with instruments that can record failure as well as success, before asking to be accredited for a programme of them. This '
+  'is that project.')
+COUNT()
+FLAG('[TO CONFIRM before submission: that the expert assessment referred to above belongs to an application in which the association was a partner rather than the applicant. '
+     'The table records 0 KA152 applications as applicant; if an application was in fact submitted as applicant in an earlier 2026 round and is simply not yet reflected in the '
+     'table, then the sentence above should say “as applicant” instead. This is now the only place in the application where that assessment is mentioned.]')
+
 Q('Please describe the profile of each of the group members and what does each one bring to the project.')
 TBL([
  ['Person and role in VERIFAI', 'Profile and contribution'],
