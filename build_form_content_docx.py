@@ -111,13 +111,13 @@ H1('Summary of activities and participants')
 TBL([
  ['Activity Type', 'No. of activities', 'No. of persons', 'Participants with fewer opportunities'],
  ['Youth exchanges', '1', '27', '13'],
- ['Preparatory visits', '1', '6', '0'],
- ['**Total**', '**2**', '**33**', '**13**'],
+ ['Preparatory visits', '1', '4', '0'],
+ ['**Total**', '**2**', '**31**', '**13**'],
 ], widths=[5.0, 3.6, 3.6, 4.4], count=False)
 SMALL('27 persons in Activity 01 = 21 participants aged 14–17 + 4 group leaders + 2 facilitators, in three national groups of seven from Romania, Türkiye and Greece. '
-      'The 6 persons of PREPV02 are the preparatory visit: two from each organisation. Four of them are already among those 27 — two group leaders, one facilitator and two '
-      'of the participants — so 33 persons means 28 distinct people. The form counts no participants with fewer opportunities on a preparatory visit, although both young '
-      'people who travel are drawn from that group.')
+      'The 4 persons of PREPV02 are the funded travellers of the preparatory visit: two from GGD and two from KEA. All four are already among those 27, so 31 persons still '
+      'means 27 distinct people; the coordinator’s two staff take part on site without a unit cost. The form counts no participants with fewer opportunities on a preparatory '
+      'visit, although both young people who travel are drawn from that group.')
 
 # =====================================================================
 H1('Project budget')
@@ -129,8 +129,8 @@ TBL([
  ['Individual support', '12,834.00', 'Romania 9 persons × 9 days × 46; Türkiye 9 and Greece 9 persons × 11 days × 46 (9 days plus the 2 additional days green travel over that distance makes eligible)'],
  ['Inclusion support for organisations', '1,625.00', '125 × 13 participants with fewer opportunities'],
  ['Inclusion support for participants', '2,000.00', 'Real costs, requested on separate dedicated lines and justified individually'],
- ['Preparatory visit', '4,080.00', '680 × 6 persons: 2 from each of the three organisations, one of the two from each sending partner being a young person'],
- ['**Total**', '**31,174.00**', 'Of which 27,094.00 is the Activity YEXMS01 grant and 4,080.00 the preparatory visit'],
+ ['Preparatory visit', '2,720.00', '680 × 4 travelling persons: 2 from GGD and 2 from KEA, one of each pair being a young person. The coordinator’s two take part on site and are not claimed'],
+ ['**Total**', '**29,814.00**', 'Of which 27,094.00 is the Activity YEXMS01 grant and 2,720.00 the preparatory visit'],
 ], widths=[4.4, 2.2, 10.0], count=False)
 SMALL('Figures built on the 2026 Programme Guide unit costs. The form produces the final amounts per flow once the distance calculator has been run for each place of origin. '
       'Organisational support is calculated here on the 21 young participants only; if the National Agency counts group leaders and facilitators as participants for this item, that line rises to 3,375.00 (125 × 27) and the totals with it. '
@@ -594,8 +594,8 @@ H3('Activity list')
 TBL([
  ['Id.', 'Activity Type', 'Activity Title', 'No. of participants', 'No. of persons', 'Total grant (EUR)'],
  ['YEXMS01', 'Youth exchanges', 'VERIFAI: Young Detectives Against Digital Disinformation', '21', '27', '27,094.00'],
- ['PREPV02', 'Preparatory visits', 'Preparatory visit to Beliș, related to YEXMS01', '—', '6', '4,080.00'],
- ['', '', '**Total**', '**21**', '**33**', '**31,174.00**'],
+ ['PREPV02', 'Preparatory visits', 'VERIFAI Preparatory Visit: Safety, Inclusion and Programme Planning', '—', '4', '2,720.00'],
+ ['', '', '**Total**', '**21**', '**31**', '**29,814.00**'],
 ], widths=[1.2, 2.6, 6.0, 2.4, 2.0, 2.4], count=False)
 
 H3('Participant contribution and fees')
@@ -643,8 +643,8 @@ TBL([
  ['Inclusion support for participants', '', 'real costs, separate lines', '2,000.00'],
  ['**Total Activity grant**', '', '', '**27,094.00**'],
 ], widths=[5.6, 3.6, 3.8, 3.6], count=False)
-SMALL('The preparatory visit does not appear in the two tables above on purpose: its 4,080.00 EUR is reported by the form as its own activity, PREPV02, rather than inside the exchange grant. '
-      'That is why the exchange grant is 27,094.00 while the project total is 31,174.00.')
+SMALL('The preparatory visit does not appear in the two tables above on purpose: its 2,720.00 EUR is reported by the form as its own activity, PREPV02, rather than inside the exchange grant. '
+      'That is why the exchange grant is 27,094.00 while the project total is 29,814.00.')
 PAGEBREAK()
 
 Q('Please describe the background of the participants in each participating group and how each group was formed. Please also provide information on the group leaders, the age of the participants and how country balance is ensured. If necessary, explain how the gender balance is respected.')
@@ -911,7 +911,7 @@ P('Awareness of learning is built into the structure in three concrete ways rath
   'for the report.')
 P('The purpose of all this is a transferable skill in its own right: identifying what you learned, documenting it with evidence you can point to, and presenting it in a form '
   'someone else understands. That is what makes the certificate useful to a sixteen-year-old afterwards, in the next learning activity they join, in volunteering, in a civic '
-  'initiative in their own community, and in the next international mobility they apply for. The competence matrix above is the reference document for the whole process, since '
+  'initiative in their own community, and in the next international mobility they apply for. The annexed project timetable is the reference document for the whole process, since '
   'every competence claimed is tied to the sessions that build it and to the evidence that documents it, and facilitators work from that same matrix when supporting participants '
   'to write their Youthpass.')
 COUNT()
@@ -925,32 +925,33 @@ P('Yes — **Youthpass**, for all 21 participants and all 4 group leaders. It is
 COUNT(3000)
 
 H2('Activity PREPV02 — Preparatory visit')
-SMALL('Field names and figures below follow the live form (Activity PREPV02: Beliș, 09/06/2027 – 11/06/2027, six persons, 4,080.00 EUR).')
+SMALL('Field names and figures below follow the live form (Activity PREPV02: Beliș, 09/06/2027 – 11/06/2027, 4 funded persons, 2,720.00 EUR).')
 TBL([
  ['Field', 'Entry', 'Field', 'Entry'],
  ['Id.', 'PREPV02', 'Related to activity', 'YEXMS01 — VERIFAI: Young Detectives Against Digital Disinformation'],
  ['Activity Type', 'Preparatory visits', 'Organiser of the preparatory visit', 'ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM'],
  ['Start date', '09/06/2027', 'End date', '11/06/2027'],
  ['Venue of the activity', 'Romania — Beliș, Cluj County', 'Duration', '3 days, in month 3 of the project'],
- ['Number of persons', '6 — two from each of the three organisations', 'No. of facilitators', '1 — the facilitator designated by GGD, on the Turkish flow'],
- ['Total activity grant', '**4,080.00 EUR** (680 × 6)', 'Flows', '3 × 2 persons: Romania (organiser), Türkiye, Greece'],
+ ['Number of persons', '4 funded — two from GGD and two from KEA; the coordinator’s two take part on site, unfunded', 'No. of facilitators', '1 — the facilitator designated by GGD'],
+ ['Total activity grant', '**2,720.00 EUR** (680 × 4)', 'Flows', '2 × 2 persons: Türkiye and Greece. The host’s own staff travel nowhere, so no unit cost is claimed for them'],
 ], widths=[3.6, 4.7, 3.6, 4.7], count=False)
 
 Q('Please describe who will take part in the Preparatory Visit.')
-P('Six people travel or take part on site, two from each of the three organisations. We chose them by one rule: whoever has to sign something, facilitate something or reassure '
-  'somebody in August should have stood in the building first.')
-P('For the coordinator and host, **Alina Ioana Baba**, our project manager, and **Livia Golovatic**, activity coordinator and group leader of the Romanian group. Alina carries '
+P('**Six people take part in the visit and four of them are funded.** The two from the coordinating organisation live and work in the territory, so they travel nowhere and '
+  'cost the project nothing; the preparatory visit grant is requested only for the four who fly in. We chose all six by one rule: whoever has to sign something, facilitate '
+  'something or reassure somebody in August should have stood in the building first.')
+P('Taking part on site at no cost to the project, from the coordinating organisation: **Alina Ioana Baba**, our project manager, and **Livia Golovatic**, activity coordinator and group leader of the Romanian group. Alina carries '
   'the budget, the contracts and the risk decisions, so she is the person who has to have walked the corridors, tested the doors and windows and driven the route to the nearest '
   'hospital before she signs anything: the venue is contracted by her, on the spot if it passes and not at all if it does not. Livia will accompany the Romanian group in August '
   'and runs the four joint online preparation sessions, so she is the one who has to turn what the visit finds into what the participants are told — she checks the rooms and the '
   'common spaces against the written risk assessment prepared by our financial and logistics officer, and carries the answers back into the preparation.')
-P('For Genç Gönüllüler Derneği, **the facilitator it designates for the exchange** and **one young person already selected for the exchange**. The facilitator is the one '
+P('Funded, from Genç Gönüllüler Derneği: **the facilitator it designates for the exchange** and **one young person already selected for the exchange**. The facilitator is the one '
   'person on the visit whose work depends on conditions that cannot be described in writing: the AI and media production days need a room where twenty-one young people can '
   'edit video on a connection that holds, so the facilitator tests it, plans the two days against the actual spaces, and agrees with our lead facilitator who runs what. This is '
   'also the facilitator the form counts on this activity, and it is the reason the place goes to that person rather than to a second manager. The Turkish group leader takes part '
   'in the working sessions online and receives the room allocation, the emergency arrangements and the photographs of the floors his group will sleep on before he agrees to the '
   'travel plan.')
-P('For KEA IM Syrou, **Evgenia Kalogeropoulou**, social worker and proposed Greek group leader, and **one young person already selected for the exchange**. Evgenia co-designs '
+P('Funded, from KEA IM Syrou: **Evgenia Kalogeropoulou**, social worker and proposed Greek group leader, and **one young person already selected for the exchange**. Evgenia co-designs '
   'the Day 5 community dialogue, which is a facilitated social-work exercise before it is a media-literacy one, so she walks the village, meets the residents who have agreed to '
   'take part and the staff of the mayor’s office, and agrees the route and the timing on the spot. She is also the safeguarding counterpart for the Greek group, which makes the '
   'on-site check part of her own responsibility rather than someone else’s report to her.')
@@ -962,9 +963,9 @@ P('The two young people are not observers and they are not there as decoration. 
 P('Because those two are minors, the visit carries the same protections as the exchange: written parental consent obtained before booking, travel and medical insurance, and the '
   'young person accompanied throughout by the adult from their own organisation, who is the same person who will accompany them in August. Nothing about their participation is '
   'improvised for a short trip.')
-P('Five of the six are already part of Activity YEXMS01 — two group leaders, one facilitator and two of the twenty-one participants. Only the project manager is additional, '
-  'so the two activities together involve twenty-eight distinct people. [TO CONFIRM with the partners: which staff member GGD designates as facilitator, and the identity of '
-  'the two young people, which follows selection in month 2.]')
+P('All four funded travellers are already part of Activity YEXMS01 — one facilitator, one group leader and two of the twenty-one participants — so the preparatory visit adds '
+  'no new people to the project, only an earlier date. [TO CONFIRM with the partners: which staff member GGD designates as facilitator, and the identity of the two young '
+  'people, which follows selection in month 2.]')
 COUNT()
 
 Q('Please describe why you want to carry out a Preparatory Visit. What are its objectives and expected outcomes?')
@@ -974,7 +975,7 @@ P('All twenty-one participants are minors. We are bringing fourteen- to seventee
   'us: we have never worked with GGD or with KEA before, and a partnership that has only ever met online is the kind that discovers its misunderstandings in August. Third, a '
   'venue’s suitability cannot be assessed from photographs — fire exits, the security of balconies, the separation of participants’ rooms from other guests, the mobile signal and '
   'an internet connection that has to carry a programme about checking things online are either verified in person or they are assumed. The fourth ground is inclusion, and it is '
-  'why two of the six places go to young people rather than staff, as described above.')
+  'why two of the four funded places go to young people rather than staff, as described above.')
 P('The visit has five objectives, each with something to show for it.')
 NUM([
  'Verify the venue against the written risk assessment and either confirm it in writing or reject it in time to find another. The check covers fire safety certification and '
@@ -1156,9 +1157,9 @@ P('Alignment with the Quality Standards runs through the design rather than besi
 COUNT(6000)
 
 Q('How will you organise the practical and logistical part of the project (e.g. travel, accommodation, insurance, visa, social security, mentoring and support, preparatory meetings with partners etc.)?')
-P('A preparatory visit is held in Beliș from 9 to 11 June 2027, in month 3, with two people from each of the three organisations — six in total, and one of the two from each '
-  'sending partner is a young person already selected for the exchange. The coordinator’s two carry the on-site verification of the logistical and safety arrangements and the '
-  'finalisation of the mobility programme with the partners while everyone is in the same room. The visit as a whole verifies the venue and its safety in person, settles the division of the thematic '
+P('A preparatory visit is held in Beliș from 9 to 11 June 2027, in month 3. Six people take part and four are funded: two from each sending partner, one of each pair being a '
+  'young person already selected for the exchange. The coordinator’s project manager and activity coordinator take part on site without a unit cost, since they are local, and '
+  'they carry the on-site verification of the logistical and safety arrangements and the finalisation of the mobility programme while everyone is in the same room. The visit as a whole verifies the venue and its safety in person, settles the division of the thematic '
   'days, meets the host community and lets a young person from each group see where they will be coming. It is requested on three grounds: all twenty-one participants are minors, '
   'both sending partners are new working relationships for us, and a venue’s suitability cannot be assessed from photographs.')
 P('Travel is booked centrally by the coordinator for all three flows, so that no sending organisation carries a cash-flow burden and green options are compared on the same basis, '

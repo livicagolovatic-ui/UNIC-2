@@ -107,11 +107,11 @@ DAYS = [
 
 PV_LINK = "YEXMS01 — Youth exchange “VERIFAI: Young Detectives Against Digital Disinformation”, Beliș (Cluj County), Romania, 09/08/2027 – 15/08/2027"
 PV_ORGS = (
-    "6 persons in total, two from each of the three organisations. ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (OID E10181755, Romania), organiser and host: Alina "
-    "Ioana Baba, project manager, who contracts the venue and takes the risk decision, and Livia Golovatic, activity coordinator and Romanian group leader, who runs the joint "
-    "online preparation that follows. GENÇ GÖNÜLLÜLER DERNEĞI (OID E10309307, Türkiye): the facilitator it designates for the exchange — the one facilitator counted on this "
-    "activity — and one young person already selected for the exchange. KEA IM Syrou (OID E10151458, Greece): Evgenia Kalogeropoulou, social worker and proposed Greek group "
-    "leader, and one young person already selected for the exchange.\n"
+    "Six people take part and four of them are funded. Funded travellers: GENÇ GÖNÜLLÜLER DERNEĞI (OID E10309307, Türkiye) — the facilitator it designates for the exchange, "
+    "who is the one facilitator counted on this activity, and one young person already selected for the exchange; KEA IM Syrou (OID E10151458, Greece) — Evgenia "
+    "Kalogeropoulou, social worker and proposed Greek group leader, and one young person already selected. Taking part on site at no cost to the project: ASOCIAȚIA GRUPUL DE "
+    "ACȚIUNE LOCALĂ NAPOCA POROLISSUM (OID E10181755, Romania), organiser and host — Alina Ioana Baba, project manager, who contracts the venue and takes the risk decision, "
+    "and Livia Golovatic, activity coordinator and Romanian group leader, who runs the joint online preparation that follows. Both are local, so no unit cost is claimed.\n"
     "Requested on four grounds: all 21 participants of the exchange are minors; both sending partners are new working relationships for the coordinator; a venue's suitability "
     "cannot be assessed from photographs; and inclusion — the two young people are drawn from those who declared a situation limiting their access to opportunities, and each "
     "describes the place to their own group afterwards. Both are accompanied throughout by the adult from their own organisation, with parental consent and insurance in place."
