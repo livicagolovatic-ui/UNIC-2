@@ -105,23 +105,34 @@ DAYS = [
   []),
 ]
 
-PV_LINK = "01 — Youth exchange “VERIFAI: Young Detectives Against Digital Disinformation”, Beliș (Cluj County), Romania, 09/08/2027 – 15/08/2027"
+PV_LINK = "YEXMS01 — Youth exchange “VERIFAI: Young Detectives Against Digital Disinformation”, Beliș (Cluj County), Romania, 09/08/2027 – 15/08/2027"
 PV_ORGS = (
-    "5 persons in total: 2 from GENÇ GÖNÜLLÜLER DERNEĞI (OID E10309307, Türkiye) and 2 from KEA IM Syrou (OID E10151458, Greece) — one of the two from each being a young person who will take part in the exchange — plus 1 staff member of ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (OID E10181755, Romania), the coordinating and hosting organisation.\n"
-    "Requested on three grounds: all 21 participants are minors; both sending partners are new working relationships for the coordinator; and a venue's suitability cannot be assessed from photographs."
+    "6 persons in total, two from each of the three organisations. ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM (OID E10181755, Romania), organiser and host: the "
+    "financial and logistics officer, who writes the venue risk assessment and signs the contract, and the Learning Programme Coordinator, registered as the facilitator on this flow. "
+    "GENÇ GÖNÜLLÜLER DERNEĞI (OID E10309307, Türkiye): the proposed Turkish group leader and one young person already selected for the exchange. "
+    "KEA IM Syrou (OID E10151458, Greece): the proposed Greek group leader, a social worker, and one young person already selected for the exchange.\n"
+    "Requested on four grounds: all 21 participants of the exchange are minors; both sending partners are new working relationships for the coordinator; a venue's suitability "
+    "cannot be assessed from photographs; and inclusion — the two young people are drawn from those who declared a situation limiting their access to opportunities, and each "
+    "describes the place to their own group afterwards. Both are accompanied throughout by the adult from their own organisation, with parental consent and insurance in place."
 )
-PV_DURATION = "2 days on site, in month 3 of the project: 16/06/2027 – 17/06/2027 [TO CONFIRM with the partners]."
+PV_DURATION = "3 days on site, in month 3 of the project: 09/06/2027 – 11/06/2027."
 
 PV_DAYS = [
- ("DAY 1 — Wednesday 16/06/2027 · The venue and the programme",
-  ["On-site verification of the venue against the written risk assessment: fire safety certification and evacuation routes; the state of the electrical installations and heating; security of doors, windows and balconies; lighting of outdoor areas; separation of participant accommodation from any unrelated guests; the rooms in which minors will be accommodated only with minors, with group leaders on the same floors.",
-   "Measured test of the internet connection in the plenary room and in the four small-team spaces, because the whole programme depends on it; mobile signal coverage tested across the site; distance and travel time to the nearest medical facility and hospital checked in person; the reference medical facility and the first-aid arrangements identified and written down."],
-  ["Working session with the partners on the division of the thematic days: GGD confirms what it leads on Day 3 and Day 6 and which of its staff will be Facilitator 2; KEA confirms the Day 5 dialogue method and the local-initiative template; the coordinator confirms Days 1, 2, 4 and 7. The daily timetable is finalised session by session, in the same room and in one sitting.",
-   "The three measurement instruments are agreed: the fifteen-item practical test (Form A and Form B), the observation grid of four techniques scored 0–2, and the beneficiary exercise for the local initiatives; the observer calibration exercise of month 4 is scheduled. Safeguarding arrangements, the night-duty rota, the emergency protocol and the sensitive-content protocol are agreed in writing."]),
+ ("DAY 1 — Wednesday 09/06/2027 · The venue and its safety",
+  ["On-site verification of the accommodation unit against the written risk assessment: fire safety certification and evacuation routes; the state of the electrical installations and heating; security of doors, windows and balconies; lighting of outdoor areas; separation of participant accommodation from any unrelated guests; and the rooms in which minors will be accommodated only with minors, with group leaders on the same floors.",
+   "Measured test of the internet connection in the plenary room and in the four small-team spaces, because the whole programme depends on it, and mobile signal coverage tested across the site. The two young people check the rooms and the common spaces from a participant's point of view rather than an organiser's, and their observations are recorded."],
+  ["The route to the nearest medical facility and hospital is driven rather than looked up, the reference facility and the first-aid arrangements are identified and written down, and the outdoor spaces to be used are inspected.",
+   "Negotiation with the accommodation unit on places, rooms, meals and price; the venue is either confirmed in writing with the risk assessment attached, or rejected with enough time left to find another."]),
 
- ("DAY 2 — Thursday 17/06/2027 · The host community and the practical arrangements",
-  ["Visit to the sites of the Day 5 community day in and around Beliș; meeting at the mayor's office and with residents who have agreed to take part in the dialogue; the route, the timing and the group transport are agreed on the spot.",
-   "The young person from each sending organisation sees the venue, the village and the rooms, and their observations are written into the final programme — which is the reason they travel rather than a courtesy."],
-  ["Practical arrangements settled: meals and dietary requirements with the local producers; insurance for all 27 persons; the visa file and its timetable for the Turkish group, starting five months before the activity; the ferry and flight timings for the Greek group and its four eligible travel days; the domestic transport plan from each participant's own home.",
-   "Written minutes with decisions, owners and deadlines; signature of the partnership agreement annexes on safeguarding and on the division of tasks; the four joint online preparation sessions of months 3 and 4 fixed in the calendar, in mixed national composition."]),
+ ("DAY 2 — Thursday 10/06/2027 · The programme, the instruments and the protection arrangements",
+  ["Working session of the three organisations on the division of the thematic days: GGD confirms what it leads on Day 3 and Day 6 and names the staff member who will be Facilitator 2; KEA confirms the Day 5 dialogue method and the local-initiative template; the coordinator confirms Days 1, 2, 4 and 7. The daily timetable is finalised session by session, in one sitting.",
+   "The three measurement instruments are agreed: the fifteen-item practical test in two equivalent forms, the observation grid of four techniques scored 0–2, and the ten-minute beneficiary exercise for the local initiatives. The observer calibration exercise of month 4 is scheduled and the pilot group for the instruments is agreed."],
+  ["Protection arrangements are put in writing while everyone is in the same room: the safeguarding chain and who holds it in each country, the night-duty rota, the emergency protocol, the sensitive-content protocol, and the media and consent rules for content involving minors.",
+   "The partnership agreement annexes on safeguarding and on the division of tasks are signed, and the four joint online preparation sessions of months 3 and 4 are fixed in the calendar in mixed national composition."]),
+
+ ("DAY 3 — Friday 11/06/2027 · The host community and the practical arrangements",
+  ["The route of the Day 5 community day is walked in and around Beliș, with the two young people taking part; meeting at the mayor's office and with residents who have agreed to take part in the dialogue; the route, the timing and the group transport are agreed on the spot.",
+   "Meals and dietary requirements are settled with the local producers of the territory, and the spaces for the Day 7 public presentation and for the intercultural evening are identified."],
+  ["Remaining logistics: insurance for all 27 persons of the exchange; the visa file and its timetable for the Turkish group, starting five months before the activity; the ferry and flight timings for the Greek group; and the domestic transport plan from each participant's own home.",
+   "The visit closes with written minutes carrying every decision, its owner and its deadline, circulated to the three organisations within 48 hours."]),
 ]

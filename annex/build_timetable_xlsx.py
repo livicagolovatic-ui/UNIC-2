@@ -50,7 +50,7 @@ def height_for(texts, widths, size=10):
 ws = wb['Youth Exchanges']
 W_ACT, W_MET = 60, 68          # usable chars in merged B:E and F:J
 
-put(ws, 'B2', '01', size=11, halign='center', valign='center', wrap=False)
+put(ws, 'B2', 'YEXMS01', size=11, halign='center', valign='center', wrap=False)
 put(ws, 'B3', C.ORGS, size=10)
 ws.row_dimensions[3].height = height_for([C.ORGS], [150])
 put(ws, 'B4', C.DURATION, size=10)
@@ -104,15 +104,15 @@ for extra in range(foot_row + 1, 60):          # clear anything left below
 pv = wb['Preparatory Visits ']
 W_PV = 130
 
-put(pv, 'B2', '02', size=11, halign='center', valign='center', wrap=False)
+put(pv, 'B2', 'PREPV02', size=11, halign='center', valign='center', wrap=False)
 put(pv, 'B3', C.PV_LINK, size=10, valign='center')
 pv.row_dimensions[3].height = height_for([C.PV_LINK], [W_PV])
 put(pv, 'B4', C.PV_ORGS, size=10)
 pv.row_dimensions[4].height = height_for([C.PV_ORGS], [W_PV])
 put(pv, 'A7', 'Beliș (Cluj County)', size=10, halign='center', valign='center', wrap=False)
 put(pv, 'D7', 'Romania',            size=10, halign='center', valign='center', wrap=False)
-put(pv, 'G7', '16/06/2027',         size=10, halign='center', valign='center', wrap=False)
-put(pv, 'I7', '17/06/2027',         size=10, halign='center', valign='center', wrap=False)
+put(pv, 'G7', '09/06/2027',         size=10, halign='center', valign='center', wrap=False)
+put(pv, 'I7', '11/06/2027',         size=10, halign='center', valign='center', wrap=False)
 pv['A4'].alignment = Alignment(horizontal='right', vertical='center', wrap_text=True)
 
 PV_FOOT = pv['A19'].value
