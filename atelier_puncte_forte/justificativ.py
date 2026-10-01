@@ -6,6 +6,39 @@ from lib_unic import *
 PROIECT = 'UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor'
 COD = 'cod MySMIS 352704  •  Programul Educație și Ocupare (PEO) 2021–2027'
 POZITIE = 'Facilitator comunitar 2'
+NUME = 'GOLOVATIC LIVIA'
+COR = '341204 – Facilitator de dezvoltare comunitară'
+
+
+def etape_fisa_post(anexe, feedback):
+    """Etapele de lucru, formulate după atribuțiile din fișa postului (pct. 3)."""
+    return [
+        ('Planificare',
+         'Planificarea atelierului și a calendarului intervenției împreună cu managerul de proiect și echipa de implementare; '
+         'stabilirea cu unitatea de învățământ a datei, a sălii și a grupului de elevi.',
+         'Planifică activitățile comunitare și calendarul intervențiilor.'),
+        ('Informare și mobilizare',
+         'Informarea elevilor și a dirigintelui (și, după caz, a părinților) despre atelier, într-un limbaj accesibil; mobilizarea '
+         'elevilor pentru participare; verificarea acordurilor necesare pentru minori, inclusiv pentru fotografii.',
+         'Informează și mobilizează elevii și părinții.'),
+        ('Documente și materiale de lucru',
+         'Elaborarea agendei și a scenariului ședinței, a materialelor de lucru (%s), a listei de prezență și a instrumentelor '
+         'de feedback (%s).' % (anexe, feedback),
+         'Pregătește agende, liste de prezență, materiale de lucru, fișe de feedback.'),
+        ('Suport logistic',
+         'Multiplicarea și decuparea materialelor, pregătirea consumabilelor, amenajarea sălii; verificarea condițiilor de '
+         'participare și siguranță aplicabile minorilor.',
+         'Asigură suportul logistic; verifică condițiile de siguranță pentru minori.'),
+        ('Desfășurarea activității',
+         'Facilitarea participării elevilor la atelier (60 de minute), conform scenariului; gestionarea listei de prezență; '
+         'monitorizarea participării și a implicării elevilor.',
+         'Facilitează participarea elevilor; monitorizează implicarea.'),
+        ('Monitorizare și raportare',
+         'Centralizarea prezenței, a absențelor, a dificultăților și a feedbackului; informarea echipei; completarea raportului de '
+         'desfășurare; transmiterea fotografiilor și a sintezei către Expertul comunicare (după verificarea acordurilor); '
+         'arhivarea fizică și electronică a documentelor.',
+         'Centralizează; transmite foto și sinteze Expertului comunicare; raportează; arhivează.'),
+    ]
 
 
 def _kv_table(D, rows, w_label=5.0):
@@ -36,14 +69,17 @@ def signatures(D, cols):
     w = CONTENT_W / len(cols)
     t = table(D.d, 1, len(cols), [w] * len(cols), borders=('single', 4, C['lav2']), inside=('single', 4, C['lav2']),
               lr=0.2, tb=0.12)
-    row_setup(t.rows[0], 4.2)
+    row_setup(t.rows[0], 3.3)
     for j, (title, role) in enumerate(cols):
         c = t.cell(0, j)
         para(c, title, 10, True, color=C['purple'], align='center', after=0)
-        para(c, role, 9, italic=True, color=C['grey'], align='center', after=4)
-        field(c, [('Nume:', w - 0.5)], 9.5, before=8)
-        field(c, [('Semnătura:', w - 0.5)], 9.5, before=14)
-        field(c, [('Data:', w - 0.5)], 9.5, before=10)
+        para(c, role, 9, italic=True, color=C['grey'], align='center', after=2)
+        if j == 0:
+            para(c, 'Nume: ' + NUME, 9.5, before=6, after=0)
+        else:
+            field(c, [('Nume:', w - 0.5)], 9.5, before=6)
+        field(c, [('Semnătura:', w - 0.5)], 9.5, before=10)
+        field(c, [('Data:', w - 0.5)], 9.5, before=8)
     spacer(D.d, 4)
 
 
@@ -62,7 +98,8 @@ def fisa_activitate(D, sedinta, titlu, descriere, etape, livrabile):
         ('Cod / program', COD),
         ('Activitatea / subactivitatea din proiect', ''),
         ('Poziția în proiect', POZITIE),
-        ('Numele și prenumele expertului', ''),
+        ('Numele și prenumele expertului', NUME),
+        ('Codul ocupației (COR)', COR),
         ('Tipul activității', 'Atelier de dezvoltare personală „Eu, punctele mele forte și ce mă motivează” – '
                               'Ședința %d din 2: „%s”' % (sedinta, titlu)),
         ('Unitatea de învățământ / localitatea', ''),
@@ -76,11 +113,11 @@ def fisa_activitate(D, sedinta, titlu, descriere, etape, livrabile):
     for x in descriere:
         para(D.d, x, 10, align='justify', after=4)
 
-    _sec(D, 'C. Repartizarea timpului de lucru al expertului')
-    rows = [[str(i + 1), e, desc, '', ''] for i, (e, desc) in enumerate(etape)]
-    rows.append(['', 'TOTAL ORE', '', '', ''])
-    tb_ = D.simple_table(['Nr.', 'Etapa', 'Activități realizate concret', 'Data', 'Nr. ore'], rows,
-                         [0.9, 3.6, 8.8, 2.1, 1.6], size=9, zebra=False)
+    _sec(D, 'C. Repartizarea timpului de lucru al expertului, corelată cu atribuțiile din fișa postului')
+    rows = [[str(i + 1), e, desc, '//' + atr + '//', '', ''] for i, (e, desc, atr) in enumerate(etape)]
+    rows.append(['', 'TOTAL ORE', '', '', '', ''])
+    tb_ = D.simple_table(['Nr.', 'Etapa', 'Activități realizate concret', 'Atribuția din fișa postului (pct. 3)', 'Data', 'Nr. ore'],
+                         rows, [0.8, 2.5, 7.9, 3.4, 1.3, 1.1], size=8.5, zebra=False)
     last = tb_.rows[-1]
     for c in last.cells:
         shade(c, C['lyellow'])
@@ -96,16 +133,18 @@ def fisa_activitate(D, sedinta, titlu, descriere, etape, livrabile):
         bullet(D.d, x, 10)
 
     _sec(D, 'E. Documente doveditoare anexate')
-    checkbox_grid(D.d, ['Lista de prezență semnată de participanți',
-                        'Fotografii din timpul activității (cu acordul părinților / GDPR)',
-                        'Scenariul activității și materialele-suport (prezentul document)',
+    checkbox_grid(D.d, ['Agenda și scenariul activității (prezentul document)',
+                        'Lista de prezență semnată de participanți',
+                        'Materialele de lucru (Anexele) și fișele de feedback',
                         'Produse ale activității (fișe completate de elevi)',
+                        'Fotografii (cu acordurile verificate, conform GDPR)',
+                        'Dovada transmiterii foto / sintezei către Expertul comunicare',
                         'Raportul privind desfășurarea activității (secțiunea 12)',
                         'Alte documente: ______________________'], 2, CONTENT_W, 9.5)
-    spacer(D.d, 8)
+    spacer(D.d, 4)
     signatures(D, [('Întocmit', 'Facilitator comunitar 2'),
-                   ('Confirmat', 'Unitatea de învățământ (director / diriginte), ștampila'),
-                   ('Avizat', 'Coordonator / manager de proiect')])
+                   ('Confirmat', 'Unitatea de învățământ (ștampila)'),
+                   ('Avizat', 'Manager de proiect')])
     page_break(D.d)
 
 
@@ -135,10 +174,15 @@ def raport(D, nr, obiective, produse_hint):
     _sec(D, 'Desfășurarea activității')
     checkbox_grid(D.d, ['conform scenariului', 'cu adaptări (descrise mai jos)'], 2, CONTENT_W, 10)
     lines(D.d, 1, CONTENT_W, 10, before=8)
-    for q, n, hint in [('Implicarea și participarea elevilor', 2, None),
-                       ('Rezultate obținute / produse ale activității', 2, produse_hint),
-                       ('Dificultăți întâmpinate și modul de rezolvare', 2, None),
-                       ('Concluzii și recomandări', 2, None)]:
+    _sec(D, 'Verificări și transmiteri (conform fișei postului)')
+    checkbox_grid(D.d, ['acordurile pentru minori (inclusiv foto) au fost verificate',
+                        'condițiile de participare și siguranță au fost verificate',
+                        'foto și sinteza au fost transmise Expertului comunicare',
+                        'documentele au fost arhivate fizic și electronic'], 2, CONTENT_W, 9.5)
+    for q, n, hint in [('Participarea elevilor; absențe și dificultăți semnalate echipei', 2, None),
+                       ('Rezultate obținute / produse ale activității', 1, produse_hint),
+                       ('Dificultăți întâmpinate și modul de rezolvare', 1, None),
+                       ('Concluzii și recomandări', 1, None)]:
         para(D.d, q, 10, True, before=5, after=0, keep=True)
         if hint:
             para(D.d, hint, 8.5, italic=True, color=C['grey'], after=0, keep=True)
@@ -148,5 +192,5 @@ def raport(D, nr, obiective, produse_hint):
     row_setup(t.rows[0])
     field(t.cell(0, 0), [('Data:', 7.5)], 10, before=6)
     para(t.cell(0, 1), 'Facilitator comunitar 2', 10, True, align='center', after=0)
-    field(t.cell(0, 1), [('Nume:', 8.0)], 10, before=8)
+    para(t.cell(0, 1), 'Nume: ' + NUME, 10, before=8, after=0)
     field(t.cell(0, 1), [('Semnătura:', 8.0)], 10, before=12)

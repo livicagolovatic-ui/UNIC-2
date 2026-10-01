@@ -2,7 +2,7 @@
 """Ședința 2 – „Ce mă motivează și ce vreau să dezvolt?” – scenariu complet + anexe de tipărit."""
 import os
 from lib_unic import *
-from justificativ import fisa_activitate, metode, raport
+from justificativ import fisa_activitate, metode, raport, etape_fisa_post
 
 OUT = os.path.join(HERE, 'Sedinta_2_Ce_ma_motiveaza_Scenariu_si_Anexe.docx')
 D = UnicDoc('Proiect UNIC – cod MySMIS 352704   |   Atelier „Eu, punctele mele forte și ce mă motivează”   |   Ședința 2')
@@ -18,21 +18,13 @@ fisa_activitate(D, 2, 'Ce mă motivează și ce vreau să dezvolt?', [
     'Ședința este a doua (și ultima) din atelierul de dezvoltare personală „Eu, punctele mele forte și ce mă motivează”, destinat elevilor din '
     'clasele a VII-a – a VIII-a. Scopul ședinței este explorarea surselor personale de motivație și conectarea punctelor forte, identificate '
     'în Ședința 1, cu un obiectiv personal mic, realist și realizabil.',
-    'Activitatea a fost proiectată și realizată de facilitatorul comunitar: elaborarea scenariului detaliat și a 10 materiale-suport '
-    '(Anexele 1–10), pregătirea logistică, facilitarea directă a ședinței cu grupul țintă, evaluarea atelierului (fișe de feedback) '
-    'și raportarea rezultatelor. Ședința cuprinde 8 secvențe de învățare, descrise la secțiunea 9.',
-], [
-    ('Documentare și proiectare', 'Analiza rezultatelor Ședinței 1 (bilete de ieșire, carduri); documentare privind motivația și stabilirea '
-     'obiectivelor la adolescenți; elaborarea scenariului detaliat (obiective, etape, timp, replici, situații dificile).'),
-    ('Elaborarea materialelor-suport', 'Conceperea și redactarea celor 10 anexe: cartonașe „Ce mă motivează?”, cartonașe-situație, Fișele 3–7, '
-     'semnul de carte (tracker de 30 de zile), cartonașele calităților, fișa de feedback, diploma.'),
-    ('Pregătire logistică', 'Comunicarea cu unitatea de învățământ; multiplicarea și decuparea materialelor; pregătirea plicurilor și a '
-     'consumabilelor; amenajarea sălii.'),
-    ('Desfășurarea activității cu grupul țintă', 'Facilitarea atelierului (60 de minute) conform scenariului; gestionarea listei de prezență; '
-     'realizarea fotografiilor; înmânarea diplomelor.'),
-    ('Evaluare și raportare', 'Centralizarea fișelor de feedback ale atelierului; completarea raportului de desfășurare; centralizarea '
-     'documentelor justificative; păstrarea scrisorilor sigilate ale elevilor.'),
-], [
+    'În conformitate cu atribuțiile din fișa postului (pct. 3), facilitatorul comunitar a planificat activitatea împreună cu '
+    'managerul de proiect și echipa de implementare, a informat și a mobilizat elevii, a pregătit documentele și materialele de lucru '
+    '(agenda și scenariul, Anexele 1–10, lista de prezență, instrumentele de feedback), a asigurat suportul logistic și a verificat '
+    'condițiile de participare și siguranță pentru minori, a facilitat participarea elevilor la ședință, a monitorizat participarea '
+    'și a documentat și raportat activitatea. '
+    'Ședința cuprinde 8 secvențe de învățare, descrise la secțiunea 9.',
+], etape_fisa_post('Anexele 1–10', 'fișa de feedback a atelierului'), [
     'Scenariul complet al Ședinței 2 (prezentul document), cu 10 materiale-suport (Anexele 1–10).',
     'Ședință de 60 de minute desfășurată cu elevi din clasele a VII-a – a VIII-a (numărul de participanți – conform listei de prezență).',
     'Produse ale elevilor: Fișele 3–7, provocările personale de 30 de zile, Cardurile de agent finalizate, scrisorile sigilate.',

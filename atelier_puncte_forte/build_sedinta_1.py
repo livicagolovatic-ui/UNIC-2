@@ -2,7 +2,7 @@
 """Ședința 1 – „Cine sunt eu și ce am bun?” – scenariu complet + anexe de tipărit."""
 import os
 from lib_unic import *
-from justificativ import fisa_activitate, metode, raport
+from justificativ import fisa_activitate, metode, raport, etape_fisa_post
 
 OUT = os.path.join(HERE, 'Sedinta_1_Cine_sunt_eu_Scenariu_si_Anexe.docx')
 D = UnicDoc('Proiect UNIC – cod MySMIS 352704   |   Atelier „Eu, punctele mele forte și ce mă motivează”   |   Ședința 1')
@@ -18,22 +18,14 @@ fisa_activitate(D, 1, 'Cine sunt eu și ce am bun?', [
     'Ședința face parte dintr-un atelier de dezvoltare personală de 2 ședințe a câte 60 de minute, destinat elevilor din clasele a VII-a – '
     'a VIII-a. Scopul ședinței este dezvoltarea autocunoașterii prin identificarea punctelor forte și a resurselor personale, precum și '
     'exersarea oferirii și primirii feedbackului pozitiv.',
-    'Activitatea a fost proiectată și realizată de facilitatorul comunitar: elaborarea scenariului detaliat și a 9 materiale-suport '
-    '(Anexele 1–9), pregătirea logistică, facilitarea directă a ședinței cu grupul țintă, evaluarea și raportarea rezultatelor. '
-    'Ședința cuprinde 7 secvențe de învățare experiențială (joc de energizare, exercițiu anonim, interviu în perechi, hartă colectivă '
+    'În conformitate cu atribuțiile din fișa postului (pct. 3), facilitatorul comunitar a planificat activitatea împreună cu '
+    'managerul de proiect și echipa de implementare, a informat și a mobilizat elevii, a pregătit documentele și materialele de lucru '
+    '(agenda și scenariul, Anexele 1–9, lista de prezență, instrumentele de feedback), a asigurat suportul logistic și a verificat '
+    'condițiile de participare și siguranță pentru minori, a facilitat participarea elevilor la ședință, a monitorizat participarea '
+    'și a documentat și raportat activitatea. '
+'Ședința cuprinde 7 secvențe de învățare experiențială (joc de energizare, exercițiu anonim, interviu în perechi, hartă colectivă '
     'a resurselor, studiu de caz, cerc de feedback, reflecție individuală), descrise la secțiunea 9.',
-], [
-    ('Documentare și proiectare', 'Analiza nevoilor grupului țintă; documentare privind metode de dezvoltare personală adaptate vârstei de 13–14 ani; '
-     'elaborarea scenariului detaliat (obiective, etape, timp, replici, întrebări de reflecție, gestionarea situațiilor dificile).'),
-    ('Elaborarea materialelor-suport', 'Conceperea și redactarea celor 9 anexe: ecusoane, bilețele „Dosar secret”, Fișa 1 – Detectivul, indicatoare, '
-     'cartonașe „Misiunea imposibilă”, banca de complimente, Cardul de agent, Fișa 2 – Harta mea, bilet de ieșire.'),
-    ('Pregătire logistică', 'Comunicarea cu unitatea de învățământ (stabilirea datei, a sălii și a grupului); multiplicarea și decuparea '
-     'materialelor; pregătirea consumabilelor; amenajarea sălii.'),
-    ('Desfășurarea activității cu grupul țintă', 'Facilitarea atelierului (60 de minute) conform scenariului; gestionarea listei de prezență; '
-     'realizarea fotografiilor.'),
-    ('Evaluare și raportare', 'Analiza biletelor de ieșire și a produselor elevilor; completarea raportului de desfășurare; centralizarea '
-     'documentelor justificative; ajustarea planului pentru Ședința 2.'),
-], [
+], etape_fisa_post('Anexele 1–9', 'biletul de ieșire'), [
     'Scenariul complet al Ședinței 1 (prezentul document), cu 9 materiale-suport (Anexele 1–9).',
     'Ședință de 60 de minute desfășurată cu elevi din clasele a VII-a – a VIII-a (numărul de participanți – conform listei de prezență).',
     'Produse ale elevilor: Fișa 1 – Detectivul, Harta echipei (afiș colectiv), Cardurile de agent, biletele de ieșire.',
