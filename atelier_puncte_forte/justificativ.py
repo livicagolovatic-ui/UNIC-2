@@ -6,6 +6,7 @@ from lib_unic import *
 PROIECT = 'UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor'
 COD = 'cod MySMIS 352704  •  Programul Educație și Ocupare (PEO) 2021–2027'
 POZITIE = 'Facilitator comunitar 2'
+SUBACT = 'SA5.3 – Dezvoltarea de programe de informare și conștientizare'
 NUME = 'GOLOVATIC LIVIA'
 COR = '341204 – Facilitator de dezvoltare comunitară'
 
@@ -96,7 +97,7 @@ def fisa_activitate(D, sedinta, titlu, descriere, etape, livrabile):
     _kv_table(D, [
         ('Proiectul', PROIECT),
         ('Cod / program', COD),
-        ('Activitatea / subactivitatea din proiect', ''),
+        ('Subactivitatea din proiect', SUBACT),
         ('Poziția în proiect', POZITIE),
         ('Numele și prenumele expertului', NUME),
         ('Codul ocupației (COR)', COR),

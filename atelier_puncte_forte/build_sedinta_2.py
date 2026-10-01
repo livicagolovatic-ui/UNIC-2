@@ -15,7 +15,7 @@ D.banner('ATELIER DE DEZVOLTARE PERSONALĂ  •  ȘEDINȚA 2 DIN 2',
          'Tema creativă: LEVEL UP – agenții trec la nivelul următor')
 
 fisa_activitate(D, 2, 'Ce mă motivează și ce vreau să dezvolt?', [
-    'Ședința este a doua (și ultima) din atelierul de dezvoltare personală „Eu, punctele mele forte și ce mă motivează”, destinat elevilor din '
+    'În cadrul subactivității SA5.3 – Dezvoltarea de programe de informare și conștientizare, ședința este a doua (și ultima) din atelierul de dezvoltare personală „Eu, punctele mele forte și ce mă motivează”, destinat elevilor din '
     'clasele a VII-a – a VIII-a. Scopul ședinței este explorarea surselor personale de motivație și conectarea punctelor forte, identificate '
     'în Ședința 1, cu un obiectiv personal mic, realist și realizabil.',
     'În conformitate cu atribuțiile din fișa postului (pct. 3), facilitatorul comunitar a planificat activitatea împreună cu '
@@ -40,7 +40,7 @@ D.p('În Ședința 1, elevii și-au identificat punctele forte și au completat 
 D.b('un **motiv** de a continua → //combustibilul// (motivația);')
 D.b('folosirea **abilităților** proprii → //superputerea// (un punct forte pe care elevul îl are deja);')
 D.b('**obiective mici**, duse la capăt → //quest-ul de 30 de zile// (un obiectiv mic, clar și posibil).')
-D.p('Activitatea contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea motivației pentru '
+D.p('Activitatea se înscrie în subactivitatea **SA5.3 – Dezvoltarea de programe de informare și conștientizare** și contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea motivației pentru '
     'învățare, a capacității de a-și stabili obiective realiste și a perseverenței, factori care susțin participarea și menținerea elevilor în educație.',
     align='justify')
 

@@ -15,7 +15,7 @@ D.banner('ATELIER DE DEZVOLTARE PERSONALĂ  •  ȘEDINȚA 1 DIN 2',
          'Tema creativă: AGENȚIA SECRETĂ A PUNCTELOR FORTE')
 
 fisa_activitate(D, 1, 'Cine sunt eu și ce am bun?', [
-    'Ședința face parte dintr-un atelier de dezvoltare personală de 2 ședințe a câte 60 de minute, destinat elevilor din clasele a VII-a – '
+    'În cadrul subactivității SA5.3 – Dezvoltarea de programe de informare și conștientizare, ședința face parte dintr-un atelier de dezvoltare personală de 2 ședințe a câte 60 de minute, destinat elevilor din clasele a VII-a – '
     'a VIII-a. Scopul ședinței este dezvoltarea autocunoașterii prin identificarea punctelor forte și a resurselor personale, precum și '
     'exersarea oferirii și primirii feedbackului pozitiv.',
     'În conformitate cu atribuțiile din fișa postului (pct. 3), facilitatorul comunitar a planificat activitatea împreună cu '
@@ -44,7 +44,7 @@ D.b('**Ședința 1 – „Agenția Secretă a Punctelor Forte”:** elevii devin
 D.b('**Ședința 2 – „Level Up”:** elevii explorează sursele de motivație, își aleg o „superputere” (un punct forte) și își stabilesc '
     'o provocare personală de 30 de zile.')
 D.b('**Continuitatea între ședințe** este asigurată prin **Cardul de agent**, completat în Ședința 1 și finalizat în Ședința 2.')
-D.p('Activitatea contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea stimei de sine, '
+D.p('Activitatea se înscrie în subactivitatea **SA5.3 – Dezvoltarea de programe de informare și conștientizare** și contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea stimei de sine, '
     'a competențelor socio-emoționale și a motivației pentru învățare, factori care susțin participarea și menținerea elevilor în educație.',
     align='justify')
 
