@@ -2,6 +2,7 @@
 """Ședința 1 – „Cine sunt eu și ce am bun?” – scenariu complet + anexe de tipărit."""
 import os
 from lib_unic import *
+from justificativ import fisa_activitate, metode, raport
 
 OUT = os.path.join(HERE, 'Sedinta_1_Cine_sunt_eu_Scenariu_si_Anexe.docx')
 D = UnicDoc('Proiect UNIC – cod MySMIS 352704   |   Atelier „Eu, punctele mele forte și ce mă motivează”   |   Ședința 1')
@@ -13,33 +14,75 @@ D.banner('ATELIER DE DEZVOLTARE PERSONALĂ  •  ȘEDINȚA 1 DIN 2',
          'Atelier „Eu, punctele mele forte și ce mă motivează”  •  60 de minute  •  Clasele a VII-a – a VIII-a  •  10–15 elevi',
          'Tema creativă: AGENȚIA SECRETĂ A PUNCTELOR FORTE')
 
-D.info_grid([('Școala', ''), ('Data', ''), ('Clasa / grupa', ''), ('Nr. participanți', ''),
-             ('Facilitator', ''), ('Sala', '')])
+fisa_activitate(D, 1, 'Cine sunt eu și ce am bun?', [
+    'Ședința face parte dintr-un atelier de dezvoltare personală de 2 ședințe a câte 60 de minute, destinat elevilor din clasele a VII-a – '
+    'a VIII-a. Scopul ședinței este dezvoltarea autocunoașterii prin identificarea punctelor forte și a resurselor personale, precum și '
+    'exersarea oferirii și primirii feedbackului pozitiv.',
+    'Activitatea a fost proiectată și realizată de facilitatorul comunitar: elaborarea scenariului detaliat și a 9 materiale-suport '
+    '(Anexele 1–9), pregătirea logistică, facilitarea directă a ședinței cu grupul țintă, evaluarea și raportarea rezultatelor. '
+    'Ședința cuprinde 7 secvențe de învățare experiențială (joc de energizare, exercițiu anonim, interviu în perechi, hartă colectivă '
+    'a resurselor, studiu de caz, cerc de feedback, reflecție individuală), descrise la secțiunea 9.',
+], [
+    ('Documentare și proiectare', 'Analiza nevoilor grupului țintă; documentare privind metode de dezvoltare personală adaptate vârstei de 13–14 ani; '
+     'elaborarea scenariului detaliat (obiective, etape, timp, replici, întrebări de reflecție, gestionarea situațiilor dificile).'),
+    ('Elaborarea materialelor-suport', 'Conceperea și redactarea celor 9 anexe: ecusoane, bilețele „Dosar secret”, Fișa 1 – Detectivul, indicatoare, '
+     'cartonașe „Misiunea imposibilă”, banca de complimente, Cardul de agent, Fișa 2 – Harta mea, bilet de ieșire.'),
+    ('Pregătire logistică', 'Comunicarea cu unitatea de învățământ (stabilirea datei, a sălii și a grupului); multiplicarea și decuparea '
+     'materialelor; pregătirea consumabilelor; amenajarea sălii.'),
+    ('Desfășurarea activității cu grupul țintă', 'Facilitarea atelierului (60 de minute) conform scenariului; gestionarea listei de prezență; '
+     'realizarea fotografiilor.'),
+    ('Evaluare și raportare', 'Analiza biletelor de ieșire și a produselor elevilor; completarea raportului de desfășurare; centralizarea '
+     'documentelor justificative; ajustarea planului pentru Ședința 2.'),
+], [
+    'Scenariul complet al Ședinței 1 (prezentul document), cu 9 materiale-suport (Anexele 1–9).',
+    'Ședință de 60 de minute desfășurată cu elevi din clasele a VII-a – a VIII-a (numărul de participanți – conform listei de prezență).',
+    'Produse ale elevilor: Fișa 1 – Detectivul, Harta echipei (afiș colectiv), Cardurile de agent, biletele de ieșire.',
+    'Raportul privind desfășurarea activității (secțiunea 12).',
+])
 
-D.h('Ideea creativă a atelierului')
-D.p('La 13–14 ani, mulți elevi se compară permanent cu alții (inclusiv pe rețelele sociale) și spun mai ușor '
-    '„nu sunt bun la nimic” decât „mă pricep la...”. De aceea, atelierul nu arată ca o lecție, ci ca un **joc cu misiuni**:')
-D.b('**Ședința 1 – Agenția Secretă a Punctelor Forte:** elevii sunt „recrutați” ca agenți. Primesc ecuson și nume de cod, '
-    'trec prin probe și descoperă, ca niște detectivi, punctele forte proprii și ale colegilor.')
-D.b('**Ședința 2 – Level Up:** agenții „trec la nivelul următor”. Descoperă ce îi motivează, își aleg o superputere '
-    'și primesc un quest (o provocare) de 30 de zile.')
-D.b('**Firul roșu:** fiecare elev completează în Ședința 1 un **Card de agent** (în stilul cardurilor din jocuri). Cardul rămâne '
-    'la facilitator, este returnat și „deblocat” în Ședința 2, iar apoi elevul îl ia acasă.')
-D.p('Mișcarea, anonimatul, lucrul în perechi și dreptul de a spune „pas” le dau elevilor siguranța de a vorbi despre ei fără presiune.',
-    italic=True, color=C['grey'])
+D.h('SCENARIUL ACTIVITĂȚII', 1)
+D.h('1. Fundamentare și abordare metodologică')
+D.p('La vârsta de 13–14 ani, elevii se raportează intens la ceilalți, iar comparația socială (inclusiv în mediul online) le poate diminua '
+    'încrederea în propriile resurse. Mulți elevi formulează mai ușor ce nu le reușește decât ce le reușește. Atelierul răspunde acestei nevoi '
+    'prin activități care îi ajută să-și identifice și să-și valorizeze punctele forte, într-un cadru sigur și fără evaluare școlară.',
+    align='justify')
+D.p('Pentru a crește implicarea, activitatea folosește **elemente de gamificare**, adaptate intereselor vârstei:', after=2)
+D.b('**Ședința 1 – „Agenția Secretă a Punctelor Forte”:** elevii devin „agenți”, primesc ecuson și nume de cod și descoperă, prin probe și '
+    'interviuri în perechi, punctele forte proprii și ale colegilor.')
+D.b('**Ședința 2 – „Level Up”:** elevii explorează sursele de motivație, își aleg o „superputere” (un punct forte) și își stabilesc '
+    'o provocare personală de 30 de zile.')
+D.b('**Continuitatea între ședințe** este asigurată prin **Cardul de agent**, completat în Ședința 1 și finalizat în Ședința 2.')
+D.p('Activitatea contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea stimei de sine, '
+    'a competențelor socio-emoționale și a motivației pentru învățare, factori care susțin participarea și menținerea elevilor în educație.',
+    align='justify')
 
-D.h('1. Scopul ședinței')
+D.h('2. Scopul ședinței')
 D.p('Dezvoltarea autocunoașterii prin identificarea punctelor forte, a abilităților și a resurselor personale, '
     'precum și prin exersarea oferirii și primirii feedbackului pozitiv.')
 
-D.h('2. Obiective')
+D.h('3. Obiective')
 D.p('La finalul ședinței, elevii vor putea:', after=2)
 D.b('**O1** – să numească cel puțin 2–3 puncte forte personale;')
 D.b('**O2** – să descopere cel puțin o calitate pe care colegii o observă la ei;')
 D.b('**O3** – să explice, pe un exemplu, de ce o echipă are nevoie de oameni cu puncte forte diferite;')
 D.b('**O4** – să formuleze un feedback pozitiv concret (despre ce face o persoană, nu despre cum arată).')
 
-D.h('3. Materiale necesare (listă de verificare)')
+D.h('4. Elemente de proiectare')
+metode(D, [
+    ['Domeniul', 'Consiliere și dezvoltare personală – autocunoaștere, stimă de sine, relaționare pozitivă.'],
+    ['Competențe vizate', ['- identificarea resurselor personale (calități, abilități, interese);',
+                           '- oferirea și primirea feedbackului pozitiv;',
+                           '- valorizarea diversității și a contribuției fiecăruia într-o echipă.']],
+    ['Metode și procedee', 'Joc de energizare, joc de ghicire (exercițiu anonim), interviul în perechi, brainstorming pe categorii '
+                           '(harta colectivă), studiu de caz („Misiunea imposibilă”), cercul de feedback, reflecția ghidată, gamificarea.'],
+    ['Forme de organizare', 'Frontal, în perechi, pe grupe, individual.'],
+    ['Resurse', 'Materiale: Anexele 1–9 și consumabile (secțiunea 5). Temporale: 60 de minute. Umane: 10–15 elevi, facilitatorul comunitar. '
+                'Spațiale: sală de clasă cu scaune așezate în cerc.'],
+    ['Evaluare', 'Observarea sistematică a participării; analiza produselor (Fișa 1, Harta echipei, Cardul de agent); '
+                 'biletul de ieșire (autoevaluare și feedback).'],
+])
+
+D.h('5. Materiale necesare (listă de verificare)')
 D.simple_table(['Material', 'Cantitate', 'Unde îl găsești', '✓'], [
     ['Ecusoane de agent', '1 / elev + 2 rezervă', 'Anexa 1', '☐'],
     ['Bandă adezivă de hârtie sau ace de siguranță (pentru ecusoane)', '1 rolă', '–', '☐'],
@@ -59,14 +102,14 @@ D.simple_table(['Material', 'Cantitate', 'Unde îl găsești', '✓'], [
     ['Telefon + boxă pentru muzică de fundal (opțional)', '1', '–', '☐'],
 ], [9.0, 3.6, 3.2, 1.2])
 
-D.h('4. Pregătirea sălii (cu 10 minute înainte)')
+D.h('6. Pregătirea sălii (cu 10 minute înainte)')
 D.b('Mută băncile lângă pereți; așază scaunele **în cerc** (câte un scaun pentru fiecare elev și unul pentru tine).')
 D.b('Scrie pe tablă: **AGENȚIA SECRETĂ A PUNCTELOR FORTE – Misiunea de azi: descoperim ce avem bun.**')
 D.b('Lipește pe tablă sau pe perete cele **6 indicatoare** (Anexa 4), lăsând loc pentru post-it-uri. Deasupra: **NOI – CE AVEM ÎN NOI**.')
 D.b('Pregătește „Dosarul secret” (cutia/plicul), bilețelele, pixurile și post-it-urile pe o masă la îndemână.')
 D.b('Pornește o muzică ritmată, potrivită vârstei, pentru momentul în care intră elevii (opțional, dar creează atmosferă).')
 
-D.h('5. Principii pentru facilitator')
+D.h('7. Principii pentru facilitator')
 D.callout('REGULI DE AUR', [
     '- **Ritm alert, instrucțiuni scurte** (maximum 30 de secunde). Demonstrează tu primul fiecare exercițiu.',
     '- **Dreptul de a spune „pas”.** Nimeni nu e obligat să vorbească. Elevii spun despre ei atât cât doresc.',
@@ -78,7 +121,7 @@ D.callout('REGULI DE AUR', [
     '- **Joacă rolul de „Șef(ă) al(a) agenției”** cu umor și energie, fără ironii la adresa elevilor.',
 ], C['lyellow'], C['yellow'], C['ink'])
 
-D.h('6. Agenda pe scurt')
+D.h('8. Agenda pe scurt')
 D.simple_table(['Timp', 'Activitate', 'Ce urmărim', 'Materiale'], [
     ['0–5\'', '0. Recrutarea agenților', 'Siguranță, reguli, intrare în joc', 'Anexa 1'],
     ['5–12\'', '1. Schimbă locul dacă...', 'Energizare; „suntem diferiți”', '–'],
@@ -89,7 +132,7 @@ D.simple_table(['Timp', 'Activitate', 'Ce urmărim', 'Materiale'], [
     ['52–60\'', '6. Cardul de agent + Biletul de ieșire', 'Integrare și reflecție', 'Anexele 7, 9'],
 ], [1.6, 5.6, 6.0, 3.8], bold_first=True)
 
-D.h('7. Desfășurarea pas cu pas')
+D.h('9. Desfășurarea pas cu pas')
 
 D.activity('0', 'Recrutarea agenților', '5 min', 'minutele 0–5', [
     ('SCOP', 'Elevii intră în atmosfera jocului și stabilim împreună regulile grupului.'),
@@ -222,7 +265,7 @@ D.activity('6', 'Cardul de agent + Biletul de ieșire', '8 min', 'minutele 52–
     ('ATENȚIE', 'Nu cere nimănui să vorbească. Biletul de ieșire scris îi ajută pe elevii timizi și îți oferă ție informații pentru Ședința 2.'),
 ])
 
-D.h('8. Situații dificile – ce faci dacă...')
+D.h('10. Situații dificile – ce faci dacă...')
 D.simple_table(['Situația', 'Ce poți face'], [
     ['Un elev spune „nu sunt bun la nimic”.',
      'Nu-l contrazice imediat. Întreabă: „Ce faci în timpul liber? Cine te cheamă când are nevoie de ajutor? Ce ai învățat singur?” '
@@ -243,15 +286,7 @@ D.simple_table(['Situația', 'Ce poți face'], [
      'Urmează procedura școlii și a proiectului (consilierul școlar, dirigintele, coordonatorul proiectului).'],
 ], [5.2, 11.8], bold_first=True)
 
-D.h('9. După ședință – lista facilitatorului')
-for t in ['Fotografiază harta echipei (și, dacă e posibil, păstreaz-o pentru Ședința 2).',
-          'Păstrează Cardurile de agent în plic, în ordine alfabetică.',
-          'Citește biletele de ieșire. Notează elevii care au avut nevoie de mai mult sprijin și punctele forte care au apărut des.',
-          'Completează documentele de proiect (listă de prezență, fotografii, raport de activitate), conform procedurilor UNIC.',
-          'Pregătește materialele pentru Ședința 2.']:
-    D.b('☐  ' + t, mark='', indent=0.1)
-
-D.h('10. Lista anexelor și numărul de exemplare de tipărit')
+D.h('11. Lista anexelor și numărul de exemplare de tipărit')
 D.p('Recomandare: fișele de lucru se pot tipări alb-negru; indicatoarele (Anexa 4) și cardurile (Anexa 7) arată mai bine color.',
     italic=True, color=C['grey'])
 D.simple_table(['Anexa', 'Conținut', 'De tipărit (pentru 15 elevi)'], [
@@ -265,6 +300,10 @@ D.simple_table(['Anexa', 'Conținut', 'De tipărit (pentru 15 elevi)'], [
     ['Anexa 8', 'Fișa 2 – Harta mea de puncte forte (opțional / acasă)', '15 exemplare'],
     ['Anexa 9', 'Biletul de ieșire (4 pe pagină)', '4 pagini'],
 ], [2.2, 9.6, 5.2], bold_first=True)
+
+raport(D, 12, ['O1 – numește cel puțin 2–3 puncte forte personale', 'O2 – descoperă o calitate observată de colegi',
+              'O3 – explică de ce o echipă are nevoie de puncte forte diferite', 'O4 – formulează un feedback pozitiv concret'],
+       'De ex.: nr. de fișe „Detectivul” completate, Harta echipei (fotografie), Cardurile de agent, biletele de ieșire.')
 
 # =====================================================================  ANEXE
 # ---- Anexa 1 – Ecusoane

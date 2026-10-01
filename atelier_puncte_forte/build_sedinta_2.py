@@ -2,6 +2,7 @@
 """Ședința 2 – „Ce mă motivează și ce vreau să dezvolt?” – scenariu complet + anexe de tipărit."""
 import os
 from lib_unic import *
+from justificativ import fisa_activitate, metode, raport
 
 OUT = os.path.join(HERE, 'Sedinta_2_Ce_ma_motiveaza_Scenariu_si_Anexe.docx')
 D = UnicDoc('Proiect UNIC – cod MySMIS 352704   |   Atelier „Eu, punctele mele forte și ce mă motivează”   |   Ședința 2')
@@ -13,29 +14,70 @@ D.banner('ATELIER DE DEZVOLTARE PERSONALĂ  •  ȘEDINȚA 2 DIN 2',
          'Atelier „Eu, punctele mele forte și ce mă motivează”  •  60 de minute  •  Clasele a VII-a – a VIII-a  •  10–15 elevi',
          'Tema creativă: LEVEL UP – agenții trec la nivelul următor')
 
-D.info_grid([('Școala', ''), ('Data', ''), ('Clasa / grupa', ''), ('Nr. participanți', ''),
-             ('Facilitator', ''), ('Sala', '')])
+fisa_activitate(D, 2, 'Ce mă motivează și ce vreau să dezvolt?', [
+    'Ședința este a doua (și ultima) din atelierul de dezvoltare personală „Eu, punctele mele forte și ce mă motivează”, destinat elevilor din '
+    'clasele a VII-a – a VIII-a. Scopul ședinței este explorarea surselor personale de motivație și conectarea punctelor forte, identificate '
+    'în Ședința 1, cu un obiectiv personal mic, realist și realizabil.',
+    'Activitatea a fost proiectată și realizată de facilitatorul comunitar: elaborarea scenariului detaliat și a 10 materiale-suport '
+    '(Anexele 1–10), pregătirea logistică, facilitarea directă a ședinței cu grupul țintă, evaluarea atelierului (fișe de feedback) '
+    'și raportarea rezultatelor. Ședința cuprinde 8 secvențe de învățare, descrise la secțiunea 9.',
+], [
+    ('Documentare și proiectare', 'Analiza rezultatelor Ședinței 1 (bilete de ieșire, carduri); documentare privind motivația și stabilirea '
+     'obiectivelor la adolescenți; elaborarea scenariului detaliat (obiective, etape, timp, replici, situații dificile).'),
+    ('Elaborarea materialelor-suport', 'Conceperea și redactarea celor 10 anexe: cartonașe „Ce mă motivează?”, cartonașe-situație, Fișele 3–7, '
+     'semnul de carte (tracker de 30 de zile), cartonașele calităților, fișa de feedback, diploma.'),
+    ('Pregătire logistică', 'Comunicarea cu unitatea de învățământ; multiplicarea și decuparea materialelor; pregătirea plicurilor și a '
+     'consumabilelor; amenajarea sălii.'),
+    ('Desfășurarea activității cu grupul țintă', 'Facilitarea atelierului (60 de minute) conform scenariului; gestionarea listei de prezență; '
+     'realizarea fotografiilor; înmânarea diplomelor.'),
+    ('Evaluare și raportare', 'Centralizarea fișelor de feedback ale atelierului; completarea raportului de desfășurare; centralizarea '
+     'documentelor justificative; păstrarea scrisorilor sigilate ale elevilor.'),
+], [
+    'Scenariul complet al Ședinței 2 (prezentul document), cu 10 materiale-suport (Anexele 1–10).',
+    'Ședință de 60 de minute desfășurată cu elevi din clasele a VII-a – a VIII-a (numărul de participanți – conform listei de prezență).',
+    'Produse ale elevilor: Fișele 3–7, provocările personale de 30 de zile, Cardurile de agent finalizate, scrisorile sigilate.',
+    'Fișele de feedback ale atelierului și diplomele „Agent LEVEL UP” acordate participanților.',
+    'Raportul privind desfășurarea activității (secțiunea 12).',
+])
 
-D.h('Legătura cu Ședința 1')
-D.p('În Ședința 1, elevii au fost „agenți” care și-au descoperit punctele forte și au completat **Cardul de agent – Nivelul 1**. '
-    'Acum primesc cardul înapoi și trec la **Nivelul 2**. Ca într-un joc video, un personaj crește în nivel atunci când:')
-D.b('are un **motiv** să continue → //combustibilul// (motivația);')
-D.b('își folosește **abilitățile** → //superputerea// (un punct forte pe care îl are deja);')
-D.b('duce la capăt **misiuni mici** → //quest-ul de 30 de zile// (un obiectiv mic, clar și posibil).')
-D.p('La final, elevii pleacă acasă cu cardul complet, cu un semn de carte pentru urmărirea provocării de 30 de zile și cu o scrisoare către ei înșiși, '
-    'pe care o vor primi peste un an.', italic=True, color=C['grey'])
+D.h('SCENARIUL ACTIVITĂȚII', 1)
+D.h('1. Fundamentare și legătura cu Ședința 1')
+D.p('În Ședința 1, elevii și-au identificat punctele forte și au completat **Cardul de agent – Nivelul 1**. Ședința 2 continuă procesul: '
+    'trecem de la „ce am bun” la „ce mă pune în mișcare” și „ce pas fac mai departe”. Folosind în continuare elemente de gamificare '
+    '(tema „Level Up”, inspirată din jocurile video), activitatea arată că progresul personal se bazează pe:', align='justify', after=2)
+D.b('un **motiv** de a continua → //combustibilul// (motivația);')
+D.b('folosirea **abilităților** proprii → //superputerea// (un punct forte pe care elevul îl are deja);')
+D.b('**obiective mici**, duse la capăt → //quest-ul de 30 de zile// (un obiectiv mic, clar și posibil).')
+D.p('Activitatea contribuie la scopul proiectului UNIC – incluziunea și continuitatea educației elevilor – prin dezvoltarea motivației pentru '
+    'învățare, a capacității de a-și stabili obiective realiste și a perseverenței, factori care susțin participarea și menținerea elevilor în educație.',
+    align='justify')
 
-D.h('1. Scopul ședinței')
+D.h('2. Scopul ședinței')
 D.p('Explorarea surselor personale de motivație și conectarea punctelor forte cu un obiectiv mic, realist și realizabil.')
 
-D.h('2. Obiective')
+D.h('3. Obiective')
 D.p('La finalul ședinței, elevii vor putea:', after=2)
 D.b('**O1** – să identifice cel puțin două lucruri care îi motivează;')
 D.b('**O2** – să explice că oamenii (și chiar aceeași persoană, în situații diferite) pot fi motivați de lucruri diferite;')
 D.b('**O3** – să facă legătura dintre un punct forte propriu și o situație în care îl pot folosi;')
 D.b('**O4** – să formuleze o provocare personală pentru 30 de zile și un prim pas concret.')
 
-D.h('3. Materiale necesare (listă de verificare)')
+D.h('4. Elemente de proiectare')
+metode(D, [
+    ['Domeniul', 'Consiliere și dezvoltare personală – motivație, stabilirea obiectivelor, planificarea dezvoltării personale.'],
+    ['Competențe vizate', ['- identificarea surselor personale de motivație și a factorilor care o frânează;',
+                           '- utilizarea resurselor personale (punctelor forte) în situații concrete;',
+                           '- formularea unor obiective personale realiste și a primilor pași.']],
+    ['Metode și procedee', 'Jocul „colțurilor” (alegere prin mișcare), studiul de caz pe grupe, vizualizarea („superputerea”), metoda pașilor mici '
+                           '(transformarea dorințelor în obiective), licitația valorilor, scrisoarea către sine, reflecția ghidată, gamificarea.'],
+    ['Forme de organizare', 'Frontal, pe grupe, în perechi, individual.'],
+    ['Resurse', 'Materiale: Anexele 1–10, Cardurile de agent din Ședința 1, plicuri și consumabile (secțiunea 5). Temporale: 60 de minute. '
+                'Umane: 10–15 elevi, facilitatorul comunitar. Spațiale: sală de clasă cu scaune în cerc.'],
+    ['Evaluare', 'Observarea sistematică; analiza produselor (Fișele 3–6, provocarea de 30 de zile); fișa de feedback a atelierului; '
+                 'autoevaluare (runda „Un cuvânt”).'],
+])
+
+D.h('5. Materiale necesare (listă de verificare)')
 D.simple_table(['Material', 'Cantitate', 'Unde îl găsești', '✓'], [
     ['Cardurile de agent din Ședința 1 (în plic) + câteva carduri goale pentru elevii noi', '1 / elev', 'Ședința 1, Anexa 7', '☐'],
     ['Fotografia sau afișul cu Harta echipei din Ședința 1', '1', '–', '☐'],
@@ -54,14 +96,14 @@ D.simple_table(['Material', 'Cantitate', 'Unde îl găsești', '✓'], [
     ['Un „ciocănel” de licitație (un marker sau o riglă e suficient)', '1', '–', '☐'],
 ], [9.0, 3.0, 3.8, 1.2])
 
-D.h('4. Pregătirea sălii (cu 10 minute înainte)')
+D.h('6. Pregătirea sălii (cu 10 minute înainte)')
 D.b('Scaunele în cerc, ca în Ședința 1. Lipește pe pereți, la distanță unele de altele, cele **8 cartonașe „Ce mă motivează?”** (Anexa 1).')
 D.b('Scrie pe tablă: **LEVEL UP!  Nivelul 2: COMBUSTIBIL – SUPERPUTERE – QUEST.**')
 D.b('Desenează pe tablă un tabel cu cele 8 calități pentru licitație (sau lipește cartonașele din Anexa 7) și lasă loc pentru totaluri.')
 D.b('Pune harta echipei (sau fotografia ei proiectată/printată) la vedere.')
 D.b('Pregătește cardurile de agent în ordine alfabetică, ca să le împarți repede.')
 
-D.h('5. Principii pentru facilitator')
+D.h('7. Principii pentru facilitator')
 D.callout('REGULI DE AUR', [
     '- **Nicio motivație nu este „greșită”.** Inclusiv „să câștig bani” sau „să demonstrez că pot” sunt motive legitime. Nu moraliza.',
     '- **Nu cerem alegerea unei profesii.** Accentul cade pe dezvoltare și pe pași mici, nu pe „ce vrei să te faci”.',
@@ -71,7 +113,7 @@ D.callout('REGULI DE AUR', [
     '- **Codul agenției** rămâne valabil: ce se spune aici rămâne aici; râdem împreună, nu unii de alții; oricine poate spune „pas”.',
 ], C['lyellow'], C['yellow'], C['ink'])
 
-D.h('6. Agenda pe scurt')
+D.h('8. Agenda pe scurt')
 D.simple_table(['Timp', 'Activitate', 'Ce urmărim', 'Materiale'], [
     ['0–4\'', '0. Reconectare – bateria mea', 'Revenirea în grup, legătura cu Ședința 1', 'Carduri de agent'],
     ['4–11\'', '1. Colțurile motivației', 'Alegere personală, activare prin mișcare', 'Anexa 1'],
@@ -83,7 +125,7 @@ D.simple_table(['Timp', 'Activitate', 'Ce urmărim', 'Materiale'], [
     ['55–60\'', '7. Încheiere – un cuvânt + diplome', 'Închiderea atelierului, feedback', 'Anexele 9, 10'],
 ], [1.6, 5.6, 6.0, 3.8], bold_first=True)
 
-D.h('7. Desfășurarea pas cu pas')
+D.h('9. Desfășurarea pas cu pas')
 
 D.activity('0', 'Reconectare – bateria mea', '4 min', 'minutele 0–4', [
     ('SCOP', 'Elevii revin în atmosfera atelierului și își reamintesc ce au descoperit data trecută.'),
@@ -200,7 +242,7 @@ D.activity('7', 'Încheiere – un cuvânt + diplome', '5 min', 'minutele 55–6
                'Misiune îndeplinită, agenți: LEVEL UP!”']),
 ])
 
-D.h('8. Situații dificile – ce faci dacă...')
+D.h('10. Situații dificile – ce faci dacă...')
 D.simple_table(['Situația', 'Ce poți face'], [
     ['Un elev spune „pe mine nu mă motivează nimic”.',
      'Acceptă răspunsul fără să-l contrazici. Întreabă: „Pentru ce ai fi dispus să te trezești mai devreme sâmbătă?” sau „Ce faci fără să-ți spună nimeni?”. '
@@ -220,15 +262,7 @@ D.simple_table(['Situația', 'Ce poți face'], [
      '(consilierul școlar, dirigintele, coordonatorul proiectului).'],
 ], [5.2, 11.8], bold_first=True)
 
-D.h('9. După atelier – lista facilitatorului')
-for t in ['Păstrează scrisorile sigilate într-un loc sigur și notează când și cum le vei returna (finalul proiectului sau al anului școlar).',
-          'Centralizează fișele de feedback (scorurile medii și comentariile) pentru raportul de activitate.',
-          'Fotografiază tabla cu rezultatele licitației (fără numele elevilor).',
-          'Completează documentele de proiect (listă de prezență, fotografii, raport), conform procedurilor UNIC.',
-          'Opțional: peste 30 de zile, revino cu o întâlnire scurtă (10 minute) sau roagă dirigintele să întrebe: „Câte căsuțe ați bifat pe semnul de carte?”']:
-    D.b('☐  ' + t, mark='', indent=0.1)
-
-D.h('10. Lista anexelor și numărul de exemplare de tipărit')
+D.h('11. Lista anexelor și numărul de exemplare de tipărit')
 D.p('Recomandare: fișele de lucru se pot tipări alb-negru. Cartonașele pentru pereți (Anexa 1), semnele de carte (Anexa 6) '
     'și diplomele (Anexa 10) arată mai bine color, eventual pe carton.', italic=True, color=C['grey'])
 D.simple_table(['Anexa', 'Conținut', 'De tipărit (pentru 15 elevi)'], [
@@ -243,6 +277,10 @@ D.simple_table(['Anexa', 'Conținut', 'De tipărit (pentru 15 elevi)'], [
     ['Anexa 9', 'Fișa de feedback a atelierului (2 pe pagină)', '8 pagini'],
     ['Anexa 10', 'Diploma „Agent LEVEL UP” (2 pe pagină)', '8 pagini, de preferință color'],
 ], [2.2, 9.6, 5.2], bold_first=True)
+
+raport(D, 12, ['O1 – identifică cel puțin două surse personale de motivație', 'O2 – explică faptul că motivația diferă între persoane și situații',
+              'O3 – leagă un punct forte de o situație concretă', 'O4 – formulează o provocare de 30 de zile și un prim pas'],
+       'De ex.: nr. de provocări de 30 de zile formulate, fișe completate, scrisori sigilate (păstrate de facilitator), media scorurilor din fișele de feedback.')
 
 # =====================================================================  ANEXE
 MOT = [

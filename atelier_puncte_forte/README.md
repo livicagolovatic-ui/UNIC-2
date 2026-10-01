@@ -7,7 +7,9 @@ Materiale pentru facilitatorul comunitar, clasele a VII-a – a VIII-a, 10–15 
 | `Sedinta_1_Cine_sunt_eu_Scenariu_si_Anexe.docx` / `.pdf` | Ședința 1 – „Agenția Secretă a Punctelor Forte”: scenariu complet + 9 anexe de tipărit |
 | `Sedinta_2_Ce_ma_motiveaza_Scenariu_si_Anexe.docx` / `.pdf` | Ședința 2 – „LEVEL UP”: scenariu complet + 10 anexe de tipărit |
 
-Toate paginile poartă antetul proiectului. Documentele se regenerează cu:
+Fiecare document începe cu **Fișa activității – document justificativ** (date de identificare, repartizarea orelor
+lucrate de Facilitatorul comunitar 2 pe etape, livrabile, dovezi anexate, semnături) și conține, înainte de anexe,
+**Raportul privind desfășurarea activității** (secțiunea 12), de completat după ședință. Toate paginile poartă antetul proiectului. Documentele se regenerează cu:
 
 ```
 pip install python-docx
