@@ -15,6 +15,16 @@ se aprobă. Neconcordanțele numerotate #1–#17 sunt descrise în
 | 0.2 | Varianta de rezervă: dacă modificarea nu se aprobă, rămâne calendarul v1 (apel în L2, adică acum) | Pachetul apelului trebuie atunci grăbit. |
 | 0.3 | Colectarea documentelor lipsă (vezi „Ce am nevoie”) | Metodologia de selecție este baza ghidului. |
 
+## Stadiu la 02.10.2026
+
+- Am primit ghidul, metodologia și manualul GAL și am descărcat documentele
+  AFIR de vizibilitate. Gata: **analiza de comunicare și vizibilitate**
+  (`Int5_Comunicare_si_vizibilitate_analiza.docx`).
+- Urmează pachetul de comunicare din secțiunea 10 a analizei: planul de
+  comunicare, datele pentru placă, textele pentru site și postări, antetul,
+  kitul de eveniment, registrele, ghidul de vizibilitate pentru beneficiarii
+  finali și adresa către OJFIR.
+
 ## Etapa 1 – Echipa, procedurile, banii (L2–L4, oct. 2026 – ian. 2027) – A1, A2, A3
 
 1. Decizia de numire a echipei, fișele de post, actele adiționale/CIM, modelul de
@@ -78,10 +88,10 @@ planul de monitorizare ex-post pe 36 de luni (#17).
 
 ## Ce am nevoie
 
-1. Metodologia de selecție a sub-proiectelor (11 p.).
-2. Contractul de finanțare cu anexele lui (instrucțiunile de plată și de achiziții,
-   condițiile generale).
-3. Ghidul solicitantului GAL pentru Intervenția 5 / fișa intervenției din SDL.
+1. ~~Metodologia de selecție~~ (primită). ~~Ghidul solicitantului GAL~~ (primit).
+2. Contractul de finanțare cu anexele lui (Anexa II, instrucțiunile de plată și de
+   achiziții, graficul de eșalonare a plăților).
+3. Modelul AFIR de contract de grant (anexă la Manualul de procedură DR-36).
 4. Memoriul justificativ și CV-ul lui Iancu Dănuț pentru modificarea nr. 1.
 5. Formatul dorit pentru livrabile (implicit Word .docx, generat cu scripturi ca
    în restul repo-ului) și eventuale șabloane GAL (antet, logo-uri).

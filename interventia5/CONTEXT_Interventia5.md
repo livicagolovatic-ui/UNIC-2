@@ -15,11 +15,28 @@ din CI și adresa personală a reprezentantului legal.
 | Anexa 2 – Graficul de implementare, vers. 1 | 27.05.2026 | aprobat prin contract |
 | Nota explicativă nr. 2026092401 – modificarea nr. 1 | 24.09.2026 | **în așteptarea aprobării AFIR** |
 | Anexa 2 – Graficul de implementare, vers. 2 | 24.09.2026 | anexă la modificarea nr. 1 |
+| Ghidul solicitantului GAL – Intervenția 5 „LEADER în verde”, sesiunea 2/2026 (29 p.) | 19.01.2026 | ghidul apelului GAL în care a fost selectat proiectul |
+| Metodologia de selecție a sub-proiectelor, sesiunea 2/2026 (11 p.) | – | anexă la CF; calendarul din cap. IX este cel inițial |
+| Ghid de identitate vizuală GAL Napoca Porolissum pentru beneficiari (23 p.) | 2025 | contrazice AFIR în câteva puncte (vezi documentul de comunicare) |
 
-Documente menționate, dar neprimite încă: Metodologia de selecție a
-sub-proiectelor (11 p.), contractul de finanțare și anexele lui, memoriul
-justificativ al modificării nr. 1, CV-ul și actele de studii ale lui Iancu Dănuț,
-Ghidul solicitantului GAL pentru Intervenția 5 / fișa intervenției din SDL.
+Documente AFIR descărcate de pe afir.ro (02.10.2026), cu textul în `surse/`:
+Anexa II C1.1 la contract „Materiale și activități de informare de tip
+publicitar” (Ed. I Rev. 1); Ghidul de identitate vizuală PS 2027 V3 (ianuarie
+2026); modelele V3 pentru placă, afiș și autocolant LEADER (`surse/afir_modele/`);
+Ghidul de implementare DR-36 Ed. I Rev. 3; Anexa 2 „Detalii privind proiectele
+umbrelă”.
+
+Documente încă neprimite: contractul de finanțare semnat, cu anexele lui
+(versiunea exactă a Anexei II, instrucțiunile de plată și de achiziții, graficul
+de eșalonare a plăților), memoriul justificativ al modificării nr. 1, CV-ul lui
+Iancu Dănuț, modelul AFIR de contract de grant (anexă la Manualul de procedură
+DR-36).
+
+## 1b. Livrabile produse
+
+| Fișier | Conținut |
+|---|---|
+| `Int5_Comunicare_si_vizibilitate_analiza.docx` | Partea 1 a analizei Ghidului: obligațiile de comunicare și vizibilitate, datele pentru placă, bara de sigle, evenimente, beneficiari finali, calendar, întrebări, alte constatări (v1, 02.10.2026). Se generează cu `build_comunicare_vizibilitate_docx.py` (motor: `gal_docx.py`). |
 
 ## 2. Date de identificare
 
@@ -145,7 +162,7 @@ avizarea raportului final.
 | # | Problemă | Unde | Ce propun |
 |---|---|---|---|
 | 1 | Bugetul din Anexa 1 §9 (schimb 10.000 €, total 139.903,3131 €) nu corespunde cu CF-ul (8.740 € eligibil + 1.259 € TVA neeligibil; 138.643 € eligibil) și nici cu fundamentarea, care trece 9.999,81 € ca „valoare eligibilă”. | Anexa 1, Fundamentare, CF | Referința este bugetul din contract. TVA-ul de 1.259 € se acoperă din fonduri proprii. |
-| 2 | 6 × 19.833,3 = 118.999,80 €, nu 119.000 €. | Anexa 1, Fundamentare | Ghidul să fixeze plafonul la 19.833,33 € (cu o regulă de rotunjire) și să precizeze moneda bugetelor și cursul folosit. |
+| 2 | 6 × 19.833,3 = 118.999,80 €, nu 119.000 €. | Anexa 1, Fundamentare | Ghidul GAL fixează plafonul la maximum 19.833,3 €, deci în ghidul sub-proiectelor plafonul este 19.833,30 €, iar 0,20 € din Cap. 3 rămân neutilizați. Ghidul trebuie să precizeze și moneda bugetelor și cursul folosit. |
 | 3 | Schimbul de bune practici este „pentru beneficiarii selectați”, dar e programat înainte de selecție: L2–L4 în v1, L5–L8 în v2. Selecția se încheie abia în L8. | Gantt v1/v2, Nota nr. 1 | Dacă nota mai poate fi completată înainte de aprobare: A5 în L8–L10 sau L9–L11. Altfel, evenimentul se ține la finalul L8, după publicarea raportului final de selecție. |
 | 4 | Fereastra A11 (L9–L20) are 12 luni, cât durata maximă a unui sub-proiect, deci nu mai rămâne timp pentru vizita din perioada de monitorizare, tranșa a II-a și raportul final (L21). | Anexa 1 §7f, Gantt v2 | Ghidul să limiteze sub-proiectele la circa 9–10 luni, cu finalizare cel târziu în L18–L19. |
 | 5 | Postul de animare locală e bugetat la plafonul de 5–10 ani (80 lei net/oră). Nota afirmă că bugetul postului se menține. | Fundamentare, Nota nr. 1 | Trebuie verificat că Iancu Dănuț are 5–10 ani de experiență relevantă. Altfel plafonul scade la 70 lei/oră. |
@@ -159,7 +176,7 @@ avizarea raportului final.
 | 13 | Campaniile de promovare și sesiunile de informare nu au linie de buget. | Anexa 1, CF | Se acoperă din timpul experților sau din bugetul de funcționare al GAL, cu atenție la dubla finanțare. |
 | 14 | Nota menționează minimum 10/20 de participanți pe grupă la acțiunile de informare/formare. Schimbul de bune practici are ~8–9 participanți. | Nota nr. 1, Fundamentare | De verificat în manualul DR-36 dacă limita se aplică schimbului și sesiunilor de informare. |
 | 15 | Raportul net/brut 70/108 pare să nu includă impozitul pe venit și CAM-ul de 2,25%. La contractele part-time, contribuțiile pot fi datorate la nivelul salariului minim. | Fundamentare | De verificat cu contabilul. Diferențele se suportă din fonduri proprii. |
-| 16 | Tranșa I înseamnă 80% × 119.000 = 95.200 € de plătit în L9. | Fundamentare | Graficul de eșalonare a cererilor de plată și eventuala cerere de avans trebuie planificate înainte de L9. |
+| 16 | Tranșa I înseamnă 80% × 119.000 = 95.200 € de plătit în L9. Avansul AFIR la proiectele umbrelă este de cel mult 50% din activitățile GAL de sprijin pentru solicitanți: circa 4.370 € dacă se socotește doar schimbul de bune practici, circa 9.821 € dacă intră și personalul. Ghidul de implementare DR-36 Rev. 3 nu acoperă deci granturile. | Fundamentare; Ghid implementare DR-36 | Plan de flux de numerar și graficul de eșalonare a cererilor de plată înainte de L9: fonduri proprii sau credit, apoi rambursare. |
 | 17 | Monitorizarea sustenabilității durează 36 de luni după finalizarea sub-proiectelor, mult după finalul proiectului GAL (L21). | Anexa 1 §12 | Un plan de monitorizare ex-post cu resurse proprii. |
 
 ## 7. Istoric de finanțări ale GAL (din CF – pentru documente de capacitate)
@@ -175,3 +192,47 @@ Rural community ADAPTs to natural forest fires!; Rural Youth Parliament; Circula
 Organic Management; SMART+CULTURE; Green education; YouProclima; ALL4JOBS; BEYOND a
 Hiking for a Greener Future. AFM: Alege Verde!; Pune verdele în mișcare!. CERV:
 Voices of change.
+
+## 8. Constatări din Ghidul solicitantului, metodologie și documentele AFIR (02.10.2026)
+
+Detaliate în `Int5_Comunicare_si_vizibilitate_analiza.docx`, secțiunile 2–7 și 11. Pe scurt:
+
+- **Vizibilitate:** placa informativă este obligatorie la sediul GAL (model AFIR
+  V3 „Placă FEADR LEADER”, 50 × 70 cm). Mai sunt obligatorii caseta pe prima
+  pagină a site-ului, cu link către pagina Comisiei despre FEADR, informarea pe
+  fiecare canal social media și cele trei mențiuni obligatorii pe materialele
+  tipărite și multimedia. Siglele folosite pe alte materiale decât cele din
+  Anexa II cer aprobarea scrisă a AFIR.
+- **Ordinea siglelor (AFIR GIV V3):** UE „Cofinanțat de Uniunea Europeană” ·
+  MADR · PS 2023-2027 · GAL · AFIR, iar LEADER pe un rând separat. Manualul GAL
+  are altă ordine; aplicăm AFIR.
+- **Evenimente:** graficul calendaristic actualizat, cu locații și agendă, se
+  încarcă în platformă cu ≥ 10 zile lucrătoare înainte. Listele de prezență se
+  fac pe zile, cu adresă, telefon, e-mail și semnătură. Fiecare participant
+  declară că n-a mai participat la evenimente cu aceeași temă. Dacă peste 50%
+  din chestionare au note sub 3, activitatea nu se avizează. La vizita OJFIR
+  participă un reprezentant al GAL.
+- **Juriul** are obligatoriu număr impar de membri și reprezentanți ai
+  domeniului din județ sau regiune.
+- **Criteriile de selecție nu pot fi afectate prin modificări:** rămân minimum
+  3 angajați GAL în juriu și minimum 4 sub-proiecte contractate (ținta e 6).
+- **Incompatibilitate:** echipa, asociații și angajații GAL nu pot fi angajați
+  sau asociați ai entităților finanțate. GAL nu poate cumpăra servicii sau
+  bunuri de la beneficiarii granturilor.
+- **Tranșele granturilor:** cea inițială ≤ 90%, cea finală ≥ 10%, după
+  realizarea a ≥ 90% din acțiuni. Fundamentarea greșește trimiterea la „planul de
+  afaceri”.
+- **Raportul de activitate intermediar** se trimite la AFIR în ≤ 10 zile
+  lucrătoare de la selecție. Avizarea lui deblochează contractele de grant.
+  Răspunsul vine în 6 zile lucrătoare, cu o singură retransmitere permisă.
+- **Metodologia** are calendarul vechi. Criteriul „proiecte comunitare” e ambiguu
+  (experiență anterioară sau angajament?), iar criteriul „calitatea planului” nu
+  are punctaje pe subcriterii.
+- **Neeligibile la sub-proiecte:** echipamente second-hand, mijloace de transport
+  (atenție la biciclete), cheltuieli de dinainte de contractul de grant, TVA
+  recuperabil.
+- **Costurile de vizibilitate** ale sub-proiectelor pot fi eligibile prin
+  derogarea LEADER (Reg. 2022/129, Anexa III pct. 2 lit. a, b, e).
+- **Indicatorul R.27** are valoarea 2 în ghid; CF-ul nu dă un număr.
+- **Cursul AFIR pentru 2026** este 5,0968 lei/euro (ghidul DR-36). Fundamentarea a
+  folosit 5,0979 (09.03.2026).
