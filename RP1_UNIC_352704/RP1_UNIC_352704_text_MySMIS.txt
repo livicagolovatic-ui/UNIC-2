@@ -57,9 +57,9 @@ Valoarea totală a proiectului, indicatorii, grupul țintă și durata de implem
 • a fost extinsă justificarea bugetară pentru închirierea autoturismului și pentru combustibil la toate activitățile proiectului.
 Modificarea nu afectează valoarea totală a proiectului, obiectivele, activitățile, indicatorii, rezultatele asumate, grupul țintă sau durata de implementare. Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 16640/04.09.2026.
 
---- Notificarea nr. 4 – Descriere  [1070 / 3500 caractere]
+--- Notificarea nr. 4 – Descriere  [1079 / 3500 caractere]
 
-În data de 15.09.2026 a fost transmisă Notificarea nr. 4, prin care a fost actualizată secțiunea „Resurse umane” din cererea de finanțare, prin nominalizarea doamnei Anderco Claudia-Maria pe poziția de Cadru didactic 3, în locul doamnei Boaru Mariana-Dorina, care nu mai putea asigura desfășurarea activităților aferente poziției. Doamna Anderco Claudia-Maria își desfășoară activitatea didactică la Liceul Teologic Reformat Cluj-Napoca, unitate de învățământ cu care beneficiarul a încheiat, în data de 09.09.2026, un acord de colaborare în calitate de partener asociat, în vederea extinderii bazei de identificare și recrutare a grupului țintă, întrucât unitățile de învățământ partenere inițiale nu pot asigura singure numărul necesar de elevi eligibili. Răspunsul la solicitarea de clarificări a fost transmis în data de 16.09.2026. Modificarea nu afectează valoarea totală a proiectului, obiectivele, activitățile, indicatorii, rezultatele asumate, grupul țintă sau durata de implementare. Notificarea a fost aprobată prin «Informarea OIR PECU Nord-Vest nr. … / …».
+În data de 15.09.2026 a fost transmisă Notificarea nr. 4, prin care a fost actualizată secțiunea „Resurse umane” din cererea de finanțare, prin nominalizarea doamnei Anderco Claudia-Maria pe poziția de Cadru didactic 3, în locul doamnei Boaru Mariana-Dorina, care nu mai putea asigura desfășurarea activităților aferente poziției. Doamna Anderco Claudia-Maria își desfășoară activitatea didactică la Liceul Teologic Reformat Cluj-Napoca, unitate de învățământ cu care beneficiarul a încheiat, în data de 09.09.2026, un acord de colaborare în calitate de partener asociat, în vederea extinderii bazei de identificare și recrutare a grupului țintă, întrucât unitățile de învățământ partenere inițiale nu pot asigura singure numărul necesar de elevi eligibili. Răspunsul la solicitarea de clarificări a fost transmis în data de 16.09.2026. Modificarea nu afectează valoarea totală a proiectului, obiectivele, activitățile, indicatorii, rezultatele asumate, grupul țintă sau durata de implementare. Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 17371/17.09.2026.
 
 
 ##############################################################################
@@ -87,7 +87,7 @@ R5: Raportul de progres nr. 1 întocmit și transmis; Cererea de rambursare nr. 
 
 Nu au fost identificate abateri.
 
---- SA1.1 – Progres în perioada de raportare  [5448 / 10500 caractere]
+--- SA1.1 – Progres în perioada de raportare  [5486 / 10500 caractere]
 
 În perioada de raportare iulie – septembrie 2026 (L1–L3), SA1.1 a vizat constituirea și organizarea echipei de proiect, elaborarea documentelor de management, coordonarea și monitorizarea activităților, comunicarea cu OIR PECU Nord-Vest, gestionarea modificărilor contractuale și pregătirea raportării tehnice și financiare.
 Constituirea echipei de proiect. În luna iulie 2026 au fost încheiate contractele individuale de muncă și au fost întocmite dosarele de personal (contract, decizie de angajare, fișa postului, CV și documente justificative, declarații privind evitarea conflictului de interese, prelucrarea datelor cu caracter personal, norma de bază și timpul de lucru, avizul de medicina muncii, minuta de informare) pentru Managerul de proiect, Asistentul manager, Responsabilul financiar și cei doi Experți grup țintă, care și-au început activitatea la 01.07.2026. Echipa de implementare a A5 a fost completată etapizat, în corelare cu debutul activităților cu grupul țintă din septembrie 2026: Expertul comunicare, Consilierul psihologic și Cadrul didactic 1 au fost angajați începând cu 31.08.2026, Facilitatorul comunitar 2 și Cadrul didactic 2 începând cu «04.09.2026», iar Cadrul didactic 3 începând cu 17.09.2026. Pozițiile nenominalizate la contractare sau devenite vacante au fost ocupate prin Notificările nr. 1–4. Poziția de Cadru didactic 4 nu a fost ocupată în perioada de raportare; nominalizarea va face obiectul unei notificări în perioada următoare.
@@ -99,7 +99,7 @@ Constituirea echipei de proiect. În luna iulie 2026 au fost încheiate contract
 Întâlnirile au fost documentate prin agende, minute și liste de prezență, iar pentru întâlnirile online prin capturi de ecran.
 Documente de management. Conform cererii de finanțare, până la finalul lunii a 3-a de implementare au fost elaborate cele 3 planuri – Planul de monitorizare a activităților, rezultatelor și indicatorilor (UNIC-PL-01), Planul de raportare lunară (UNIC-PL-02) și Planul de management al riscurilor (UNIC-PL-03), care identifică 32 de riscuri și măsurile de prevenire și atenuare – și cele 4 proceduri: Procedura de management (UNIC-PO-01), Procedura de arhivare (UNIC-PO-02), Procedura de raportare tehnico-financiară (UNIC-PO-03) și Procedura de achiziții (UNIC-PO-04). Documentele au fost avizate de Managerul de proiect, aprobate de reprezentantul legal «la data de …» și asumate de echipa de management.
 Monitorizare și planificare. Lunar a fost transmisă către OIR planificarea activităților (Anexa 12 la Manualul beneficiarului): pentru iulie (nr. 2026063005/30.06.2026), august (nr. 2026072303/23.07.2026), septembrie (actualizată pe măsura programării activităților, ultima versiune nr. 2026092301/23.09.2026) și octombrie (nr. 2026092503/25.09.2026). Managerul de proiect a urmărit lunar stadiul activităților, al rezultatelor și al indicatorilor și a verificat fișele de pontaj, rapoartele de activitate și livrabilele experților, documentele privind grupul țintă și dosarele de achiziție.
-Modificări contractuale. Au fost pregătite și transmise Notificările nr. 1 (21.07.2026), nr. 2 (11.08.2026), nr. 3 (03.09.2026) și nr. 4 (15.09.2026), precum și solicitarea de Act adițional nr. 1 (24.07.2026, semnat la 03–04.08.2026), inclusiv răspunsurile la solicitările de clarificări, detaliate în secțiunea 2 a raportului.
+Modificări contractuale. Au fost pregătite și transmise Notificările nr. 1 (21.07.2026), nr. 2 (11.08.2026), nr. 3 (03.09.2026) și nr. 4 (15.09.2026), toate aprobate de OIR PECU Nord-Vest, precum și solicitarea de Act adițional nr. 1 (24.07.2026, semnat la 03–04.08.2026), inclusiv răspunsurile la solicitările de clarificări, detaliate în secțiunea 2 a raportului.
 Raportare tehnică și financiară:
 • în data de 10.08.2026 a fost autorizată Cererea de prefinanțare nr. 1, în valoare de 700.000,00 lei, transmisă la 19.06.2026;
 • lunar, până la data de 20, a fost transmis Formularul nr. 11 – Notificare privind reconcilierea contabilă «(de confirmat)»;
@@ -127,29 +127,31 @@ Servicii de acordare masă caldă (plan: L2–L5, norme proprii pentru servicii 
 Servicii de organizare a târgului de oportunități (plan: L1–L4, achiziție directă). Achiziția urmează să fie demarată în luna octombrie 2026, în corelare cu calendarul primului târg de oportunități din anul școlar 2026-2027.
 Activitatea este documentată prin dosarele de achiziție, contractele încheiate, ordinele de începere, procesele-verbale de predare-primire și recepție și documentele de plată.
 
---- SA3.1 – Rezultat obținut în perioada de raportare  [333 / 3500 caractere]
+--- SA3.1 – Rezultat obținut în perioada de raportare  [533 / 3500 caractere]
 
 R8: materiale publicitare realizate și distribuite – afișul A3 al proiectului, flyerul de prezentare pentru școli (față-verso) și flyerul de 12 × 17 cm.
-R9: 1 anunț de lansare a proiectului publicat «la data de … (link)».
-R10: promovarea proiectului pe «site-ul (link) și pe pagina de social media (link)» a beneficiarului realizată.
+R9: 1 anunț de începere a proiectului publicat pe subpagina proiectului de pe site-ul beneficiarului (https://napocaporolissum.ro/unic-porolissum-2/).
+R10: promovarea proiectului pe site-ul beneficiarului (subpagina proiectului, creată la 02.07.2026) și pe pagina de Facebook a proiectului „UNIC: Viitor prin Educație” (https://www.facebook.com/unic.viitorprineducatie) realizată.
 
 --- SA3.1 – Abateri/riscuri identificate  [32 / 10500 caractere]
 
 Nu au fost identificate abateri.
 
---- SA3.1 – Progres în perioada de raportare  [2582 / 10500 caractere]
+--- SA3.1 – Progres în perioada de raportare  [3296 / 10500 caractere]
 
 În perioada de raportare iulie – septembrie 2026, SA3.1 a vizat asigurarea vizibilității proiectului și a sprijinului acordat din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027 încă de la debutul implementării, cu respectarea Manualului de identitate vizuală 2021-2027 și a Anexei 18 la Manualul beneficiarului.
-Anunțul de demarare a proiectului a fost redactat de Asistentul manager, avizat de Managerul de proiect și publicat «la data de … pe site-ul beneficiarului (link) și pe pagina de Facebook a beneficiarului (link)». Anunțul a cuprins elementele obligatorii: titlul proiectului, codul MySMIS 352704, obiectivul general, perioada de implementare, apelul, beneficiarul, valoarea totală și valoarea cofinanțării UE, precum și datele de contact. Dovada publicării (captură de ecran cu data și adresa URL și varianta PDF) a fost arhivată.
-Pe site-ul beneficiarului a fost creată «subpagina dedicată proiectului (link)», care prezintă descrierea proiectului, obiectivele, rezultatele așteptate, grupul țintă, condițiile de participare și măsurile de sprijin oferite elevilor și părinților, asigurând accesul egal la informație al tuturor persoanelor interesate.
+La începutul lunii iulie 2026 (02.07.2026), pe site-ul beneficiarului a fost creată subpagina dedicată proiectului (https://napocaporolissum.ro/unic-porolissum-2/), în secțiunea „Programe – PEO – Programul Educație și Ocupare”. Subpagina prezintă denumirea proiectului, beneficiarul, codul MySMIS 352704, perioada de implementare, valoarea totală, sursa de finanțare, descrierea și obiectivele, grupul țintă și rezultatele așteptate, precum și trimiterea către www.mfe.gov.ro.
+Pe subpagină a fost publicat anunțul de începere a proiectului, care cuprinde beneficiarul, titlul și codul MySMIS, programul (Programul Educație și Ocupare 2021-2027, Prioritatea P8) și fondul (FSE+), perioada de implementare (iulie 2026 – iunie 2029), regiunea, valoarea totală, scopul, activitățile, grupul țintă, rezultatele urmărite și datele de contact. Dovada publicării (captură de ecran cu data și adresa URL) a fost arhivată.
+La 16.07.2026 au fost publicate pe aceeași subpagină Metodologia privind identificarea, recrutarea, înscrierea, verificarea, selectarea, validarea și menținerea grupului țintă și Metodologia privind acordarea sprijinului financiar pentru transport, cazare și masă, asigurând accesul egal la informație al tuturor persoanelor interesate.
+Proiectul este promovat și pe pagina de Facebook „UNIC: Viitor prin Educație” (https://www.facebook.com/unic.viitorprineducatie), pe care au fost publicate, în perioada de raportare, «… postări» despre activitățile proiectului «(întâlnirile de informare din școli, debutul activităților cu elevii din septembrie …)».
 În luna iulie 2026 au fost realizate materialele de informare pentru unitățile de învățământ: afișul A3 al proiectului, flyerul de prezentare față-verso destinat școlilor și flyerul de 12 × 17 cm. Materialele au fost utilizate în întâlnirile de informare și recrutare de la Colegiul Tehnic Turda (07.07 și 24.07.2026) și de la Liceul Tehnologic „Vlădeasa” Huedin (09.07.2026) și, în septembrie 2026, la Liceul Teologic Reformat Cluj-Napoca. Afișul A3 a fost expus la sediul beneficiarului din Gilău și «la unitățile de învățământ partenere în care se desfășoară activitățile», fiind realizate fotografii ca dovadă.
 Toate documentele utilizate în relația cu grupul țintă (formulare, liste de prezență, fișe de lucru, teste de evaluare) au inclus elementele obligatorii de identitate vizuală și mențiunea privind cofinanțarea din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027. La înscriere, participanții au fost informați, prin nota de informare privind activitățile proiectului, cu privire la sprijinul acordat prin FSE+. Echipamentele IT recepționate la 18.09.2026 au fost «inscripționate cu autocolante care conțin elementele de identitate vizuală».
 Activitatea este documentată prin materialele realizate, link-urile și capturile de ecran ale publicărilor și fotografiile afișelor expuse, centralizate în documentul „SA 3.1_07-09.2026_Informare și publicitate”.
 
---- SA4.1 – Rezultat obținut în perioada de raportare  [418 / 3500 caractere]
+--- SA4.1 – Rezultat obținut în perioada de raportare  [480 / 3500 caractere]
 
 R12: 1 metodologie de selecție a grupului țintă întocmită (versiunea 1 – 16.07.2026, actualizată în versiunea 2 – septembrie 2026) și diseminată, împreună cu cele 15 anexe-formular.
-R13: «128» de elevi cu dosare de înscriere eligibile, dintre care «96» de elevi selectați și intrați în operațiune («17» pe acțiunea 8.f.1, «35» pe acțiunea 8.f.2 și «44» pe acțiunea 8.f.3); 0 părinți selectați în perioada de raportare.
+R13: «128» de elevi cu dosare de înscriere eligibile, dintre care «96» de elevi selectați și intrați în operațiune («17» pe acțiunea 8.f.1, «35» pe acțiunea 8.f.2 și «44» pe acțiunea 8.f.3); «4» cadre didactice selectate pentru participarea la formare; 0 părinți selectați în perioada de raportare.
 
 --- SA4.1 – Abateri/riscuri identificate  [1025 / 10500 caractere]
 
@@ -254,14 +256,14 @@ R21: masa caldă urmează să fie acordată după finalizarea achiziției de ser
 
 Nu au fost identificate abateri.
 
---- SA5.4 – Progres în perioada de raportare  [2635 / 10500 caractere]
+--- SA5.4 – Progres în perioada de raportare  [2701 / 10500 caractere]
 
 SA5.4 a început în luna septembrie 2026 (L3), conform graficului din cererea de finanțare. În perioada de raportare activitatea a vizat elaborarea metodologiilor de organizare a activităților remediale, evaluarea inițială a elevilor și primele sesiuni remediale.
 Cadrul didactic 1 a elaborat metodologia de organizare a activităților remediale la limba și literatura română pentru Colegiul Tehnic Turda (10.09.2026), cu structura tematică, instrumentele de evaluare și calendarul sesiunilor (2 grupe de câte 19 elevi din clasa a IX-a, câte 2 ore pe săptămână, în afara programului școlar), a aplicat testele de evaluare inițială celor două grupe și a susținut sesiunile remediale din 17.09.2026 (14 elevi) și 21.09.2026 (12 elevi), axate pe înțelegerea textului și exprimarea scrisă.
 Cadrul didactic 2 a elaborat metodologia activităților remediale la fizică pentru Colegiul Tehnic Turda și testul inițial pentru clasa a IX-a, a aplicat 20 de teste de evaluare inițială și a susținut sesiunile din 22.09.2026 («20» de elevi) și 29.09.2026 (14 elevi), axate pe noțiunile de bază, calcul și rezolvarea de probleme.
 Cadrul didactic 3 a elaborat metodologia activităților remediale la limba și literatura română pentru clasa a IX-a D a Liceului Teologic Reformat Cluj-Napoca (23 de elevi înscriși), testul inițial, baremul și grila de evaluare și a susținut prima sesiune remedială la 30.09.2026 («20» de elevi prezenți), stabilind planificarea pentru luna octombrie.
 Metodologiile au fost validate de Managerul de proiect «la data de …». Rezultatele testelor inițiale fundamentează planificarea pe grupe și fișele individuale de progres, care vor fi actualizate după testele intermediare. În total, în perioada de raportare, «44» de elevi unici din clasa a IX-a au participat la cel puțin o sesiune remedială.
-Echipa de implementare. Poziția de Cadru didactic 3 este ocupată, începând cu 17.09.2026, de persoana nominalizată prin Notificarea nr. 4. Persoanele nominalizate prin Notificarea nr. 2 pe pozițiile de Cadru didactic 2 și Cadru didactic 3 nu au desfășurat activități în proiect, fiind înlocuite prin Notificările nr. 3 și nr. 4. Poziția de Cadru didactic 4 nu a fost ocupată în perioada de raportare, urmând să fie nominalizată prin notificare.
+Echipa de implementare. Poziția de Cadru didactic 3 este ocupată, începând cu 17.09.2026, de persoana nominalizată prin Notificarea nr. 4, aprobată prin Informarea OIR PECU Nord-Vest nr. 17371/17.09.2026. Persoanele nominalizate prin Notificarea nr. 2 pe pozițiile de Cadru didactic 2 și Cadru didactic 3 nu au desfășurat activități în proiect, fiind înlocuite prin Notificările nr. 3 și nr. 4. Poziția de Cadru didactic 4 nu a fost ocupată în perioada de raportare, urmând să fie nominalizată prin notificare.
 Masa caldă pentru elevii participanți la programele remediale va fi acordată după finalizarea achiziției de servicii (SA2.1), pe baza listelor de prezență la sesiunile remediale.
 Activitatea este documentată prin rapoartele de activitate și fișele de pontaj ale cadrelor didactice, metodologiile elaborate, testele de evaluare inițială, listele de prezență și fotografiile realizate.
 
@@ -369,7 +371,7 @@ Perioada de activitate: iulie – septembrie 2026
 • monitorizarea lunară a activităților și a indicatorilor, verificarea pontajelor, a rapoartelor de activitate și a livrabilelor experților;
 • comunicarea cu ofițerul de monitorizare din cadrul OIR PECU Nord-Vest și coordonarea elaborării Raportului de progres nr. 1.
 
---- Fătu Iulia – Descriere  [959 / 3500 caractere]
+--- Fătu Iulia – Descriere  [975 / 3500 caractere]
 
 Poziția: Asistent manager – Beneficiar
 Categorie: Expert management de proiect 5–10 ani
@@ -378,7 +380,7 @@ Perioada de activitate: iulie – septembrie 2026
 • organizarea logistică a întâlnirilor de lucru și întocmirea agendelor, minutelor și listelor de prezență;
 • gestionarea registrului de intrări-ieșiri și arhivarea fizică și electronică a documentelor proiectului;
 • întocmirea documentelor procedurilor de achiziție (referate de necesitate, solicitări de ofertă, contracte, ordine de începere) și încărcarea dosarelor de achiziție în MySMIS2021;
-• «redactarea anunțului de demarare a proiectului și» coordonarea materialelor de informare și publicitate;
+• coordonarea materialelor de informare și publicitate și actualizarea subpaginii proiectului de pe site-ul beneficiarului;
 • centralizarea rapoartelor de activitate, a pontajelor și a documentelor justificative ale experților;
 • îndeplinirea atribuțiilor de responsabil cu protecția datelor cu caracter personal pentru documentele grupului țintă.
 
@@ -514,11 +516,13 @@ Nu este cazul. Conform cererii de finanțare, proiectul nu intră sub incidența
 14. Comunicare și vizibilitate
 ##############################################################################
 
---- Descriere respectare cerințe de comunicare și vizibilitate a sprijinului din fonduri acordat  [2514 / 10500 caractere]
+--- Descriere respectare cerințe de comunicare și vizibilitate a sprijinului din fonduri acordat  [2962 / 10500 caractere]
 
 În perioada de raportare iulie – septembrie 2026 au fost respectate cerințele privind comunicarea și vizibilitatea sprijinului acordat din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027, conform art. 47 și 50 din Regulamentul (UE) 2021/1060, contractului de finanțare, Manualului de identitate vizuală 2021-2027 și Anexei 18 la Manualul beneficiarului, după cum urmează:
-• Anunțul de demarare a proiectului a fost publicat «la data de … pe site-ul beneficiarului (link) și pe pagina de Facebook (link)», cu elementele obligatorii: titlul, codul MySMIS 352704, obiectivul general, perioada de implementare, apelul, beneficiarul, valoarea totală și cofinanțarea UE, datele de contact.
-• Pe site-ul beneficiarului a fost creată «subpagina dedicată proiectului (link)», care prezintă descrierea, obiectivele, rezultatele așteptate, valoarea totală și cofinanțarea UE, perioada de implementare și codul MySMIS, precum și condițiile de acces la măsurile de sprijin pentru elevi și părinți; setul de sigle este vizibil fără derulare și include trimiterea către www.mfe.gov.ro.
+• Pe site-ul beneficiarului a fost creată, la 02.07.2026, subpagina dedicată proiectului (https://napocaporolissum.ro/unic-porolissum-2/), care prezintă denumirea, beneficiarul, codul MySMIS 352704, perioada de implementare, valoarea totală, sursa de finanțare (FSE+, Programul Educație și Ocupare 2021-2027), descrierea, obiectivele, grupul țintă și rezultatele așteptate, cu antetul proiectului și trimiterea către www.mfe.gov.ro.
+• Pe subpagină a fost publicat anunțul de începere a proiectului, cu elementele obligatorii: beneficiarul, titlul și codul MySMIS, programul, prioritatea și fondul, perioada de implementare, regiunea, valoarea totală, scopul, activitățile, grupul țintă, rezultatele urmărite și datele de contact.
+• La 16.07.2026 au fost publicate pe subpagină metodologia de selecție a grupului țintă și metodologia de acordare a sprijinului financiar, cu condițiile de acces la măsurile de sprijin pentru elevi și părinți (MB, Anexa 11 pct. 3).
+• Pe pagina de Facebook a proiectului, „UNIC: Viitor prin Educație” (https://www.facebook.com/unic.viitorprineducatie), au fost publicate «… postări» privind activitățile proiectului.
 • Afișul A3 al proiectului a fost expus la sediul beneficiarului din Gilău, la intrare, și «la unitățile de învățământ partenere în care se desfășoară activitățile (Colegiul Tehnic Turda, Liceul Tehnologic „Vlădeasa” Huedin, Liceul Teologic Reformat Cluj-Napoca)», fiind realizate fotografii ca dovadă.
 • Au fost realizate și distribuite flyerul de prezentare față-verso pentru școli și flyerul de 12 × 17 cm, utilizate în întâlnirile de informare și recrutare din iulie – septembrie 2026; în septembrie au fost realizate afișele și pliantele campaniei de informare și conștientizare din SA5.3.
 • Toate documentele utilizate în relația cu grupul țintă (formulare de înregistrare, liste de prezență, fișe de lucru, teste de evaluare, materiale de curs) au inclus emblema Uniunii Europene cu mențiunea „Cofinanțat de Uniunea Europeană”, sigla Guvernului României și mențiunea privind finanțarea din FSE+ prin Programul Educație și Ocupare 2021-2027.
@@ -640,9 +644,9 @@ Termenul de 30.06.2026 din Planul de monitorizare este anterior datei de începe
 Abatere/întârziere: termenul din Planul de monitorizare (30.06.2026) este eronat și nu poate fi îndeplinit, fiind anterior începerii proiectului.
 Măsură de remediere: corectarea termenului la 30.06.2029 prin notificare, la următoarea modificare a contractului; înregistrarea părinților începând cu luna octombrie 2026.
 
---- IE3 – Participanți GT – cadre didactice (țintă 4, termen 30.06.2029) – Justificare  [285 / 3500 caractere]
+--- IE3 – Participanți GT – cadre didactice (țintă 4, termen 30.06.2029) – Justificare  [349 / 3500 caractere]
 
-Indicatorul nu are termen scadent în perioada de raportare. Cele 4 cadre didactice din unitățile de învățământ partenere asociate au parcurs programul de formare acreditat în perioada 10–18.09.2026, iar evaluarea finală are loc la 09.10.2026. «Înregistrarea acestora ca participanți …»
+Indicatorul nu are termen scadent în perioada de raportare. Cele 4 cadre didactice din unitățile de învățământ partenere asociate au parcurs programul de formare acreditat în perioada 10–18.09.2026, iar evaluarea finală are loc la 09.10.2026. Cadrele didactice au fost înregistrate ca participanți în grupul țintă, pe acțiunea 8.f.1, «la data de …».
 
 --- IE4 – EECO06+07 aferent acțiunii 8.f.1 (țintă 183) – Justificare  [276 / 3500 caractere]
 
