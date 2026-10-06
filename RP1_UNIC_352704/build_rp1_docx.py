@@ -400,18 +400,11 @@ FLAG('Masa caldă: în Drive nu există documente de achiziție. Târgul: nu a f
 
 # ------------------------------------------------------------------------------ 8
 SECT('8. Informații privind contractele de achiziții semnate')
-FIELD('8.1 Contract nr. 2026080603/06.08.2026 – închiriere autoturism – Vera Travel SRL – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de servicii închiriere autoturism nr. 2026080603/06.08.2026 cu Vera Travel SRL, pentru închirierea unui autoturism necesar deplasărilor echipei de proiect la unitățile de învățământ partenere, în cadrul proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Serviciile sunt utilizate pentru toate activitățile proiectului, conform justificării bugetare actualizate prin Notificarea nr. 3. Valoarea contractului este de 126.000,00 lei fără TVA, la care se adaugă TVA de 26.460,00 lei, valoarea totală fiind de 152.460,00 lei (4.200,00 lei/lună fără TVA, facturat proporțional cu gradul de utilizare). Contractul este valabil 30 de luni de la predarea autoturismului, realizată la 03.09.2026.
-''')
-FIELD('8.1 Contract nr. 2026082804/28.08.2026 – servicii de formare – Asociația Proeuro-Cons – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de servicii de formare cadre didactice nr. 2026082804/28.08.2026 cu Asociația Proeuro-Cons, pentru furnizarea programului de formare acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025, 30 de ore) pentru 4 cadre didactice din ÎPT, în cadrul SA5.2 a proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Valoarea contractului este de 12.400,00 lei (3.100,00 lei/participant), prestatorul nefiind plătitor de TVA. Ordinul de începere a fost emis la 08.09.2026; formarea s-a desfășurat în perioada 10–18.09.2026, iar evaluarea finală este programată la 09.10.2026.
-''')
-FIELD('8.1 Contract de furnizare nr. 2026081703/17.08.2026 – ANILEX SOFT SRL (încetat) – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de furnizare nr. 2026081703/17.08.2026 cu ANILEX SOFT SRL, pentru furnizarea echipamentelor IT prevăzute în planul de achiziții. Contractul a încetat prin acordul părților la 09.09.2026 (Decizia nr. 2026090903/09.09.2026), întrucât furnizorul nu mai putea livra modelul de laptop ofertat. Contractul nu a produs efecte financiare, iar dosarul din MySMIS2021 a fost actualizat.
-''')
-FIELD('8.1 Contract de furnizare nr. 2026091504/15.09.2026 – ANILEX SOFT SRL – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de furnizare nr. 2026091504/15.09.2026 cu ANILEX SOFT SRL, pentru furnizarea a 4 laptopuri, 2 desktopuri și 2 multifuncționale, în cadrul proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Echipamentele sunt destinate activităților remediale (SA5.4), consilierii (SA5.1), campaniei de informare (SA5.3) și activității echipei de proiect. Valoarea contractului este de 63.000,00 lei fără TVA, la care se adaugă TVA de 13.230,00 lei, valoarea totală fiind de 76.230,00 lei. Echipamentele au fost livrate și recepționate la 18.09.2026.
-''')
+SMALL('8.1 – datele contractelor (număr, dată, valori, durată, ofertanți) sunt aduse din modulul Achiziții; se completează „Descriere”. 8.2 – actele adiționale la contractele de achiziție, cu „Descriere”.')
+for _lab, _txt in SECTIUNE_CAMPURI('08_contracte_semnate.txt'):
+    FIELD(_lab, L_PRESUPUS, _txt)
+FLAG('Actul adițional la contractul IT nu există în Drive (nici în dosarul achiziției, nici în „Plati”). Se completează numărul, data și obiectul din document și se încarcă în dosarul achiziției din MySMIS '
+     'în 10 zile lucrătoare de la semnare (Contract art. 7(19); MB §3.7). Dacă actul adițional a modificat garanția, se corectează și fraza despre garanție din rândul 8.1 al contractului nr. 2026091504.')
 
 # ------------------------------------------------------------------------------ 9
 SECT('9. Avize, recepții și execuția contractelor; dificultăți și întârzieri')
