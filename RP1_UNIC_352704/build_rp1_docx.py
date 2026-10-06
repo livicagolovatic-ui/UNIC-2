@@ -150,19 +150,14 @@ SMALL('Antet (completat automat): Raport de progres nr. 1 · Tip: Periodic · Co
 
 # ------------------------------------------------------------------------------ 1
 SECT('1. Rezumatul proiectului')
-FIELD('Rezumat proiect', L_LUNG, '''
-Proiectul „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod SMIS 352704, este implementat de Asociația Grupul de Acțiune Locală Napoca Porolissum, în calitate de beneficiar unic, în baza Contractului de finanțare nr. 11205/16.06.2026, încheiat cu OIR Programe Europene Capital Uman – Regiunea Nord-Vest. Proiectul este cofinanțat din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027, Prioritatea 8, Obiectivul specific ESO4.6, acțiunile 8.f.1, 8.f.2 și 8.f.3, în cadrul apelului „O șansă în plus prin învățământul profesional și tehnic – regiuni mai puțin dezvoltate”. Perioada de implementare este 01.07.2026 – 30.06.2029 (36 de luni), iar valoarea totală eligibilă este de 6.917.106,49 lei, din care 5.879.540,52 lei din FSE+ și 1.037.565,97 lei de la bugetul național.
-Scopul proiectului este creșterea accesibilității, atractivității și calității învățământului profesional și tehnic (ÎPT) din Regiunea Nord-Vest, prin identificarea elevilor în risc de abandon școlar sau de părăsire timpurie a școlii și/sau a elevilor care provin din grupuri ori medii defavorizate și prin oferirea unui pachet integrat de sprijin: sprijin financiar pentru cazare, masă și transport, sprijin psihologic și socio-educațional, programe remediale însoțite de masă caldă, formarea cadrelor didactice și o campanie de informare și conștientizare adresată elevilor și părinților.
-Obiectivele specifice ale proiectului sunt:
-• OS1 – creșterea accesibilității ÎPT pentru 183 de elevi (acțiunea 8.f.1) și 213 elevi (acțiunea 8.f.3), prin identificarea și includerea acestora în grupul țintă, pe o perioadă de 36 de luni;
-• OS2 – creșterea accesului și participării la educație a 183 de elevi din ÎPT aflați în risc de abandon școlar și/sau proveniți din grupuri vulnerabile, prin oferirea unui pachet integrat de sprijin financiar, psihologic și socio-educațional (8.f.1);
-• OS3 – îmbunătățirea competențelor a 4 cadre didactice din ÎPT privind adaptarea procesului educațional la nevoile elevilor din medii dezavantajate și cu dificultăți de învățare, prin programe de formare acreditate (8.f.1);
-• OS4 – creșterea gradului de conștientizare și implicare în procesul educațional a 96 de părinți/reprezentanți legali/tutori și a 104 elevi, prin campania de informare și conștientizare (8.f.2);
-• OS5 – sprijinirea a 213 elevi din ÎPT, dintre care minimum 150 din clasa a IX-a, prin programe remediale la citit, matematică și științe, în vederea prevenirii părăsirii timpurii a școlii (8.f.3).
-Activitățile proiectului sunt: A1 – Management de proiect, implementare, monitorizare și raportare (SA1.1); A2 – Organizarea procedurilor de achiziții (SA2.1); A3 – Organizarea activităților de informare și publicitate (SA3.1); A4 – Organizarea și desfășurarea procesului de selecție și validare a grupului țintă (SA4.1 – metodologia de selecție, recrutarea și gestionarea dosarelor GT; SA4.2 – identificarea elevilor în risc de abandon școlar sau de părăsire timpurie a școlii); A5 – Activități obligatorii (SA5.1 – măsuri de facilitare a accesului la programele de formare profesională și de prevenire a părăsirii timpurii a școlii; SA5.2 – formarea personalului didactic din ÎPT; SA5.3 – programe de informare și conștientizare; SA5.4 – programe remediale).
-Grupul țintă cuprinde minimum 500 de elevi – 183 pentru acțiunea 8.f.1, 104 pentru acțiunea 8.f.2 (dintre care minimum 53 din clasele a VII-a – a VIII-a) și 213 pentru acțiunea 8.f.3 (dintre care minimum 150 din clasa a IX-a) –, dintre care minimum 81 de elevi de etnie romă, precum și 96 de părinți/reprezentanți legali/tutori și 4 cadre didactice. Elevii provin din unitățile de învățământ partenere asociate: Colegiul Tehnic Turda (inclusiv structura Școala Profesională Poiana Turda), Liceul Tehnologic „Vlădeasa” Huedin și, din septembrie 2026, Liceul Teologic Reformat Cluj-Napoca.
-Indicatorii asumați sunt: EECO06+07 „Copii și tineri” – 500 (183 pe acțiunea 8.f.1, 104 pe 8.f.2 și 213 pe 8.f.3); 5SO14 „Părinți/reprezentanți legali/tutori sprijiniți” – 96; 5SR09 „Participanți rămași în sistemul de educație sau care și-au îmbunătățit nivelul de educație” – 357 (165 pe 8.f.1 și 192 pe 8.f.3).
-''', note='Dacă MySMIS preia automat rezumatul din cererea de finanțare, se verifică doar corectitudinea și se lasă textul preluat.')
+def SECTIUNE(nume):
+    """Textul unei secțiuni redactate separat, din folderul sectiuni/."""
+    with open(os.path.join(HERE, 'sectiuni', nume), encoding='utf-8') as fh:
+        return fh.read()
+
+
+FIELD('Rezumat proiect', L_LUNG, SECTIUNE('01_rezumat.txt'), note='Dacă MySMIS preia automat rezumatul din cererea de finanțare, se verifică doar corectitudinea și se lasă textul preluat. '
+      'Varianta de mai sus este redactată pentru câmpul editabil (versiunea din 06.10.2026).')
 
 # ------------------------------------------------------------------------------ 2
 SECT('2. Modificări ale contractului / deciziei de finanțare')
