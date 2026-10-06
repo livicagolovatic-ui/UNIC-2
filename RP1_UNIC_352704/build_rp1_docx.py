@@ -5,7 +5,7 @@ Rulare:  python3 build_rp1_docx.py
 Produce: RP1_UNIC_352704_Raport_de_progres.docx  (document de lucru, cu note MP)
          RP1_UNIC_352704_text_MySMIS.txt          (doar textele de copiat în MySMIS)
 """
-import os
+import os, re
 import rp1_engine as E
 from rp1_engine import (H1, H2, H3, H4, P, SMALL, BUL, FLAG, CALLOUT, TBL,
                         PAGEBREAK, SECT, FIELD)
@@ -156,42 +156,23 @@ def SECTIUNE(nume):
         return fh.read()
 
 
+def SECTIUNE_CAMPURI(nume):
+    """Fișier cu mai multe câmpuri, separate prin linii '=== Eticheta'."""
+    out = []
+    for blk in re.split(r'^=== ', SECTIUNE(nume), flags=re.M)[1:]:
+        label, _, text = blk.partition('\n')
+        out.append((label.strip(), text.strip()))
+    return out
+
+
 FIELD('Rezumat proiect', L_LUNG, SECTIUNE('01_rezumat.txt'), note='Dacă MySMIS preia automat rezumatul din cererea de finanțare, se verifică doar corectitudinea și se lasă textul preluat. '
       'Varianta de mai sus este redactată pentru câmpul editabil (versiunea din 06.10.2026).')
 
 # ------------------------------------------------------------------------------ 2
 SECT('2. Modificări ale contractului / deciziei de finanțare')
-NEUTRU = ('Modificarea nu afectează valoarea totală a proiectului, obiectivele, activitățile, indicatorii, rezultatele asumate, '
-          'grupul țintă sau durata de implementare.')
-FIELD('Contract inițial – Descriere', L_SCURT, '''
-În data de 16.06.2026 a fost semnat Contractul de finanțare nr. 11205/16.06.2026 între Asociația Grupul de Acțiune Locală Napoca Porolissum și OIR Programe Europene Capital Uman – Regiunea Nord-Vest, pentru o valoare totală eligibilă de 6.917.106,49 lei. Conform art. 1 din Condițiile specifice ale contractului, data de începere a activităților proiectului este 01.07.2026, iar perioada de implementare este de 36 de luni (01.07.2026 – 30.06.2029).
-''')
-FIELD('Notificarea nr. 1 – Descriere', L_SCURT, '''
-În data de 21.07.2026 a fost transmisă Notificarea nr. 1, prin care a fost actualizată secțiunea „Resurse umane” din cererea de finanțare, prin nominalizarea doamnei Gujan Gabriela pe poziția de Consilier psihologic (poziție nenominalizată la contractare) și a domnului Sotnic Vladislav pe poziția de Facilitator comunitar 1, în locul doamnei Deac Ada-Maria. Persoanele nominalizate îndeplinesc cerințele de studii și experiență prevăzute în fișele de post anexate la cererea de finanțare. ''' + NEUTRU + ''' Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 13687/21.07.2026.
-''')
-FIELD('Actul adițional nr. 1 – Descriere', L_SCURT, '''
-În data de 24.07.2026 a fost transmisă solicitarea de Act adițional nr. 1, însoțită de Memoriul justificativ nr. 2026072403/24.07.2026 și completată în urma solicitărilor de clarificări din 27.07.2026 și 03.08.2026. Prin actul adițional au fost modificate secțiunile „Buget”, „Resurse umane”, „Plan de achiziții”, „Activități”, „Justificare/context”, „Grup țintă”, „Rezultate așteptate” și „Responsabil proiect/Persoană de contact”, astfel:
-• linia bugetară „Subvenții”, echivalentă bursei sociale (549.000,00 lei), a fost transformată în „Subvenții – masă caldă” pentru elevii participanți la programele remediale din SA5.4 (12.200 de porții), ca urmare a nevoilor identificate la nivelul unităților de învățământ partenere, inclusiv după includerea Școlii Profesionale Poiana Turda în structura Colegiului Tehnic Turda;
-• a fost introdusă achiziția „Servicii acordare masă caldă” (5 proceduri de achiziție în loc de 4), a fost extinsă perioada achiziției de servicii de formare (L1–L5) și a fost adăugat rezultatul nr. 21;
-• au fost corectate încadrarea și tariful orar pentru Managerul de proiect (expert > 10 ani) și Asistentul manager (expert 5–10 ani), cu ajustarea corespunzătoare a numărului de ore, precum și cota de TVA pentru închirierea autoturismului;
-• persoana de contact a proiectului a devenit doamna Baba Alina-Ioana, Manager de proiect.
-Valoarea totală a proiectului, indicatorii, grupul țintă și durata de implementare nu au fost modificate. Actul adițional nr. 1 a fost semnat de beneficiar în data de 03.08.2026 și de OIR PECU Nord-Vest în data de 04.08.2026.
-''')
-FIELD('Notificarea nr. 2 – Descriere', L_SCURT, '''
-În data de 11.08.2026 a fost transmisă Notificarea nr. 2, prin care a fost actualizată secțiunea „Resurse umane” din cererea de finanțare, prin nominalizarea doamnelor Tiron Maria-Emilia (Cadru didactic 1), Jimba Margareta (Cadru didactic 2) și Boaru Mariana-Dorina (Cadru didactic 3), pentru implementarea programelor remediale din SA5.4. Persoanele nominalizate îndeplinesc cerințele de studii și experiență prevăzute în fișele de post. ''' + NEUTRU + ''' Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 15151/12.08.2026.
-''')
-FIELD('Notificarea nr. 3 – Descriere', L_SCURT, '''
-În data de 03.09.2026 a fost transmisă Notificarea nr. 3, prin care:
-• doamna Fekete Dorottya a fost nominalizată pe poziția de Responsabil financiar, în locul domnului Dumitrescu Marius-Gheorghe;
-• doamna Pleșoiu Viorica a fost nominalizată pe poziția de Cadru didactic 2, în locul doamnei Jimba Margareta;
-• a fost clarificată descrierea SA5.2, în sensul în care formarea cadrelor didactice se poate derula etapizat, în paralel cu programele remediale din SA5.4, fără ca finalizarea formării să condiționeze începerea activităților remediale;
-• a fost clarificată descrierea SA5.1, în sensul în care sprijinul financiar de 500 lei/lună se acordă în funcție de nevoia identificată și justificată, fiecare dintre cei 183 de elevi beneficiind de cel puțin o formă de sprijin;
-• a fost extinsă justificarea bugetară pentru închirierea autoturismului și pentru combustibil la toate activitățile proiectului.
-''' + NEUTRU + ''' Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 16640/04.09.2026.
-''')
-FIELD('Notificarea nr. 4 – Descriere', L_SCURT, '''
-În data de 15.09.2026 a fost transmisă Notificarea nr. 4, prin care a fost actualizată secțiunea „Resurse umane” din cererea de finanțare, prin nominalizarea doamnei Anderco Claudia-Maria pe poziția de Cadru didactic 3, în locul doamnei Boaru Mariana-Dorina, care nu mai putea asigura desfășurarea activităților aferente poziției. Doamna Anderco Claudia-Maria își desfășoară activitatea didactică la Liceul Teologic Reformat Cluj-Napoca, unitate de învățământ cu care beneficiarul a încheiat, în data de 09.09.2026, un acord de colaborare în calitate de partener asociat, în vederea extinderii bazei de identificare și recrutare a grupului țintă, întrucât unitățile de învățământ partenere inițiale nu pot asigura singure numărul necesar de elevi eligibili. Răspunsul la solicitarea de clarificări a fost transmis în data de 16.09.2026. ''' + NEUTRU + ''' Notificarea a fost aprobată prin Informarea OIR PECU Nord-Vest nr. 17371/17.09.2026.
-''')
+SMALL('Rândurile (tip, dată semnare, versiune proiect) sunt aduse automat din modulul Contractare; se completează doar câmpul „Descriere” (3.500 de caractere) pentru fiecare rând.')
+for _lab, _txt in SECTIUNE_CAMPURI('02_modificari_contract.txt'):
+    FIELD(_lab, L_SCURT, _txt)
 
 # ------------------------------------------------------------------------------ 3
 SECT('3. Calendar de raportare')
@@ -246,8 +227,8 @@ Risc identificat: achiziția de servicii de organizare a târgului de oportunit�
 ''')
 FIELD('SA2.1 – Progres în perioada de raportare', L_LUNG, '''
 În perioada de raportare iulie – septembrie 2026, SA2.1 a vizat elaborarea planului achizițiilor proiectului și derularea procedurilor planificate pentru L1–L3, cu respectarea regulilor aplicabile beneficiarilor privați și a Procedurii de achiziții UNIC-PO-04. Pentru fiecare procedură au fost întocmite referatul de necesitate, solicitările de ofertă și dovezile de transmitere, nota justificativă privind determinarea valorii estimate, declarațiile privind evitarea conflictului de interese, contractul și, după caz, ordinul de începere și documentele de recepție. Dosarele de achiziție au fost încărcate în modulul Achiziții din MySMIS2021.
-Servicii de închiriere autoturism (plan: L1–L4, achiziție directă). În urma consultării pieței, a fost încheiat contractul de închiriere autovehicul din 07.08.2026 cu Vera Travel SRL. Prin ordinul de începere și procesul-verbal de predare-primire din 03.09.2026, autoturismul a fost pus la dispoziția echipei, fiind utilizat pentru deplasările experților la unitățile de învățământ partenere din Turda, Huedin și Cluj-Napoca.
-Servicii de formare a cadrelor didactice (plan: L1–L5, achiziție directă). În luna august 2026 au fost identificați furnizori de programe de formare acreditate de Ministerul Educației și Cercetării, iar la 19.08.2026 au fost transmise solicitările de ofertă. Pe baza ofertei primite a fost încheiat contractul de servicii de formare «nr. … din 07.09.2026» cu Asociația Proeuro-Cons, pentru programul acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025, 30 de ore). Ordinul de începere a fost emis la 08.09.2026, iar formarea s-a desfășurat în perioada 10–18.09.2026 (detalii în SA5.2).
+Servicii de închiriere autoturism (plan: L1–L4, achiziție directă). În urma consultării pieței, a fost încheiat Contractul de servicii închiriere autoturism nr. 2026080603/06.08.2026 cu Vera Travel SRL (126.000,00 lei fără TVA, 152.460,00 lei cu TVA, 30 de luni). Prin ordinul de începere și procesul-verbal de predare-primire din 03.09.2026, autoturismul a fost pus la dispoziția echipei, fiind utilizat pentru deplasările experților la unitățile de învățământ partenere din Turda, Huedin și Cluj-Napoca.
+Servicii de formare a cadrelor didactice (plan: L1–L5, achiziție directă). În luna august 2026 au fost identificați furnizori de programe de formare acreditate de Ministerul Educației și Cercetării, iar la 19.08.2026 au fost transmise solicitările de ofertă. Pe baza ofertei primite a fost încheiat Contractul de servicii de formare cadre didactice nr. 2026082804/28.08.2026 cu Asociația Proeuro-Cons, în valoare de 12.400,00 lei (prestator neplătitor de TVA), pentru programul acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025, 30 de ore). Ordinul de începere a fost emis la 08.09.2026, iar formarea s-a desfășurat în perioada 10–18.09.2026 (detalii în SA5.2).
 Furnizare echipamente IT (plan: L2–L3, achiziție directă). La 17.08.2026 a fost încheiat contractul nr. 2026081703 cu ANILEX SOFT SRL. Întrucât furnizorul a comunicat că modelul de laptop ofertat nu mai este disponibil, contractul a încetat prin acordul părților, prin Decizia nr. 2026090903/09.09.2026, iar dosarul din MySMIS2021 a fost actualizat. Procedura a fost reluată (referat de necesitate din 14.09.2026), iar la 15.09.2026 a fost încheiat contractul nr. 2026091504 cu ANILEX SOFT SRL, în valoare de 63.000,00 lei fără TVA, la care se adaugă TVA de 13.230,00 lei, rezultând o valoare totală de 76.230,00 lei. Echipamentele (4 laptopuri, 2 desktopuri și 2 multifuncționale) au fost recepționate prin procesul-verbal de predare-primire-recepție din 18.09.2026.
 Servicii de acordare masă caldă (plan: L2–L5, norme proprii pentru servicii – Anexa 2B). «În perioada de raportare au fost stabilite necesarul de porții și specificațiile serviciului, în corelare cu numărul de elevi participanți la programele remediale din SA5.4 și cu programarea sesiunilor; procedura urmează să fie finalizată în L4–L5, conform planului de achiziții.»
 Servicii de organizare a târgului de oportunități (plan: L1–L4, achiziție directă). Achiziția urmează să fie demarată în luna octombrie 2026, în corelare cu calendarul primului târg de oportunități din anul școlar 2026-2027.
@@ -411,29 +392,19 @@ Indicatorul de rezultat se raportează la ieșirea participanților din operați
 
 # ------------------------------------------------------------------------------ 7
 SECT('7. Graficul de achiziții și stadiul derulării procedurilor')
-FIELD('Servicii acordare masă caldă (L2–L5) – Stadiu   |   Etapă: Procedură în pregătire', L_SCURT, '''
-Achiziția este planificată în perioada L2–L5, conform normelor proprii pentru servicii (Anexa 2B). «În perioada de raportare au fost stabilite necesarul de porții și specificațiile serviciului, în corelare cu numărul de elevi participanți la programele remediale din SA5.4 și cu programarea sesiunilor la Colegiul Tehnic Turda și la Liceul Teologic Reformat Cluj-Napoca.» Procedura urmează să fie finalizată în L4–L5, în perioada prevăzută în planul de achiziții.
-''')
-FIELD('Achiziție echipamente IT (L2–L3) – Stadiu   |   Etapă: Contract finalizat', L_SCURT, '''
-Procedura de achiziție a fost finalizată. Contractul inițial nr. 2026081703/17.08.2026, încheiat cu ANILEX SOFT SRL, a încetat prin acordul părților la 09.09.2026 (Decizia nr. 2026090903/09.09.2026), întrucât modelul de laptop ofertat nu mai era disponibil. Procedura a fost reluată, iar cu operatorul economic ANILEX SOFT SRL a fost încheiat Contractul de furnizare nr. 2026091504/15.09.2026, având ca obiect furnizarea a 4 laptopuri, 2 desktopuri și 2 multifuncționale. Valoarea contractului este de 63.000,00 lei fără TVA, la care se adaugă TVA în valoare de 13.230,00 lei, rezultând o valoare totală de 76.230,00 lei. Echipamentele au fost recepționate la 18.09.2026 (factura ASF 080/18.09.2026), iar plata a fost efectuată la aceeași dată.
-''')
-FIELD('Servicii formare cadre didactice (L1–L5) – Stadiu   |   Etapă: Contract în implementare', L_SCURT, '''
-Procedura de achiziție a fost finalizată, iar cu Asociația Proeuro-Cons a fost încheiat Contractul de servicii de formare «nr. …/07.09.2026», având ca obiect furnizarea programului acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025) pentru 4 cadre didactice. Valoarea contractului este de «24.000,00» lei, operatorul economic nefiind plătitor de TVA. Ordinul de începere a fost emis la 08.09.2026; formarea s-a desfășurat în perioada 10–18.09.2026, iar evaluarea finală este programată la 09.10.2026.
-''')
-FIELD('Servicii organizare târg de oportunități (L1–L4) – Stadiu   |   Etapă: Procedură în pregătire', L_SCURT, '''
-Achiziția este planificată în perioada L1–L4. Procedura urmează să fie demarată în luna octombrie 2026 (L4), în corelare cu calendarul primului târg de oportunități din anul școlar 2026-2027; în cazul în care organizarea târgului necesită o perioadă mai lungă de pregătire, perioada achiziției va fi actualizată prin notificare.
-''')
-FIELD('Achiziție servicii închiriere autoturism (L1–L4) – Stadiu   |   Etapă: Contract în implementare', L_SCURT, '''
-Procedura de achiziție a fost finalizată, iar cu operatorul economic Vera Travel SRL a fost încheiat Contractul de închiriere autovehicul «nr. …» din 07.08.2026, «pe o durată de … luni». «Valoarea contractului este de … lei fără TVA, la care se adaugă TVA în valoare de … lei, rezultând o valoare totală de … lei.» Autoturismul a fost predat beneficiarului prin procesul-verbal de predare-primire din 03.09.2026, data ordinului de începere, și este utilizat pentru deplasările echipei la unitățile de învățământ partenere.
-''')
+SMALL('Liniile planului de achiziții sunt aduse automat din cererea de finanțare; pentru fiecare se completează „Stadiu” (3.500 de caractere) și se selectează „Etapa achiziție”.')
+for _lab, _txt in SECTIUNE_CAMPURI('07_achizitii.txt'):
+    FIELD(_lab, L_SCURT, _txt)
+FLAG('Masa caldă: în Drive nu există documente de achiziție. Târgul: nu a fost demarat. Ambele sunt raportate transparent ca „Procedură în pregătire”, cu termenul de lansare în octombrie 2026 – '
+     'dacă lansarea întârzie peste L4/L5, perioada din planul de achiziții trebuie actualizată prin notificare înainte de RP 2.')
 
 # ------------------------------------------------------------------------------ 8
 SECT('8. Informații privind contractele de achiziții semnate')
-FIELD('8.1 Contract închiriere autovehicul – Vera Travel SRL – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de închiriere autovehicul «nr. …» din 07.08.2026 cu Vera Travel SRL, pentru închirierea unui autoturism necesar deplasărilor echipei de proiect la unitățile de învățământ partenere, în cadrul proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Serviciile sunt utilizate pentru toate activitățile proiectului, conform justificării bugetare actualizate prin Notificarea nr. 3. «Valoarea contractului este de … lei fără TVA, la care se adaugă TVA de … lei, valoarea totală fiind de … lei. Contractul este valabil … luni.» Autoturismul a fost predat la 03.09.2026.
+FIELD('8.1 Contract nr. 2026080603/06.08.2026 – închiriere autoturism – Vera Travel SRL – Descriere', L_PRESUPUS, '''
+Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de servicii închiriere autoturism nr. 2026080603/06.08.2026 cu Vera Travel SRL, pentru închirierea unui autoturism necesar deplasărilor echipei de proiect la unitățile de învățământ partenere, în cadrul proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Serviciile sunt utilizate pentru toate activitățile proiectului, conform justificării bugetare actualizate prin Notificarea nr. 3. Valoarea contractului este de 126.000,00 lei fără TVA, la care se adaugă TVA de 26.460,00 lei, valoarea totală fiind de 152.460,00 lei (4.200,00 lei/lună fără TVA, facturat proporțional cu gradul de utilizare). Contractul este valabil 30 de luni de la predarea autoturismului, realizată la 03.09.2026.
 ''')
-FIELD('8.1 Contract servicii de formare – Asociația Proeuro-Cons – Descriere', L_PRESUPUS, '''
-Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de servicii de formare «nr. …» din 07.09.2026 cu Asociația Proeuro-Cons, pentru furnizarea programului de formare acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025, 30 de ore) pentru 4 cadre didactice din ÎPT, în cadrul SA5.2 a proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Valoarea contractului este de «24.000,00» lei. Ordinul de începere a fost emis la 08.09.2026.
+FIELD('8.1 Contract nr. 2026082804/28.08.2026 – servicii de formare – Asociația Proeuro-Cons – Descriere', L_PRESUPUS, '''
+Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de servicii de formare cadre didactice nr. 2026082804/28.08.2026 cu Asociația Proeuro-Cons, pentru furnizarea programului de formare acreditat „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (OM nr. 1555/30.06.2025, 30 de ore) pentru 4 cadre didactice din ÎPT, în cadrul SA5.2 a proiectului „UNIC – Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”, cod MySMIS 352704. Valoarea contractului este de 12.400,00 lei (3.100,00 lei/participant), prestatorul nefiind plătitor de TVA. Ordinul de începere a fost emis la 08.09.2026; formarea s-a desfășurat în perioada 10–18.09.2026, iar evaluarea finală este programată la 09.10.2026.
 ''')
 FIELD('8.1 Contract de furnizare nr. 2026081703/17.08.2026 – ANILEX SOFT SRL (încetat) – Descriere', L_PRESUPUS, '''
 Autoritatea contractantă: Beneficiar. A fost încheiat Contractul de furnizare nr. 2026081703/17.08.2026 cu ANILEX SOFT SRL, pentru furnizarea echipamentelor IT prevăzute în planul de achiziții. Contractul a încetat prin acordul părților la 09.09.2026 (Decizia nr. 2026090903/09.09.2026), întrucât furnizorul nu mai putea livra modelul de laptop ofertat. Contractul nu a produs efecte financiare, iar dosarul din MySMIS2021 a fost actualizat.
@@ -447,8 +418,8 @@ SECT('9. Avize, recepții și execuția contractelor; dificultăți și întârz
 FIELD('9.1 Avize, acorduri, autorizații, recepții și execuție contracte de achiziție', L_LUNG, '''
 În perioada de raportare au fost verificate documentele de predare-primire și recepție aferente contractelor în derulare:
 1. Furnizare echipamente IT – ANILEX SOFT SRL (Contractul nr. 2026091504/15.09.2026). Echipamentele au fost livrate și recepționate cantitativ și calitativ la 18.09.2026, pe baza notei de comandă din 15.09.2026, a procesului-verbal de predare-primire-recepție și a facturii ASF 080/18.09.2026: 3 laptopuri HP Envy 17, 1 laptop Acer Nitro V15, 2 desktopuri ZMEU MAX și 2 multifuncționale Epson WorkForce Pro EM-C8100. Plata a fost efectuată la 18.09.2026. Echipamentele «au fost înregistrate în evidența contabilă a beneficiarului și repartizate …» și sunt utilizate pentru activitățile remediale, consiliere și activitatea echipei de proiect.
-2. Închiriere autoturism – Vera Travel SRL. Autoturismul a fost predat la 03.09.2026, prin proces-verbal de predare-primire, la data ordinului de începere. Serviciile aferente lunii septembrie 2026 «au fost recepționate pe baza facturii nr. … și a foilor de parcurs», utilizarea autoturismului fiind corelată cu deplasările la unitățile de învățământ partenere.
-3. Servicii de formare a cadrelor didactice – Asociația Proeuro-Cons. Formarea s-a desfășurat în perioada 10–18.09.2026; recepția serviciilor se va realiza după evaluarea finală din 09.10.2026 și eliberarea certificatelor, în perioada următoare de raportare.
+2. Închiriere autoturism – Vera Travel SRL (Contractul nr. 2026080603/06.08.2026). Autoturismul a fost predat la 03.09.2026, prin proces-verbal de predare-primire, la data ordinului de începere. Serviciile aferente lunii septembrie 2026 «au fost recepționate pe baza facturii nr. … și a foilor de parcurs», utilizarea autoturismului fiind corelată cu deplasările la unitățile de învățământ partenere.
+3. Servicii de formare a cadrelor didactice – Asociația Proeuro-Cons (Contractul nr. 2026082804/28.08.2026). Formarea s-a desfășurat în perioada 10–18.09.2026; recepția serviciilor se va realiza după evaluarea finală din 09.10.2026 și eliberarea certificatelor, în perioada următoare de raportare.
 În perioada de raportare nu au fost necesare avize, acorduri sau autorizații.
 ''')
 FIELD('9.2 Dificultăți întâmpinate și întârzieri', L_LUNG, '''
