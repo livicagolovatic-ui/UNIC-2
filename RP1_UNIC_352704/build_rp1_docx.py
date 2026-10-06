@@ -403,8 +403,8 @@ SECT('8. Informații privind contractele de achiziții semnate')
 SMALL('8.1 – datele contractelor (număr, dată, valori, durată, ofertanți) sunt aduse din modulul Achiziții; se completează „Descriere”. 8.2 – actele adiționale la contractele de achiziție, cu „Descriere”.')
 for _lab, _txt in SECTIUNE_CAMPURI('08_contracte_semnate.txt'):
     FIELD(_lab, L_PRESUPUS, _txt)
-FLAG('Actul adițional la contractul IT nu există în Drive (nici în dosarul achiziției, nici în „Plati”). Se completează numărul, data și obiectul din document și se încarcă în dosarul achiziției din MySMIS '
-     'în 10 zile lucrătoare de la semnare (Contract art. 7(19); MB §3.7). Dacă actul adițional a modificat garanția, se corectează și fraza despre garanție din rândul 8.1 al contractului nr. 2026091504.')
+FLAG('Rândul 8.2 din MySMIS = Decizia de încetare nr. 2026090903/09.09.2026, înregistrată ca act adițional nr. 1 (cod 1224492) la contractul 2026081703. În MySMIS, „Dată semnare” apare 17-08-2026 '
+     '(data contractului); dacă câmpul este editabil, se corectează la 09.09.2026, data deciziei.')
 
 # ------------------------------------------------------------------------------ 9
 SECT('9. Avize, recepții și execuția contractelor; dificultăți și întârzieri')
