@@ -36,6 +36,7 @@ DR-36).
 
 | Fișier | Conținut |
 |---|---|
+| `comunicare/` (06.10.2026) | Pachetul de comunicare: logo-ul proiectului (carte + mugur + soare, culorile GAL), fișa de identitate, flyer A5 față-verso, flyer A4 pliat în trei, afiș A3 campanie, afiș A3 sesiune de informare (șablon), 2 modele de postare și 5 postări săptămânale (15.10 – 12.11.2026) cu texte. Documentul însoțitor: `comunicare/Pachet_comunicare_Educatie_pentru_mediu.docx`. Totul se regenerează cu `comunicare/src/build_all.py` (vezi `comunicare/README.md`). |
 | `Int5_Comunicare_si_vizibilitate_analiza.docx` | Partea 1 a analizei Ghidului: obligațiile de comunicare și vizibilitate, datele pentru placă, bara de sigle, evenimente, beneficiari finali, calendar, întrebări, alte constatări (v1, 02.10.2026). Se generează cu `build_comunicare_vizibilitate_docx.py` (motor: `gal_docx.py`). |
 
 ## 2. Date de identificare

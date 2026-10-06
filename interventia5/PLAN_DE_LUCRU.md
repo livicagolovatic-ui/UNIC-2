@@ -20,7 +20,9 @@ se aprobă. Neconcordanțele numerotate #1–#17 sunt descrise în
 - Am primit ghidul, metodologia și manualul GAL și am descărcat documentele
   AFIR de vizibilitate. Gata: **analiza de comunicare și vizibilitate**
   (`Int5_Comunicare_si_vizibilitate_analiza.docx`).
-- Urmează pachetul de comunicare din secțiunea 10 a analizei: planul de
+- 06.10.2026: gata **pachetul de comunicare** (`comunicare/`): logo, fișă de identitate, 2 flyere,
+  2 afișe, 2 modele de postare, 5 postări săptămânale cu texte. Înainte de tipar: lista materialelor la OJFIR.
+- Urmează restul pachetului de comunicare din secțiunea 10 a analizei: planul de
   comunicare, datele pentru placă, textele pentru site și postări, antetul,
   kitul de eveniment, registrele, ghidul de vizibilitate pentru beneficiarii
   finali și adresa către OJFIR.
