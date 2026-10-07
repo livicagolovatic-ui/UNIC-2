@@ -195,8 +195,9 @@ FLAG('Ședința din 25.09.2026: minuta găsită în Drive este a proiectului PID
 H3('SA2.1 – Organizarea procedurilor de achiziții')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA2.1_achizitii.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Programul anual al achizițiilor este semnat la 09.09.2026 (și 17.09.2026), după încheierea contractelor din 06.08, 17.08 și 28.08. Dacă a existat o versiune anterioară (iulie), '
-     'se trece data ei; altfel formularea „aprobat la 09.09.2026” rămâne, dar OM poate întreba de ce planul a fost aprobat după primele contracte.')
+FLAG('PAAP: prima versiune aprobată de reprezentantul legal la 16.06.2026 (în dosarul achiziției auto, „1. PAAP si plan de achizitii.pdf”), actualizată la 09.09.2026 după AA1 – '
+     'textul SA2.1 este aliniat la aceste date. Rămâne de confirmat: data înregistrării echipamentelor IT în evidența contabilă și inscripționarea lor cu elementele de identitate vizuală '
+     '(fotografii) – placeholder galben în Progres SA2.1. Recepția serviciilor de formare se face după evaluarea din 09.10.2026 (în afara perioadei de raportare).')
 
 H3('SA3.1 – Derularea activităților de informare și publicitate')
 FIELD('SA3.1 – Rezultat obținut în perioada de raportare', L_SCURT, '''
