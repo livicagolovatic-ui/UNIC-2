@@ -4,12 +4,12 @@ import gal_docx as E
 from gal_docx import TITLE, H1, H2, H3, P, SMALL, QUOTE, BUL, NUM, TBL, CALLOUT, IMG, PAGEBREAK, FOOTER
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FOOTER('Intervenția 5 – Comunicare și vizibilitate  ·  v1, 02.10.2026')
+FOOTER('Intervenția 5 – Comunicare și vizibilitate  ·  v1.1, 07.10.2026')
 
 TITLE('Comunicare și vizibilitate – ce trebuie să respectăm')
 SMALL('Proiectul „Educație pentru mediu în teritoriul GAL Napoca Porolissum – micro-granturi pentru mediu”, contract de finanțare '
       'C 36010804713061304413 / 08.09.2026. Analiză de conformitate, partea 1 din analiza Ghidului solicitantului pentru '
-      'Intervenția 5 „LEADER în verde”, sesiunea 2/2026. Versiunea 1, 02.10.2026.')
+      'Intervenția 5 „LEADER în verde”, sesiunea 2/2026. Versiunea 1, 02.10.2026; actualizată la 07.10.2026 cu codul proiectului și data de finalizare.')
 
 CALLOUT('De făcut acum (octombrie 2026, finalul lunii L1)', [
     '**1. Placa informativă la sediul GAL.** Se pune de la începerea implementării (contractul e din 08.09.2026). Model AFIR '
@@ -132,8 +132,8 @@ H1('4. Datele pentru placă, site și postări')
 TBL([
     ['Câmp pe model', 'Ce scriem', 'Observații'],
     ['Proiect finanțat ... (titlul)', 'Educație pentru mediu în teritoriul GAL Napoca Porolissum – micro-granturi pentru mediu', '–'],
-    ['Cod proiect', 'C36010804713061304413',
-     'Codul cererii de finanțare atribuit de AFIR. De confirmat că e același cu numărul contractului.'],
+    ['Cod proiect', 'F36010804713061304413',
+     'Codul cererii de finanțare atribuit de AFIR (confirmat de GAL, 07.10.2026). Diferă de numărul contractului, C 36010804713061304413.'],
     ['Județ', 'Cluj', '–'],
     ['Localitate', 'Gilău, Aghireșu, Beliș, Călățele, Căpușu Mare, Huedin, Izvoru Crișului, Măguri-Răcătău, Mănăstireni, Mărgău, Mărișel, '
      'Râșca, Săcuieu, Sâncraiu',
@@ -144,16 +144,16 @@ TBL([
     ['Proiectant / Executant', 'Proiectant: nu este cazul\nExecutant: Asociația GAL Napoca Porolissum',
      'Câmpurile sunt gândite pentru lucrări. Formularea trebuie confirmată cu OJFIR.'],
     ['Demarare', '08.09.2026', 'Data semnării contractului.'],
-    ['Finalizare', '07.06.2028 (estimat, 21 de luni)', 'Se ia din contract.'],
+    ['Finalizare', '08.06.2028', 'Contractul dă doar durata, 21 de luni; termenul pe luni se împlinește în ziua corespunzătoare din ultima lună.'],
 ], widths=[4.4, 6.8, 5.8])
 IMG(os.path.join(HERE, 'img', 'model_placa_leader.png'), 13.5,
     'Modelul AFIR „Placă FEADR LEADER” V3, care se completează. Sursa: afir.ro – Identitatea vizuală – Materiale publicitare PS 2027 V3.')
 
 H3('Propunere de text pentru caseta de pe prima pagină a site-ului')
 QUOTE('**Proiect finanțat cu fonduri europene nerambursabile prin Planul Strategic PAC 2023 – 2027 (PS 2023 – 2027)**\n'
-      '„Educație pentru mediu în teritoriul GAL Napoca Porolissum – micro-granturi pentru mediu” · Cod proiect C36010804713061304413 · '
+      '„Educație pentru mediu în teritoriul GAL Napoca Porolissum – micro-granturi pentru mediu” · Cod proiect F36010804713061304413 · '
       'Beneficiar: Asociația Grupul de Acțiune Locală Napoca Porolissum · Valoarea totală eligibilă: 138.643 euro, din care finanțare '
-      'nerambursabilă PS 2023 – 2027: 138.643 euro · Perioada: 08.09.2026 – 07.06.2028.\n'
+      'nerambursabilă PS 2023 – 2027: 138.643 euro · Perioada: 08.09.2026 – 08.06.2028.\n'
       'Prin acest proiect, GAL Napoca Porolissum finanțează 6 inițiative de educație pentru mediu, de până la 19.833,3 euro fiecare, propuse '
       'de școli și ONG-uri din cele 14 localități ale teritoriului și selectate printr-un concurs deschis și transparent. Scopul este ca '
       'protecția mediului să devină o preocupare concretă a comunităților noastre, prin activități practice cu copiii, tinerii și cetățenii.\n'
@@ -269,7 +269,7 @@ TBL([
 H1('9. Întrebări de lămurit')
 NUM([
     'Ce versiune a Anexei II este atașată la contract? Pe afir.ro este Ed. I Rev. 1; vreau să confirm că nu există diferențe.',
-    'Codul proiectului de pe placă este același cu numărul contractului (C36010804713061304413)?',
+    '**Lămurit la 07.10.2026:** codul proiectului de pe placă este F36010804713061304413, nu numărul contractului.',
     'Cum se completează „Proiectant / Executant” la un proiect de servicii? (de întrebat la OJFIR)',
     'Există deja la sediu o placă pentru alt proiect GAL, de exemplu DR-36F? Ghidul AFIR permite o singură placă, pe modelul multifond, '
     'dacă mai multe operațiuni au loc în același loc. Trebuie confirmat cu OJFIR dacă se aplică aici.',

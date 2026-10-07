@@ -22,8 +22,11 @@ se aprobă. Neconcordanțele numerotate #1–#17 sunt descrise în
   (`Int5_Comunicare_si_vizibilitate_analiza.docx`).
 - 06.10.2026: gata **pachetul de comunicare** (`comunicare/`): logo, fișă de identitate, 2 flyere,
   2 afișe, 2 modele de postare, 5 postări săptămânale cu texte. Înainte de tipar: lista materialelor la OJFIR.
+- 07.10.2026: gata **placa informativă de la sediu** (`comunicare/placa/`): modelul AFIR A.2 LEADER V3 completat,
+  cod proiect F36010804713061304413, 08/09/2026 – 08/06/2028, textele în Calibri (PowerPoint 70 × 50 cm).
+  De confirmat cu OJFIR: Proiectant/Executant și placă separată sau multifond.
 - Urmează restul pachetului de comunicare din secțiunea 10 a analizei: planul de
-  comunicare, datele pentru placă, textele pentru site și postări, antetul,
+  comunicare, textele pentru site și postări, antetul,
   kitul de eveniment, registrele, ghidul de vizibilitate pentru beneficiarii
   finali și adresa către OJFIR.
 

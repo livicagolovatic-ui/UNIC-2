@@ -37,6 +37,7 @@ DR-36).
 | Fișier | Conținut |
 |---|---|
 | `comunicare/` (06.10.2026) | Pachetul de comunicare: logo-ul proiectului (carte + mugur + soare, culorile GAL), fișa de identitate, flyer A5 față-verso, flyer A4 pliat în trei, afiș A3 campanie, afiș A3 sesiune de informare (șablon), 2 modele de postare și 5 postări săptămânale (15.10 – 12.11.2026) cu texte. Documentul însoțitor: `comunicare/Pachet_comunicare_Educatie_pentru_mediu.docx`. Totul se regenerează cu `comunicare/src/build_all.py` (vezi `comunicare/README.md`). |
+| `comunicare/placa/` (07.10.2026) | Placa informativă pentru sediul GAL, pe modelul AFIR A.2 LEADER V3: `Placa_informativa_sediu_GAL_70x50cm_Calibri.pptx` (70 × 50 cm, textele în Calibri; PDF-ul de tipar se exportă din PowerPoint), previzualizarea PNG și `Placa_sediu_GAL_fisa_tehnica.docx` (date, producție, montaj, întrebări). Cod F36010804713061304413, 08/09/2026 – 08/06/2028. |
 | `Int5_Comunicare_si_vizibilitate_analiza.docx` | Partea 1 a analizei Ghidului: obligațiile de comunicare și vizibilitate, datele pentru placă, bara de sigle, evenimente, beneficiari finali, calendar, întrebări, alte constatări (v1, 02.10.2026). Se generează cu `build_comunicare_vizibilitate_docx.py` (motor: `gal_docx.py`). |
 
 ## 2. Date de identificare
@@ -46,11 +47,15 @@ DR-36).
   bl. I1, parter, ap. 1, jud. Cluj; contact@napocaporolissum.ro
 - Reprezentant legal: Dumitrescu Marius-Gheorghe, președinte
 - Contract de finanțare AFIR: **C 36010804713061304413 / 08.09.2026**
+- Codul proiectului (codul cererii de finanțare atribuit de AFIR, trecut pe placă):
+  **F36010804713061304413** (confirmat de GAL, 07.10.2026)
 - Program: PS PAC 2023-2027, DR-36 LEADER, cod intervenție L804 „LEADER în verde”,
   anunț 804/000, apel 2 (apel SDL 10), 2026; GAL autorizat nr. 130/01.08.2024
 - Tip: proiect umbrelă de servicii, GAL ca administrator de schemă de granturi;
   instrumentare la nivel OJFIR
-- Durată: 21 de luni. Proiectul este depus fără parteneri. Indicator monitorizat:
+- Durată: 21 de luni de la semnarea contractului, adică 08.09.2026 – **08.06.2028**
+  (contractul dă doar durata; termenul pe luni se împlinește în ziua corespunzătoare
+  din ultima lună, art. 2.553 Cod civil). Proiectul este depus fără parteneri. Indicator monitorizat:
   6 sub-proiecte finanțate (NR_SUBPROIECTE_FINANTATE_IN_PROIECTE_UMBRELA = 6).
   CF declară contribuția la indicatorul R.27.
 - Punctaj de selecție autoevaluat: 65 p. (C1 = 25, C2 = 25, C3 = 15, C4 = 0)
@@ -97,8 +102,9 @@ minimum 90% din obiectivele asumate.
 
 ## 4. Calendarul
 
-Luna L1 este socotită de la semnarea contractului (08.09.2026). Datele sunt
-estimative și trebuie confirmate cu clauza din contract.
+Luna L1 este socotită de la semnarea contractului (08.09.2026). Lunile sunt
+intervale de lucru (L21 = 08.05 – 07.06.2028); termenul contractual de
+finalizare, trecut pe placă, este 08.06.2028.
 
 | Activitate | Vers. 1 (aprobată) | Vers. 2 (mod. 1, în aprobare) | Perioada reală după vers. 2 |
 |---|---|---|---|
