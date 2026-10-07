@@ -1,0 +1,490 @@
+<title>Postări Educație pentru mediu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: calendarul campaniei, o coloană — data publicării în stânga, postarea cu acțiunile de aprobare în dreapta; rezumatul stărilor sus. */
+:root {
+  --bg: #F2F5EF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F9F5;
+  --ink: #1D2A1C;
+  --muted: #5A6857;
+  --line: #D9E2D4;
+  --green: #2E6B31;
+  --green-ink: #FFFFFF;
+  --green-soft: #E1EEDD;
+  --sun: #F2B33D;
+  --ok: #276B2B;    --ok-bg: #DDEFDC;
+  --warn: #8A5A00;  --warn-bg: #FBEFD2;
+  --bad: #A8261E;   --bad-bg: #F9E1DE;
+  --pub: #1E548F;   --pub-bg: #E0EAF6;
+  --fb: #2B5B9C;    --li: #17677F;
+  --shadow: 0 1px 2px rgba(29, 42, 28, .06), 0 4px 16px rgba(29, 42, 28, .05);
+  --f-display: "Montserrat", "Segoe UI", Arial, sans-serif;
+  --f-body: "Noto Sans", "Segoe UI", Roboto, Arial, sans-serif;
+  --f-post: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141A13; --surface: #1C241B; --surface-2: #222C21; --ink: #E6EDE3; --muted: #A3B19F; --line: #33402F;
+    --green: #7DBA6E; --green-ink: #10200E; --green-soft: #26391F; --sun: #F2B33D;
+    --ok: #8FD08C; --ok-bg: #1F3A1F; --warn: #F2C46B; --warn-bg: #3A2E14; --bad: #F2A39B; --bad-bg: #42201C;
+    --pub: #9CC3F2; --pub-bg: #1C2C42; --fb: #8DB2E8; --li: #7CC6DB;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141A13; --surface: #1C241B; --surface-2: #222C21; --ink: #E6EDE3; --muted: #A3B19F; --line: #33402F;
+  --green: #7DBA6E; --green-ink: #10200E; --green-soft: #26391F; --sun: #F2B33D;
+  --ok: #8FD08C; --ok-bg: #1F3A1F; --warn: #F2C46B; --warn-bg: #3A2E14; --bad: #F2A39B; --bad-bg: #42201C;
+  --pub: #9CC3F2; --pub-bg: #1C2C42; --fb: #8DB2E8; --li: #7CC6DB;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .3); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--f-body); }
+.wrap { max-width: 1040px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; }
+h1, h2, h3 { font-family: var(--f-display); text-wrap: balance; margin: 0; }
+button { font: inherit; }
+:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+
+/* antet */
+.head { display: grid; gap: 10px; margin-bottom: 18px; }
+.eyebrow { font: 700 12px/1 var(--f-display); letter-spacing: .12em; text-transform: uppercase; color: var(--green); }
+.head h1 { font-size: clamp(26px, 4.4vw, 38px); font-weight: 800; letter-spacing: -.01em; line-height: 1.12; }
+.lede { color: var(--muted); max-width: 68ch; margin: 0; }
+.rule { display: flex; gap: 10px; align-items: flex-start; background: var(--green-soft); border-radius: 10px; padding: 12px 14px; max-width: 760px; }
+.rule b { color: var(--ink); }
+.rule svg { flex: none; margin-top: 2px; }
+
+/* rezumat + filtre */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(6px); padding-block: 10px; margin-bottom: 8px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center;
+  border-bottom: 1px solid var(--line); }
+.counts { display: flex; flex-wrap: wrap; gap: 8px; }
+.count { display: inline-flex; align-items: baseline; gap: 6px; padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+.count b { font: 800 15px/1 var(--f-display); font-variant-numeric: tabular-nums; }
+.filters { display: flex; gap: 4px; margin-left: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; }
+.filters button { border: 0; background: transparent; color: var(--muted); padding: 5px 12px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: 13px; }
+.filters button[aria-pressed="true"] { background: var(--green); color: var(--green-ink); }
+
+.st-de_aprobat { background: var(--warn-bg); color: var(--warn); }
+.st-aprobat { background: var(--ok-bg); color: var(--ok); }
+.st-modificari { background: var(--bad-bg); color: var(--bad); }
+.st-publicat { background: var(--pub-bg); color: var(--pub); }
+
+/* calendar */
+.list { display: grid; gap: 18px; margin-top: 14px; }
+.post { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 16px; }
+.when { text-align: right; padding-top: 14px; display: grid; gap: 2px; align-content: start; }
+.when .zi { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 600; }
+.when .dat { font: 800 22px/1.05 var(--f-display); font-variant-numeric: tabular-nums; }
+.when .an { font-size: 12px; color: var(--muted); }
+.when .ora { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow); min-width: 0; overflow: hidden; }
+.card-h { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 14px 18px 0; }
+.tag { font: 700 11px/1 var(--f-display); letter-spacing: .1em; text-transform: uppercase; padding: 5px 8px; border-radius: 6px; border: 1.5px solid currentColor; }
+.tag.Facebook { color: var(--fb); }
+.tag.LinkedIn { color: var(--li); }
+.tag.Ambele { color: var(--green); }
+.card-h h3 { font-size: 17px; font-weight: 700; flex: 1 1 220px; min-width: 0; }
+.pill { font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.body { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 18px; padding: 14px 18px 4px; }
+.body.no-img { grid-template-columns: minmax(0, 1fr); }
+.thumb { margin: 0; }
+.thumb img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); display: block; background: var(--surface-2); }
+.preview { min-width: 0; background: var(--surface-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; font-family: var(--f-post); font-size: 14.5px; line-height: 1.45; }
+.author { display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+.author img { width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line); background: #fff; flex: none; }
+.author b { display: block; font-size: 14px; }
+.author small { color: var(--muted); font-size: 12px; }
+.short { font-weight: 600; margin: 0 0 8px; padding: 8px 10px; border-radius: 8px; background: var(--surface); border: 1px dashed var(--line); }
+.short small { display: block; font-weight: 500; color: var(--muted); font-size: 12px; }
+.txt { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; }
+.txt.clamp { display: -webkit-box; -webkit-line-clamp: 9; -webkit-box-orient: vertical; overflow: hidden; }
+.more { border: 0; background: none; color: var(--green); font-weight: 600; padding: 4px 0 0; cursor: pointer; }
+.meta-line { display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--muted); font-size: 12px; margin-top: 8px; font-family: var(--f-body); }
+.meta-line .over { color: var(--bad); font-weight: 700; }
+textarea { width: 100%; min-height: 320px; resize: vertical; font: 14px/1.5 var(--f-post); color: var(--ink); background: var(--surface);
+  border: 1.5px solid var(--green); border-radius: 8px; padding: 10px; }
+textarea.comment { min-height: 90px; font-family: var(--f-body); border-color: var(--bad); }
+.extra { padding: 6px 18px 0; display: grid; gap: 8px; }
+.nota { margin: 0; font-size: 13.5px; padding: 8px 12px; border-left: 3px solid var(--sun); background: var(--surface-2); border-radius: 0 8px 8px 0; }
+details.alt { font-size: 13.5px; color: var(--muted); }
+details.alt summary { cursor: pointer; font-weight: 600; color: var(--ink); }
+details.alt p { margin: 6px 0 0; }
+.fb-note { font-size: 13.5px; padding: 8px 12px; border-radius: 8px; }
+.fb-note.st-modificari { border: 1px solid color-mix(in srgb, var(--bad) 30%, transparent); }
+.who { font-size: 12px; color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 18px 16px; align-items: center; }
+.actions .sp { flex: 1 1 auto; }
+.btn { border: 1.5px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 7px 13px; cursor: pointer; font-weight: 600; font-size: 13.5px; }
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--green); border-color: var(--green); color: var(--green-ink); }
+.btn.danger { color: var(--bad); border-color: color-mix(in srgb, var(--bad) 45%, transparent); }
+.btn.quiet { border-color: transparent; color: var(--muted); }
+.btn:disabled { opacity: .55; cursor: progress; }
+.form { display: grid; gap: 8px; width: 100%; }
+.form .row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.empty { margin-top: 30px; padding: 28px; border: 1.5px dashed var(--line); border-radius: 14px; text-align: center; color: var(--muted); background: var(--surface); }
+.empty h2 { font-size: 18px; color: var(--ink); margin-bottom: 6px; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg);
+  padding: 10px 16px; border-radius: 10px; font-weight: 600; font-size: 14px; max-width: calc(100vw - 32px); z-index: 20; box-shadow: var(--shadow); }
+.foot { margin-top: 36px; color: var(--muted); font-size: 12.5px; max-width: 80ch; }
+
+@media (max-width: 760px) {
+  .post { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .when { text-align: left; padding-top: 0; display: flex; gap: 8px; align-items: baseline; }
+  .when .dat { font-size: 18px; }
+  .body { grid-template-columns: minmax(0, 1fr); }
+  .thumb img { max-width: 260px; }
+  .filters { margin-left: 0; }
+}
+@media (prefers-reduced-motion: no-preference) { .card { transition: border-color .2s; } }
+</style>
+
+<div class="wrap">
+  <header class="head">
+    <div class="eyebrow">GAL Napoca Porolissum · Campania online A2</div>
+    <h1>Postări Facebook și LinkedIn pentru micro-granturile de mediu</h1>
+    <p class="lede">Proiectul „Educație pentru mediu în teritoriul GAL Napoca Porolissum – micro-granturi pentru mediu”. Facebook joia la 10:00, LinkedIn marțea la 09:00, din 15 octombrie până pe 17 noiembrie 2026.</p>
+    <div class="rule">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Zm-3 10 2 2 4-4"/></svg>
+      <div><b>Nicio postare nu apare pe pagini fără „Aprobat” aici.</b> Puteți aproba, cere modificări cu un comentariu sau corecta textul direct. Claude verifică starea de aici înainte de orice publicare.</div>
+    </div>
+  </header>
+
+  <div class="bar" id="bar" hidden>
+    <div class="counts" id="counts" aria-live="polite"></div>
+    <div class="filters" role="group" aria-label="Filtrează după rețea">
+      <button type="button" id="f-toate" data-f="toate" aria-pressed="true">Toate</button>
+      <button type="button" id="f-fb" data-f="Facebook" aria-pressed="false">Facebook</button>
+      <button type="button" id="f-li" data-f="LinkedIn" aria-pressed="false">LinkedIn</button>
+    </div>
+  </div>
+
+  <main class="list" id="list"></main>
+  <div class="empty" id="empty">
+    <h2>Se încarcă postările…</h2>
+    <p>Aici apar cele 5 postări pentru Facebook, cele 5 pentru LinkedIn și textul pentru secțiunea „Despre”, fiecare cu starea ei.</p>
+  </div>
+
+  <p class="foot">Fiecare postare are la final mențiunea obligatorie PS 2023 – 2027 (Anexa II C1.1-6), iar imaginile au bara de sigle cu emblema UE „Cofinanțat de Uniunea Europeană”. Nu scoateți mențiunea când editați textul.</p>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  const STARI = {
+    de_aprobat: 'De aprobat',
+    aprobat: 'Aprobat',
+    modificari: 'Modificări cerute',
+    publicat: 'Publicat',
+  };
+  const LIMITA = { LinkedIn: 3000 };
+  const MENTIUNE = 'Proiect finanțat cu fonduri europene nerambursabile prin Planul Strategic PAC 2023';
+
+  const $ = (s, el = document) => el.querySelector(s);
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const fmtN = (n) => n.toLocaleString('ro-RO');
+  const fmtT = (iso) => { try { return new Date(iso).toLocaleString('ro-RO', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }); } catch (e) { return ''; } };
+
+  let db = null, user = null, myId = null, downloads = null;
+  let readOnly = false;
+  let filtru = 'toate';
+  let docs = [];
+  const cards = new Map();   // id -> {root, refs, mode}
+  const pending = new Set();
+  const names = {};
+
+  function toast(msg) {
+    const t = $('#toast'); t.textContent = msg; t.hidden = false;
+    clearTimeout(toast._t); toast._t = setTimeout(() => { t.hidden = true; }, 2800);
+  }
+  function showEmpty(title, text) {
+    const e = $('#empty'); e.hidden = false; e.innerHTML = '';
+    e.append(el('h2', null, title), el('p', null, text));
+  }
+
+  function parseData(s) {
+    // „joi, 15.10.2026, ora 10:00” → zi, zz.ll, an, ora
+    const m = /^([^,]+),\s*(\d{2})\.(\d{2})\.(\d{4}),\s*ora\s*(\d{1,2}:\d{2})/.exec(s || '');
+    if (!m) return { zi: '', dat: s || '', an: '', ora: '' };
+    return { zi: m[1], dat: m[2] + '.' + m[3], an: m[4], ora: m[5] };
+  }
+
+  // ---------------------------------------------------------------- card
+  function buildCard(d) {
+    const root = el('article', 'post'); root.dataset.id = d._id;
+    const when = el('div', 'when');
+    const r = {};
+    r.zi = el('span', 'zi'); r.dat = el('span', 'dat'); r.an = el('span', 'an'); r.ora = el('span', 'ora');
+    when.append(r.zi, r.dat, r.an, r.ora);
+    const card = el('div', 'card');
+    const h = el('header', 'card-h');
+    r.tag = el('span', 'tag'); r.tema = el('h3'); r.pill = el('span', 'pill');
+    h.append(r.tag, r.tema, r.pill);
+    r.body = el('div', 'body');
+    r.thumb = el('figure', 'thumb'); r.img = el('img'); r.img.loading = 'lazy'; r.thumb.append(r.img);
+    r.preview = el('div', 'preview');
+    const author = el('div', 'author');
+    const av = el('img'); av.src = 'img/gal.png'; av.alt = '';
+    const an = el('div'); an.append(el('b', null, 'Asociația GAL Napoca Porolissum')); r.when2 = el('small'); an.append(r.when2);
+    author.append(av, an);
+    r.short = el('p', 'short'); r.short.hidden = true;
+    r.txt = el('p', 'txt clamp');
+    r.more = el('button', 'more', 'Vezi tot textul'); r.more.type = 'button';
+    r.more.addEventListener('click', () => {
+      const open = r.txt.classList.toggle('clamp');
+      r.more.textContent = open ? 'Vezi tot textul' : 'Restrânge';
+    });
+    r.editWrap = el('div', 'form'); r.editWrap.hidden = true;
+    r.meta = el('div', 'meta-line');
+    r.preview.append(author, r.short, r.txt, r.more, r.editWrap, r.meta);
+    r.body.append(r.thumb, r.preview);
+    r.extra = el('div', 'extra');
+    r.nota = el('p', 'nota'); r.nota.hidden = true;
+    r.fb = el('div', 'fb-note'); r.fb.hidden = true;
+    r.alt = el('details', 'alt'); r.alt.append(el('summary', null, 'Text alternativ pentru imagine')); r.altP = el('p'); r.alt.append(r.altP);
+    r.who = el('div', 'who');
+    r.extra.append(r.nota, r.fb, r.alt, r.who);
+    r.actions = el('div', 'actions');
+    card.append(h, r.body, r.extra, r.actions);
+    root.append(when, card);
+    const c = { root, r, mode: 'view', draft: null, comment: '' };
+    cards.set(d._id, c);
+    return c;
+  }
+
+  function updateCard(c, d) {
+    const r = c.r;
+    const w = parseData(d.data);
+    r.zi.textContent = w.zi; r.dat.textContent = w.dat; r.an.textContent = w.an; r.ora.textContent = w.ora ? 'ora ' + w.ora : '';
+    const retea = d.retea === 'Facebook' || d.retea === 'LinkedIn' ? d.retea : 'Ambele';
+    r.tag.className = 'tag ' + retea;
+    r.tag.textContent = d.retea + (d.nr ? ' · ' + d.nr : '');
+    r.tema.textContent = d.tema || '';
+    const st = STARI[d.status] ? d.status : 'de_aprobat';
+    r.pill.className = 'pill st-' + st; r.pill.textContent = STARI[st];
+    r.when2.textContent = d.data || '';
+    if (d.imagine) {
+      r.body.classList.remove('no-img'); r.thumb.hidden = false;
+      const src = 'img/' + d.imagine; if (r.img.getAttribute('src') !== src) r.img.src = src;
+      r.img.alt = d.alt || '';
+      r.alt.hidden = !d.alt; r.altP.textContent = d.alt || '';
+    } else {
+      r.body.classList.add('no-img'); r.thumb.hidden = true; r.alt.hidden = true;
+    }
+    if (d.text_scurt) {
+      r.short.hidden = false; r.short.textContent = '';
+      r.short.append(el('small', null, 'Text scurt (Intro pe Facebook, max. 101 caractere) · ' + d.text_scurt.length + ' caractere'), document.createTextNode(d.text_scurt));
+    } else r.short.hidden = true;
+    const text = d.text || '';
+    r.txt.textContent = text;
+    r.meta.textContent = '';
+    const n = el('span', null, fmtN([...text].length) + ' caractere' + (LIMITA[d.retea] ? ' din ' + fmtN(LIMITA[d.retea]) : ''));
+    if (LIMITA[d.retea] && [...text].length > LIMITA[d.retea]) n.className = 'over';
+    r.meta.append(n);
+    if (!text.includes(MENTIUNE)) { const m = el('span', 'over', 'Lipsește mențiunea obligatorie PS 2023 – 2027'); r.meta.append(m); }
+    if (d.editat) r.meta.append(el('span', null, 'Text editat la aprobare'));
+    r.nota.hidden = !d.nota; r.nota.textContent = d.nota || '';
+    if (st === 'modificari' && d.comentariu) {
+      r.fb.hidden = false; r.fb.className = 'fb-note st-modificari'; r.fb.textContent = 'Modificări cerute: ' + d.comentariu;
+    } else if (st === 'publicat' && d.link) {
+      r.fb.hidden = false; r.fb.className = 'fb-note st-publicat'; r.fb.textContent = '';
+      r.fb.append(document.createTextNode('Publicat: '));
+      const a = el('a', null, d.link); a.href = d.link; a.target = '_blank'; a.rel = 'noopener'; r.fb.append(a);
+    } else r.fb.hidden = true;
+    r.who.textContent = '';
+    if (d.actualizat) {
+      const who = d.actualizat_de && names[d.actualizat_de];
+      r.who.textContent = 'Ultima modificare: ' + (who ? who + ', ' : '') + fmtT(d.actualizat);
+    }
+    if (c.mode === 'view') renderActions(c, d);
+  }
+
+  // ---------------------------------------------------------------- acțiuni
+  function btn(label, cls, fn) { const b = el('button', 'btn ' + (cls || ''), label); b.type = 'button'; b.addEventListener('click', fn); return b; }
+
+  function renderActions(c, d) {
+    const a = c.r.actions; a.textContent = '';
+    const st = STARI[d.status] ? d.status : 'de_aprobat';
+    const busy = pending.has(d._id);
+    const list = [];
+    if (!readOnly && st !== 'publicat') {
+      if (st === 'aprobat') list.push(btn('Retrag aprobarea', 'quiet', () => write(d, { status: 'de_aprobat', comentariu: '' }, 'Aprobare retrasă')));
+      else list.push(btn('Aprob', 'primary', () => write(d, { status: 'aprobat', comentariu: '' }, 'Aprobat')));
+      if (st !== 'modificari') list.push(btn('Cer modificări', 'danger', () => openComment(c, d)));
+      list.push(btn('Editez textul', '', () => openEdit(c, d)));
+    }
+    list.push(el('span', 'sp'));
+    list.push(btn('Copiez textul', 'quiet', () => copy(c, d)));
+    if (downloads && d.imagine) list.push(btn('Descarc imaginea', 'quiet', () => saveImg(d)));
+    list.forEach((b) => { if (b.tagName === 'BUTTON' && busy) b.disabled = true; a.append(b); });
+  }
+
+  function openComment(c, d) {
+    c.mode = 'comment';
+    const a = c.r.actions; a.textContent = '';
+    const f = el('div', 'form');
+    const id = 'com-' + d._id;
+    const lab = el('label', null, 'Ce trebuie schimbat?'); lab.htmlFor = id; lab.style.fontWeight = '600';
+    const t = el('textarea', 'comment'); t.id = id; t.value = c.comment || d.comentariu || '';
+    t.addEventListener('input', () => { c.comment = t.value; });
+    const row = el('div', 'row');
+    row.append(
+      btn('Trimit cererea', 'danger', () => {
+        const v = t.value.trim();
+        if (!v) { toast('Scrieți pe scurt ce trebuie schimbat.'); t.focus(); return; }
+        c.mode = 'view'; c.comment = '';
+        write(d, { status: 'modificari', comentariu: v }, 'Cererea a fost salvată');
+      }),
+      btn('Renunț', 'quiet', () => { c.mode = 'view'; updateCard(c, current(d._id)); }),
+    );
+    f.append(lab, t, row); a.append(f); t.focus();
+  }
+
+  function openEdit(c, d) {
+    c.mode = 'edit';
+    const r = c.r;
+    r.txt.hidden = true; r.more.hidden = true;
+    r.editWrap.hidden = false; r.editWrap.textContent = '';
+    const id = 'ed-' + d._id;
+    const lab = el('label', null, 'Textul postării'); lab.htmlFor = id; lab.style.fontWeight = '600'; lab.style.fontFamily = 'var(--f-body)';
+    const t = el('textarea'); t.id = id; t.value = c.draft != null ? c.draft : (d.text || '');
+    t.addEventListener('input', () => { c.draft = t.value; });
+    r.editWrap.append(lab, t);
+    const a = r.actions; a.textContent = '';
+    const close = () => { c.mode = 'view'; c.draft = null; r.editWrap.hidden = true; r.txt.hidden = false; r.more.hidden = false; updateCard(c, current(d._id)); };
+    const save = (aprob) => {
+      const v = t.value.replace(/\s+$/, '');
+      if (!v.trim()) { toast('Textul nu poate fi gol.'); return; }
+      const patch = { text: v, editat: true, comentariu: '', status: aprob ? 'aprobat' : 'de_aprobat' };
+      close();
+      write(d, patch, aprob ? 'Salvat și aprobat' : 'Text salvat');
+    };
+    a.append(btn('Salvez și aprob', 'primary', () => save(true)), btn('Salvez', '', () => save(false)), btn('Renunț', 'quiet', close));
+    t.focus();
+  }
+
+  function current(id) { return docs.find((x) => x._id === id) || { _id: id }; }
+
+  async function write(d, patch, ok) {
+    if (!db || pending.has(d._id)) return;
+    pending.add(d._id);
+    const c = cards.get(d._id); if (c) renderActions(c, current(d._id));
+    const body = Object.assign({}, patch, { actualizat: new Date().toISOString() });
+    if (myId) body.actualizat_de = myId;
+    try {
+      await db.collection('postari').doc(d._id).update(body);
+      toast(ok);
+    } catch (e) {
+      const code = e && e.code;
+      if (code === 'invalid_argument') { readOnly = true; toast('Nu aveți drept de aprobare pe această pagină.'); }
+      else if (code === 'unavailable' || code === 'resource_exhausted') toast('Conexiune întreruptă. Încercați din nou peste câteva secunde.');
+      else toast('Nu am putut salva (' + (code || 'eroare') + ').');
+    } finally {
+      pending.delete(d._id);
+      const c2 = cards.get(d._id); if (c2 && c2.mode === 'view') updateCard(c2, current(d._id));
+    }
+  }
+
+  function copy(c, d) {
+    const text = (d.text_scurt ? d.text_scurt + '\n\n' : '') + (d.text || '');
+    const fallback = () => {
+      c.r.txt.classList.remove('clamp'); c.r.more.textContent = 'Restrânge';
+      const range = document.createRange(); range.selectNodeContents(c.r.txt);
+      const s = window.getSelection(); s.removeAllRanges(); s.addRange(range);
+      toast('Textul e selectat: apăsați Ctrl+C (sau Copiază).');
+    };
+    try {
+      navigator.clipboard.writeText(text).then(() => toast('Text copiat'), fallback);
+    } catch (e) { fallback(); }
+  }
+
+  async function saveImg(d) {
+    try {
+      const res = await fetch('img/' + d.imagine);
+      const blob = await res.blob();
+      await downloads.save({ filename: d.imagine, data: blob });
+    } catch (e) {
+      if (e && e.code === 'declined') return;
+      toast('Imaginea nu s-a putut descărca aici.');
+    }
+  }
+
+  // ---------------------------------------------------------------- randare
+  function render() {
+    const list = $('#list');
+    docs.sort((a, b) => (a.ordine || 0) - (b.ordine || 0));
+    const order = [];
+    docs.forEach((d) => {
+      let c = cards.get(d._id);
+      if (!c) c = buildCard(d);
+      updateCard(c, d);
+      order.push(c.root);
+      c.root.hidden = !(filtru === 'toate' || d.retea === filtru || !['Facebook', 'LinkedIn'].includes(d.retea));
+    });
+    for (const [id, c] of cards) if (!docs.some((d) => d._id === id)) { c.root.remove(); cards.delete(id); }
+    const same = order.length === list.children.length && order.every((n, i) => list.children[i] === n);
+    if (!same) order.forEach((n) => list.append(n));
+
+    const vis = docs.filter((d) => filtru === 'toate' || d.retea === filtru);
+    const counts = $('#counts'); counts.textContent = '';
+    ['de_aprobat', 'modificari', 'aprobat', 'publicat'].forEach((k) => {
+      const n = vis.filter((d) => (STARI[d.status] ? d.status : 'de_aprobat') === k).length;
+      if (!n && k !== 'aprobat' && k !== 'de_aprobat') return;
+      const s = el('span', 'count st-' + k); s.append(el('b', null, String(n)), document.createTextNode(STARI[k]));
+      counts.append(s);
+    });
+    $('#bar').hidden = false;
+    $('#empty').hidden = docs.length > 0;
+    if (!docs.length) showEmpty('Încă nu sunt postări', 'Claude le adaugă imediat după publicarea paginii. Reveniți peste un minut.');
+    resolveNames();
+  }
+
+  async function resolveNames() {
+    if (!user || typeof user.profiles !== 'function') return;
+    const ids = [...new Set(docs.map((d) => d.actualizat_de).filter((x) => x && !(x in names)))];
+    if (!ids.length) return;
+    try {
+      const ps = await user.profiles(ids);
+      let changed = false;
+      ids.forEach((id) => { const p = ps && ps[id]; names[id] = (p && p.name) || ''; if (names[id]) changed = true; });
+      if (changed) docs.forEach((d) => { const c = cards.get(d._id); if (c && c.mode === 'view') updateCard(c, d); });
+    } catch (e) { /* numele sunt opționale */ }
+  }
+
+  document.querySelectorAll('.filters button').forEach((b) => b.addEventListener('click', () => {
+    filtru = b.dataset.f;
+    document.querySelectorAll('.filters button').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    render();
+  }));
+
+  async function start() {
+    if (!window.claude || typeof window.claude.use !== 'function') {
+      showEmpty('Deschideți pagina în claude.ai', 'Postările și aprobările se încarcă doar în pagina publicată, cu contul cu care ați primit linkul.');
+      return;
+    }
+    db = await window.claude.use('db');
+    if (!db) {
+      showEmpty('Postările nu se pot încărca aici', 'Autentificați-vă în claude.ai și redeschideți linkul. Fără autentificare pagina nu poate citi aprobările.');
+      return;
+    }
+    user = await window.claude.use('user');
+    downloads = await window.claude.use('downloads');
+    if (user) {
+      try { myId = await user.id(); } catch (e) { myId = null; }
+      try { if ((await user.can('data.write')) === false) readOnly = true; } catch (e) { /* lăsăm scrierea să decidă */ }
+    }
+    db.collection('postari').onSnapshot((snap) => {
+      docs = snap.docs.filter((x) => x.exists).map((x) => Object.assign({}, x.data(), { _id: x.id }));
+      render();
+    }, (e) => {
+      showEmpty('Legătura cu aprobările s-a întrerupt', 'Reîncărcați pagina (' + (e && e.code || 'eroare') + ').');
+    });
+  }
+  start();
+})();
+</script>
