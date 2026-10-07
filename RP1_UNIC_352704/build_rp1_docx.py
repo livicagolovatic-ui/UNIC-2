@@ -200,25 +200,12 @@ FLAG('PAAP: prima versiune aprobată de reprezentantul legal la 16.06.2026 (în 
      '(fotografii) – placeholder galben în Progres SA2.1. Recepția serviciilor de formare se face după evaluarea din 09.10.2026 (în afara perioadei de raportare).')
 
 H3('SA3.1 – Derularea activităților de informare și publicitate')
-FIELD('SA3.1 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R8: materiale publicitare realizate și distribuite – afișul A3 al proiectului, flyerul de prezentare pentru școli (față-verso) și flyerul de 12 × 17 cm.
-R9: 1 anunț de începere a proiectului publicat pe subpagina proiectului de pe site-ul beneficiarului (https://napocaporolissum.ro/unic-porolissum-2/).
-R10: promovarea proiectului pe site-ul beneficiarului (subpagina proiectului, creată la 02.07.2026) și pe pagina de Facebook a proiectului „UNIC: Viitor prin Educație” (https://www.facebook.com/unic.viitorprineducatie) realizată.
-''')
-FIELD('SA3.1 – Abateri/riscuri identificate', L_LUNG, '''
-Nu au fost identificate abateri.
-''')
-FIELD('SA3.1 – Progres în perioada de raportare', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, SA3.1 a vizat asigurarea vizibilității proiectului și a sprijinului acordat din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027 încă de la debutul implementării, cu respectarea Manualului de identitate vizuală 2021-2027 și a Anexei 18 la Manualul beneficiarului.
-La începutul lunii iulie 2026 (02.07.2026), pe site-ul beneficiarului a fost creată subpagina dedicată proiectului (https://napocaporolissum.ro/unic-porolissum-2/), în secțiunea „Programe – PEO – Programul Educație și Ocupare”. Subpagina prezintă denumirea proiectului, beneficiarul, codul MySMIS 352704, perioada de implementare, valoarea totală, sursa de finanțare, descrierea și obiectivele, grupul țintă și rezultatele așteptate, precum și trimiterea către www.mfe.gov.ro.
-Pe subpagină a fost publicat anunțul de începere a proiectului, care cuprinde beneficiarul, titlul și codul MySMIS, programul (Programul Educație și Ocupare 2021-2027, Prioritatea P8) și fondul (FSE+), perioada de implementare (iulie 2026 – iunie 2029), regiunea, valoarea totală, scopul, activitățile, grupul țintă, rezultatele urmărite și datele de contact. Dovada publicării (captură de ecran cu data și adresa URL) a fost arhivată.
-La 16.07.2026 au fost publicate pe aceeași subpagină Metodologia privind identificarea, recrutarea, înscrierea, verificarea, selectarea, validarea și menținerea grupului țintă și Metodologia privind acordarea sprijinului financiar pentru transport, cazare și masă, asigurând accesul egal la informație al tuturor persoanelor interesate.
-Proiectul este promovat și pe pagina de Facebook „UNIC: Viitor prin Educație” (https://www.facebook.com/unic.viitorprineducatie), pe care au fost publicate, în perioada de raportare, «… postări» despre activitățile proiectului «(întâlnirile de informare din școli, debutul activităților cu elevii din septembrie …)».
-În luna iulie 2026 au fost realizate materialele de informare pentru unitățile de învățământ: afișul A3 al proiectului, flyerul de prezentare față-verso destinat școlilor și flyerul de 12 × 17 cm. Materialele au fost utilizate în întâlnirile de informare și recrutare de la Colegiul Tehnic Turda (07.07 și 24.07.2026) și de la Liceul Tehnologic „Vlădeasa” Huedin (09.07.2026) și, în septembrie 2026, la Liceul Teologic Reformat Cluj-Napoca. Afișul A3 a fost expus la sediul beneficiarului din Gilău și «la unitățile de învățământ partenere în care se desfășoară activitățile», fiind realizate fotografii ca dovadă.
-Toate documentele utilizate în relația cu grupul țintă (formulare, liste de prezență, fișe de lucru, teste de evaluare) au inclus elementele obligatorii de identitate vizuală și mențiunea privind cofinanțarea din Fondul Social European Plus prin Programul Educație și Ocupare 2021-2027. La înscriere, participanții au fost informați, prin nota de informare privind activitățile proiectului, cu privire la sprijinul acordat prin FSE+. Echipamentele IT recepționate la 18.09.2026 au fost «inscripționate cu autocolante care conțin elementele de identitate vizuală».
-Activitatea este documentată prin materialele realizate, link-urile și capturile de ecran ale publicărilor și fotografiile afișelor expuse, centralizate în documentul „SA 3.1_07-09.2026_Informare și publicitate”.
-''', note='Facebook nu a putut fi citit automat. Se completează numărul postărilor pe luni și temele lor din pagina proiectului și se atașează capturile. '
-          'Afișul A3 și autocolantele IT se păstrează în text numai dacă există fotografii.')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA3.1_informare.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Facebook: fără autentificare se vede doar ultima postare (29.09.2026) și numărul de urmăritori (588 la 07.10.2026); se completează numărul postărilor pe luni, temele și data creării paginii, '
+     'iar capturile se inserează în „SA 3.1_07-09.2026_Informare și Publicitate.docx” (livrabile/). Data publicării anunțului de începere: între 02.07 și 30.07.2026 (ultima actualizare a subpaginii) – de confirmat. '
+     'ATENȚIE: flyerul pentru școli (flyer_UNIC_352704_scoli_fata_verso.pdf) are în antet „Programul Operațional Incluziune și Demnitate Socială (POIDS)” în loc de PEO – '
+     'se corectează înainte de orice nouă distribuire și se decide dacă versiunea distribuită se include la RP1. Subpagina site: „intensitate intervenție 100%” de verificat față de contract (FSE+ 85% + buget național 15%).')
 
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
 FIELD('SA4.1 – Rezultat obținut în perioada de raportare', L_SCURT, '''
