@@ -7,6 +7,7 @@ rânduri noi) și se compară cu limita afișată de contorul MySMIS.
 Marcajul «...» = informație de confirmat/completat (evidențiată cu galben).
 """
 import re, sys
+import os
 import docx
 from docx.shared import Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_COLOR_INDEX
@@ -15,11 +16,18 @@ from docx.enum.section import WD_ORIENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-doc = docx.Document()
-s = doc.sections[0]
-s.page_width, s.page_height = Cm(21.0), Cm(29.7)
-s.left_margin = s.right_margin = Cm(2.0)
-s.top_margin = Cm(1.8); s.bottom_margin = Cm(1.8)
+# Antetul și subsolul oficiale ale proiectului (șablon primit la 07.10.2026) – se folosesc la toate documentele
+SABLON_ANTET = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'livrabile', 'Antet_subsol_UNIC_Porolissum_PEO_A4_portret.docx')
+doc = docx.Document(SABLON_ANTET)
+s = doc.sections[0]  # format A4 portret, margini și antet/subsol din șablon
+
+def _par_bullet():
+    """paragraf cu marcator; șablonul nu are stilul „List Bullet”"""
+    p = doc.add_paragraph()
+    p.paragraph_format.left_indent = Cm(0.63); p.paragraph_format.first_line_indent = Cm(-0.63)
+    p.paragraph_format.space_after = Pt(2)
+    p.add_run('•\t')
+    return p
 
 INK = RGBColor(0x1A, 0x1A, 0x1A)
 BLUE = RGBColor(0x00, 0x3D, 0x82)
@@ -106,7 +114,7 @@ def SMALL(t):
 
 def BUL(items, size=None):
     for it in items:
-        p = doc.add_paragraph(style='List Bullet'); runs(p, it, size=size)
+        p = _par_bullet(); runs(p, it, size=size)
         p.paragraph_format.space_after = Pt(2)
 
 
@@ -188,7 +196,7 @@ def FIELD(label, limit, text, note=None):
         if not para.strip():
             continue
         if para.startswith('• '):
-            q = doc.add_paragraph(style='List Bullet'); runs(q, para[2:])
+            q = _par_bullet(); runs(q, para[2:])
             q.paragraph_format.space_after = Pt(1)
         else:
             q = doc.add_paragraph(); runs(q, para)

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Generează documentul de documentare a SA3.1 (informare și publicitate) pentru RP1,
-după modelul „SA_6.1_06.2026_Informare și Publicitate” din proiectul PIDS, pe șablonul
-cu antetul actualizat al proiectului UNIC 352704 (PEO 2021-2027).
+după modelul „SA_6.1_06.2026_Informare și Publicitate” din proiectul PIDS, pe șablonul oficial
+„Antet_subsol_UNIC_Porolissum_PEO_A4_portret.docx” (antet + subsol, de folosit la toate documentele proiectului).
 Textele între «…» sunt completări de făcut de echipa de proiect (evidențiate cu galben)."""
 import os, re
 from docx import Document
@@ -16,16 +16,16 @@ IMG = os.path.join(LIV, 'sa31_img')
 OUT = os.path.join(LIV, 'SA 3.1_07-09.2026_Informare și Publicitate.docx')
 DATA_CAPTURI = '07.10.2026'
 
-doc = Document(os.path.join(LIV, 'sablon_antet_UNIC_352704.docx'))
+SABLON = os.path.join(LIV, 'Antet_subsol_UNIC_Porolissum_PEO_A4_portret.docx')  # antetul oficial (din 07.10.2026)
+doc = Document(SABLON)
 body = doc.element.body
 for el in list(body):
     if not el.tag.endswith('}sectPr'):
         body.remove(el)
-sec = doc.sections[0]
-sec.left_margin = Cm(2); sec.right_margin = Cm(2)
+sec = doc.sections[0]  # marginile, antetul și subsolul rămân cele din șablon
 CONTENT_W = sec.page_width - sec.left_margin - sec.right_margin
 
-st = doc.styles['Normal']
+st = next(x for x in doc.styles if x.type == 1 and x.name.lower() == 'normal')
 st.font.name = 'Times New Roman'; st.font.size = Pt(12)
 st.element.rPr.rFonts.set(qn('w:eastAsia'), 'Times New Roman')
 
@@ -51,7 +51,10 @@ def P(text='', bold=False, size=None, align=None, space_after=6, italic=False, c
     return p
 
 def LINK(url, text=None, bullet=False, bold=True):
-    p = doc.add_paragraph(style='List Bullet' if bullet else None)
+    p = doc.add_paragraph()
+    if bullet:  # șablonul nu are stilul „List Bullet”: marcator manual
+        p.paragraph_format.left_indent = Cm(0.63); p.paragraph_format.first_line_indent = Cm(-0.63)
+        p.add_run('•\t')
     part = p.part
     r_id = part.relate_to(url, 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink', is_external=True)
     h = OxmlElement('w:hyperlink'); h.set(qn('r:id'), r_id)
@@ -90,8 +93,12 @@ def IMAGINE(fname, width=None, legenda=None, max_h_cm=19.5):
 
 def PLACEHOLDER(text):
     """casetă pentru o captură/fotografie care trebuie adăugată"""
-    t = doc.add_table(rows=1, cols=1); t.style = 'Table Grid'
+    t = doc.add_table(rows=1, cols=1)
     cell = t.rows[0].cells[0]
+    tcPr = cell._tc.get_or_add_tcPr(); b = OxmlElement('w:tcBorders')
+    for side in ('top', 'left', 'bottom', 'right'):
+        e = OxmlElement('w:' + side); e.set(qn('w:val'), 'single'); e.set(qn('w:sz'), '6'); e.set(qn('w:color'), '808080'); b.append(e)
+    tcPr.append(b)
     cell.width = CONTENT_W
     p = cell.paragraphs[0]; p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.paragraph_format.space_before = Pt(60); p.paragraph_format.space_after = Pt(60)
