@@ -240,8 +240,9 @@ FLAG('Cifre SA5.3: RA Expert comunicare (corectat 06.10): 23 elevi / 46 particip
 H3('SA5.4 – Dezvoltarea și furnizarea de programe remediale (8.f.3)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.4_remediale.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Cifre pe sesiuni: fizică 22.09 – RA 20 / registru 26; LTR 30.09 – RA 20 prezenți / registru 19 intrați. Totalul 45 elevi unici 8.f.3 = registru (26 Turda + 19 LTR); RA GT1/GT2: 44. Se recalculează din listele de prezență. '
-     'Metodologiile remediale nu au validarea MP (data lipsă).')
+FLAG('Fizică (Cadru didactic 2) – trei surse diferite: listele de prezență semnate (liste elevi prezenta.pdf): 22.09 – 24 de elevi (2 pagini × 12), 29.09 – 19 (11 + 8); RA: 20 și 14; '
+     'registrul GT (coloana Data din grupul „științe”): 22.09 – 26, 29.09 – 16. Lista semnată tranșează; RA și registrul se aliniază la ea. LTR 30.09 – RA 20 prezenți / registru 19 intrați. '
+     'Totalul 45 elevi unici 8.f.3 = registru (26 Turda + 19 LTR); RA GT1/GT2: 44. Metodologiile remediale nu au validarea MP (data lipsă).')
 
 # ------------------------------------------------------------------------------ 5
 SECT('5. Indicatori')
