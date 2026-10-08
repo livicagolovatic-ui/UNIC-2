@@ -83,8 +83,8 @@ H2('A4. Ce trebuie rezolvat ÎNAINTE de transmiterea RP 1 (blocante)')
 SMALL('Fiecare punct de mai jos poate genera clarificări sau tăieri la verificare. Ordinea este în funcție de impact.')
 TBL([
     ['Nr.', 'Problema constatată în documente', 'Ce trebuie făcut / decizia necesară'],
-    ['1', '**Grupul țintă nu este introdus în MySMIS2021** (0 participanți în foaia „Stare elevi”), deși registrul de la 04.10.2026 are 96 de elevi cu dată de intrare în operațiune; '
-          'doar 24 de formulare de înregistrare (FIP) sunt semnate (17 în folderul GT).',
+    ['1', '**Grupul țintă în MySMIS2021:** conform RA septembrie, 72 de participanți au fost înregistrați în MySMIS (30 de Expertul GT 1, 42 de Expertul GT 2), iar registrul din 08.10.2026 are 96 de elevi '
+          'intrați în operațiune (17/34/45); 21–24 de elevi (LTR, cls. X–XI) se înregistrează în octombrie. Registrul nu are coloană pentru stadiul MySMIS.',
      'Indicatorii se raportează numai pentru participanții înregistrați în MySMIS, cu formularul generat din sistem și semnat (MB §4.1.2) și asociați la RP 1. '
      'Toate cifrele «...» din secțiunile 4, 5 și 17 se aliniază la numărul real de participanți asociați.'],
     ['2', '**Nu există Raportul de selecție și validare (Anexa 11 la metodologia GT)**, obligatoriu pentru validare; activitățile cu elevii au început la 15.09.2026.',
@@ -95,16 +95,17 @@ TBL([
           '(Facebook nu a putut fi citit automat – cere autentificare).',
      'Capturi de ecran cu data și URL pentru subpagină și pentru fiecare postare de pe Facebook din iul.–sept.; fotografiile afișelor și autocolantelor. '
      'Pe subpagină de corectat: „Cofinanțare UE: … intensitate 100%” → valoarea cofinanțării UE (5.879.540,52 lei FSE+, 85%); „acordarea de subvenții” → masă caldă (după AA1).'],
-    ['4', '**Documente de resurse umane lipsă:** RA (Anexa 10) septembrie – Expert GT 1; RA + pontaj septembrie – Facilitator comunitar 2 (folder gol); '
-          'pontajele RF iulie–august (Dumitrescu); pontajele MP doar ca Google Sheet, nesemnate.',
+    ['4', '**Documente de resurse umane:** RA septembrie Expert GT 1 există doar în folderul „vechi – 07.10” (versiunea finală de confirmat); RA + livrabile FC2 încărcate la 07.10 (pontaj de verificat); '
+          'lipsesc pontajele RF iulie–august (Dumitrescu); pontajele MP doar ca Google Sheet, nesemnate; Facilitatorul comunitar 1 fără niciun document.',
      'Completare și semnare. Fără ele, experții nu pot fi trecuți la pct. 12 și în Anexa 13 (care trebuie să fie identice).'],
     ['5', '**Pontajul MP din septembrie arată 8 h/zi în UNIC** și ore în proiectul PIDS 329335; bugetul UNIC este de 93 h/lună pentru MP.',
      'Pontajul trebuie să reflecte orele efective în limita bugetului și maximum 12 h/zi și 60 h/săptămână, cumulat PEO+PIDS (Anexa 8).'],
     ['6', '**Procedurile, planurile și metodologiile V2 nu sunt semnate/datate** (Elaborat/Avizat/Aprobat necompletate; metodologia GT V2 „__/__/2026”); '
           'CF cere planurile „finalizate până la finalul lunii 3”.',
      'Semnare (avizare MP, aprobare reprezentant legal) și trecerea în raport a datei reale.'],
-    ['7', '**Minutele ședințelor din 18.09 (online) și 25.09.2026 (fizic)** lipsesc (folderul „6. Întâlniri/3. Septembrie” este gol).',
-     'Minute + liste de prezență/capturi. Altfel, rezultatul 2 = 3 întâlniri, nu 5.'],
+    ['7', '**Minuta ședinței din 18.09.2026 (online)** există în livrabilele Expertului GT 1; ședința din 25.09.2026 (fizic) este menționată în RA ale Consilierului psihologic și FC2, dar minuta UNIC lipsește '
+          '(cea din Drive este a proiectului PIDS).',
+     'Minuta din 25.09 + lista de prezență se adaugă în „6. Întâlniri/3. Septembrie”; atunci R2 = 5 întâlniri.'],
     ['8', '**Dosare de personal lipsă** pentru Cadrele didactice 1–3 și Responsabilul financiar Fekete; Facilitatorul comunitar 1 (Sotnic, aprobat prin N1) nu are nicio activitate documentată.',
      'Completare dosare. Pentru FC1: confirmați dacă a fost angajat; în RP se explică lipsa activității (OM verifică experții notificați).'],
     ['9', '**Neconcordanțe de cifre** între rapoartele de activitate și registru (fizică 20 vs. 26 elevi la 22.09; română LTR 20 vs. 18 la 30.09; consiliere 16 vs. 17 elevi); '
@@ -208,120 +209,39 @@ FLAG('Facebook: fără autentificare se vede doar ultima postare (29.09.2026) ș
      'se corectează înainte de orice nouă distribuire și se decide dacă versiunea distribuită se include la RP1. Subpagina site: „intensitate intervenție 100%” de verificat față de contract (FSE+ 85% + buget național 15%).')
 
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
-FIELD('SA4.1 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R12: 1 metodologie de selecție a grupului țintă întocmită (versiunea 1 – 16.07.2026, actualizată în versiunea 2 – septembrie 2026) și diseminată, împreună cu cele 15 anexe-formular.
-R13: «128» de elevi cu dosare de înscriere eligibile, dintre care «96» de elevi selectați și intrați în operațiune («17» pe acțiunea 8.f.1, «35» pe acțiunea 8.f.2 și «44» pe acțiunea 8.f.3); «4» cadre didactice selectate pentru participarea la formare; 0 părinți selectați în perioada de raportare.
-''', note='Cifrele din R13 = registrul GT din 04.10.2026. Se înlocuiesc cu numărul real de participanți înregistrați în MySMIS și asociați la RP 1 (vezi A4 pct. 1–2). '
-          'Cadrele didactice se trec numai dacă au dosar GT complet și formular de înregistrare (vezi A5).')
-FIELD('SA4.1 – Abateri/riscuri identificate', L_LUNG, '''
-Risc identificat: numărul elevilor eligibili care și-au exprimat acordul de participare este mai mic decât estimările inițiale ale unităților de învățământ partenere, întrucât o parte dintre elevi participă la alte proiecte cu finanțare europeană derulate în aceleași școli, iar o parte dintre familii nu au completat documentele necesare sau nu au dorit participarea.
-Măsuri: extinderea bazei de recrutare prin acordul de colaborare încheiat la 09.09.2026 cu Liceul Teologic Reformat Cluj-Napoca și prin demersuri pentru implicarea Liceului Tehnologic Energetic Cluj-Napoca; verificarea evitării dublei finanțări împreună cu organizația care derulează alte programe în aceleași școli (întâlnirea din 24.08.2026); sprijin direct acordat familiilor pentru completarea dosarelor, prin deplasări repetate ale experților în școli. Recrutarea este progresivă pe întreaga durată a proiectului (3 serii, corespunzătoare anilor școlari 2026-2027, 2027-2028 și 2028-2029), iar riscul nu afectează, în acest moment, atingerea țintelor.
-''')
-FIELD('SA4.1 – Progres în perioada de raportare', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, SA4.1 a vizat elaborarea și diseminarea metodologiei de selecție a grupului țintă, informarea și recrutarea elevilor și părinților din unitățile de învățământ partenere și constituirea și verificarea dosarelor de înscriere.
-În luna iulie 2026, experții au desfășurat următoarele activități:
-• Expertul GT 1 și Expertul GT 2 au elaborat Metodologia de selecție a grupului țintă (versiunea 1, 16.07.2026), avizată de Managerul de proiect, care stabilește criteriile de eligibilitate și de departajare, procedura de înscriere, lista documentelor, modul de verificare, contestațiile și regulile de protecție a datelor, împreună cu 15 anexe-formular: opis și checklist dosar, formular de înregistrare individuală, acordul părintelui/reprezentantului legal și nota de informare GDPR, declarația de apartenență la grupul țintă și de evitare a dublei finanțări, confirmarea școlară privind riscul educațional (Anexa 5A), formularele pentru părinți și cadre didactice, grila de verificare a eligibilității și de prioritizare (Anexa 9), rapoartele de selecție, formularul de contestație, chestionarul de satisfacție și nota de informare privind activitățile;
-• au fost organizate întâlniri de informare și recrutare cu elevi, părinți și cadre didactice la Colegiul Tehnic Turda (07.07 și 24.07.2026) și la Liceul Tehnologic „Vlădeasa” Huedin (09.07.2026), documentate prin minute și liste de prezență; cu conducerile școlilor au fost stabilite modalitățile de colaborare și persoanele de contact;
-• au fost constituite primele 24 de dosare de înscriere (Colegiul Tehnic Turda), iar la 27.07.2026 a fost transmisă școlii solicitarea pentru documentele lipsă și pentru confirmările școlare; au fost primite 23 de confirmări școlare (Anexa 5A).
-În luna august 2026:
-• Expertul GT 1 a studiat modulul de înregistrare a participanților din MySMIS2021 și a completat dosarele din iulie cu documentele primite de la școală;
-• la întâlnirea din 21.08.2026 de la Colegiul Tehnic Turda au fost înscriși 6 elevi noi din clasele a VII-a – a VIII-a și au fost precompletate 8 dosare;
-• pe baza centralizatoarelor transmise de școli, experții au încadrat elevii identificați pe acțiunile 8.f.1, 8.f.2 și 8.f.3 (SA4.2);
-• la 24.08.2026 a avut loc o întâlnire cu reprezentanții unei organizații care derulează programe în aceleași școli, pentru evitarea suprapunerii grupurilor țintă și a dublei finanțări.
-În luna septembrie 2026:
-• au fost precompletate 70 de dosare pentru elevii de liceu ai Colegiului Tehnic Turda (38 din clasa a IX-a, 21 din clasa a X-a și 11 din clasa a XI-a);
-• au fost organizate sesiuni de informare și de colectare a documentelor la Colegiul Tehnic Turda (09.09, 11.09, 21.09 și 24.09.2026), la Liceul Tehnologic „Vlădeasa” Huedin (11.09.2026) și la Liceul Teologic Reformat Cluj-Napoca (16.09.2026 și 18.09.2026 – ședința cu părinții elevilor din clasa a IX-a D); la 28.09.2026 proiectul a fost prezentat la Liceul Tehnologic Energetic Cluj-Napoca;
-• metodologia de selecție a fost actualizată (versiunea 2), pentru corelarea cu Actul adițional nr. 1 și cu Notificarea nr. 3 și pentru includerea noului partener asociat;
-• au fost scanate și verificate pe grila de eligibilitate (Anexa 9) 66 de dosare, dintre care 45 complete și 21 cu documente lipsă, pentru care familiile au fost contactate în vederea completării;
-• au fost semnate «24» de formulare de înregistrare individuală, iar participanții eligibili au fost înregistrați în MySMIS2021 «(n)», data intrării în operațiune fiind data primei activități la care au participat; selecția a fost validată prin «Raportul de selecție și validare nr. … din …».
-Situația grupului țintă la 30.09.2026: «128» de elevi cu dosar eligibil, dintre care «96» intrați în operațiune (8.f.1 – «17»; 8.f.2 – «35»; 8.f.3 – «44»).
-Activitatea experților este documentată prin rapoartele individuale de activitate, fișele de pontaj, minutele și listele de prezență ale întâlnirilor, dosarele de înscriere și grilele de verificare a eligibilității.
-''')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.1_selectie.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Cifre GT la 30.09.2026 – două surse: registrul GT (actualizat 08.10): 96 intrați în operațiune (17/34/45); RA GT1+GT2: 93 (15/34/44) – GT1 nu numără 2 elevi din cls. X fără dosar complet și 1 elev LTR. '
+     'Înregistrați în MySMIS în septembrie: 72 = 30 (grupul GT1) + 42 (grupul GT2) conform RA; registrul nu are coloana MySMIS. Cifrele finale din RP trebuie să fie egale cu numărul participanților asociați în MySMIS la RP1. '
+     'Lipsește Anexa 11 (raport de validare GT) – obligatorie conform metodologiei. RA GT1 sept. există doar în folderul „vechi – 07.10”; versiunea finală se verifică.')
 
 H3('SA4.2 – Identificarea elevilor în risc de abandon școlar sau de părăsire timpurie a școlii')
-FIELD('SA4.2 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R14: 32 de elevi aferenți acțiunii 8.f.1 identificați (Colegiul Tehnic Turda, clasele a X-a – a XI-a).
-R15: 57 de elevi aferenți acțiunii 8.f.3 identificați (clasa a IX-a: 38 la Colegiul Tehnic Turda și 19 la Liceul Teologic Reformat Cluj-Napoca).
-''')
-FIELD('SA4.2 – Abateri/riscuri identificate', L_LUNG, '''
-Nu au fost identificate abateri.
-''')
-FIELD('SA4.2 – Progres în perioada de raportare', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, SA4.2 a vizat identificarea, în colaborare cu unitățile de învățământ partenere, a elevilor în risc de abandon școlar sau de părăsire timpurie a școlii și/sau a elevilor din grupuri ori medii defavorizate care necesită sprijin.
-În lunile iulie și august 2026, Experții GT au solicitat școlilor partenere, prin diriginți și conducerea unităților, informații privind situația elevilor: frecvența, rezultatele școlare, situațiile de corigență și absenteism, situația socio-economică și familială. În perioada 20–25.08.2026 au fost primite centralizatoarele de la Colegiul Tehnic Turda și de la Liceul Tehnologic „Vlădeasa” Huedin, pe baza cărora au fost identificați 150 de elevi: 32 pentru acțiunea 8.f.1 (clasele a X-a – a XI-a, Colegiul Tehnic Turda), 80 pentru acțiunea 8.f.2 (clasele a VII-a – a VIII-a: 30 la Colegiul Tehnic Turda și 50 la Liceul Tehnologic „Vlădeasa” Huedin) și 38 pentru acțiunea 8.f.3 (clasa a IX-a, Colegiul Tehnic Turda). Experții au întocmit baza de date a elevilor identificați, cu încadrarea pe acțiuni și pe criteriile de vulnerabilitate: nevoia de sprijin remedial, dificultăți la competențele de bază, proveniența din medii defavorizate, familii vulnerabile, rezultate școlare slabe.
-În luna septembrie 2026, după încheierea acordului de colaborare cu Liceul Teologic Reformat Cluj-Napoca (09.09.2026), au fost identificați încă 19 elevi din clasa a IX-a D (acțiunea 8.f.3), pentru care școala a transmis situația clasei și confirmările școlare (Anexa 5A, 23.09.2026).
-Pentru fiecare elev identificat, nevoia de sprijin a fost confirmată de diriginte și de directorul unității de învățământ prin confirmarea școlară (Anexa 5A). La începutul programelor remediale, cadrele didactice au aplicat teste de evaluare inițială, ale căror rezultate fundamentează planificarea sprijinului pe grupe și individual. «Pentru elevii identificați ca fiind în risc au fost completate fișele de observare și de evaluare din Mecanismul de Avertizare Timpurie în Educație (MATE).»
-Total elevi identificați la 30.09.2026: 169 (32 pentru acțiunea 8.f.1, 80 pentru acțiunea 8.f.2 și 57 pentru acțiunea 8.f.3).
-Activitatea este documentată prin centralizatoarele transmise de școli, baza de date a elevilor identificați, confirmările școlare, rapoartele de activitate și fișele de pontaj ale experților.
-''', note='Fraza despre MATE se păstrează numai dacă fișele MATE există (în baza de date coloana „MATE existent” este goală). CF prevede ca instrumente MATE, SASAT și „Raportul de evaluare a potențialului de a finaliza anul școlar”.')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.2_identificare.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Fraza despre MATE se păstrează numai dacă școlile au transmis fișele MATE (în baza de date coloana „MATE existent” este goală). LTR clasa IX D: 22 elevi în situația clasei, 19 cu dosar – R15 folosește 22 (identificați).')
 
 H3('SA5.1 – Măsuri de facilitare a accesului și de prevenire a părăsirii timpurii a școlii (8.f.1)')
-FIELD('SA5.1 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R16: «17» elevi din acțiunea 8.f.1 au beneficiat de sprijin psihologic individual și de grup în perioada 16–30.09.2026. Sprijinul financiar pentru cazare, masă și transport urmează să fie acordat, în funcție de nevoia identificată, după validarea grupului țintă și evaluarea cererilor, începând cu luna «octombrie 2026».
-''')
-FIELD('SA5.1 – Abateri/riscuri identificate', L_LUNG, '''
-Nu au fost identificate abateri.
-''')
-FIELD('SA5.1 – Progres în perioada de raportare', L_LUNG, '''
-SA5.1 a început în luna septembrie 2026 (L3), conform graficului din cererea de finanțare. În perioada de raportare activitatea a vizat planificarea măsurilor de sprijin și debutul sprijinului psihologic pentru elevii din acțiunea 8.f.1.
-Planificarea activităților. Metodologia de acordare a sprijinului financiar, a subvențiilor și a sprijinului personalizat, elaborată de Experții GT (versiunea 1, 16.07.2026), a fost actualizată în septembrie 2026 (versiunea 2), în corelare cu Notificarea nr. 3: sprijinul financiar de 500 lei/lună pentru cazare, masă și transport se acordă, pe o durată de maximum 10 luni, elevilor pentru care nevoia este identificată și justificată, fiecare elev din grupul țintă al acțiunii 8.f.1 beneficiind de cel puțin o formă de sprijin. Metodologia stabilește criteriile de acordare, echipa de evaluare, modelele de cerere, contract, fișă de monitorizare lunară și borderou, precum și condiționarea sprijinului de frecvența regulată, de rezultatele școlare și de participarea la activitățile proiectului. Metodologia a fost validată de Managerul de proiect «la data de …».
-Sprijin psihologic. În perioada 16–30.09.2026, Consilierul psihologic a realizat 10 deplasări la Colegiul Tehnic Turda și la structura Școala Profesională Poiana Turda, în cadrul cărora a lucrat cu «17» elevi din clasele a X-a – a XI-a (acțiunea 8.f.1), în activități individuale și de grup: ateliere de cunoaștere și intercunoaștere, explorarea motivației școlare, autocunoaștere și planificarea traseului educațional. Au fost aplicate 13 chestionare de motivație școlară și 11 fișe de autocunoaștere („Blazonul meu”) și au fost utilizate instrumente de lucru adaptate vârstei („Rucsacul psihologului”, „Harta traseelor vieții”). Pentru fiecare elev a fost întocmit un raport individual de activitate (fișă de observație, listă de prezență, fișe de lucru), care stă la baza planului individual de sprijin.
-Sprijin financiar. În perioada de raportare nu au fost acordate sume, întrucât, conform metodologiei, contractele de acordare se încheie după validarea grupului țintă și evaluarea cererilor depuse de elevi sau de reprezentanții lor legali. Procedura de contactare și de depunere a cererilor urmează să fie lansată în luna «octombrie 2026».
-Activitatea este documentată prin raportul de activitate și fișa de pontaj ale Consilierului psihologic, rapoartele individuale ale elevilor, listele de prezență, fișele de lucru și fotografiile realizate cu acordul reprezentanților legali.
-''', note='Cifra elevilor: raportul de activitate spune 16, registrul și dosarele copiilor 17 – se aliniază înainte de transmitere.')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.1_sprijin.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Elevi la consiliere: RA consilier 16, registru și dosare individuale 17; RA GT1: 15 intrați + 2 elevi cls. X fără dosar (se înregistrează în octombrie). Se aliniază cifra înainte de transmitere.')
 
 H3('SA5.2 – Formarea personalului didactic din ÎPT, inclusiv dual (8.f.1)')
-FIELD('SA5.2 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R17: 4 cadre didactice din unitățile de învățământ partenere asociate au parcurs, în perioada 10–18.09.2026, programul de formare acreditat (30 de ore); evaluarea finală și eliberarea certificatelor sunt programate la 09.10.2026, în perioada următoare de raportare.
-''')
-FIELD('SA5.2 – Abateri/riscuri identificate', L_LUNG, '''
-Nu au fost identificate abateri.
-''')
-FIELD('SA5.2 – Progres în perioada de raportare', L_LUNG, '''
-SA5.2 a început în luna septembrie 2026 (L3). Conform Notificării nr. 3, formarea s-a desfășurat în paralel cu debutul programelor remediale din SA5.4.
-În lunile august – septembrie 2026, Experții GT au identificat, împreună cu conducerile unităților de învățământ partenere, cadrele didactice din ÎPT care lucrează direct cu elevii din grupul țintă și au constituit grupa de formare de 4 cadre didactice. Furnizorul a fost selectat prin procedura descrisă în SA2.1.
-Programul „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice”, acreditat prin OM nr. 1555/30.06.2025, a fost furnizat de Asociația Proeuro-Cons în perioada 10–18.09.2026, în format online, cu 12 ore de activități sincrone și 18 ore de activități asincrone. Tematica a vizat identificarea timpurie a riscului de abandon școlar, comunicarea eficientă cu elevii aflați în risc educațional, strategii de motivare și de menținere a elevilor în sistemul educațional și utilizarea instrumentelor digitale în procesul didactic și de evaluare. Cursanții au primit suportul de curs și materialele de lucru elaborate de furnizor.
-Evaluarea finală a cursanților este programată la 09.10.2026, după care furnizorul va elibera certificatele de absolvire, iar beneficiarul va realiza recepția serviciilor. Rezultatul va fi raportat în Raportul de progres nr. 2.
-Activitatea este documentată prin contractul de servicii, ordinul de începere, calendarul formării, dovada acreditării programului, suportul de curs și corespondența cu furnizorul.
-''')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.2_formare.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Cele 4 cadre didactice din GT sunt aceleași persoane cu Cadrele didactice 1–4 angajate în proiect (dosare GT și formulare MySMIS semnate la 06–07.10.2026, după perioada de raportare). Dubla calitate se clarifică cu OI înainte de raportarea la indicator; '
+     'formularele de înregistrare ale cadrelor didactice nu pot fi raportate la RP1 dacă sunt semnate în octombrie.')
 
 H3('SA5.3 – Dezvoltarea de programe de informare și conștientizare (8.f.2)')
-FIELD('SA5.3 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R19: «23» de elevi au participat la activitățile campaniei de informare și conștientizare (5 activități, «44» de participări).
-R18: activitățile cu părinții/reprezentanții legali urmează să înceapă în luna «octombrie 2026».
-''')
-FIELD('SA5.3 – Abateri/riscuri identificate', L_LUNG, '''
-Risc identificat: implicarea redusă a părinților în activitățile proiectului, determinată de programul de lucru, de distanțele față de școli și, în unele cazuri, de plecarea părinților la muncă în străinătate.
-Măsuri: programarea atelierelor pentru părinți în intervale orare convenabile, la sediile școlilor și ale primăriilor din localitățile de domiciliu, invitarea părinților prin diriginți și prin contact direct, precum și includerea persoanelor care au în grijă elevi cu părinți plecați în străinătate, conform cererii de finanțare.
-''')
-FIELD('SA5.3 – Progres în perioada de raportare', L_LUNG, '''
-SA5.3 a început în luna septembrie 2026 (L3). În perioada de raportare activitatea a vizat pregătirea campaniei de informare și conștientizare și primele activități cu elevii din grupul țintă al acțiunii 8.f.2.
-Expertul comunicare a aplicat elevilor chestionare privind interesele și percepțiile despre meserii și despre învățământul profesional și tehnic, ca bază pentru Planul de informare și conștientizare, și a realizat afișele și pliantele campaniei. Au fost organizate 5 activități de informare și conștientizare: la Colegiul Tehnic Turda (15.09, 16.09 și 30.09.2026), la Casa de Cultură din Huedin (28.09.2026) și la Primăria Huedin (29.09.2026), la care au participat «23» de elevi, cu «44» de participări. Au fost utilizate metode interactive adaptate vârstei: jocul de intercunoaștere „Găsește pe cineva care…”, chestionarul de interese, exercițiul „Mesaj pentru mine peste 5 ani” (înregistrări audio realizate cu acordul reprezentanților legali) și discuții despre traseele educaționale și profesionale.
-Facilitatorul comunitar 2 a organizat ateliere cu elevii la Colegiul Tehnic Turda (15.09.2026) și la Primăria Huedin (24.09.2026), «cu … participanți», și a început contactarea părinților elevilor din grupul țintă, în vederea organizării atelierelor pentru părinți începând cu luna octombrie 2026.
-«Facilitatorul comunitar 1 nu a desfășurat activități în perioada de raportare; …»
-Activitatea este documentată prin rapoartele de activitate, fișele de pontaj, listele de prezență, chestionarele aplicate, materialele campaniei și fotografiile realizate.
-''', note='Facilitatorul comunitar 2 nu are încă raport de activitate și pontaj pentru septembrie, iar Facilitatorul comunitar 1 nu are niciun document. Fără ele, paragrafele respective se scot '
-          'sau se explică absența (OM verifică experții notificați).')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.3_informare.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Cifre SA5.3: RA Expert comunicare (corectat 06.10): 23 elevi / 46 participări (15.09: 11; 16.09: 12; 28.09: 7; 29.09: 4; 30.09: 12). RA FC2: 21 elevi (6 + 15); registrul GT consemnează 27 elevi la ateliere (include 02.10). '
+     'Elevi unici 8.f.2 intrați în operațiune: 34 la 30.09 (registru). Facilitatorul comunitar 1 (Sotnic, Notificarea nr. 1) nu are RA/pontaj – OM va cere explicații; fraza galbenă se completează sau se scoate.')
 
 H3('SA5.4 – Dezvoltarea și furnizarea de programe remediale (8.f.3)')
-FIELD('SA5.4 – Rezultat obținut în perioada de raportare', L_SCURT, '''
-R20: «44» de elevi din acțiunea 8.f.3 au participat la programele remediale în perioada 17–30.09.2026 (limba și literatura română și fizică la Colegiul Tehnic Turda; limba și literatura română la Liceul Teologic Reformat Cluj-Napoca).
-R21: masa caldă urmează să fie acordată după finalizarea achiziției de servicii (L4–L5).
-''')
-FIELD('SA5.4 – Abateri/riscuri identificate', L_LUNG, '''
-Nu au fost identificate abateri.
-''')
-FIELD('SA5.4 – Progres în perioada de raportare', L_LUNG, '''
-SA5.4 a început în luna septembrie 2026 (L3), conform graficului din cererea de finanțare. În perioada de raportare activitatea a vizat elaborarea metodologiilor de organizare a activităților remediale, evaluarea inițială a elevilor și primele sesiuni remediale.
-Cadrul didactic 1 a elaborat metodologia de organizare a activităților remediale la limba și literatura română pentru Colegiul Tehnic Turda (10.09.2026), cu structura tematică, instrumentele de evaluare și calendarul sesiunilor (2 grupe de câte 19 elevi din clasa a IX-a, câte 2 ore pe săptămână, în afara programului școlar), a aplicat testele de evaluare inițială celor două grupe și a susținut sesiunile remediale din 17.09.2026 (14 elevi) și 21.09.2026 (12 elevi), axate pe înțelegerea textului și exprimarea scrisă.
-Cadrul didactic 2 a elaborat metodologia activităților remediale la fizică pentru Colegiul Tehnic Turda și testul inițial pentru clasa a IX-a, a aplicat 20 de teste de evaluare inițială și a susținut sesiunile din 22.09.2026 («20» de elevi) și 29.09.2026 (14 elevi), axate pe noțiunile de bază, calcul și rezolvarea de probleme.
-Cadrul didactic 3 a elaborat metodologia activităților remediale la limba și literatura română pentru clasa a IX-a D a Liceului Teologic Reformat Cluj-Napoca (23 de elevi înscriși), testul inițial, baremul și grila de evaluare și a susținut prima sesiune remedială la 30.09.2026 («20» de elevi prezenți), stabilind planificarea pentru luna octombrie.
-Metodologiile au fost validate de Managerul de proiect «la data de …». Rezultatele testelor inițiale fundamentează planificarea pe grupe și fișele individuale de progres, care vor fi actualizate după testele intermediare. În total, în perioada de raportare, «44» de elevi unici din clasa a IX-a au participat la cel puțin o sesiune remedială.
-Echipa de implementare. Poziția de Cadru didactic 3 este ocupată, începând cu 17.09.2026, de persoana nominalizată prin Notificarea nr. 4, aprobată prin Informarea OIR PECU Nord-Vest nr. 17371/17.09.2026. Persoanele nominalizate prin Notificarea nr. 2 pe pozițiile de Cadru didactic 2 și Cadru didactic 3 nu au desfășurat activități în proiect, fiind înlocuite prin Notificările nr. 3 și nr. 4. Poziția de Cadru didactic 4 nu a fost ocupată în perioada de raportare, urmând să fie nominalizată prin notificare.
-Masa caldă pentru elevii participanți la programele remediale va fi acordată după finalizarea achiziției de servicii (SA2.1), pe baza listelor de prezență la sesiunile remediale.
-Activitatea este documentată prin rapoartele de activitate și fișele de pontaj ale cadrelor didactice, metodologiile elaborate, testele de evaluare inițială, listele de prezență și fotografiile realizate.
-''', note='Cifrele pe sesiuni diferă între RA și registru (fizică 20/26 la 22.09; LTR 20/18 la 30.09). Totalul de elevi unici (44) = F3 intrați în operațiune în registru – se recalculează din listele de prezență. '
-          'Cadrul didactic 3: N4 aprobată la 17.09.2026, aceeași zi cu începutul contractului de muncă.')
+for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.4_remediale.txt'):
+    FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
+FLAG('Cifre pe sesiuni: fizică 22.09 – RA 20 / registru 26; LTR 30.09 – RA 20 prezenți / registru 19 intrați. Totalul 45 elevi unici 8.f.3 = registru (26 Turda + 19 LTR); RA GT1/GT2: 44. Se recalculează din listele de prezență. '
+     'Metodologiile remediale nu au validarea MP (data lipsă).')
 
 # ------------------------------------------------------------------------------ 5
 SECT('5. Indicatori')
@@ -545,59 +465,10 @@ Dovezile (link-urile publicărilor, capturile de ecran cu data și adresa URL, f
 
 # ------------------------------------------------------------------------------ 15
 SECT('15. Principii orizontale și teme secundare')
-NU = 'Nu este cazul pentru tipul de activități desfășurate în perioada de raportare, care au avut caracter educațional, social și de management, fără intervenții fizice asupra mediului.'
-FIELD('15.1.1 Egalitate de gen', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, principiul egalității de șanse și de tratament între femei și bărbați a fost respectat prin măsurile prevăzute în cererea de finanțare, după cum urmează:
-În cadrul SA1.1, recrutarea și nominalizarea membrilor echipei de proiect s-au realizat exclusiv pe baza cerințelor de studii și experiență din fișele de post, fără criterii legate de sex sau gen. Experții au asumat Codul de etică al proiectului, care include prevederi privind egalitatea de șanse și interzicerea discriminării «(asumat la …)».
-În cadrul SA4.1 și SA4.2, criteriile de eligibilitate din metodologia de selecție nu fac nicio distincție în funcție de sex, iar criteriile de departajare prevăzute în cererea de finanțare includ apartenența la genul feminin. Elevii au fost identificați pe baza nevoii de sprijin confirmate de școală. Dintre elevii intrați în operațiune, «…» sunt fete și «…» sunt băieți, structura reflectând profilul specializărilor din școlile partenere.
-În cadrul SA5.1, SA5.3 și SA5.4, accesul la consiliere, la activitățile de informare și la programele remediale a fost asigurat în condiții egale, iar metodele de lucru au fost adaptate grupului, nu sexului participanților. În activitățile de consiliere au fost discutate deschis opțiunile profesionale ale elevilor, inclusiv situațiile în care specializarea urmată nu corespunde intereselor lor, pentru prevenirea alegerilor bazate pe stereotipuri.
-În cadrul SA3.1 și SA5.3, materialele de informare și conștientizare au prezentat meseriile și traseele educaționale din ÎPT fără mesaje, formulări sau imagini care să promoveze stereotipuri de gen.
-În cadrul SA5.2, programul de formare a cadrelor didactice a inclus aspecte privind comunicarea nediscriminatorie cu elevii.
-În perioada de raportare nu au fost semnalate situații de tratament diferențiat pe criterii de sex sau gen.
-''')
-FIELD('15.1.2 Nediscriminare', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, principiul nediscriminării a fost respectat prin măsurile prevăzute în cererea de finanțare, după cum urmează:
-În cadrul SA4.1, metodologia de selecție a grupului țintă a fost elaborată și diseminată în școlile partenere, cu criterii transparente de eligibilitate și de departajare, aplicate uniform tuturor candidaților. Criteriile de departajare acordă prioritate elevilor de etnie romă și elevilor cu dizabilități. Recrutarea a vizat inclusiv elevi din mediul rural și din localități mici (structura Școala Profesională Poiana Turda, zona Huedin), iar familiile care au întâmpinat dificultăți la completarea dosarelor au fost sprijinite direct de experți, prin deplasări repetate în școli. Dintre elevii intrați în operațiune, «…» sunt de etnie romă (ținta proiectului: minimum 81 de elevi romi).
-În cadrul SA4.2, identificarea elevilor s-a făcut pe criterii obiective (risc educațional, situație socio-economică, rezultate școlare), confirmate de școală, fără criterii legate de etnie, religie, limbă maternă sau alte criterii discriminatorii, altele decât cele de prioritizare prevăzute în cererea de finanțare.
-În cadrul SA5.1 – SA5.4, activitățile s-au desfășurat în școlile în care învață elevii, în afara programului școlar, iar consilierea, informarea și programele remediale au fost oferite gratuit tuturor elevilor din grupul țintă. Colaborarea cu Liceul Teologic Reformat Cluj-Napoca a permis includerea în grupul țintă a elevilor dintr-o unitate de învățământ cu predare în limba maghiară «(de confirmat)».
-Tema secundară „Nediscriminare” este susținută prin măsurile directe de sprijin pentru elevii din grupuri vulnerabile – sprijinul financiar pentru cazare, masă și transport și masa caldă –, care vor fi acordate începând din perioada următoare.
-În perioada de raportare nu au fost semnalate situații de excludere, restricționare a accesului sau tratament diferențiat pe criterii discriminatorii.
-''')
-FIELD('15.1.3 Accesibilitatea pentru persoanele cu dizabilități', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, accesibilitatea a fost asigurată prin următoarele măsuri:
-• activitățile cu grupul țintă (consiliere, informare, programe remediale) s-au desfășurat în clădirile unităților de învățământ în care învață elevii și în spații publice din localitățile acestora (Casa de Cultură și Primăria Huedin), reducând barierele de deplasare;
-• întâlnirile de informare și recrutare au fost organizate în școli, la orele convenite cu conducerile acestora, pentru a permite participarea elevilor și a părinților;
-• formarea cadrelor didactice s-a desfășurat online, iar o parte dintre întâlnirile de management au avut loc online, facilitând participarea;
-• materialele de informare, formularele și fișele de lucru au fost redactate într-un limbaj simplu, adaptat vârstei elevilor, iar experții au explicat direct conținutul documentelor elevilor și părinților;
-• metodologia de selecție prevede identificarea, după selecție, a nevoilor specifice ale participanților cu dizabilități sau cu cerințe educaționale speciale și adaptarea activităților la aceste nevoi.
-În perioada de raportare, «au fost incluși … participanți cu dizabilități sau cu cerințe educaționale speciale / nu au fost înregistrați participanți cu dizabilități». Nu au fost semnalate situații în care accesul la activități să fi fost limitat.
-''')
-FIELD('15.1.4 Schimbări demografice', L_LUNG, '''
-Proiectul contribuie la atenuarea efectelor schimbărilor demografice prin menținerea în sistemul educațional a elevilor din mediul rural și din localitățile mici, inclusiv a celor ai căror părinți sunt plecați la muncă în străinătate, și prin creșterea șanselor acestora de a obține o calificare profesională și de a se integra pe piața muncii locale. În perioada de raportare, au fost identificați și recrutați elevi din zone rurale și din orașe mici (Poiana Turda, zona Huedin), care vor beneficia de sprijin pentru continuarea studiilor.
-''')
-FIELD('15.2.1 Poluatorul plătește', L_LUNG, NU)
-FIELD('15.2.2 Protecția biodiversității', L_LUNG, NU)
-FIELD('15.2.3 Utilizarea eficientă a resurselor', L_LUNG, '''
-În perioada de raportare iulie – septembrie 2026, utilizarea eficientă a resurselor a fost asigurată prin următoarele măsuri:
-• documentele de proiect (rapoarte de activitate, fișe de pontaj, livrabile, documente de achiziție) au fost întocmite și semnate preponderent în format electronic, cu semnătură electronică calificată, și transmise, verificate și arhivate electronic, reducând consumul de hârtie și toner;
-• o parte dintre întâlnirile de management (16.07 și 18.09.2026) s-au desfășurat online, iar formarea cadrelor didactice s-a desfășurat integral online, evitând deplasările;
-• deplasările echipei la școlile partenere au fost grupate, astfel încât în aceeași zi să fie realizate mai multe activități (recrutare, colectare de documente, consiliere), cu utilizarea unui singur autoturism;
-• documentele care au necesitat tipărire au fost imprimate față-verso;
-• materialele de informare au fost distribuite și în format electronic, prin școli, reducând numărul de exemplare tipărite.
-''')
-FIELD('15.2.4 Reziliența la dezastre', L_LUNG, NU)
-FIELD('15.2.5 Imunizarea la schimbările climatice', L_LUNG, NU)
-FIELD('15.2.6 Principiul „de a nu prejudicia în mod semnificativ” (DNSH)', L_LUNG, '''
-În perioada de raportare, activitățile proiectului au avut caracter educațional, social și de management (consiliere, informare, programe remediale, formare, selecția grupului țintă). Acestea nu au presupus lucrări de construcție, intervenții asupra terenurilor sau habitatelor ori procese care să genereze emisii sau deșeuri semnificative și nu au avut efecte negative semnificative asupra niciunuia dintre cele șase obiective de mediu.
-Echipamentele IT achiziționate «respectă cerințele de eficiență energetică …», iar documentațiile de achiziție au inclus clauze privind respectarea principiului DNSH, conform contractului de finanțare. În cadrul SA5.3, materialele campaniei de informare și conștientizare «au inclus mesaje privind dezvoltarea durabilă și aplicarea principiului DNSH în viața de zi cu zi», conform angajamentului din cererea de finanțare.
-''', note='CF promite ca DNSH să fie inclus în fiecare acțiune a campaniei și în formare. Dacă materialele din septembrie nu conțin astfel de mesaje, fraza se reformulează la viitor.')
-FIELD('15.2.7 Măsuri de evitare și reducere a efectelor reziduale', L_LUNG, NU)
-FIELD('15.2.8 Teme secundare', L_LUNG, '''
-Proiectul contribuie la temele secundare FSE+ asumate în cererea de finanțare:
-• Tema 10 – Abordarea provocărilor identificate în cadrul semestrului european: proiectul răspunde recomandării privind reducerea părăsirii timpurii a școlii, inclusiv în rândul elevilor romi și al celor din mediul rural (Programul Național de Reformă, capitolul „Educație și competențe”). În perioada de raportare au fost identificați 169 de elevi în risc sau din medii defavorizate și au început consilierea psihologică, programele remediale și campania de informare și conștientizare.
-• Tema 05 – Nediscriminare: au fost aplicate criteriile de prioritizare pentru elevii romi și pentru elevii cu dizabilități, iar recrutarea a vizat elevi din grupuri vulnerabile și din mediul rural; măsurile directe de sprijin (sprijin financiar pentru cazare, masă și transport și masă caldă), în valoare de 1.464.000,00 lei, vor fi acordate începând din perioada următoare.
-• Integrarea perspectivei de gen: activitățile de consiliere și informare au abordat alegerea traseului educațional fără stereotipuri de gen (detalii la 15.1.1).
-''')
+for _lab, _txt in SECTIUNE_CAMPURI('15_principii_orizontale.txt'):
+    FIELD(_lab, L_LUNG, _txt)
+FLAG('Principii orizontale: structura echipei 10 F / 2 B – de verificat; fete/băieți 38/58 calculat din CNP-urile celor 96 intrați în operațiune (registru 08.10); numărul elevilor romi și al celor cu dizabilități/CES nu există centralizat – se completează din dosare. '
+     'Codul de etică, DNSH în materialele campaniei și în formare – se păstrează numai dacă există dovezi; altfel se reformulează la viitor.')
 
 # ------------------------------------------------------------------------------ 16
 SECT('16. Stadiul implementării recomandărilor din vizite / RP anterioare')
