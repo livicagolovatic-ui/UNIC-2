@@ -203,7 +203,7 @@ H3('SA3.1 – Derularea activităților de informare și publicitate')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA3.1_informare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
 FLAG('Facebook: fără autentificare se vede doar ultima postare (29.09.2026) și numărul de urmăritori (588 la 07.10.2026); se completează numărul postărilor pe luni, temele și data creării paginii, '
-     'iar capturile se inserează în „SA 3.1_07-09.2026_Informare și Publicitate.docx” (livrabile/). Data publicării anunțului de începere: între 02.07 și 30.07.2026 (ultima actualizare a subpaginii) – de confirmat. '
+     'iar capturile (Facebook și Instagram) se inserează în documentele lunare „SA 3.1_07/08/09.2026_Informare și Publicitate.docx” (livrabile/). Contul de Instagram: handle-ul nu a putut fi identificat (Instagram blochează accesul fără autentificare); fotografiile afișului A3 (sediu + școli) sunt în calculatorul MP, nu în Drive. Data publicării anunțului de începere: între 02.07 și 30.07.2026 (ultima actualizare a subpaginii) – de confirmat. '
      'ATENȚIE: flyerul pentru școli (flyer_UNIC_352704_scoli_fata_verso.pdf) are în antet „Programul Operațional Incluziune și Demnitate Socială (POIDS)” în loc de PEO – '
      'se corectează înainte de orice nouă distribuire și se decide dacă versiunea distribuită se include la RP1. Subpagina site: „intensitate intervenție 100%” de verificat față de contract (FSE+ 85% + buget național 15%).')
 
