@@ -96,7 +96,7 @@ TBL([
      'Capturi de ecran cu data și URL pentru subpagină și pentru fiecare postare de pe Facebook din iul.–sept.; fotografiile afișelor și autocolantelor. '
      'Pe subpagină de corectat: „Cofinanțare UE: … intensitate 100%” → valoarea cofinanțării UE (5.879.540,52 lei FSE+, 85%); „acordarea de subvenții” → masă caldă (după AA1).'],
     ['4', '**Documente de resurse umane:** RA septembrie Expert GT 1 există doar în folderul „vechi – 07.10” (versiunea finală de confirmat); RA + livrabile FC2 încărcate la 07.10 (pontaj de verificat); '
-          'lipsesc pontajele RF iulie–august (Dumitrescu); pontajele MP doar ca Google Sheet, nesemnate; Facilitatorul comunitar 1 fără niciun document.',
+          'lipsesc pontajele RF iulie–august (Dumitrescu); pontajele MP doar ca Google Sheet, nesemnate; Facilitatorul comunitar 1 (Notificarea nr. 1) nu a fost angajat încă.',
      'Completare și semnare. Fără ele, experții nu pot fi trecuți la pct. 12 și în Anexa 13 (care trebuie să fie identice).'],
     ['5', '**Pontajul MP din septembrie arată 8 h/zi în UNIC** și ore în proiectul PIDS 329335; bugetul UNIC este de 93 h/lună pentru MP.',
      'Pontajul trebuie să reflecte orele efective în limita bugetului și maximum 12 h/zi și 60 h/săptămână, cumulat PEO+PIDS (Anexa 8).'],
@@ -218,7 +218,7 @@ FLAG('Cifre GT la 30.09.2026 – două surse: registrul GT (actualizat 08.10): 9
 H3('SA4.2 – Identificarea elevilor în risc de abandon școlar sau de părăsire timpurie a școlii')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.2_identificare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Fraza despre MATE se păstrează numai dacă școlile au transmis fișele MATE (în baza de date coloana „MATE existent” este goală). LTR clasa IX D: 22 elevi în situația clasei, 19 cu dosar – R15 folosește 22 (identificați).')
+FLAG('MATE: școlile nu au introdus elevii în mecanism – textul o spune explicit. LTR clasa IX D: 22 elevi în situația clasei, 19 cu dosar – R15 folosește 22 (identificați).')
 
 H3('SA5.1 – Măsuri de facilitare a accesului și de prevenire a părăsirii timpurii a școlii (8.f.1)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.1_sprijin.txt'):
@@ -235,7 +235,7 @@ H3('SA5.3 – Dezvoltarea de programe de informare și conștientizare (8.f.2)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.3_informare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
 FLAG('Cifre SA5.3: RA Expert comunicare (corectat 06.10): 23 elevi / 46 participări (15.09: 11; 16.09: 12; 28.09: 7; 29.09: 4; 30.09: 12). RA FC2: 21 elevi (6 + 15); registrul GT consemnează 27 elevi la ateliere (include 02.10). '
-     'Elevi unici 8.f.2 intrați în operațiune: 34 la 30.09 (registru). Facilitatorul comunitar 1 (Sotnic, Notificarea nr. 1) nu are RA/pontaj – OM va cere explicații; fraza galbenă se completează sau se scoate.')
+     'Elevi unici 8.f.2 intrați în operațiune: 34 la 30.09 (registru). Facilitatorul comunitar 1 (Sotnic, Notificarea nr. 1) nu a fost angajat – textul spune asta explicit; OM poate întreba de ce a fost notificat înainte de angajare.')
 
 H3('SA5.4 – Dezvoltarea și furnizarea de programe remediale (8.f.3)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.4_remediale.txt'):
@@ -468,7 +468,7 @@ SECT('15. Principii orizontale și teme secundare')
 for _lab, _txt in SECTIUNE_CAMPURI('15_principii_orizontale.txt'):
     FIELD(_lab, L_LUNG, _txt)
 FLAG('Principii orizontale: structura echipei 10 F / 2 B – de verificat; fete/băieți 38/58 calculat din CNP-urile celor 96 intrați în operațiune (registru 08.10); numărul elevilor romi și al celor cu dizabilități/CES nu există centralizat – se completează din dosare. '
-     'Codul de etică, DNSH în materialele campaniei și în formare – se păstrează numai dacă există dovezi; altfel se reformulează la viitor.')
+     'Codul de etică: neasumat încă – formulat la viitor (RP2). DNSH în materialele campaniei și în formare – se păstrează numai dacă există dovezi; altfel se reformulează la viitor. Etnia romă: niciun registru/bază de date din Drive nu are coloană de etnie – se numără din Anexa 2 (formularele de înregistrare).')
 
 # ------------------------------------------------------------------------------ 16
 SECT('16. Stadiul implementării recomandărilor din vizite / RP anterioare')
