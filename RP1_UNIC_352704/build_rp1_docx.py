@@ -228,7 +228,8 @@ FLAG('Elevi la consiliere: RA consilier 16, registru și dosare individuale 17; 
 H3('SA5.2 – Formarea personalului didactic din ÎPT, inclusiv dual (8.f.1)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.2_formare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Cele 4 cadre didactice din GT sunt aceleași persoane cu Cadrele didactice 1–4 angajate în proiect (dosare GT și formulare MySMIS semnate la 06–07.10.2026, după perioada de raportare). Dubla calitate se clarifică cu OI înainte de raportarea la indicator; '
+FLAG('Ordinul de începere este nr. 2026082809/28.08.2026 (semnat electronic de ambele părți la 28.08), nu 08.09 cum apărea în RA; a fost transmis prestatorului la 04.09.2026. Sesiunile sincrone din calendar: 10.09 (4h), 15.09 (2h), 16.09 (3h), 17.09 (3h); capturi există doar pentru 10, 15 și 16.09. '
+     'Cele 4 cadre didactice din GT sunt aceleași persoane cu Cadrele didactice 1–4 angajate în proiect (dosare GT și formulare MySMIS semnate la 06–07.10.2026, după perioada de raportare). Dubla calitate se clarifică cu OI înainte de raportarea la indicator; '
      'formularele de înregistrare ale cadrelor didactice nu pot fi raportate la RP1 dacă sunt semnate în octombrie.')
 
 H3('SA5.3 – Dezvoltarea de programe de informare și conștientizare (8.f.2)')
@@ -569,6 +570,7 @@ TBL([
     ['SA 2.1_1. Achiziție echipamente IT_încetat.pdf · SA 2.1_2. Achiziție servicii formare.pdf · SA 2.1_4. Achiziție închiriere autoturism.pdf · SA 2.1_5. Achiziție echipamente IT_reluată.pdf',
      'Document aferent implementării contractelor de achiziție', 'Contract, ordin de începere, PV predare-primire/recepție, factură.'],
     ['SA 3.1_07-09.2026_Informare și publicitate.pdf', 'Document informare și publicitate', 'Link-uri + capturi cu data și URL; fotografiile afișelor; flyere; autocolante.'],
+    ['SA 5.2_09.2026_Formarea cadrelor didactice.pdf', 'Document aferent grupului țintă', 'Fișa activității, contract + ordin de începere, acreditare, calendar, e-mail debut, capturi Meet (10/15/16.09), raport participare, corespondență (generat din livrabile/).'],
     ['Acord de colaborare_Liceul Teologic Reformat Cluj-Napoca_09.09.2026.pdf', 'Alte documente', 'Partener asociat nou (Anexa 7 GSCS).'],
     ['Registrul grup țintă', '—', '**Nu se încarcă** – se generează automat din MySMIS2021 (MB, Anexa 11 pct. 1 lit. d).'],
 ], widths=[6.6, 3.8, 6.6])

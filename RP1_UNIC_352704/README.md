@@ -19,3 +19,7 @@ Toate documentele proiectului se generează pe șabloanele primite de la Manager
 Antetul: titlul proiectului + „Proiect cofinanțat din Fondul Social European Plus prin Programul
 Educație și Ocupare 2021-2027 | Cod MySMIS 352704”, cu siglele UE, Guvern, GAL și UNIC; subsolul cu bandă grafică.
 `rp1_engine.py` și `build_sa31_doc.py` pornesc din șablonul portret (marginile și antetul rămân cele din șablon).
+
+## Documentul justificativ SA5.2 (formarea cadrelor didactice)
+
+`build_sa52_doc.py` generează `livrabile/SA 5.2_09.2026_Formarea cadrelor didactice.docx` pe șablonul portret: fișa activității, recrutarea cadrelor didactice și identificarea furnizorului, contractul + ordinul de începere + transmiterea lor, acreditarea și calendarul, e-mailul de debut și suportul de curs, o selecție de 24 de capturi din sesiunile Google Meet (10, 15, 16.09.2026), raportul de participare din 10.09, corespondența și etapele următoare. Imaginile comprimate sunt în `livrabile/sa52_img/` (capturile originale, 48 de fișiere, și înregistrarea video rămân în Drive, folderul „Desfățurare curs”).
