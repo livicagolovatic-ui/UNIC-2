@@ -1,0 +1,30 @@
+{
+  "skill_name": "facilitator-comunitar-unic",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Pe 12 octombrie 2026, între 11:00 și 12:00, am o sesiune SA5.3 la Colegiul Tehnic Turda, Structura Poiana, cu 3 elevi de clasa a IX-a de la învățământul profesional. Tema: „Ce meserie mi se potrivește? – interesele mele și meseriile din zonă”. Pregătește-mi scenariul complet, fișele de lucru pentru elevi și documentul justificativ pentru orele mele de facilitator comunitar 2.",
+      "expected_output": "Un document Word pe antetul UNIC cu fișa activității (justificativ corelat cu fișa postului), scenariu de 60 de minute adaptat unui grup de 3 elevi de ÎPT, fișe tipăribile, raport de desfășurare, listă de prezență; fără date inventate.",
+      "files": [
+        "/home/user/UNIC-2/skills/facilitator-comunitar-unic-workspace/inputs/Antet_UNIC.docx"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Fă-mi raportul lunar de activitate pentru octombrie 2026, ca facilitator comunitar 2, pe baza planificării din Anexa 12 atașată. Încă nu am pontajul final.",
+      "expected_output": "Raport lunar pe antet cu toate cele 6 sesiuni FC2 din Anexa 12 (02.10, 09.10 x2, 12.10, 29.10 x2), activități fără GT, legătura cu atribuțiile, câmpuri goale pentru ore/prezențe reale, semnalarea neconcordanțelor (40 min, GT, suprapunere 29.10).",
+      "files": [
+        "/home/user/UNIC-2/skills/facilitator-comunitar-unic-workspace/inputs/Anexa_12_Planificare_octombrie_2026_V2.docx",
+        "/home/user/UNIC-2/skills/facilitator-comunitar-unic-workspace/inputs/Antet_UNIC.docx"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Organizăm la Huedin un atelier pentru părinții elevilor din clasele a VII-a și a VIII-a, pe 5 noiembrie 2026, între 17:00 și 18:30, cu tema „Cum îmi sprijin copilul să rămână motivat la școală”. Am nevoie de invitația pentru părinți (și o variantă scurtă pentru WhatsApp), agenda, lista de prezență și fișa de feedback.",
+      "expected_output": "Documente pe antet: invitație caldă fără jargon + text WhatsApp scurt, agendă de 90 min interactivă, listă de prezență pentru părinți (rânduri goale, GDPR), fișă de feedback pentru părinți.",
+      "files": [
+        "/home/user/UNIC-2/skills/facilitator-comunitar-unic-workspace/inputs/Antet_UNIC.docx"
+      ]
+    }
+  ]
+}
