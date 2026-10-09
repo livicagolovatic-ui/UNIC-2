@@ -25,6 +25,11 @@ def has_header_logo(path):
     return any('<w:drawing' in z.read(h).decode('utf8') or '<v:imagedata' in z.read(h).decode('utf8') for h in hdrs) and bool(big)
 
 
+def is_a4(path):
+    x = zipfile.ZipFile(path).read('word/document.xml').decode('utf8')
+    sizes = re.findall(r'<w:pgSz[^>]*w:w="(\d+)"', x)
+    return bool(sizes) and all(abs(int(w) - 11906) < 60 for w in sizes)
+
 docs = [p for p in glob.glob(os.path.join(out_dir, '*.docx'))]
 xlsx = [p for p in glob.glob(os.path.join(out_dir, '*.xlsx'))]
 reply = open(os.path.join(out_dir, 'REPLY.md')).read() if os.path.exists(os.path.join(out_dir, 'REPLY.md')) else ''
@@ -50,6 +55,9 @@ a('Antetul UNIC (imagine în header) apare în toate documentele Word', docs and
   'cu antet: %s din %d' % (logo, len(docs)))
 ced = [c for c in 'şţŞŢ' if c in alltext + reply]
 a('Diacritice corecte (fără ş/ţ cu sedilă)', not ced, 'caractere cu sedilă găsite: %s' % ced if ced else 'niciun caracter cu sedilă')
+a4 = [os.path.basename(d) for d in docs if is_a4(d)]
+a('Format de pagină A4 (standard în România) pentru toate documentele', docs and len(a4) == len(docs), 'A4: %d din %d' % (len(a4), len(docs)))
+a('Numele expertului (Golovatic Livia) este completat', 'golovatic' in low, 'apare: %s' % ('golovatic' in low))
 a('Răspunsul către utilizator (REPLY.md) există', bool(reply.strip()), '%d caractere' % len(reply))
 
 if ev == 'sesiune-turda-orientare':

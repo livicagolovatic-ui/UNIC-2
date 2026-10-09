@@ -1,6 +1,6 @@
 # Proiectul UNIC – date de referință
 
-Informațiile provin din documentele proiectului furnizate de utilizator (Anexa 12 – Planificare octombrie 2026 V2,
+Datele **stabile** ale proiectului (identificare, subactivități, roluri) sunt mai jos. Informațiile provin din documentele proiectului furnizate de utilizator (Anexa 12 – Planificare octombrie 2026 V2,
 fișa postului, antetul). Proiectul nu are o prezență publică online care să poată fi verificată; când un document nou
 contrazice datele de aici, documentul nou are prioritate – semnalează diferența utilizatorului.
 
@@ -35,7 +35,7 @@ Activitățile FC2 se încadrează în **SA5.3**. Atelierele pentru părinți, t
 economici (atribuțiile 8–10) pot ține de alte subactivități – dacă utilizatorul nu precizează codul, lasă câmpul de
 completat și menționează-l, în loc să ghicești.
 
-## Unități de învățământ / locații
+## Unități de învățământ / locații (cunoscute până în octombrie 2026 – lista se poate extinde)
 
 | Unitate | Adresă | Grup țintă tipic |
 |---|---|---|
@@ -44,7 +44,7 @@ completat și menționează-l, în loc să ghicești.
 | Liceul Tehnologic „Vlădeasa” Huedin | Piața Republicii nr. 39–42, Huedin | elevi de gimnaziu (clasele VII–VIII) |
 | Liceul Teologic Reformat Cluj-Napoca | str. Câmpeni nr. 4, Cluj-Napoca | elevi, cadre didactice |
 
-## Echipa (roluri relevante pentru FC2)
+## Echipa (roluri relevante pentru FC2; persoanele se pot schimba – verifică în Anexa 12 curentă)
 
 - **Manager de proiect** – superior direct; avizează documentele FC2.
 - **Expert comunicare** (Moraru Georgia) – primește de la FC2 materiale foto-video și sinteze (doar cu acorduri verificate).
@@ -63,8 +63,9 @@ Consecințe pentru documentele FC2:
 - dacă numărul real de participanți diferă de GT declarat, semnalează nevoia unei versiuni noi a Anexei 12;
 - dacă același interval apare la doi experți, semnalează riscul de dublă raportare (atribuția 19).
 
-Programarea FC2 cunoscută (octombrie 2026, SA5.3): 02.10 și 12.10, 11:00–12:00 – CT Turda, Structura Poiana;
-09.10, 10:15–10:55 și 11:55–12:55 – Liceul „Vlădeasa” Huedin; 29.10, 11:00–12:00 și 12:00–13:00 – Huedin.
+Programarea concretă a FC2 **se schimbă lunar** și nu se păstrează aici ca adevăr: o citești de fiecare dată din Anexa 12
+a lunii curente (cu `scripts/extrage_anexa12.py`) sau din ce îți spune utilizatorul. Lunile anterioare sunt doar istoric,
+în `istoric-activitati.md`.
 
 ## Materiale deja realizate (pot fi refolosite / adaptate)
 

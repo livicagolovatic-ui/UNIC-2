@@ -66,6 +66,8 @@ Subactivitate | Locație | Activitatea realizată | Atribuția (nr.) | GT (nr. p
 justificative · activități fără grup țintă (planificare, pregătire materiale, ședințe de echipă, raportare, arhivare) ·
 total ore (trebuie să coincidă cu pontajul) · rezultate / livrabile ale lunii · dificultăți și propuneri · semnături
 (FC2, Avizat manager). Preia programarea din Anexa 12; pentru ce nu știi (prezențe, ore efective) lasă câmpuri goale.
+Compară datele sesiunilor cu data de azi: sesiunile care nu au avut loc încă apar ca **planificate** (coloana „Realizat” goală),
+nu ca realizate – raportul se finalizează după ultima zi a lunii.
 Un Excel de lucru (o foaie pe activitate + totaluri cu formule) e util când utilizatorul vrea să țină evidența pe parcursul lunii.
 
 ## 8. Sinteză pentru Expertul comunicare (atr. 6–7)
