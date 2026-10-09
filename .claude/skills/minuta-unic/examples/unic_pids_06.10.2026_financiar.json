@@ -1,0 +1,37 @@
+{
+  "proiect": "UNIC",
+  "tip": "financiar",
+  "data": "06.10.2026",
+  "ora_inceput": "09:30",
+  "ora_sfarsit": "10:00",
+  "modalitate": "Online, platforma Zoom",
+  "scop": "Analizarea situației financiare curente a proiectului și stabilirea aspectelor privind depunerea Cererii de rambursare aferente lunilor august-octombrie 2026, precum și discutarea stadiului Cererii de rambursare nr. 12, aferentă lunilor iunie-iulie 2026.",
+  "participanti": [
+    "Fătu Iulia – Asistent manager B",
+    "Miron Gabriela-Monica – Responsabil Financiar P",
+    "Fekete Dorottya – Responsabil Financiar B"
+  ],
+  "introducere": "Întâlnirea a avut ca scop analizarea situației financiare curente a proiectului, coordonarea depunerii următoarei cereri de rambursare și clarificarea stadiului Cererii de rambursare nr. 12, aflată în evaluare la OIR.",
+  "puncte": [
+    {
+      "titlu": "Depunerea Cererii de rambursare aferente lunilor august-octombrie 2026",
+      "paragrafe": [
+        "S-a discutat despre pregătirea și depunerea Cererii de rambursare aferente lunilor august-octombrie 2026, care va fi realizată împreună cu partenerul Primăria Măguri-Răcătău. A fost analizată necesitatea corelării documentelor financiare ale beneficiarului și partenerului, astfel încât cererea să reflecte în mod complet și corect cheltuielile eligibile aferente perioadei raportate."
+      ]
+    },
+    {
+      "titlu": "Situația financiară curentă",
+      "paragrafe": [
+        "S-a precizat faptul că Primăria Măguri-Răcătău nu este condiționată de prefinanțare pentru includerea cheltuielilor în această cerere de rambursare. Totodată, s-a menționat că, prin depunerea acestei cereri de rambursare, liderul de parteneriat, Asociația GAL Napoca Porolissum, își îndeplinește procentul financiar aferent perioadei de implementare."
+      ]
+    },
+    {
+      "titlu": "Stadiul Cererii de rambursare nr. 12",
+      "paragrafe": [
+        "În cadrul întâlnirii s-a discutat și despre Cererea de rambursare nr. 12, aferentă lunilor iunie-iulie 2026, pentru care au fost primite clarificări. S-a menționat că această cerere se află în evaluare la OIR, iar clarificările sunt în curs de soluționare, în vederea continuării procesului de verificare și aprobare."
+      ]
+    }
+  ],
+  "semnaturi": true,
+  "poze": []
+}
