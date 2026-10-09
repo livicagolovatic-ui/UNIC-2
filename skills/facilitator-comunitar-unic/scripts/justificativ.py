@@ -224,3 +224,81 @@ def lista_prezenta(D, titlu_activitate, coloane=None, randuri=20, subactivitate=
     para(t.cell(0, 1), 'Confirmat, reprezentant unitate / partener', 10, True, after=0)
     field(t.cell(0, 1), [('Nume:', 8.0)], 10, before=6)
     field(t.cell(0, 1), [('Semnătura / ștampila:', 8.0)], 10, before=10)
+
+
+# ---------------------------------------------------------------- Anexa 10 – raport lunar oficial
+PROGRAM_PEO = ('FSE+ / Programul Educație și Ocupare (PEO) 2021-2027, P8, ESO4.6 – apel PEO/648/PEO_P8/OP4/ESO4.6/PEO_A68_C '
+               '„O șansă în plus prin învățământul profesional și tehnic – regiuni mai puțin dezvoltate” (acțiuni 8.f.1, 8.f.2, 8.f.3)')
+BENEFICIAR_MAJ = 'ASOCIAȚIA GRUPUL DE ACȚIUNE LOCALĂ NAPOCA POROLISSUM'
+CONTRACT = 'contract individual de muncă nr. 380/31.08.2026, valabil până la 01.06.2029'
+CATEGORIE = 'Experiență < 5 ani'
+
+
+def raport_anexa10(D, luna_an, randuri, detaliere, probleme=None, ore_total=None):
+    """Raportul lunar de activitate în formatul oficial Anexa 10 (Manualul Beneficiarului PEO/PIDS).
+    luna_an: ex. 'octombrie 2026'.
+    randuri: listă de dict cu cheile activitate, responsabilitati (listă de '- …'), prestata (listă), rezultate (listă),
+             comun ('Da'/'Nu'), ore (text; '' = de completat conform pontajului).
+    detaliere: listă de paragrafe (persoana I, cronologic). probleme: text sau None (→ „nu au fost întâmpinate…”).
+    Nu inventa ore sau participanți: lasă '' acolo unde datele nu sunt cunoscute."""
+    para(D.d, 'ANEXA 10 – Raport de activitate', 9, italic=True, color=C['grey'], align='right', after=2)
+    para(D.d, 'Raport de Activitate', 16, True, color=C['purple'], align='center', after=0)
+    para(D.d, luna_an, 12, True, align='center', after=6)
+    _kv_table(D, [('Program', PROGRAM_PEO), ('Codul proiectului', '352704'),
+                  ('Titlul proiectului', 'UNIC – „Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor”'),
+                  ('Beneficiar', BENEFICIAR_MAJ), ('Numele expertului', NUME), ('Poziția în cadrul proiectului', POZITIE),
+                  ('Nr. și tipul contractului', CONTRACT), ('Categorie expert', CATEGORIE)], w_label=4.6)
+    sec(D, '1. Prezentare succintă a activității prestate în perioada de raportare')
+    rows = []
+    for i, r in enumerate(randuri, start=1):
+        rows.append([str(i) + '.', r['activitate'], r['responsabilitati'], r['prestata'], r['rezultate'],
+                     r.get('comun', 'Nu'), r.get('ore', '')])
+    if ore_total is not None:
+        rows.append(['', 'TOTAL', '', '', '', '', ore_total])
+    t = D.simple_table(['Nr. crt.', 'Nr. / titlul activității conform cererii de finanțare',
+                        'Responsabilități și sarcini conform contractului / fișei postului', 'Activitate prestată',
+                        'Rezultate obținute / documente justificative / livrabile',
+                        'Livrabil comun cu alți experți (Da/Nu)', 'Nr. ore lucrate'],
+                       rows, [1.0, 2.4, 4.0, 3.6, 3.6, 1.3, 1.1], size=8, zebra=False)
+    for r in t.rows[1:]:
+        for c in r.cells[5:]:
+            c.paragraphs[0].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    sec(D, '2. Detalierea activităților realizate și a rezultatelor obținute')
+    for x in detaliere:
+        para(D.d, x, 10, align='justify', after=5)
+    sec(D, '3. Întârzieri / probleme întâmpinate în realizarea sarcinilor specifice')
+    para(D.d, probleme or 'Nu au fost întâmpinate întârzieri sau probleme de natură să afecteze realizarea sarcinilor '
+                          'planificate pentru luna de raportare.', 10, align='justify', after=10)
+    t = table(D.d, 1, 2, [8.5, 8.5], lr=0.2, tb=0.1)
+    row_setup(t.rows[0])
+    para(t.cell(0, 0), 'Numele expertului: ' + NUME, 10, True, after=0)
+    field(t.cell(0, 0), [('Data:', 7.5)], 10, before=10)
+    field(t.cell(0, 1), [('Semnătură:', 8.0)], 10, before=6)
+
+
+def minuta_activitate(D, titlu, data='', interval='', loc='', participanti='', subactivitate=SUBACT,
+                      desfasurare=None, rezultate=None, observatii=None):
+    """Minută de activitate pentru o activitate de teren (document justificativ folosit lunar de FC2).
+    Câmpurile goale devin linii de completat. desfasurare/rezultate/observatii: liste de paragrafe sau '- bullet'."""
+    para(D.d, 'MINUTĂ DE ACTIVITATE', 15, True, color=C['purple'], align='center', after=0)
+    para(D.d, titlu, 11, True, align='center', after=6)
+    _kv_table(D, [('Proiect / subactivitate', '%s – cod SMIS 352704 • %s' % (PROIECT, subactivitate)),
+                  ('Data', data), ('Interval orar', interval), ('Locația', loc),
+                  ('Participanți', participanti), ('Expert responsabil', '%s – %s' % (POZITIE, NUME))])
+    for title, items, n in (('Desfășurarea activității', desfasurare, 6), ('Rezultate', rezultate, 3),
+                            ('Observații și direcții pentru activitățile următoare', observatii, 3)):
+        sec(D, title)
+        if items:
+            for x in items:
+                (bullet(D.d, x[2:], 10) if x.startswith('- ') else para(D.d, x, 10, align='justify', after=4))
+        else:
+            lines(D.d, n, CONTENT_W, 10, before=10)
+    sec(D, 'Documente anexate')
+    checkbox_grid(D.d, ['listă de prezență', 'documentare foto (cu acorduri verificate)', 'instrumente completate de participanți',
+                        'materiale de lucru', 'alte documente: ____________'], 3, CONTENT_W, 9.5)
+    spacer(D.d, 8)
+    t = table(D.d, 1, 2, [8.5, 8.5], lr=0.2, tb=0.1)
+    para(t.cell(0, 0), 'Întocmit, ' + POZITIE, 10, True, after=0)
+    para(t.cell(0, 0), NUME, 10, after=0)
+    field(t.cell(0, 0), [('Semnătura:', 7.5)], 10, before=10)
+    field(t.cell(0, 1), [('Data:', 8.0)], 10, before=6)

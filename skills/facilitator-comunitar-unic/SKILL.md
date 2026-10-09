@@ -15,7 +15,10 @@ care funcționează cu adolescenți reali și documente justificative care rezis
 **Stabil (păstrează-l mereu, indiferent de lună):** identitatea expertului – **Golovatic Livia, Facilitator comunitar 2** –,
 rolul și atribuțiile din fișa postului, abordarea (facilitezi participarea, organizezi și documentezi; nu consiliezi, nu
 predai, nu angajezi organizația), structura documentelor justificative, antetul, regulile de protecție a copilului și GDPR,
-stilul materialelor pentru elevi și părinți.
+stilul materialelor pentru elevi și părinți. La fel de stabil este cadrul din cererea de finanțare: FC2 lucrează în **SA5.3** (OS4, acțiunea 8.f.2),
+împreună cu FC1 și Expertul comunicare, pentru **Rezultatul 18** (96 de părinți) și **Rezultatul 19** (104 elevi, minimum 53
+din clasele VII–VIII, restul din ÎPT), cu o normă medie de **84 de ore pe lună**; componentele sunt atelierele pentru părinți
+(~1/lună), târgurile de oportunități (≥1/an școlar), vizitele la operatori economici (fiecare elev ≥1) și sprijinul pentru campania media.
 
 **Se schimbă lunar (nu-l presupune, citește-l de fiecare dată):** sesiunile din teren – date, intervale, unități de
 învățământ, grupuri și numărul de elevi, teme, subactivități, colegii din echipă cu care se suprapun activitățile. Sursa de
@@ -26,13 +29,18 @@ de utilizator și lasă restul de completat.
 
 ## Ciclul lunar al facilitatorului
 
-1. **La început de lună / la o versiune nouă a Anexei 12**: rulează `python3 scripts/extrage_anexa12.py <Anexa12.docx>`
+1. **La început de lună / la o versiune nouă a Anexei 12**: găsește Anexa 12 în vigoare (de la utilizator sau, dacă ai acces la
+   Google Drive, în „PEO-UNIC 2 / 3. IMPLEMENTARE / 3. Anexa 12 / <LUNA>” – ultima versiune V<n>), apoi rulează
+   `python3 scripts/extrage_anexa12.py <Anexa12.docx>`
    (rezolvă celulele îmbinate și semnalează sesiunile scurte, suprapunerile cu alți experți și datele incoerente). Propune
    tematica și materialele pentru fiecare sesiune, ținând cont de continuitatea cu grupurile din luna trecută; la nevoie,
-   un Excel de planificare (sesiuni, grupe, tematici, prezențe) și lista neconcordanțelor de transmis managerului.
+   un Excel de planificare (sesiuni, grupe, tematici, prezențe), **Planul lunar de activitate** și lista neconcordanțelor de
+   transmis managerului (Anexa 12 se depune până pe 25 ale lunii anterioare; modificările – cu cel puțin o zi înainte).
 2. **Înainte de fiecare sesiune**: pachetul standard (fișa activității + scenariu + raport de desfășurare + anexe), invitații.
-3. **După fiecare sesiune**: sinteza pentru Expertul comunicare, centralizarea feedbackului.
-4. **La final de lună**: raportul lunar de activitate corelat cu pontajul, opisul dosarului și o intrare nouă în
+3. **După fiecare sesiune**: **minuta de activitate** (`minuta_activitate`), sinteza pentru Expertul comunicare, centralizarea
+   feedbackului / instrumentelor.
+4. **La final de lună**: **raportul lunar în formatul oficial Anexa 10** (`raport_anexa10`), corelat cu fișa de pontaj
+   (Anexa 8; în medie 84 h/lună, max. 12 h/zi și 60 h/săptămână), dosarul lunar și opisul, apoi o intrare nouă în
    `references/istoric-activitati.md` (dacă utilizatorul vrea să actualizeze skill-ul).
 
 ## Ce citești, și când
@@ -43,6 +51,8 @@ de utilizator și lasă restul de completat.
 | `references/proiect-unic.md` | ai nevoie de date de identificare, subactivități, locații, echipă, regulile Anexei 12 |
 | `references/documente-justificative.md` | produci orice document de dosar: fișa activității, raport, listă de prezență, feedback, raport lunar, sinteză, invitație, opis |
 | `references/materiale-interactive.md` | proiectezi o sesiune, un atelier sau fișe / cartonașe pentru elevi sau părinți |
+| `references/cerere-finantare-sa53.md` | ai nevoie de ce prevede cererea de finanțare: OS4, rezultatele 18 (96 părinți) și 19 (104 elevi), componentele SA5.3 (ateliere părinți, târguri, vizite, campanie), norma de 84 h/lună |
+| `references/drive-si-raportare-peo.md` | cauți documente în Google Drive (Anexa 12 a lunii, rapoarte, Manualul beneficiarului) sau faci raportul lunar Anexa 10 / pontajul; regulile PEO (25 ale lunii, vizite ad-hoc, 12 h/zi) |
 | `references/istoric-activitati.md` | ai nevoie de continuitate cu lunile trecute (grupuri, teme, materiale existente) |
 | `references/ocupatia-cor-341204.md` | trebuie să justifici rolul, să delimitezi ce face / nu face FC2 sau utilizatorul întreabă de standardul ocupației |
 
@@ -94,7 +104,7 @@ Dacă cere doar o parte (ex. „doar lista de prezență”), fă doar acea part
 ```python
 import sys; sys.path.insert(0, '<calea skill-ului>/scripts')
 from lib_unic import *          # UnicDoc, para, bullet, lines, field, checkbox_grid, table, shade, cut_grid, C, CONTENT_W...
-from justificativ import *      # fisa_activitate, etape_fisa_post, metode, raport, lista_prezenta, sec, signatures
+from justificativ import *      # fisa_activitate, etape_fisa_post, metode, raport, lista_prezenta, raport_anexa10, minuta_activitate
 # Programarea lunii: python3 scripts/extrage_anexa12.py Anexa12.docx [--persoana "Facilitator comunitar 2"] [--json out.json]
 
 D = UnicDoc('Proiect UNIC – cod MySMIS 352704   |   <titlu scurt>   |   <ședința / luna>')   # footer + nr. pagină
@@ -112,6 +122,9 @@ raport(D, '12. Raport privind desfășurarea activității', ['O1 – …', 'O2 
 D.annex_title('ANEXA 1', 'FIȘA 1 – …'); field(D.d, [('Numele meu:', 10)]); lines(D.d, 3, CONTENT_W)
 checkbox_grid(D.d, ['opțiune', '…'], 3, CONTENT_W); cut_grid(D.d, 6, 2, 8.5, 7.0, fill_fn)   # fill_fn(cell, i)
 lista_prezenta(D, 'Atelier „…” – data', randuri=15)          # pagină nouă, rânduri goale
+raport_anexa10(D, 'octombrie 2026', [dict(activitate='S.A. 5.3. …', responsabilitati=['- …'], prestata=['- …'],
+               rezultate=['- …'], comun='Nu', ore='')], ['Detaliere la persoana I…'])   # raport lunar oficial
+minuta_activitate(D, 'Titlul activității', data='', interval='', loc='')             # câmpuri goale = de completat
 D.save('/cale/iesire.docx')
 ```
 

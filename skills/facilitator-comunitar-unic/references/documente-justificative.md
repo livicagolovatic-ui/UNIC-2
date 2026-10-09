@@ -59,16 +59,25 @@ Scurtă (o jumătate de pagină), anonimă pentru elevi: 4–5 afirmații pe sca
 „un cuvânt”. Pentru părinți: utilitatea temei, claritatea, ce ar mai dori să afle, disponibilitatea pentru alte întâlniri.
 Rezultatele se centralizează (atr. 5–6) și intră în raport.
 
-## 7. Raport lunar de activitate (atr. 12)
+## 7. Raport lunar de activitate (atr. 12) – formatul oficial Anexa 10
 
-Structură: date de identificare (proiect, cod, poziție, nume, luna) · tabel cu activitățile lunii: Nr. | Data | Interval |
-Subactivitate | Locație | Activitatea realizată | Atribuția (nr.) | GT (nr. participanți – din liste) | Ore | Documente
-justificative · activități fără grup țintă (planificare, pregătire materiale, ședințe de echipă, raportare, arhivare) ·
-total ore (trebuie să coincidă cu pontajul) · rezultate / livrabile ale lunii · dificultăți și propuneri · semnături
-(FC2, Avizat manager). Preia programarea din Anexa 12; pentru ce nu știi (prezențe, ore efective) lasă câmpuri goale.
-Compară datele sesiunilor cu data de azi: sesiunile care nu au avut loc încă apar ca **planificate** (coloana „Realizat” goală),
-nu ca realizate – raportul se finalizează după ultima zi a lunii.
-Un Excel de lucru (o foaie pe activitate + totaluri cu formule) e util când utilizatorul vrea să țină evidența pe parcursul lunii.
+Raportul lunar se face **în formatul Anexa 10 din Manualul Beneficiarului** (structura și datele fixe sunt în
+`drive-si-raportare-peo.md`; generatorul este `justificativ.raport_anexa10()`), însoțit de **fișa de pontaj (Anexa 8)** și de
+documentele justificative. Tabelul 1 are de regulă un rând pe subactivitate (SA5.3), cu responsabilitățile din fișa postului,
+activitățile prestate, rezultatele / livrabilele (documente concrete: plan lunar, minute, liste de prezență, instrumente,
+centralizatoare, analize, dosar lunar) și orele lucrate (norma medie: 84 de ore pe lună, conform cererii de finanțare; cifra
+reală vine din pontaj). Detalierea se scrie la persoana I, cronologic, cu date, locuri, intervale, număr de participanți (pe
+clase) și „Rezultate: …” după fiecare acțiune, apoi contribuția la rezultatele 18/19 ale SA5.3.
+Preia programarea din Anexa 12; pentru ce nu știi (prezențe, ore efective) lasă câmpuri goale.
+Compară datele sesiunilor cu data de azi: sesiunile care nu au avut loc încă apar ca **planificate**, nu ca realizate –
+raportul se finalizează după ultima zi a lunii.
+Verifică încadrarea în **12 ore/zi și 60 de ore/săptămână** (cumulat PEO/PIDS).
+
+Documente care alimentează raportul (fă-le pe parcursul lunii): **Plan lunar de activitate** (fișa standard de planificare
+lunară, cu obiectivele fiecărei sesiuni, materialele și metodele) · **Minută de activitate** pentru fiecare activitate de teren
+(`justificativ.minuta_activitate()`) · liste de prezență · instrumentele aplicate · **centralizator nominal** al participanților
+(date personale – rămâne în dosarul proiectului) · analize / sinteze · minuta ședinței de echipă · **dosarul lunar**
+(`SA5.3_<LL.AAAA>_doc. act_Facilitator comunitar 2_Golovatic.pdf`).
 
 ## 8. Sinteză pentru Expertul comunicare (atr. 6–7)
 

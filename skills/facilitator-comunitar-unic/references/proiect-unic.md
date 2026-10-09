@@ -11,11 +11,14 @@ contrazice datele de aici, documentul nou are prioritate – semnalează diferen
 | Titlu | UNIC – „Uniți pentru Nevoile Incluzive și Continuitatea Educației Elevilor” |
 | Cod SMIS | 352704 |
 | Contract de finanțare | nr. 11205 / 16.06.2026 |
-| Program | Programul Educație și Ocupare (PEO) 2021–2027, cofinanțat de Uniunea Europeană |
+| Program | Programul Educație și Ocupare (PEO) 2021–2027, P8, ESO4.6, cofinanțat de Uniunea Europeană (FSE+) |
+| Apel | PEO/648/PEO_P8/OP4/ESO4.6/PEO_A68_C „O șansă în plus prin învățământul profesional și tehnic – regiuni mai puțin dezvoltate” (acțiuni 8.f.1, 8.f.2, 8.f.3) |
+| Perioada SA5.3 | 09.2026 – 06.2029 |
 | Beneficiar (Lider) | Asociația Grupul de Acțiune Locală (GAL) Napoca Porolissum |
 | Organism intermediar | OIR PECU NV (destinatarul Anexei 12) |
 | Manager de proiect | Baba Alina-Ioana |
 | Reprezentant legal | Dumitrescu Marius-Gheorghe |
+| Detalii complete din cererea de finanțare | `cerere-finantare-sa53.md`; localizarea documentelor în Drive: `drive-si-raportare-peo.md` |
 
 Antetul (logo UE „Cofinanțat de Uniunea Europeană”, stema Guvernului României, GAL Napoca Porolissum, UNIC Porolissum,
 titlul proiectului, „Proiect cofinanțat de Uniunea Europeană prin Programul Educație și Ocupare (PEO 2021-2027)”,
@@ -39,17 +42,23 @@ completat și menționează-l, în loc să ghicești.
 
 | Unitate | Adresă | Grup țintă tipic |
 |---|---|---|
-| Colegiul Tehnic Turda | str. Câmpiei nr. 51, Turda (și str. Basarabiei nr. 48) | elevi ÎPT |
-| Colegiul Tehnic Turda – Structura Poiana | str. Câmpiei nr. 51, Turda | elevi |
+| Colegiul Tehnic Turda | str. Câmpiei nr. 51, Turda (și str. Basarabiei nr. 48) | elevi ÎPT (ex. clasa a IX-a) |
+| Colegiul Tehnic Turda – Structura Poiana | str. Câmpiei nr. 51, Turda | elevi de gimnaziu (clasele VII–VIII) |
 | Liceul Tehnologic „Vlădeasa” Huedin | Piața Republicii nr. 39–42, Huedin | elevi de gimnaziu (clasele VII–VIII) |
 | Liceul Teologic Reformat Cluj-Napoca | str. Câmpeni nr. 4, Cluj-Napoca | elevi, cadre didactice |
 
-## Echipa (roluri relevante pentru FC2; persoanele se pot schimba – verifică în Anexa 12 curentă)
+## Echipa (persoanele se pot schimba – verifică în Anexa 12 curentă)
 
-- **Manager de proiect** – superior direct; avizează documentele FC2.
-- **Expert comunicare** (Moraru Georgia) – primește de la FC2 materiale foto-video și sinteze (doar cu acorduri verificate).
-- **Consilier psihologic** (SA5.1) – intervenții de consiliere; FC2 **nu** face consiliere psihologică, ci trimite către specialist.
-- **Cadre didactice** (SA5.4) – programe remediale.
+Conform cererii de finanțare și dosarelor de resurse umane (octombrie 2026):
+- **Manager de proiect** – Baba Alina-Ioana: superior direct; avizează documentele FC2; validează rezultatele SA5.3.
+- **Asistent manager** – Fătu Iulia: informare și publicitate (comunicate, site), **ofițer pentru protecția datelor**.
+- **Responsabil financiar** – Dumitrescu Marius-Gheorghe (și reprezentant legal), Fekete Dorottya.
+- **Expert GT 1 / Expert GT 2** – Iancu Ovidiu-Claudiu-Ionel / Suciu Denisa: selecția și evidența grupului țintă (registre, dosare,
+  MySMIS); la ei verifici apartenența unui elev la GT.
+- **Expert comunicare** – Moraru Georgia: campania media SA5.3; primește de la FC2 materiale foto-video și sinteze (cu acorduri).
+- **Facilitator comunitar 1** – colegul / colega din SA5.3, cu care FC2 împarte atelierele pentru părinți și târgurile.
+- **Consilier psihologic** – Gujan Gabriela (SA5.1): consiliere; FC2 **nu** face consiliere psihologică, ci trimite către specialist.
+- **Cadre didactice 1–4** (SA5.4) – programe remediale; verifică frecvența și rezultatele elevilor.
 
 ## Planificarea lunară (Anexa 12)
 
