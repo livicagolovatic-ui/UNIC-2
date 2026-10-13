@@ -23,3 +23,5 @@ Educație și Ocupare 2021-2027 | Cod MySMIS 352704”, cu siglele UE, Guvern, G
 ## Documentul justificativ SA5.2 (formarea cadrelor didactice)
 
 `build_sa52_doc.py` generează `livrabile/SA 5.2_09.2026_Formarea cadrelor didactice.docx` pe șablonul portret: fișa activității, recrutarea cadrelor didactice și identificarea furnizorului, contractul + ordinul de începere + transmiterea lor, acreditarea și calendarul, e-mailul de debut și suportul de curs, o selecție de 24 de capturi din sesiunile Google Meet (10, 15, 16.09.2026), raportul de participare din 10.09, corespondența și etapele următoare. Imaginile comprimate sunt în `livrabile/sa52_img/` (capturile originale, 48 de fișiere, și înregistrarea video rămân în Drive, folderul „Desfățurare curs”).
+
+`build_texte_doc.py` generează `livrabile/RP1_texte_SA1.1_A4_A5.docx` – textele de progres SA1.1 + A4/A5 pe antetul oficial, cu numărul de caractere pe câmp, pentru revizuire înainte de MySMIS.

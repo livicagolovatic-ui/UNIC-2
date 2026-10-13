@@ -189,8 +189,7 @@ SMALL('Ordinea din MySMIS: A1 (SA1.1), A2 (SA2.1), A3 (SA3.1) – activități s
 H3('SA1.1 – Management de proiect, monitorizare și raportare')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA1.1_management.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Ședința din 25.09.2026: minuta găsită în Drive este a proiectului PIDS („întâlnire de lucru fizic centre”); pentru UNIC există doar 03.07, 16.07, 13.08 și 18.09. '
-     'Dacă a existat o ședință UNIC pe 25.09, se adaugă minuta și se trece R2 = 5. Lipsesc din Drive: data aprobării procedurilor/planurilor, Codul de etică/ROI actualizat, '
+FLAG('Ședința din 25.09.2026: minuta UNIC (Minuta_UNIC_25.09.2026_fizic + agenda + lista de prezență, încărcate 07–13.10) este inclusă; R2 = 5. Minutele din 04.09 (financiar) și 21.09 (online) din Drive sunt ale proiectului PIDS – nu se raportează. Lipsesc din Drive: data aprobării procedurilor/planurilor, Codul de etică/ROI actualizat, '
      'Formularele 11 (reconciliere), data începerii activității Facilitatorului comunitar 1.')
 
 H3('SA2.1 – Organizarea procedurilor de achiziții')
@@ -211,9 +210,9 @@ FLAG('Facebook: fără autentificare se vede doar ultima postare (29.09.2026) ș
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.1_selectie.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Cifre GT la 30.09.2026 – două surse: registrul GT (actualizat 08.10): 96 intrați în operațiune (17/34/45); RA GT1+GT2: 93 (15/34/44) – GT1 nu numără 2 elevi din cls. X fără dosar complet și 1 elev LTR. '
-     'Înregistrați în MySMIS în septembrie: 72 = 30 (grupul GT1) + 42 (grupul GT2) conform RA; registrul nu are coloana MySMIS. Cifrele finale din RP trebuie să fie egale cu numărul participanților asociați în MySMIS la RP1. '
-     'Lipsește Anexa 11 (raport de validare GT) – obligatorie conform metodologiei. RA GT1 sept. există doar în folderul „vechi – 07.10”; versiunea finală se verifică.')
+FLAG('Cifre GT la 30.09.2026 – textul folosește RA-urile corectate (GT1 din 08.10, GT2 din 05.10): 97 intrați în operațiune (17/35/45) = 55 GT1 (17/19/19) + 42 GT2 (26 Turda IX + 16 Huedin), toți înregistrați în MySMIS (GT1: 55 + 24 ai GT2; GT2: 42). '
+     'Registrul GT (08.10) dă 96 (17/34/45) – diferență de 1 elev pe 8.f.2 (Turda VII–VIII: 18 în registru / 19 în RA GT1). Dosare: GT1 68 (21/27/20) + GT2 66 (36 + 30) = 134; numărul celor complete («104») se confirmă din registru. '
+     'Ținta anului 1 (167 = 61/35/71) este din RA GT1 – se verifică cu planificarea proprie. Cifrele finale din RP trebuie să fie egale cu participanții asociați în MySMIS la RP1. Lipsește Anexa 11 (raport de validare GT) – obligatorie conform metodologiei.')
 
 H3('SA4.2 – Identificarea elevilor în risc de abandon școlar sau de părăsire timpurie a școlii')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.2_identificare.txt'):
@@ -223,7 +222,7 @@ FLAG('MATE: școlile nu au introdus elevii în mecanism – textul o spune expli
 H3('SA5.1 – Măsuri de facilitare a accesului și de prevenire a părăsirii timpurii a școlii (8.f.1)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.1_sprijin.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Elevi la consiliere: RA consilier 16, registru și dosare individuale 17; RA GT1: 15 intrați + 2 elevi cls. X fără dosar (se înregistrează în octombrie). Se aliniază cifra înainte de transmitere.')
+FLAG('Elevi la consiliere: RA consilier (30.09) 16; registru, dosare individuale și RA GT1 corectat 17 (inclusiv 2 elevi cls. X înscriși după participare). Textul folosește 17; RA consilier se aliniază. Orele SA5.1 ale Cadrului didactic 1 (9 h: 03, 04, 22.09) sunt descrise vag în RA – formularea din text este prudentă. Validarea metodologiei de sprijin de către MP: dată lipsă.')
 
 H3('SA5.2 – Formarea personalului didactic din ÎPT, inclusiv dual (8.f.1)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.2_formare.txt'):
@@ -236,14 +235,14 @@ H3('SA5.3 – Dezvoltarea de programe de informare și conștientizare (8.f.2)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.3_informare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
 FLAG('Cifre SA5.3: RA Expert comunicare (corectat 06.10): 23 elevi / 46 participări (15.09: 11; 16.09: 12; 28.09: 7; 29.09: 4; 30.09: 12). RA FC2: 21 elevi (6 + 15); registrul GT consemnează 27 elevi la ateliere (include 02.10). '
-     'Elevi unici 8.f.2 intrați în operațiune: 34 la 30.09 (registru). Facilitatorul comunitar 1 (Sotnic, Notificarea nr. 1) nu a fost angajat – textul spune asta explicit; OM poate întreba de ce a fost notificat înainte de angajare.')
+     'Elevi unici 8.f.2 intrați în operațiune: 35 conform RA GT1 corectat (34 în registrul din 08.10) – textul folosește 35. Materialele campaniei (afișe, pliante) apar în RA inițial al Expertului comunicare, nu și în cel corectat – în text sunt la viitor. Facilitatorul comunitar 1 (Sotnic, Notificarea nr. 1) nu a fost angajat – textul spune asta explicit; OM poate întreba de ce a fost notificat înainte de angajare.')
 
 H3('SA5.4 – Dezvoltarea și furnizarea de programe remediale (8.f.3)')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA5.4_remediale.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
 FLAG('Fizică (Cadru didactic 2) – trei surse diferite: listele de prezență semnate (liste elevi prezenta.pdf): 22.09 – 24 de elevi (2 pagini × 12), 29.09 – 19 (11 + 8); RA: 20 și 14; '
      'registrul GT (coloana Data din grupul „științe”): 22.09 – 26, 29.09 – 16. Lista semnată tranșează; RA și registrul se aliniază la ea. LTR 30.09 – RA 20 prezenți / registru 19 intrați. '
-     'Totalul 45 elevi unici 8.f.3 = registru (26 Turda + 19 LTR); RA GT1/GT2: 44. Metodologiile remediale nu au validarea MP (data lipsă).')
+     'Totalul 45 elevi unici 8.f.3 = registru și RA corectate (26 Turda + 19 LTR). CD1 raportează 2 sesiuni cu elevi (17.09, 21.09) dar 6 zile pontate pe SA5.4 (pregătire) – OM poate întreba. Metodologiile remediale nu au validarea MP (data lipsă).')
 
 # ------------------------------------------------------------------------------ 5
 SECT('5. Indicatori')
