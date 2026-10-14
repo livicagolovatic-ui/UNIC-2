@@ -279,28 +279,22 @@ FLAG('Rândul 8.2 din MySMIS = Decizia de încetare nr. 2026090903/09.09.2026, �
 
 # ------------------------------------------------------------------------------ 9
 SECT('9. Avize, recepții și execuția contractelor; dificultăți și întârzieri')
-FIELD('9.1 Avize, acorduri, autorizații, recepții și execuție contracte de achiziție', L_LUNG, '''
-În perioada de raportare au fost verificate documentele de predare-primire și recepție aferente contractelor în derulare:
-1. Furnizare echipamente IT – ANILEX SOFT SRL (Contractul nr. 2026091504/15.09.2026). Echipamentele au fost livrate și recepționate cantitativ și calitativ la 18.09.2026, pe baza notei de comandă din 15.09.2026, a procesului-verbal de predare-primire-recepție și a facturii ASF 080/18.09.2026: 3 laptopuri HP Envy 17, 1 laptop Acer Nitro V15, 2 desktopuri ZMEU MAX și 2 multifuncționale Epson WorkForce Pro EM-C8100. Plata a fost efectuată la 18.09.2026. Echipamentele «au fost înregistrate în evidența contabilă a beneficiarului și repartizate …» și sunt utilizate pentru activitățile remediale, consiliere și activitatea echipei de proiect.
-2. Închiriere autoturism – Vera Travel SRL (Contractul nr. 2026080603/06.08.2026). Autoturismul a fost predat la 03.09.2026, prin proces-verbal de predare-primire, la data ordinului de începere. Serviciile aferente lunii septembrie 2026 «au fost recepționate pe baza facturii nr. … și a foilor de parcurs», utilizarea autoturismului fiind corelată cu deplasările la unitățile de învățământ partenere.
-3. Servicii de formare a cadrelor didactice – Asociația Proeuro-Cons (Contractul nr. 2026082804/28.08.2026). Formarea s-a desfășurat în perioada 10–18.09.2026; recepția serviciilor se va realiza după evaluarea finală din 09.10.2026 și eliberarea certificatelor, în perioada următoare de raportare.
-În perioada de raportare nu au fost necesare avize, acorduri sau autorizații.
-''')
-FIELD('9.2 Dificultăți întâmpinate și întârzieri', L_LUNG, '''
-Contractul de furnizare a echipamentelor IT nr. 2026081703/17.08.2026 a încetat prin acordul părților la 09.09.2026, deoarece furnizorul nu mai putea livra modelul de laptop ofertat. Procedura a fost reluată imediat, iar echipamentele au fost livrate și recepționate la 18.09.2026, în perioada planificată (L2–L3), fără impact asupra bugetului și asupra activităților proiectului.
-''')
+for _lab, _txt in SECTIUNE_CAMPURI('09_receptii.txt'):
+    FIELD(_lab, L_LUNG, _txt)
+FLAG('Autoturism: ordinul de începere este nr. 2026083115/31.08.2026, PV predare-primire nr. 2026090110/01.09.2026 (nu 03.09). Factura Vera Travel pentru septembrie nu este în Drive (CR1/Inchiriere auto/Septembrie are doar tabelul centralizator, 15 zile) – se completează la primire. '
+     'IT: factura ASF 080/18.09 stornează ASF 078/04.09 emisă pe contractul încetat – de păstrat explicația în dosar. Evidența contabilă/repartizarea echipamentelor: document lipsă în Drive.')
 
 # ------------------------------------------------------------------------------ 10-11
 SECT('10. Evidența echipamentelor · 11. Garanții și penalități')
 TBL([
     ['Denumire echipament', 'Cantitate', 'Număr / dată recepție'],
-    ['Laptop HP Envy 17', '3', '«PV predare-primire-recepție nr. …» / 18.09.2026'],
+    ['Laptop HP Envy 17', '3', 'PV de predare-primire și recepție din 18.09.2026 (fără număr) / 18.09.2026'],
     ['Laptop Acer Nitro V15', '1', 'idem / 18.09.2026'],
     ['Desktop ZMEU MAX', '2', 'idem / 18.09.2026'],
     ['Multifuncțională Epson WorkForce Pro EM-C8100', '2', 'idem / 18.09.2026'],
 ], widths=[8.5, 2.0, 6.5], small=False)
 P('**11.1 Garanții de bună execuție / 11.2 Penalități:** „-” – nu au fost constituite garanții de bună execuție și nu au fost aplicate penalități în perioada de raportare.')
-FLAG('Fișierul PV IT se numește „…28.08.2026”, deși conținutul este din 18.09.2026 – se redenumește înainte de încărcare. Garanția de 12 luni din contract față de minimum 24 de luni din procedura proprie – de verificat.')
+FLAG('Fișierul PV IT se numește „…28.08.2026”, deși conținutul este din 18.09.2026 – se redenumește înainte de încărcare; PV-ul nu are număr de înregistrare. Garanția de 12 luni din contract față de minimum 24 de luni din procedura proprie – de verificat.')
 
 # ------------------------------------------------------------------------------ 12
 SECT('12. Resurse umane implicate în activitățile raportate')
