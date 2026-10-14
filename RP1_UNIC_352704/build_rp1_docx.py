@@ -536,8 +536,8 @@ SMALL('Denumirile urmează Anexa 11 din MB (GT: numele persoanei; indicatori: nu
       'și convenția din model: cod subactivitate + lună + tip document. Toate PDF-urile se semnează electronic (semnătură calificată), nu cu imaginea semnăturii olografe.')
 TBL([
     ['Fișier (denumire propusă)', 'Tip document în MySMIS', 'Conținut / observații'],
-    ['Anexa 13_Lista experți_RP 1.pdf (+ .xlsx)', 'Alte documente', 'Un rând pe expert și lună (iul., aug., sept.); aceleași persoane ca la pct. 12.'],
-    ['Anexa 14_Centralizator livrabile_RP 1.pdf', 'Alte documente', 'Metodologii (GT, sprijin financiar, remediale), proceduri și planuri – stare, experți, data aprobării; și livrabilele din alte proiecte PEO/PIDS ale beneficiarului.'],
+    ['Anexa 13_Lista experti_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', '21 de rânduri – un rând pe expert și lună (iul., aug., sept.); aceleași persoane ca la pct. 12. Rândurile RF iulie–august (Dumitrescu) se păstrează doar dacă există pontajele.'],
+    ['Anexa 14_Lista livrabile_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', 'Completată cu mențiunea „Nu este cazul” – în RP 1 nu au fost realizate livrabile de tip studii/analize/strategii/curricula/ghiduri/platforme/manuale; metodologiile, planurile și procedurile sunt documente justificative, nu livrabile. Rând galben pentru proiectul PIDS 329335 – de verificat/eliminat.'],
     ['Centralizator proiecte PEO, PIDS și POCU_Beneficiar.pdf', 'Alte documente', 'Pentru secțiunea 18 și verificarea dublei finanțări.'],
     ['Raport Plan Monitorizare_RP 1.pdf', 'Secțiunea „Raport Plan Monitorizare”', 'Generat din MySMIS2021 + dovezile indicatorilor de etapă.'],
     ['SA 1.1_03.07.2026_Întâlnire de lucru_fizic.pdf · SA 1.1_16.07.2026_Întâlnire de lucru_online.pdf · SA 1.1_13.08.2026_… · SA 1.1_18.09.2026_… · SA 1.1_25.09.2026_…',

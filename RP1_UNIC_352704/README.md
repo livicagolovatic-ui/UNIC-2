@@ -25,3 +25,8 @@ Educație și Ocupare 2021-2027 | Cod MySMIS 352704”, cu siglele UE, Guvern, G
 `build_sa52_doc.py` generează `livrabile/SA 5.2_09.2026_Formarea cadrelor didactice.docx` pe șablonul portret: fișa activității, recrutarea cadrelor didactice și identificarea furnizorului, contractul + ordinul de începere + transmiterea lor, acreditarea și calendarul, e-mailul de debut și suportul de curs, o selecție de 24 de capturi din sesiunile Google Meet (10, 15, 16.09.2026), raportul de participare din 10.09, corespondența și etapele următoare. Imaginile comprimate sunt în `livrabile/sa52_img/` (capturile originale, 48 de fișiere, și înregistrarea video rămân în Drive, folderul „Desfățurare curs”).
 
 `build_texte_doc.py` generează `livrabile/RP1_texte_SA1.1_A4_A5.docx` – textele de progres SA1.1 + A4/A5 pe antetul oficial, cu numărul de caractere pe câmp, pentru revizuire înainte de MySMIS.
+
+## Anexele 13 și 14 (Manualul beneficiarului)
+- `livrabile/Anexa 13_Lista experti_RP 1_UNIC_352704.docx` – lista experților, 21 de rânduri (un rând pe expert și lună), categorii „Experți management de proiect” / „Experți implementare” (Anexa 8 din Manual), lider „L”, subactivități din CF v12. Rândurile Responsabil financiar iulie–august (Dumitrescu) sunt marcate galben: se păstrează numai dacă există fișele de pontaj.
+- `livrabile/Anexa 14_Lista livrabile_RP 1_UNIC_352704.docx` – centralizatorul livrabilelor, completat cu „Nu este cazul” pentru RP 1 (fără livrabile de tip studii/analize/strategii/curricula/ghiduri/platforme/manuale); rând galben pentru proiectul PIDS 329335, de verificat sau eliminat.
+- Generate din șabloanele oficiale cu scriptul din scratchpad `anexe_src/fill.py` (python-docx; rânduri clonate din șablon, formatare Trebuchet MS 12 pt păstrată).
