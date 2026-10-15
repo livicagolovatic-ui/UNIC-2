@@ -202,7 +202,7 @@ FLAG('PAAP: prima versiune aprobată de reprezentantul legal la 16.06.2026 (în 
 H3('SA3.1 – Derularea activităților de informare și publicitate')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA3.1_informare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('SA3.1 verificat la 14–15.10 pe site, Facebook, Instagram, LinkedIn (versiunea 2 a Metodologiei GT publicată pe site la 15.09 – captură în documentul lunar de septembrie, versiunea _3): 7 postări FB (07.07, 16.07, 04.08, 13.08, 17.09, 29.09 ×2), 3 IG (13.08, 29.09 ×2), 3 LinkedIn (29.09, pe pagina Asociației). În PDF-ul echipei link-urile postărilor din 17.09 și 29.09 10:57 sunt inversate – corectate în documentul lunar. Lipsesc: fotografia afișului de la Huedin și LTR, data publicării anunțului pe site, numărul de urmăritori la 30.09.')
+FLAG('SA3.1 verificat la 14–15.10 pe site, Facebook, Instagram, LinkedIn (versiunea 2 a Metodologiei GT publicată pe site la 15.09 – captură în documentul lunar de septembrie, versiunea _3): 7 postări FB (07.07, 16.07, 04.08, 13.08, 17.09, 29.09 ×2), 3 IG (13.08, 29.09 ×2), 3 LinkedIn (29.09, pe pagina Asociației). În PDF-ul echipei link-urile postărilor din 17.09 și 29.09 10:57 sunt inversate – corectate în documentul lunar. Fotografiile afișului de la Huedin au fost adăugate în documentul lunar de iulie (versiunea _3, Figurile 7–8). Lipsesc: fotografia afișului de la LTR, data publicării anunțului pe site, numărul de urmăritori la 30.09.')
 
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.1_selectie.txt'):
