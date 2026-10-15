@@ -31,3 +31,8 @@ Educație și Ocupare 2021-2027 | Cod MySMIS 352704”, cu siglele UE, Guvern, G
 - `livrabile/Anexa 14_Lista livrabile_RP 1_UNIC_352704.docx` – centralizatorul livrabilelor, cu antetul din modelul RP 8 (denumire proiect, cod SMIS, nr. RP, beneficiar, partener – nu este cazul) și un singur rând pentru 352704, cu mențiunea „Nu este cazul” (fără livrabile de tip studii/analize/strategii/curricula/ghiduri/platforme/manuale în RP 1).
 - Generate din șabloanele oficiale cu scriptul din scratchpad `anexe_src/fill.py` (python-docx; rânduri clonate din șablon, formatare Trebuchet MS 12 pt păstrată).
 - `sectiuni/05_indicatori.txt` / `livrabile/RP1_texte_sectiunea_5_indicatori.docx` – textele pentru secțiunea 5 Indicatori (EECO06+07 „Copii și tineri” – 98 de elevi intrați în operațiune: 17 / 35 / 46; 5SO14 și 5SR09 – 0). Valoarea 98 este cea raportată în MySMIS; registrul GT din 14.10 are 97 de intrări până la 30.09 (vezi FLAG în raport).
+
+## Documentele lunare SA 3.1 (informare și publicitate)
+- `livrabile/SA_3.1_Informare_si_publicitate_UNIC_352704_IULIE_2026_2.docx`, `..._AUGUST_2026_2.docx` – documentele echipei completate cu link-urile postărilor verificate online.
+- `livrabile/SA_3.1_Informare_si_publicitate_UNIC_352704_SEPTEMBRIE_2026_3.docx` – versiunea curentă pentru septembrie: postarea din 17.09, cele 3 postări LinkedIn din 29.09, link-uri corectate și (v3) secțiunea 5.6 cu captura de pe site a secțiunii „Metodologii” (versiunea 2 a Metodologiei GT publicată la 15.09.2026), prima pagină a PDF-ului și rândul 1 în tabelul recapitulativ. Versiunea _2 rămâne ca istoric.
+- Scripturi de patch (scratchpad): `sa31v2/patch_docs.py`, `sa31v3/patch_sept3.py`; capturi: `sa31v3/site_view_3.jpg`, `sa31v3/met_v2_p1.jpg`.
