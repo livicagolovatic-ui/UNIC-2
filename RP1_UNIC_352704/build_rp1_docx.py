@@ -96,7 +96,7 @@ TBL([
      'Capturi de ecran cu data și URL pentru subpagină și pentru fiecare postare de pe Facebook din iul.–sept.; fotografiile afișelor și autocolantelor. '
      'Pe subpagină de corectat: „Cofinanțare UE: … intensitate 100%” → valoarea cofinanțării UE (5.879.540,52 lei FSE+, 85%); „acordarea de subvenții” → masă caldă (după AA1).'],
     ['4', '**Documente de resurse umane:** RA septembrie Expert GT 1 există doar în folderul „vechi – 07.10” (versiunea finală de confirmat); RA + livrabile FC2 încărcate la 07.10 (pontaj de verificat); '
-          'lipsesc pontajele RF iulie–august (Dumitrescu); pontajele MP doar ca Google Sheet, nesemnate; Facilitatorul comunitar 1 (Notificarea nr. 1) nu a fost angajat încă.',
+          'pontajele MP doar ca Google Sheet, nesemnate; Facilitatorul comunitar 1 (Notificarea nr. 1) nu a fost angajat încă.',
      'Completare și semnare. Fără ele, experții nu pot fi trecuți la pct. 12 și în Anexa 13 (care trebuie să fie identice).'],
     ['5', '**Pontajul MP din septembrie arată 8 h/zi în UNIC** și ore în proiectul PIDS 329335; bugetul UNIC este de 93 h/lună pentru MP.',
      'Pontajul trebuie să reflecte orele efective în limita bugetului și maximum 12 h/zi și 60 h/săptămână, cumulat PEO+PIDS (Anexa 8).'],
@@ -536,8 +536,8 @@ SMALL('Denumirile urmează Anexa 11 din MB (GT: numele persoanei; indicatori: nu
       'și convenția din model: cod subactivitate + lună + tip document. Toate PDF-urile se semnează electronic (semnătură calificată), nu cu imaginea semnăturii olografe.')
 TBL([
     ['Fișier (denumire propusă)', 'Tip document în MySMIS', 'Conținut / observații'],
-    ['Anexa 13_Lista experti_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', '21 de rânduri – un rând pe expert și lună (iul., aug., sept.); aceleași persoane ca la pct. 12. Rândurile RF iulie–august (Dumitrescu) se păstrează doar dacă există pontajele.'],
-    ['Anexa 14_Lista livrabile_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', 'Completată cu mențiunea „Nu este cazul” – în RP 1 nu au fost realizate livrabile de tip studii/analize/strategii/curricula/ghiduri/platforme/manuale; metodologiile, planurile și procedurile sunt documente justificative, nu livrabile. Rând galben pentru proiectul PIDS 329335 – de verificat/eliminat.'],
+    ['Anexa 13_Lista experti_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', '21 de rânduri – un rând pe expert și lună (iul., aug., sept.), după modelul RP 8 (329335): categorie cu nivel de experiență, „Lider – Asociația GAL Napoca Porolissum”, coduri S.A.; aceleași persoane ca la pct. 12. Pontajele RF iulie–august (Dumitrescu) există în Drive.'],
+    ['Anexa 14_Lista livrabile_RP 1_UNIC_352704.pdf (generat din livrabile/…docx)', 'Alte documente', 'Completată cu mențiunea „Nu este cazul” – în RP 1 nu au fost realizate livrabile de tip studii/analize/strategii/curricula/ghiduri/platforme/manuale; metodologiile, planurile și procedurile sunt documente justificative, nu livrabile. Antet ca în modelul RP 8 (denumire proiect, cod SMIS, nr. RP, beneficiar, partener – nu este cazul).'],
     ['Centralizator proiecte PEO, PIDS și POCU_Beneficiar.pdf', 'Alte documente', 'Pentru secțiunea 18 și verificarea dublei finanțări.'],
     ['Raport Plan Monitorizare_RP 1.pdf', 'Secțiunea „Raport Plan Monitorizare”', 'Generat din MySMIS2021 + dovezile indicatorilor de etapă.'],
     ['SA 1.1_03.07.2026_Întâlnire de lucru_fizic.pdf · SA 1.1_16.07.2026_Întâlnire de lucru_online.pdf · SA 1.1_13.08.2026_… · SA 1.1_18.09.2026_… · SA 1.1_25.09.2026_…',
