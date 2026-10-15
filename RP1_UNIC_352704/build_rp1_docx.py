@@ -550,7 +550,7 @@ TBL([
     ['SA 2.1_1. Achiziție echipamente IT_încetat.pdf · SA 2.1_2. Achiziție servicii formare.pdf · SA 2.1_4. Achiziție închiriere autoturism.pdf · SA 2.1_5. Achiziție echipamente IT_reluată.pdf',
      'Document aferent implementării contractelor de achiziție', 'Contract, ordin de începere, PV predare-primire/recepție, factură.'],
     ['SA 3.1_07-09.2026_Informare și publicitate.pdf', 'Document informare și publicitate', 'Link-uri + capturi cu data și URL; fotografiile afișelor; flyere; autocolante.'],
-    ['SA 5.2_09.2026_Formarea cadrelor didactice.pdf', 'Document aferent grupului țintă', 'Fișa activității, contract + ordin de începere, acreditare, calendar, e-mail debut, capturi Meet (10/15/16.09), raport participare, corespondență (generat din livrabile/).'],
+    ['SA 5.2_09.2026_Formarea cadrelor didactice.pdf (61 p.: document + Anexa 1 suport de curs + Anexa 2 calendar)', 'Document aferent grupului țintă', 'Fișa activității, contract + ordin de începere, acreditare, calendar, e-mail debut, capturi Meet (10/15/16.09), raport participare, corespondență (generat din livrabile/).'],
     ['Acord de colaborare_Liceul Teologic Reformat Cluj-Napoca_09.09.2026.pdf', 'Alte documente', 'Partener asociat nou (Anexa 7 GSCS).'],
     ['Registrul grup țintă', '—', '**Nu se încarcă** – se generează automat din MySMIS2021 (MB, Anexa 11 pct. 1 lit. d).'],
 ], widths=[6.6, 3.8, 6.6])
