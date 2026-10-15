@@ -207,7 +207,7 @@ FLAG('SA3.1 verificat la 14.10 pe site, Facebook, Instagram, LinkedIn: 7 postăr
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.1_selectie.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('Cifre GT la 30.09.2026 – textul folosește RA-urile corectate (GT1 din 08.10, GT2 din 05.10): 97 intrați în operațiune (17/35/45) = 55 GT1 (17/19/19) + 42 GT2 (26 Turda IX + 16 Huedin), toți înregistrați în MySMIS (GT1: 55 + 24 ai GT2; GT2: 42). '
+FLAG('Cifre GT la 30.09.2026 – textul folosește RA-urile corectate (GT1 din 08.10, GT2 din 05.10): 98 intrați în operațiune (17/35/46) = 55 GT1 (17/19/19) + 43 GT2 (26 Turda IX + 17 Huedin) – GT2 corectat după registrul din 14.10 și valoarea din MySMIS, toți înregistrați în MySMIS (GT1: 55 + 24 ai GT2; GT2: 42). '
      'Registrul GT (08.10) dă 96 (17/34/45) – diferență de 1 elev pe 8.f.2 (Turda VII–VIII: 18 în registru / 19 în RA GT1). Dosare: GT1 68 (21/27/20) + GT2 66 (36 + 30) = 134; numărul celor complete («104») se confirmă din registru. '
      'Ținta anului 1 (167 = 61/35/71) este din RA GT1 – se verifică cu planificarea proprie. Cifrele finale din RP trebuie să fie egale cu participanții asociați în MySMIS la RP1. Lipsește Anexa 11 (raport de validare GT) – obligatorie conform metodologiei.')
 
@@ -244,19 +244,9 @@ FLAG('Fizică (Cadru didactic 2) – trei surse diferite: listele de prezență 
 # ------------------------------------------------------------------------------ 5
 SECT('5. Indicatori')
 SMALL('Valoarea din perioadă se introduce numeric; MySMIS calculează cumulul. Pentru fiecare participant raportat se atașează un dosar PDF (vezi Partea C).')
-FIELD('5.1.1 EECO06+07 „Copii și tineri” – Informații valoare raportată (valoare în perioadă: «96»)', L_PRESUPUS, '''
-În perioada de raportare iulie – septembrie 2026, «96» de elevi au intrat în operațiune, după verificarea eligibilității și semnarea formularului de înregistrare individuală, astfel:
-• acțiunea 8.f.1 – «17» elevi din clasele a X-a – a XI-a ai Colegiului Tehnic Turda (inclusiv structura Școala Profesională Poiana Turda), care au beneficiat de sprijin psihologic individual și de grup în cadrul SA5.1;
-• acțiunea 8.f.2 – «35» de elevi, dintre care «…» din clasele a VII-a – a VIII-a, de la Colegiul Tehnic Turda și Liceul Tehnologic „Vlădeasa” Huedin, care au participat la activitățile de informare și conștientizare din cadrul SA5.3;
-• acțiunea 8.f.3 – «44» de elevi din clasa a IX-a de la Colegiul Tehnic Turda și Liceul Teologic Reformat Cluj-Napoca, care au participat la programele remediale din cadrul SA5.4.
-Data intrării în operațiune este data primei activități la care a participat elevul. Conform GSCS, un elev poate fi înregistrat pentru una, două sau trei acțiuni, cu câte un formular de înregistrare pentru fiecare acțiune; cele «96» de înregistrări corespund unui număr de «…» elevi unici. Pentru fiecare participant este atașat dosarul individual (formular de înregistrare generat din MySMIS2021 și semnat, acordul reprezentantului legal și nota de informare privind prelucrarea datelor, declarația privind evitarea dublei finanțări, confirmarea școlară, documentele de identitate, grila de verificare a eligibilității).
-''', note='Valoarea = numărul de participanți înregistrați în MySMIS și asociați la RP 1 (A4 pct. 1). Ponderea VII–VIII în 8.f.2 trebuie să fie ≥ 50% cumulat, iar a clasei a IX-a în 8.f.3 ≥ 70%.')
-FIELD('5.1.1 5SO14 „Părinți/reprezentanți legali/tutori sprijiniți” – Informații valoare raportată (valoare în perioadă: 0)', L_PRESUPUS, '''
-Indicatorul nu a înregistrat progres în perioada de raportare. Atelierele pentru părinți din cadrul SA5.3 încep în luna octombrie 2026, după constituirea grupului țintă de elevi pentru acțiunea 8.f.2.
-''')
-FIELD('5.1.2 5SR09 „Participanți rămași în sistemul de educație sau care și-au îmbunătățit nivelul de educație” – Informații valoare raportată (valoare în perioadă: 0)', L_PRESUPUS, '''
-Indicatorul de rezultat se raportează la ieșirea participanților din operațiune, pe baza secțiunilor B și C ale formularului de înregistrare. În perioada de raportare nu au existat ieșiri din operațiune.
-''')
+for _lab, _txt in SECTIUNE_CAMPURI('05_indicatori.txt'):
+    FIELD(_lab, L_PRESUPUS, _txt)
+FLAG('Valoarea raportată în MySMIS: 98 = 17 (8.f.1) + 35 (8.f.2) + 46 (8.f.3). Registrul GT (versiunea din 14.10) are 97 de intrări până la 30.09: al 35-lea elev din 8.f.2 are data intrării 02.10.2026 (atelier FC2) – de verificat data din formularul de înregistrare; în 8.f.3 registrul are 20 de elevi la LTR (RA CD3: 19 în GT); în foaia F2 un CNP apare de două ori (rândurile 32 și 36, clasa a VIII-a Huedin) – de verificat dacă este același elev.')
 
 # ------------------------------------------------------------------------------ 7
 SECT('7. Graficul de achiziții și stadiul derulării procedurilor')
@@ -479,7 +469,7 @@ FIELD('IE2 – Cereri de rambursare conform Anexei 3 (țintă 12) – Justificar
 Indicatorul nu are termen scadent în perioada de raportare. Conform graficului cererilor de prefinanțare/rambursare, Cererea de rambursare nr. 1 este planificată pentru 25.10.2026, în perioada următoare. În perioada de raportare a fost autorizată Cererea de prefinanțare nr. 1 (700.000,00 lei, 10.08.2026) și a început centralizarea documentelor justificative pentru Cererea de rambursare nr. 1.
 ''')
 FIELD('IE3 – Participanți GT – elevi (țintă 500, termen 30.06.2029) – Justificare', L_SCURT, '''
-Indicatorul nu are termen scadent în perioada de raportare. Selecția grupului țintă este progresivă, în 3 serii corespunzătoare anilor școlari. Până la 30.09.2026 au fost identificați 169 de elevi, au fost constituite «128» de dosare eligibile, iar «96» de elevi au intrat în operațiune (8.f.1 – «17»; 8.f.2 – «35»; 8.f.3 – «44»). Documente care probează îndeplinirea indicatorului: dosarele de grup țintă, formularele de înregistrare individuală, grilele de verificare a eligibilității și rapoartele de selecție.
+Indicatorul nu are termen scadent în perioada de raportare. Selecția grupului țintă este progresivă, în 3 serii corespunzătoare anilor școlari. Până la 30.09.2026 au fost identificați 169 de elevi, au fost constituite 134 de dosare de grup țintă, iar 98 de elevi au intrat în operațiune (8.f.1 – 17; 8.f.2 – 35; 8.f.3 – 46). Documente care probează îndeplinirea indicatorului: dosarele de grup țintă, formularele de înregistrare individuală, grilele de verificare a eligibilității și rapoartele de selecție.
 ''')
 FIELD('IE3 – Participanți GT – părinți/reprezentanți legali/tutori sprijiniți (țintă 96, termen „30.06.2026”) – Justificare', L_SCURT, '''
 Termenul de 30.06.2026 din Planul de monitorizare este anterior datei de începere a implementării (01.07.2026) și reprezintă o eroare materială; termenul corect, corelat cu indicatorul de program 5SO14, este 30.06.2029, iar corectura va fi solicitată la următoarea modificare a contractului de finanțare. În perioada de raportare nu au fost înregistrați părinți în grupul țintă; atelierele pentru părinți din SA5.3 încep în luna octombrie 2026.
@@ -492,13 +482,13 @@ FIELD('IE3 – Participanți GT – cadre didactice (țintă 4, termen 30.06.202
 Indicatorul nu are termen scadent în perioada de raportare. Cele 4 cadre didactice din unitățile de învățământ partenere asociate au parcurs programul de formare acreditat în perioada 10–18.09.2026, iar evaluarea finală are loc la 09.10.2026. Cadrele didactice au fost înregistrate ca participanți în grupul țintă, pe acțiunea 8.f.1, «la data de …».
 ''')
 FIELD('IE4 – EECO06+07 aferent acțiunii 8.f.1 (țintă 183) – Justificare', L_SCURT, '''
-Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune «17» elevi pe acțiunea 8.f.1, care au beneficiat de sprijin psihologic în cadrul SA5.1. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
+Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune 17 elevi pe acțiunea 8.f.1, care au beneficiat de sprijin psihologic în cadrul SA5.1. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
 ''')
 FIELD('IE5 – EECO06+07 aferent acțiunii 8.f.2 (țintă 104) – Justificare', L_SCURT, '''
-Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune «35» de elevi pe acțiunea 8.f.2, dintre care «…» din clasele a VII-a – a VIII-a, care au participat la activitățile de informare și conștientizare din cadrul SA5.3. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
+Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune 35 de elevi pe acțiunea 8.f.2, toți din clasele a VII-a – a VIII-a, care au participat la activitățile de informare și conștientizare din cadrul SA5.3. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
 ''')
 FIELD('IE6 – EECO06+07 aferent acțiunii 8.f.3 (țintă 213) – Justificare', L_SCURT, '''
-Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune «44» de elevi din clasa a IX-a pe acțiunea 8.f.3, care au participat la programele remediale din cadrul SA5.4. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
+Indicatorul nu are termen scadent în perioada de raportare. Au intrat în operațiune 46 de elevi din clasa a IX-a pe acțiunea 8.f.3, care au participat la programele remediale din cadrul SA5.4. Documente care probează: dosarele participanților și formularele de înregistrare atașate la secțiunea 5.
 ''')
 FIELD('IE7 – 5SO14 aferent acțiunii 8.f.2 (țintă 96) – Justificare', L_SCURT, '''
 Indicatorul nu are termen scadent în perioada de raportare și nu a înregistrat progres; atelierele pentru părinți din cadrul SA5.3 încep în luna octombrie 2026.
