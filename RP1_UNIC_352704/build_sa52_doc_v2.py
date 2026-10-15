@@ -183,9 +183,8 @@ CUPRINS = ['Fișa activității',
 for i, item in enumerate(CUPRINS, 1):
     P(f'{i}. {item}', size=11, space_after=1)
 P('', space_after=24)
-P('Întocmit: ______________________', size=11, space_after=2)
-P('Avizat: Manager de proiect, Baba Alina-Ioana', size=11, space_after=2)
-P('Capturile de ecran din sesiunile online au fost realizate de echipa de proiect în timpul sesiunilor (data și ora sunt vizibile în bara de activități a sistemului și în antetul Google Meet). '
+P('Manager de proiect: Baba Alina-Ioana', size=11, space_after=2)
+P('Capturile de ecran din sesiunile online au fost realizate de echipa de proiect în timpul sesiunilor. '
   'Setul complet de capturi (48 de fișiere, 10 – 16.09.2026) și înregistrarea video a sesiunii din 10.09.2026 sunt arhivate electronic în dosarul activității; '
   'în acest document este inclusă o selecție reprezentativă, în ordine cronologică.', size=10, italic=True, space_after=2)
 
@@ -265,37 +264,37 @@ LINK(DRIVE_INREG, 'Înregistrarea sesiunii din 10.09.2026 – link de acces (Goo
 # ---------------------------------------------------------------- 6. capturi sesiuni
 SESIUNI = [
     ('10.09.2026', '16:00 – 20:00 (4 ore sincron) – Modulul 1 – Fundamentele abandonului școlar',
-     [('meet_2361.jpg', 'Sesiunea din 10.09.2026, ora 16:04 – deschiderea sesiunii: formatorul și cele 4 cadre didactice conectate (Google Meet „AIC S1G1-2026”)'),
-      ('meet_2364.jpg', 'Sesiunea din 10.09.2026, ora 16:22 – material video prezentat de formator (ecran partajat)'),
-      ('meet_2365.jpg', 'Sesiunea din 10.09.2026, ora 16:22 – participanții în timpul prezentării'),
-      ('meet_2367.jpg', 'Sesiunea din 10.09.2026, ora 17:01 – participanții în timpul sesiunii'),
-      ('meet_2374.jpg', 'Sesiunea din 10.09.2026, ora 18:04 – participanții în timpul sesiunii'),
+     [('meet_2361.jpg', 'Sesiunea din 10.09.2026 – deschiderea sesiunii: formatorul și cele 4 cadre didactice conectate (Google Meet „AIC S1G1-2026”)'),
+      ('meet_2364.jpg', 'Sesiunea din 10.09.2026 – material video prezentat de formator (ecran partajat)'),
+      ('meet_2365.jpg', 'Sesiunea din 10.09.2026 – participanții în timpul prezentării'),
+      ('meet_2367.jpg', 'Sesiunea din 10.09.2026 – participanții în timpul sesiunii'),
+      ('meet_2374.jpg', 'Sesiunea din 10.09.2026 – participanții în timpul sesiunii'),
       ('meet_2378.jpg', 'Material de curs prezentat în sesiunea din 10.09.2026 – „Corpul astral (emoții) – energetic” (suportul de curs deschis pe ecranul partajat)'),
-      ('meet_2380.jpg', 'Sesiunea din 10.09.2026, ora 19:41 – prezentarea „Personalitatea omului” (ecran partajat de formator)'),
-      ('meet_2381.jpg', 'Sesiunea din 10.09.2026, ora 19:53 – încheierea sesiunii')]),
+      ('meet_2380.jpg', 'Sesiunea din 10.09.2026 – prezentarea „Personalitatea omului” (ecran partajat de formator)'),
+      ('meet_2381.jpg', 'Sesiunea din 10.09.2026 – încheierea sesiunii')]),
     ('15.09.2026', '16:00 – 20:00, din care 2 ore sincron – Modulul 2 – Intervenții și strategii de prevenire a abandonului școlar',
-     [('meet_2382.jpg', 'Sesiunea din 15.09.2026, ora 18:04 – deschiderea părții sincrone: formatorul și cele 4 cadre didactice'),
-      ('meet_2385.jpg', 'Sesiunea din 15.09.2026, ora 18:50 – „Personalitatea omului” (ecran partajat de formator)'),
+     [('meet_2382.jpg', 'Sesiunea din 15.09.2026 – deschiderea părții sincrone: formatorul și cele 4 cadre didactice'),
+      ('meet_2385.jpg', 'Sesiunea din 15.09.2026 – „Personalitatea omului” (ecran partajat de formator)'),
       ('meet_2386.jpg', 'Material de curs prezentat în sesiunea din 15.09.2026 – etapele dezvoltării sistemului intelectual (14 – 21 de ani)'),
-      ('meet_2388.jpg', 'Sesiunea din 15.09.2026, ora 19:16 – etapele dezvoltării copilului și tânărului (ecran partajat)'),
-      ('meet_2390.jpg', 'Sesiunea din 15.09.2026, ora 19:23 – „Temperamentele umane – cele patru temperamente”'),
-      ('meet_2391.jpg', 'Sesiunea din 15.09.2026, ora 19:25 – temperamentul coleric (ecran partajat)'),
-      ('meet_2395.jpg', 'Sesiunea din 15.09.2026, ora 19:49 – temperamentul flegmatic (ecran partajat)'),
-      ('meet_2398.jpg', 'Sesiunea din 15.09.2026, ora 19:59 – sinteza celor patru temperamente, încheierea sesiunii')]),
+      ('meet_2388.jpg', 'Sesiunea din 15.09.2026 – etapele dezvoltării copilului și tânărului (ecran partajat)'),
+      ('meet_2390.jpg', 'Sesiunea din 15.09.2026 – „Temperamentele umane – cele patru temperamente”'),
+      ('meet_2391.jpg', 'Sesiunea din 15.09.2026 – temperamentul coleric (ecran partajat)'),
+      ('meet_2395.jpg', 'Sesiunea din 15.09.2026 – temperamentul flegmatic (ecran partajat)'),
+      ('meet_2398.jpg', 'Sesiunea din 15.09.2026 – sinteza celor patru temperamente, încheierea sesiunii')]),
     ('16.09.2026', '16:00 – 20:00, din care 3 ore sincron – Modulul 2 – Intervenții și strategii de prevenire a abandonului școlar',
-     [('meet_2399.jpg', 'Sesiunea din 16.09.2026, ora 17:11 – „Libera inițiativă” (ecran partajat de formator)'),
+     [('meet_2399.jpg', 'Sesiunea din 16.09.2026 – „Libera inițiativă” (ecran partajat de formator)'),
       ('meet_2400.jpg', 'Material de curs prezentat în sesiunea din 16.09.2026 – „Libera inițiativă”'),
-      ('meet_2401.jpg', 'Sesiunea din 16.09.2026, ora 17:22 – „Critică / Feedback corectiv” (ecran partajat)'),
-      ('meet_2403.jpg', 'Sesiunea din 16.09.2026, ora 17:44 – „Harta conștiinței” (ecran partajat)'),
+      ('meet_2401.jpg', 'Sesiunea din 16.09.2026 – „Critică / Feedback corectiv” (ecran partajat)'),
+      ('meet_2403.jpg', 'Sesiunea din 16.09.2026 – „Harta conștiinței” (ecran partajat)'),
       ('meet_2404.jpg', 'Material de curs prezentat în sesiunea din 16.09.2026 – „Imitarea”'),
-      ('meet_2406.jpg', 'Sesiunea din 16.09.2026, ora 18:11 – „Omul educat” (ecran partajat)'),
-      ('meet_2407.jpg', 'Sesiunea din 16.09.2026, ora 18:20 – tipurile de inteligență (ecran partajat)'),
-      ('meet_2408.jpg', 'Sesiunea din 16.09.2026, ora 18:24 – tipurile de inteligență (continuare)')]),
+      ('meet_2406.jpg', 'Sesiunea din 16.09.2026 – „Omul educat” (ecran partajat)'),
+      ('meet_2407.jpg', 'Sesiunea din 16.09.2026 – tipurile de inteligență (ecran partajat)'),
+      ('meet_2408.jpg', 'Sesiunea din 16.09.2026 – tipurile de inteligență (continuare)')]),
 ]
 PAGEBREAK()
 TITLU('5. CAPTURI DE ECRAN DIN SESIUNILE ONLINE SINCRONE')
-P('Sesiunile sincrone s-au desfășurat pe Google Meet (întâlnirea „AIC S1G1-2026”, cod MNVTJBUYNH), cu formatorul Nicoară Remus și cele 4 cadre didactice. Capturile de mai jos au fost realizate în timpul sesiunilor; '
-  'data și ora sunt vizibile în bara de activități (colțul din dreapta jos) și în antetul Google Meet. Capturile care redau ecranul partajat de formator documentează conținutul parcurs (suportul de curs și materialele de prezentare).', align='justify', size=11)
+P('Sesiunile sincrone s-au desfășurat pe Google Meet (întâlnirea „AIC S1G1-2026”, cod MNVTJBUYNH), cu formatorul Nicoară Remus și cele 4 cadre didactice. Capturile de mai jos au fost realizate în timpul sesiunilor. '
+  'Capturile care redau ecranul partajat de formator documentează conținutul parcurs (suportul de curs și materialele de prezentare).', align='justify', size=11)
 for zi, interval, capturi in SESIUNI:
     PAGEBREAK()
     H(f'Sesiunea din {zi} – {interval}', size=12)
@@ -318,14 +317,14 @@ B('09.10.2026 – evaluarea finală a cursanților, online sincron, pe baza port
 B('în maximum 30 de zile de la evaluare – eliberarea documentelor de absolvire (certificate/atestate cu 12 CPT) de către furnizor și transmiterea lor cursanților;')
 B('recepția serviciilor de formare, pe baza raportului de activitate al furnizorului și a documentelor de absolvire;')
 B('organizarea celor două sesiuni fizice de orientare și sprijin aplicativ (Huedin și Turda), la date stabilite de comun acord cu furnizorul;')
-B('raportarea rezultatului R17 (4 cadre didactice formate și certificate) și a indicatorilor aferenți în Raportul de progres nr. 2, cu atașarea copiilor documentelor de absolvire.')
 P('', space_after=12)
 TITLU('ANEXE (ATAȘATE ÎN FORMAT PDF)')
 B('Anexa 1 – Suportul de curs „Abilitare informațională în combaterea abandonului școlar: un ghid pentru cadre didactice” (Asociația Proeuro-Cons, 29 de pagini), transmis cursanților la debutul programului;')
 B('Anexa 2 – Calendarul activităților de formare nr. 445/28.08.2026 (Anexa nr. 2 la Procedura specifică nr. 29.611/24.07.2025, 2 pagini), avizat de furnizor.')
 P('', space_after=20)
-P('Întocmit: ______________________', size=11, space_after=14)
-P('Avizat: Manager de proiect, Baba Alina-Ioana ______________________', size=11)
+P('Manager de proiect,', size=11, space_after=2)
+P('Baba Alina-Ioana', size=11, space_after=2)
+P('______________________', size=11)
 
 doc.save(OUT)
 print('OK ->', OUT, os.path.getsize(OUT) // 1024, 'KB')
