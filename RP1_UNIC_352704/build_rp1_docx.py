@@ -202,7 +202,7 @@ FLAG('PAAP: prima versiune aprobată de reprezentantul legal la 16.06.2026 (în 
 H3('SA3.1 – Derularea activităților de informare și publicitate')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA3.1_informare.txt'):
     FIELD(_lab, L_SCURT if 'Rezultat' in _lab else L_LUNG, _txt)
-FLAG('SA3.1 verificat la 14.10 pe site, Facebook, Instagram, LinkedIn: 7 postări FB (07.07, 16.07, 04.08, 13.08, 17.09, 29.09 ×2), 3 IG (13.08, 29.09 ×2), 3 LinkedIn (29.09, pe pagina Asociației). În PDF-ul echipei link-urile postărilor din 17.09 și 29.09 10:57 sunt inversate – corectate în documentul lunar. Lipsesc: fotografia afișului de la Huedin și LTR, data publicării anunțului pe site, numărul de urmăritori la 30.09.')
+FLAG('SA3.1 verificat la 14–15.10 pe site, Facebook, Instagram, LinkedIn (versiunea 2 a Metodologiei GT publicată pe site la 15.09 – captură în documentul lunar de septembrie, versiunea _3): 7 postări FB (07.07, 16.07, 04.08, 13.08, 17.09, 29.09 ×2), 3 IG (13.08, 29.09 ×2), 3 LinkedIn (29.09, pe pagina Asociației). În PDF-ul echipei link-urile postărilor din 17.09 și 29.09 10:57 sunt inversate – corectate în documentul lunar. Lipsesc: fotografia afișului de la Huedin și LTR, data publicării anunțului pe site, numărul de urmăritori la 30.09.')
 
 H3('SA4.1 – Metodologia de selecție a GT; recrutarea GT; gestionarea dosarelor GT')
 for _lab, _txt in SECTIUNE_CAMPURI('04_SA4.1_selectie.txt'):
@@ -246,7 +246,7 @@ SECT('5. Indicatori')
 SMALL('Valoarea din perioadă se introduce numeric; MySMIS calculează cumulul. Pentru fiecare participant raportat se atașează un dosar PDF (vezi Partea C).')
 for _lab, _txt in SECTIUNE_CAMPURI('05_indicatori.txt'):
     FIELD(_lab, L_PRESUPUS, _txt)
-FLAG('Valoarea raportată în MySMIS: 98 = 17 (8.f.1) + 35 (8.f.2) + 46 (8.f.3). Registrul GT (versiunea din 14.10) are 97 de intrări până la 30.09: al 35-lea elev din 8.f.2 are data intrării 02.10.2026 (atelier FC2) – de verificat data din formularul de înregistrare; în 8.f.3 registrul are 20 de elevi la LTR (RA CD3: 19 în GT); în foaia F2 un CNP apare de două ori (rândurile 32 și 36, clasa a VIII-a Huedin) – de verificat dacă este același elev.')
+FLAG('Valoarea raportată în MySMIS: 98 = 17 (8.f.1) + 35 (8.f.2) + 46 (8.f.3); față de cifra inițială din RA-uri (97 = 17/35/45) s-a adăugat un elev la 8.f.3 (LTR: 20 în loc de 19). Recalcul pe registrul GT din 14.10: 8.f.1 – 17; 8.f.2 – 34 cu data intrării până la 30.09 + 1 elev (clasa a VII-a, Turda) cu data 02.10.2026 în registru, numărat de echipă la cei 35 – de verificat data intrării din formularul MySMIS; 8.f.3 – 46 (26 Turda + 20 LTR). În foaia F2 un CNP apare de două ori (rândurile 32 și 36, clasa a VIII-a Huedin) – de verificat dacă este același elev. Dezagregarea pe sex din CNP-urile registrului: 39 fete / 59 băieți.')
 
 # ------------------------------------------------------------------------------ 7
 SECT('7. Graficul de achiziții și stadiul derulării procedurilor')
